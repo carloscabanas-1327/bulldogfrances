@@ -6,3 +6,7 @@
 #bf-search input{background:#fafcfd!important;border:1px solid #dbe3e9!important;border-radius:10px!important;outline-offset:2px}#bf-search input:focus{border-color:#8298ad!important;outline:2px solid #d9e6ef}
 #bf-search .search-form .submit{background:#2f536d!important;border-radius:10px!important;box-shadow:none!important}#bf-search .search-form .submit:hover{background:#24455d!important}
 #bf-search .results a:hover{background:#f7f9fb}#bf-search .trigger{border:1px solid #dfe6eb!important;box-shadow:0 4px 16px rgba(23,45,62,.11)!important;color:#35566d}
+
+/* Keep floating search away from article share controls without shifting page header */
+@media(min-width:701px){body:has(.inline-share) #bf-search{top:auto!important;bottom:22px!important;right:22px!important}}
+@media(max-width:700px){body:has(.inline-share) #bf-search{top:auto!important;bottom:18px!important;right:16px!important}}
