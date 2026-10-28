@@ -198,11 +198,21 @@ img:not(.flag){border-radius:14px} .share-dock{position:fixed;right:18px;bottom:
 .wide-dog-banner{width:100%;height:clamp(170px,19vw,250px);background-color:#f0eee9;background-image:url('/bulldogfrances-hero.webp');background-position:center 42%;background-size:cover;background-repeat:no-repeat;overflow:hidden}
 .hero .half{padding-top:clamp(24px,3vw,42px)!important}
 @media(max-width:700px){.wide-dog-banner{height:150px;background-position:center 40%}.hero .half{padding-top:25px!important}}
+
+/* Unified photographic masthead: original approved dog, title overlays, raised face */
+.cover-top{height:clamp(235px,23vw,325px);position:relative;isolation:isolate;overflow:hidden;background:#f1eee9}
+.cover-top .wide-dog-banner{position:absolute;inset:0;width:100%;height:100%;z-index:0;background-image:url('/bulldogfrances-hero.webp')!important;background-size:cover!important;background-position:center 67%!important;background-repeat:no-repeat!important}
+.cover-top .top{position:relative!important;z-index:2!important;height:auto!important;min-height:92px!important;background:transparent!important;background-image:none!important;align-items:start!important;padding-top:18px!important}
+.cover-top .top .brand{color:#151515!important;text-shadow:0 1px 10px rgba(255,255,255,.92),0 0 3px #fff;min-width:0!important}
+.cover-top .top .brand small{color:#252525!important}
+.cover-top .top .mobile-domain{color:#151515!important}
+.hero .half{padding-top:clamp(18px,2.5vw,30px)!important}
+@media(max-width:700px){.cover-top{height:clamp(205px,46vw,280px)!important}.cover-top .wide-dog-banner{background-position:center 68%!important}.cover-top .top{padding-top:10px!important;min-height:75px!important}.cover-top .top .brand{font-size:clamp(11px,2.5vw,16px)!important}.hero .half{padding-top:18px!important}}
 </style>
 <link rel="stylesheet" href="/search.css"></head>
 <body>
-<header class="top"><div class="mobile-domain">BULLDOGFRANCES.COM</div><a class="brand" href="/en/" aria-label="English — The French Bulldog"><span class="desktop-domain">BULLDOGFRANCES.COM</span><span class="language-name">🇬🇧 English →</span><small>THE FRENCH BULLDOG</small></a><a class="brand" href="/es/" aria-label="Español — El Bulldog Francés"><span class="desktop-domain">BULLDOGFRANCES.COM</span><span class="language-name">🇪🇸 Español →</span><small>EL BULLDOG FRANCÉS</small></a></header>
-<div class="wide-dog-banner" role="img" aria-label="Bulldog francés blanco en primer plano"></div>
+<div class="cover-top"><header class="top"><div class="mobile-domain">BULLDOGFRANCES.COM</div><a class="brand" href="/en/" aria-label="English — The French Bulldog"><span class="desktop-domain">BULLDOGFRANCES.COM</span><span class="language-name">🇬🇧 English →</span><small>THE FRENCH BULLDOG</small></a><a class="brand" href="/es/" aria-label="Español — El Bulldog Francés"><span class="desktop-domain">BULLDOGFRANCES.COM</span><span class="language-name">🇪🇸 Español →</span><small>EL BULLDOG FRANCÉS</small></a></header>
+<div class="wide-dog-banner" role="img" aria-label="Bulldog francés blanco en primer plano"></div></div>
 <main>
 <div class="split hero">
 <section class="half en" lang="en"><a class="hero-area-link" href="/en/" aria-label="Open English edition"></a><h1>Small dog.<br>Big personality.</h1><p>Thoughtful guides and practical information for a healthier, happier French Bulldog.</p></section>
