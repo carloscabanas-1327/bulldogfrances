@@ -22,7 +22,7 @@ const base='/'+lang+'/';
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow"><meta name="color-scheme" content="light">
 <title>{en?'French Bulldog — English edition':'Bulldog francés — Edición en español'} | BulldogFrances.com</title>
-<meta name="description" content={en?'French Bulldog care, health, nutrition and training. Editorial site under development.':'Salud, alimentación, educación y cuidados del bulldog francés. Portal editorial en desarrollo.'}>
+<meta name="description" content={en?'French Bulldog health, nutrition, behavior and everyday care guides.':'Guías sobre salud, alimentación, educación y cuidados del bulldog francés.'}>
 <style>
 :root{color-scheme:light;font-family:Arial,Helvetica,sans-serif;background:#faf8f3;color:#20372e}*{box-sizing:border-box}body{margin:0}a{color:inherit}header{background:#fff;border-bottom:1px solid #e4e0d7;padding:16px clamp(16px,4vw,60px);display:flex;align-items:center;justify-content:space-between;gap:16px}header a{text-decoration:none}header .logo{font:700 clamp(17px,2.6vw,25px) Georgia,serif}header nav{display:flex;gap:16px;align-items:center;font-size:clamp(13px,1.5vw,16px)}.switch{padding:10px 14px;border:1px solid #b4c7b8;border-radius:30px;font-weight:700}.hero{background:linear-gradient(135deg,#244b3a,#112f26);color:#fff;padding:clamp(55px,8vw,110px) clamp(18px,7vw,110px)}.hero-inner{max-width:1150px;margin:auto}.kicker{letter-spacing:.16em;text-transform:uppercase;font-size:clamp(12px,1.4vw,15px)}h1{font:700 clamp(43px,7vw,90px)/1.03 Georgia,serif;letter-spacing:-.045em;margin:20px 0}.intro{font-size:clamp(17px,2vw,23px);line-height:1.5;max-width:680px}.note{margin-top:26px;font-size:clamp(13px,1.4vw,16px);opacity:.85}.content{max-width:1200px;margin:auto;padding:45px clamp(16px,4vw,55px) 80px}.content h2{font:700 clamp(29px,3.5vw,43px) Georgia,serif;margin:0 0 22px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.tile{display:flex;flex-direction:column;gap:12px;min-height:210px;padding:28px;background:#fff;border:1px solid #e2e5dc;border-radius:18px;text-decoration:none;box-shadow:0 4px 20px #00000008}.tile:hover,.tile:focus-visible{outline:2px solid #397359}.tile .icon{font-size:35px;color:#33654e}.tile strong{font:700 clamp(23px,3vw,34px) Georgia,serif}.tile .desc{font-size:clamp(15px,1.7vw,18px);line-height:1.45;color:#526158}.tile .arrow{margin-top:auto;font-weight:700;color:#276047}footer{background:#17372b;color:#fff;text-align:center;padding:30px 16px}footer nav{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin:18px 0}footer a{font-size:14px}footer p{font-size:13px;opacity:.85}@media(max-width:620px){header{align-items:flex-start}header .logo{font-size:15px;overflow-wrap:anywhere}header nav{gap:8px}.switch{padding:9px;font-size:13px}.hero{padding:55px 20px}.grid{grid-template-columns:1fr}.tile{min-height:180px;padding:23px}.content{padding-top:35px}footer nav{gap:14px}}
 
@@ -72,12 +72,28 @@ header .switch{padding:7px 9px!important}
 .hero .intro{font-size:17px!important;line-height:1.45!important}
 .content{padding-top:28px!important}
 }
+
+/* Compact magazine-style opening, balanced type and immediate visual content */
+.hero{padding:36px clamp(18px,4vw,60px) 32px!important;background:#f5f8fc!important}
+.hero-inner{max-width:1240px!important}
+.hero .kicker{font:700 12px/1.3 Arial,sans-serif!important;letter-spacing:.12em!important;color:#566476!important}
+.hero h1{font:700 clamp(36px,4.4vw,62px)/1.08 Georgia,serif!important;letter-spacing:-.035em!important;margin:12px 0 10px!important;max-width:1000px!important;color:#202532!important}
+.hero .intro{font:400 clamp(16px,1.55vw,19px)/1.5 Arial,sans-serif!important;max-width:790px!important;margin:0!important;color:#374151!important}
+.content{max-width:1320px!important;padding:30px clamp(18px,4vw,60px) 65px!important}
+.content h2{font-size:clamp(25px,2.6vw,35px)!important;margin-bottom:18px!important}
+.grid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:16px!important}
+.tile-photo{height:165px!important}
+.tile-content{padding:17px 19px 20px!important;gap:7px!important}
+.tile strong{font-size:clamp(21px,2vw,26px)!important}
+.tile .desc{font-size:15px!important;line-height:1.4!important}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:540px){.hero{padding:24px 18px 26px!important}.hero h1{font-size:clamp(32px,9vw,43px)!important}.content{padding:22px 16px 48px!important}.grid{grid-template-columns:1fr!important}.tile-photo{height:185px!important}}
 </style>
 </head>
 <body>
 <header><a class="logo" href="/">BULLDOGFRANCES.COM</a><nav aria-label={en?'Language navigation':'Navegación de idioma'}><a href="/">{en?'Bilingual home':'Portada bilingüe'}</a><a class="switch" href={en?'/es/':'/en/'} hreflang={en?'es':'en'}>{en?'Español →':'English →'}</a></nav></header>
 <main>
-<section class="hero"><div class="hero-inner"><div class="kicker">{en?'English edition':'Edición en español'}</div><h1>{en?'The French Bulldog':'El bulldog francés'}</h1><p class="intro">{en?'Reliable information for healthier, happier French Bulldogs — from everyday care to the questions that matter most.':'Información rigurosa para cuidar mejor al bulldog francés: desde la vida cotidiana hasta las preguntas más importantes sobre su salud.'}</p></div></section>
+<section class="hero"><div class="hero-inner"><div class="kicker">{en?'English edition':'Edición en español'}</div><h1>{en?'Everything French Bulldog':'Todo sobre el bulldog francés'}</h1><p class="intro">{en?'Health, nutrition, training and everyday life — useful guides for people who love French Bulldogs.':'Salud, alimentación, educación y vida cotidiana: guías útiles para quienes aman al bulldog francés.'}</p></div></section>
 <section class="content"><h2>{en?'Explore by topic':'Explorar por temas'}</h2><nav class="grid" aria-label={en?'Topics':'Temas'}>{sections.map(s=><a class="tile" href={base+s.slug+'/'}><img class="tile-photo" src={s.photo} alt={en?`French Bulldog photo illustrating ${s.en}`:`Fotografía de bulldog francés para ${s.es}`} loading="lazy" decoding="async" /><span class="tile-content"><span class="icon" aria-hidden="true">{s.icon}</span><strong>{en?s.en:s.es}</strong><span class="desc">{en?s.descEn:s.descEs}</span><span class="arrow">{en?'Explore section →':'Explorar sección →'}</span></span></a>)}</nav><aside class="store-preview"><div><span class="store-label">{en?'SEPARATE SHOPPING GUIDE':'GUÍA DE COMPRAS INDEPENDIENTE'}</span><h2>BF_STORE</h2><p>{en?'Food, accessories and practical products for French Bulldogs, separate from our editorial guides.':'Alimentación, accesorios y productos para bulldogs franceses, separados de las guías editoriales.'}</p><span class="store-pending">{en?'Explore BF_STORE':'Explorar BF_STORE'}</span></div><img src="https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82" alt={en?'French Bulldog beside food bowl':'Bulldog francés junto a su comida'} loading="lazy" /></aside></section>
 </main>
 <footer><strong>BULLDOGFRANCES.COM</strong><nav><a href={base+'about/'}>{en?'About':'Acerca de'}</a><a href={base+'directory/'}>{en?'Directory':'Directorio'}</a><a href={base+'affiliate-disclosure/'}>{en?'Affiliate disclosure':'Aviso de afiliación'}</a><a href={base+'privacy/'}>{en?'Privacy':'Privacidad'}</a><a href={base+'terms/'}>{en?'Terms':'Términos'}</a></nav><p>{en?'Independent editorial guide to French Bulldogs':'Guía editorial independiente sobre el bulldog francés'}</p></footer>
