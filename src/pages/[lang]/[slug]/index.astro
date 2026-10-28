@@ -127,7 +127,7 @@ header .brand{min-width:0!important;overflow-wrap:anywhere!important}
 </style>
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
 <body>
-<header><a class="brand" href={'/'+lang+'/'}>BULLDOGFRANCES.COM</a><a class="switch" href={'/'+(lang==='en'?'es':'en')+'/'+slug+'/'}><span class="flag" aria-hidden="true">{lang==='en'?'🇪🇸':'🇬🇧'}</span><span>{lang==='en'?'ES Español →':'EN English →'}</span></a></header>
+<header><a class="brand" href={'/'+lang+'/'}>BULLDOGFRANCES.COM</a><a class="switch" href={'/'+(lang==='en'?'es':'en')+'/'+slug+'/'}><img class="language-flag" src={lang==="en"?"/flags/es.svg":"/flags/us.svg"} alt="" width="25" height="17" /><span>{lang==='en'?'Español →':'English →'}</span></a></header>
 <main>
 <section class="hero"><p class="eyebrow">{lang==='en'?'French Bulldog · English edition':'Bulldog francés · Edición en español'}</p><h1>{title}</h1><p class="desc">{t.desc}</p></section>
 <section class="content">
