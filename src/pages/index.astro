@@ -146,6 +146,16 @@ footer.split>.foot.en,footer.split>.foot.es{background:#fff!important;color:#111
 .split.hero>.half{position:relative!important;isolation:isolate;overflow:hidden}
 .split.hero>.half>.hero-area-link{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;z-index:1!important;display:block!important}
 .split.hero>.half>.search{position:relative!important;z-index:2!important}
+
+/* Mobile header and headline geometry */
+@media(max-width:650px){
+.top{min-height:176px!important;height:176px!important;align-items:start!important;padding-top:52px!important}
+.top .dog{top:auto!important;bottom:-31px!important;left:50%!important;transform:translateX(-50%)!important;width:78px!important;height:78px!important;z-index:4!important}
+.top .dog-photo{border-width:4px!important}
+.hero>.half{padding-top:78px!important}
+.hero>.half h1{text-align:left!important;margin-left:0!important;margin-right:0!important;letter-spacing:-.055em!important}
+.hero>.half.es h1{text-align:left!important}
+}
 </style>
 </head>
 <body>
