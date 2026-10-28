@@ -1,1 +1,158 @@
-[{"lang":"en","title":"Nutrition","category":"Category","url":"/en/nutrition/"},{"lang":"es","title":"Alimentación","category":"Categoría","url":"/es/nutrition/"}]
+[
+  {
+    "lang": "en",
+    "title": "Health",
+    "category": "Category",
+    "url": "/en/health/"
+  },
+  {
+    "lang": "es",
+    "title": "Salud",
+    "category": "Category",
+    "url": "/es/health/"
+  },
+  {
+    "lang": "en",
+    "title": "Nutrition",
+    "category": "Category",
+    "url": "/en/nutrition/"
+  },
+  {
+    "lang": "es",
+    "title": "Alimentación",
+    "category": "Category",
+    "url": "/es/nutrition/"
+  },
+  {
+    "lang": "en",
+    "title": "Training & Behavior",
+    "category": "Category",
+    "url": "/en/training/"
+  },
+  {
+    "lang": "es",
+    "title": "Educación y conducta",
+    "category": "Category",
+    "url": "/es/training/"
+  },
+  {
+    "lang": "en",
+    "title": "Puppies",
+    "category": "Category",
+    "url": "/en/puppies/"
+  },
+  {
+    "lang": "es",
+    "title": "Cachorros",
+    "category": "Category",
+    "url": "/es/puppies/"
+  },
+  {
+    "lang": "en",
+    "title": "Breed Characteristics",
+    "category": "Category",
+    "url": "/en/breed-characteristics/"
+  },
+  {
+    "lang": "es",
+    "title": "Características de la raza",
+    "category": "Category",
+    "url": "/es/breed-characteristics/"
+  },
+  {
+    "lang": "en",
+    "title": "History & Origins",
+    "category": "Category",
+    "url": "/en/history/"
+  },
+  {
+    "lang": "es",
+    "title": "Historia y orígenes",
+    "category": "Category",
+    "url": "/es/history/"
+  },
+  {
+    "lang": "en",
+    "title": "Genetics & Breeding",
+    "category": "Category",
+    "url": "/en/genetics/"
+  },
+  {
+    "lang": "es",
+    "title": "Genética y reproducción",
+    "category": "Category",
+    "url": "/es/genetics/"
+  },
+  {
+    "lang": "en",
+    "title": "Daily Care",
+    "category": "Category",
+    "url": "/en/daily-care/"
+  },
+  {
+    "lang": "es",
+    "title": "Cuidados cotidianos",
+    "category": "Category",
+    "url": "/es/daily-care/"
+  },
+  {
+    "lang": "en",
+    "title": "News Around the World",
+    "category": "Category",
+    "url": "/en/news-around-the-world/"
+  },
+  {
+    "lang": "es",
+    "title": "Noticias del mundo",
+    "category": "Category",
+    "url": "/es/news-around-the-world/"
+  },
+  {
+    "lang": "en",
+    "title": "How Much Should a French Bulldog Eat?",
+    "category": "Nutrition",
+    "url": "/en/nutrition/how-much-should-a-french-bulldog-eat/"
+  },
+  {
+    "lang": "es",
+    "title": "¿Cuánto debe comer un bulldog francés?",
+    "category": "Nutrition",
+    "url": "/es/nutrition/how-much-should-a-french-bulldog-eat/"
+  },
+  {
+    "lang": "en",
+    "title": "Choosing Food for a French Bulldog",
+    "category": "Nutrition",
+    "url": "/en/nutrition/best-food-for-french-bulldogs/"
+  },
+  {
+    "lang": "es",
+    "title": "Cómo elegir alimento para un bulldog francés",
+    "category": "Nutrition",
+    "url": "/es/nutrition/best-food-for-french-bulldogs/"
+  },
+  {
+    "lang": "en",
+    "title": "French Bulldog Food Allergies",
+    "category": "Nutrition",
+    "url": "/en/nutrition/french-bulldog-food-allergies/"
+  },
+  {
+    "lang": "es",
+    "title": "Alergias alimentarias en bulldogs franceses",
+    "category": "Nutrition",
+    "url": "/es/nutrition/french-bulldog-food-allergies/"
+  },
+  {
+    "lang": "en",
+    "title": "Safe Treats for French Bulldogs",
+    "category": "Nutrition",
+    "url": "/en/nutrition/safe-treats-for-french-bulldogs/"
+  },
+  {
+    "lang": "es",
+    "title": "Premios seguros para bulldogs franceses",
+    "category": "Nutrition",
+    "url": "/es/nutrition/safe-treats-for-french-bulldogs/"
+  }
+]
