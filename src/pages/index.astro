@@ -286,6 +286,11 @@ body .bilingual-cover .cover-language-en{left:0}
 body .bilingual-cover .cover-language-es{right:0}
 body .bilingual-cover .cover-language:focus-visible{outline:3px solid #204e74;outline-offset:-5px;background:rgba(255,255,255,.12)}
 @media(max-width:700px){body .cover-top.bilingual-cover{margin:0 10px!important;border-radius:16px!important;height:auto!important;aspect-ratio:1672/941!important}body .bilingual-cover .cover-language{top:16%;height:70%;width:30%}}
+
+/* Bilingual banner contains embedded labels and flags: never crop its edges. */
+body .cover-top{height:auto!important;aspect-ratio:1672/941!important;max-height:none!important;overflow:hidden!important}
+body .cover-top .wide-dog-banner{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;background-size:100% 100%!important;background-position:center center!important;background-repeat:no-repeat!important}
+@media(max-width:700px){body .cover-top{height:auto!important;aspect-ratio:1672/941!important;min-height:0!important}body .cover-top .wide-dog-banner{background-size:100% 100%!important;background-position:center center!important}}
 </style>
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css?v=20261028-masthead3"></head>
 <body>
