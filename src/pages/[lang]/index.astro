@@ -94,6 +94,7 @@ header .switch{padding:7px 9px!important}
 .hero h1{margin:8px 0!important}
 .hero .intro{line-height:1.35!important;margin:0!important}
 @media(max-width:620px){.hero{padding-top:20px!important;padding-bottom:20px!important}.hero-inner{padding:0!important}.hero h1{margin:8px 0!important}.hero .intro{font-size:16px!important;line-height:1.35!important}header .logo{overflow-wrap:normal!important;word-break:normal!important;font-size:clamp(12px,3.4vw,17px)!important;letter-spacing:-.025em!important}}
+footer .copyright{font-size:13px;opacity:1;margin:22px 0 0;padding-top:18px;border-top:1px solid #e6e8ec;color:#333!important}
 </style>
 </head>
 <body>
@@ -102,5 +103,5 @@ header .switch{padding:7px 9px!important}
 <section class="hero"><div class="hero-inner"><div class="kicker">{en?'English edition':'Edición en español'}</div><h1>{en?'Everything French Bulldog':'Todo sobre el bulldog francés'}</h1><p class="intro">{en?'Health, nutrition, training and everyday life — useful guides for people who love French Bulldogs.':'Salud, alimentación, educación y vida cotidiana: guías útiles para quienes aman al bulldog francés.'}</p></div></section>
 <section class="content"><h2>{en?'Explore by topic':'Explorar por temas'}</h2><nav class="grid" aria-label={en?'Topics':'Temas'}>{sections.map(s=><a class="tile" href={base+s.slug+'/'}><img class="tile-photo" src={s.photo} alt={en?`French Bulldog photo illustrating ${s.en}`:`Fotografía de bulldog francés para ${s.es}`} loading="lazy" decoding="async" /><span class="tile-content"><span class="icon" aria-hidden="true">{s.icon}</span><strong>{en?s.en:s.es}</strong><span class="desc">{en?s.descEn:s.descEs}</span><span class="arrow">{en?'Explore section →':'Explorar sección →'}</span></span></a>)}</nav></section>
 </main>
-<footer><strong>BULLDOGFRANCES.COM</strong><nav><a href={base+'about/'}>{en?'About':'Acerca de'}</a><a href={base+'directory/'}>{en?'Directory':'Directorio'}</a><a href={base+'affiliate-disclosure/'}>{en?'Affiliate disclosure':'Aviso de afiliación'}</a><a href={base+'privacy/'}>{en?'Privacy':'Privacidad'}</a><a href={base+'terms/'}>{en?'Terms':'Términos'}</a></nav><p>{en?'Independent editorial guide to French Bulldogs':'Guía editorial independiente sobre el bulldog francés'}</p></footer>
+<footer><strong>BULLDOGFRANCES.COM</strong><nav><a href={base}>{en?'Home':'Inicio'}</a><a href={base+'about/'}>{en?'About':'Acerca de'}</a><a href={base+'directory/'}>{en?'Directory':'Directorio'}</a><a href={base+'affiliate-disclosure/'}>{en?'Affiliate disclosure':'Aviso de afiliación'}</a><a href={base+'privacy/'}>{en?'Privacy':'Privacidad'}</a><a href={base+'terms/'}>{en?'Terms':'Términos'}</a></nav><p>{en?'Independent editorial guide to French Bulldogs':'Guía editorial independiente sobre el bulldog francés'}</p><p class="copyright">© {new Date().getFullYear()} BulldogFrances.com. All rights reserved.</p></footer>
 </body></html>
