@@ -259,6 +259,12 @@ body .cover-top header.top>.top-languages{margin-left:auto!important;flex:0 0 au
  body .cover-top header.top>.top-languages>a{min-width:0!important;gap:3px!important;font-size:10px!important;white-space:nowrap!important}
  body .cover-top header.top>.top-languages .lang-flag{width:17px!important;min-width:17px!important;max-width:17px!important;height:12px!important}
 }
+
+/* Cover masthead sits on the photograph, without a separate white strip. */
+body .cover-top{height:clamp(290px,28vw,410px)!important}
+body .cover-top header.top{position:absolute!important;inset:0 0 auto!important;z-index:3!important;background:linear-gradient(180deg,rgba(255,255,255,.96) 0%,rgba(255,255,255,.80) 58%,rgba(255,255,255,0) 100%)!important;background-color:transparent!important;height:86px!important;min-height:86px!important;padding-top:0!important;padding-bottom:15px!important}
+body .cover-top .wide-dog-banner{inset:0!important;height:100%!important;background-position:center 65%!important}
+@media(max-width:700px){body .cover-top{height:clamp(255px,65vw,340px)!important}body .cover-top header.top{height:78px!important;min-height:78px!important;padding-top:0!important;padding-bottom:16px!important}body .cover-top .wide-dog-banner{background-position:center 65%!important}}
 </style>
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
 <body>
