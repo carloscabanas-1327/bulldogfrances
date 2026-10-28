@@ -105,7 +105,7 @@ img:not(.flag){border-radius:14px} .share-dock{position:fixed;right:18px;bottom:
 </style>
 </head>
 <body>
-<header><a class="brand" href={'/'+lang+'/'}>BULLDOGFRANCES.COM</a><a class="switch" href={'/'+(lang==='en'?'es':'en')+'/'+slug+'/'}><span class="flag" aria-hidden="true">{lang==='en'?'🇪🇸':'🇬🇧'}</span><span>{lang==='en'?'ES Español →':'EN English →'}</span></a>{!['privacy','terms','affiliate-disclosure','about'].includes(slug)&&<form action="https://www.google.com/search" method="get" role="search"><input type="hidden" name="sitesearch" value="bulldogfrances.com"/><input name="q" type="search" placeholder={lang==='en'?'Search guides':'Buscar guías'} aria-label={lang==='en'?'Search':'Buscar'}/><button type="submit">⌕</button></form>}</header>
+<header><a class="brand" href={'/'+lang+'/'}>BULLDOGFRANCES.COM</a><a class="switch" href={'/'+(lang==='en'?'es':'en')+'/'+slug+'/'}><span class="flag" aria-hidden="true">{lang==='en'?'🇪🇸':'🇬🇧'}</span><span>{lang==='en'?'ES Español →':'EN English →'}</span></a>{!['privacy','terms','affiliate-disclosure','about'].includes(slug)&&<form action={"/"+lang+"/search/"} method="get" role="search"><input name="q" type="search" placeholder={lang==='en'?'Search guides':'Buscar guías'} aria-label={lang==='en'?'Search':'Buscar'}/><button type="submit">⌕</button></form>}</header>
 <main>
 <section class="hero"><p class="eyebrow">{lang==='en'?'French Bulldog · English edition':'Bulldog francés · Edición en español'}</p><h1>{title}</h1><p class="desc">{t.desc}</p></section>
 <section class="content">
