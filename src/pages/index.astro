@@ -1,15 +1,15 @@
 ---
 const sections = [
-{en:'Health',es:'Salud',descEn:'Prevention and veterinary care',descEs:'Prevención y salud veterinaria',icon:'♡',slug:'health'},
-{en:'Nutrition',es:'Alimentación',descEn:'Feeding and nutrition',descEs:'Nutrición y dietas',icon:'◉',slug:'nutrition'},
-{en:'Training & Behavior',es:'Educación y conducta',descEn:'Learning and behavior',descEs:'Aprendizaje y conducta',icon:'✦',slug:'training'},
-{en:'Puppies',es:'Cachorros',descEn:'Growth and early care',descEs:'Crecimiento y primeros cuidados',icon:'♙',slug:'puppies'},
-{en:'Breed Characteristics',es:'Características de la raza',descEn:'Appearance and temperament',descEs:'Aspecto y temperamento',icon:'♧',slug:'breed-characteristics'},
-{en:'History & Origins',es:'Historia y orígenes',descEn:'The breed through time',descEs:'La historia de la raza',icon:'▤',slug:'history'},
-{en:'Genetics & Breeding',es:'Genética y reproducción',descEn:'Genetics and responsible breeding',descEs:'Genética y cría responsable',icon:'⌘',slug:'genetics'},
-{en:'Daily Care',es:'Cuidados cotidianos',descEn:'Grooming and daily routines',descEs:'Higiene y rutinas',icon:'⌂',slug:'daily-care'},
-{en:'News Around the World',es:'Noticias del mundo',descEn:'French Bulldog news worldwide',descEs:'Actualidad del bulldog francés en el mundo',icon:'◎',slug:'news-around-the-world'},
-{en:'News Around the World',es:'Noticias del mundo',descEn:'French Bulldog news worldwide',descEs:'Actualidad del bulldog francés en el mundo',icon:'◎',slug:'news-around-the-world'}
+{en:'Health',es:'Salud',descEn:'Prevention and veterinary care',descEs:'Prevención y salud veterinaria',icon:'♡',slug:'health',photo:'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=500&h=380&fit=crop&auto=format&q=78'},
+{en:'Nutrition',es:'Alimentación',descEn:'Feeding and nutrition',descEs:'Nutrición y dietas',icon:'◉',slug:'nutrition',photo:'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=500&h=380&fit=crop&auto=format&q=78'},
+{en:'Training & Behavior',es:'Educación y conducta',descEn:'Learning and behavior',descEs:'Aprendizaje y conducta',icon:'✦',slug:'training',photo:'https://images.unsplash.com/photo-1552053831-71594a27632d?w=500&h=380&fit=crop&auto=format&q=78'},
+{en:'Puppies',es:'Cachorros',descEn:'Growth and early care',descEs:'Crecimiento y primeros cuidados',icon:'♙',slug:'puppies',photo:'https://images.unsplash.com/photo-1517849845537-4d257902454a?w=500&h=380&fit=crop&auto=format&q=78'},
+{en:'Breed Characteristics',es:'Características de la raza',descEn:'Appearance and temperament',descEs:'Aspecto y temperamento',icon:'♧',slug:'breed-characteristics',photo:'https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=500&h=380&fit=crop&auto=format&q=78'},
+{en:'History & Origins',es:'Historia y orígenes',descEn:'The breed through time',descEs:'La historia de la raza',icon:'▤',slug:'history',photo:'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=500&h=380&fit=crop&auto=format&q=78'},
+{en:'Genetics & Breeding',es:'Genética y reproducción',descEn:'Genetics and responsible breeding',descEs:'Genética y cría responsable',icon:'⌘',slug:'genetics',photo:'https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?w=500&h=380&fit=crop&auto=format&q=78'},
+{en:'Daily Care',es:'Cuidados cotidianos',descEn:'Grooming and daily routines',descEs:'Higiene y rutinas',icon:'⌂',slug:'daily-care',photo:'https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=500&h=380&fit=crop&auto=format&q=78'},
+{en:'News Around the World',es:'Noticias del mundo',descEn:'French Bulldog news worldwide',descEs:'Actualidad del bulldog francés en el mundo',icon:'◎',slug:'news-around-the-world',photo:'https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?w=500&h=380&fit=crop&auto=format&q=78'},
+{en:'BF_STORE',es:'BF_STORE',descEn:'Food, accessories and shopping guides — coming soon',descEs:'Alimentación, accesorios y guías de compra — próximamente',icon:'▣',slug:'store',photo:'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=500&h=380&fit=crop&auto=format&q=78'}
 ];
 ---
 <!doctype html>
@@ -158,6 +158,19 @@ footer.split>.foot.en,footer.split>.foot.es{background:#fff!important;color:#111
 .hero>.half h1{text-align:left!important;margin-left:0!important;margin-right:0!important;letter-spacing:-.055em!important}
 .hero>.half.es h1{text-align:left!important}
 }
+
+/* Final mobile geometry: compact header with portrait fully visible */
+@media(max-width:650px){
+.top{height:170px!important;min-height:170px!important;padding:0!important;overflow:visible!important;display:grid!important;grid-template-columns:1fr 1fr!important;align-content:start!important}
+.top .mobile-domain{position:absolute!important;top:15px!important;left:0!important;right:0!important;text-align:center!important}
+.top .brand{margin-top:52px!important;min-height:55px!important}
+.top .dog{position:absolute!important;top:121px!important;bottom:auto!important;left:50%!important;transform:translateX(-50%)!important;width:82px!important;height:82px!important;z-index:20!important;overflow:visible!important}
+.top .dog-photo{width:82px!important;height:82px!important;object-fit:cover!important;border:5px solid white!important}
+.hero>.half{padding-top:75px!important}
+.hero>.half h1{text-align:left!important}
+}
+.feature .photo{overflow:hidden!important;background:#f1f3f5!important}
+.feature .photo img{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit}
 </style>
 </head>
 <body>
@@ -168,8 +181,8 @@ footer.split>.foot.en,footer.split>.foot.es{background:#fff!important;color:#111
 <section class="half es" lang="es"><a class="hero-area-link" href="/es/" aria-label="Abrir edición en español"></a><h1>Pequeño perro.<br>Gran carácter.</h1><p>Guías rigurosas e información práctica para cuidar mejor a tu bulldog francés.</p><form class="search" action="/es/" method="get"><input aria-label="Buscar en español" name="q" placeholder="Buscar guías…" /><button>Buscar</button></form></section>
 </div>
 <div class="split feature-directory">
-<div class="feature-column en" lang="en">{sections.map((s,i)=><a class="feature en" href={'/en/'+s.slug+'/'} aria-label={'Explore '+s.en}><div class="photo" aria-hidden="true">{s.icon}</div><div class="feature-body"><div class="eyebrow">{i===0?'Featured section':'Explore topics'}</div><h2>{s.en}</h2><p>{s.descEn}</p><span class="feature-cta">Explore section →</span></div></a>)}</div>
-<div class="feature-column es" lang="es">{sections.map((s,i)=><a class="feature es" href={'/es/'+s.slug+'/'} aria-label={'Explorar '+s.es}><div class="photo" aria-hidden="true">{s.icon}</div><div class="feature-body"><div class="eyebrow">{i===0?'Sección destacada':'Explorar temas'}</div><h2>{s.es}</h2><p>{s.descEs}</p><span class="feature-cta">Explorar sección →</span></div></a>)}</div>
+<div class="feature-column en" lang="en">{sections.map((s,i)=><a class="feature en" href={'/en/'+s.slug+'/'} aria-label={'Explore '+s.en}><div class="photo"><img src={s.photo} alt={s.en==='BF_STORE'?'Dog and pet products':'French Bulldog editorial topic'} loading="lazy" decoding="async" /></div><div class="feature-body"><div class="eyebrow">{i===0?'Featured section':'Explore topics'}</div><h2>{s.en}</h2><p>{s.descEn}</p><span class="feature-cta">Explore section →</span></div></a>)}</div>
+<div class="feature-column es" lang="es">{sections.map((s,i)=><a class="feature es" href={'/es/'+s.slug+'/'} aria-label={'Explorar '+s.es}><div class="photo"><img src={s.photo} alt={s.en==='BF_STORE'?'Dog and pet products':'French Bulldog editorial topic'} loading="lazy" decoding="async" /></div><div class="feature-body"><div class="eyebrow">{i===0?'Sección destacada':'Explorar temas'}</div><h2>{s.es}</h2><p>{s.descEs}</p><span class="feature-cta">Explorar sección →</span></div></a>)}</div>
 </div>
 </main>
 <footer class="split"><div class="foot en" lang="en"><strong>BULLDOGFRANCES.COM</strong><p>Knowledge · Care · Community</p><nav aria-label="English legal and site links"><a href="/en/">Home</a><a href="/en/about/">About</a><a href="/en/directory/">Directory</a><a href="/en/affiliate-disclosure/">Affiliate Disclosure</a><a href="/en/privacy/">Privacy</a><a href="/en/terms/">Terms</a></nav></div><div class="foot es" lang="es"><strong>BULLDOGFRANCES.COM</strong><p>Conocimiento · Cuidado · Comunidad</p><nav aria-label="Enlaces legales y del sitio"><a href="/es/">Inicio</a><a href="/es/about/">Acerca de</a><a href="/es/directory/">Directorio</a><a href="/es/affiliate-disclosure/">Aviso de afiliación</a><a href="/es/privacy/">Privacidad</a><a href="/es/terms/">Términos</a></nav></div></footer>
