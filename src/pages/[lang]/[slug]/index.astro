@@ -2,13 +2,13 @@
 const lang = Astro.params.lang;
 const slug = Astro.params.slug;
 const dict = {
- en:{home:'Home',back:'Back to bilingual homepage',title:'French Bulldog',desc:'Editorial section under development. Articles will be published after scientific and SEO review.',cats:{health:'Health guides',nutrition:'Nutrition',training:'Training',puppies:'Puppies',about:'About',directory:'Directory','affiliate-disclosure':'Affiliate disclosure',privacy:'Privacy',terms:'Terms of use'}},
- es:{home:'Inicio',back:'Volver a la portada bilingüe',title:'Bulldog francés',desc:'Sección editorial en preparación. Publicaremos artículos después de la revisión científica y SEO.',cats:{health:'Guías de salud',nutrition:'Alimentación',training:'Educación',puppies:'Cachorros',about:'Acerca de',directory:'Directorio','affiliate-disclosure':'Aviso de afiliación',privacy:'Privacidad',terms:'Términos de uso'}}
+ en:{home:'Home',back:'Back to bilingual homepage',title:'French Bulldog',desc:'Editorial section under development. Articles will be published after scientific and SEO review.',cats:{health:'Health guides',nutrition:'Nutrition',training:'Training',puppies:'Puppies','breed-characteristics':'Breed characteristics',history:'History & origins',genetics:'Genetics & breeding','daily-care':'Daily care',about:'About',directory:'Directory','affiliate-disclosure':'Affiliate disclosure',privacy:'Privacy',terms:'Terms of use'}},
+ es:{home:'Inicio',back:'Volver a la portada bilingüe',title:'Bulldog francés',desc:'Sección editorial en preparación. Publicaremos artículos después de la revisión científica y SEO.',cats:{health:'Guías de salud',nutrition:'Alimentación',training:'Educación',puppies:'Cachorros','breed-characteristics':'Características de la raza',history:'Historia y orígenes',genetics:'Genética y reproducción','daily-care':'Cuidados cotidianos',about:'Acerca de',directory:'Directorio','affiliate-disclosure':'Aviso de afiliación',privacy:'Privacidad',terms:'Términos de uso'}}
 };
-if (!dict[lang] || !dict[lang].cats[slug]) return Astro.redirect('/');
+
 const t=dict[lang];const title=t.cats[slug];
 export function getStaticPaths(){
- const langs=['en','es'];const slugs=['health','nutrition','training','puppies','about','directory','affiliate-disclosure','privacy','terms'];
+ const langs=['en','es'];const slugs=['health','nutrition','training','puppies','breed-characteristics','history','genetics','daily-care','about','directory','affiliate-disclosure','privacy','terms'];
  return langs.flatMap(lang=>slugs.map(slug=>({params:{lang,slug}})));
 }
 ---
