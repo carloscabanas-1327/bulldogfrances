@@ -27,3 +27,7 @@ body header > a.single-logo,
 body header > a.logo,
 body header > a.brand{font-family:Georgia,'Times New Roman',serif!important;font-size:var(--bf-wordmark-size)!important;font-weight:700!important;line-height:1.2!important;letter-spacing:-.025em!important;text-transform:none!important;white-space:nowrap!important}
 @media(max-width:700px){:root{--bf-wordmark-size:clamp(15px,4vw,20px)}}
+
+/* Definitive visual lock: identical wordmark in every template, regardless of older page rules. */
+body :is(#bf-masthead-lock, .cover-top header.top > a.single-logo, header > a.logo, header > a.brand){font-family:Georgia,'Times New Roman',serif!important;font-size:26px!important;font-weight:700!important;font-style:normal!important;line-height:1.2!important;letter-spacing:-.025em!important;white-space:nowrap!important;text-transform:none!important}
+@media(max-width:700px){body :is(#bf-masthead-lock, .cover-top header.top > a.single-logo, header > a.logo, header > a.brand){font-size:15px!important;letter-spacing:-.025em!important}}
