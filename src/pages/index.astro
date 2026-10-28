@@ -277,11 +277,19 @@ body .cover-top .wide-dog-banner{inset:0!important;height:100%!important;backgro
 @media(min-width:701px){
  body .cover-top header.top>a.single-logo{font-size:clamp(18px,2.2vw,29px)!important;line-height:1.2!important;text-align:left!important;letter-spacing:-.025em!important}
 }
+
+/* Bilingual hero artwork contains its own titles and flags; clickable transparent language zones. */
+body .cover-top.bilingual-cover{position:relative!important;isolation:isolate!important;height:auto!important;aspect-ratio:1672/941!important;margin:0 clamp(12px,1.5vw,24px)!important;border-radius:24px!important;overflow:hidden!important;background:#f4f0e9!important}
+body .bilingual-cover .bilingual-cover-image{display:block;width:100%;height:100%;object-fit:contain;aspect-ratio:1672/941}
+body .bilingual-cover .cover-language{position:absolute;top:17%;height:67%;width:28%;z-index:5;display:block;border-radius:12px}
+body .bilingual-cover .cover-language-en{left:0}
+body .bilingual-cover .cover-language-es{right:0}
+body .bilingual-cover .cover-language:focus-visible{outline:3px solid #204e74;outline-offset:-5px;background:rgba(255,255,255,.12)}
+@media(max-width:700px){body .cover-top.bilingual-cover{margin:0 10px!important;border-radius:16px!important;height:auto!important;aspect-ratio:1672/941!important}body .bilingual-cover .cover-language{top:16%;height:70%;width:30%}}
 </style>
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css?v=20261028-masthead3"></head>
 <body>
-<div class="cover-top"><header class="top"><a class="single-logo" href="/" aria-label="BulldogFrances.com — home">BULLDOGFRANCES.COM</a><nav class="top-languages" aria-label="Language editions"><a href="/en/" hreflang="en"><img class="lang-flag" src="/flags/us.svg" alt="" width="25" height="17" /> English</a><a href="/es/" hreflang="es"><img class="lang-flag" src="/flags/es.svg" alt="" width="25" height="17" /> Español</a></nav></header>
-<div class="wide-dog-banner" role="img" aria-label="Bulldog francés blanco en primer plano"></div></div>
+<div class="cover-top bilingual-cover" aria-label="Choose your language / Elegí tu idioma"><img class="bilingual-cover-image" src="/bulldogfrances-hero-bilingual.webp" alt="French Bulldog with a black eye patch; Frenchi Bulldog, United States flag, English on the left; Bulldog Francés, Spanish flag, Español on the right" width="1672" height="941" fetchpriority="high" /><a class="cover-language cover-language-en" href="/en/" hreflang="en" aria-label="English — French Bulldog"></a><a class="cover-language cover-language-es" href="/es/" hreflang="es" aria-label="Español — Bulldog Francés"></a></div>
 <main>
 <div class="split hero">
 <section class="half en" lang="en"><a class="hero-area-link" href="/en/" aria-label="Open English edition"></a><h1>Small dog<br>Big personality</h1><p>Thoughtful guides and practical information for a healthier, happier French Bulldog.</p></section>
