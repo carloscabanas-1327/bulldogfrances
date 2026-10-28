@@ -23,6 +23,26 @@ const base='/'+lang+'/';
 <meta name="description" content={en?'French Bulldog care, health, nutrition and training. Editorial site under development.':'Salud, alimentación, educación y cuidados del bulldog francés. Portal editorial en desarrollo.'}>
 <style>
 :root{color-scheme:light;font-family:Arial,Helvetica,sans-serif;background:#faf8f3;color:#20372e}*{box-sizing:border-box}body{margin:0}a{color:inherit}header{background:#fff;border-bottom:1px solid #e4e0d7;padding:16px clamp(16px,4vw,60px);display:flex;align-items:center;justify-content:space-between;gap:16px}header a{text-decoration:none}header .logo{font:700 clamp(17px,2.6vw,25px) Georgia,serif}header nav{display:flex;gap:16px;align-items:center;font-size:clamp(13px,1.5vw,16px)}.switch{padding:10px 14px;border:1px solid #b4c7b8;border-radius:30px;font-weight:700}.hero{background:linear-gradient(135deg,#244b3a,#112f26);color:#fff;padding:clamp(55px,8vw,110px) clamp(18px,7vw,110px)}.hero-inner{max-width:1150px;margin:auto}.kicker{letter-spacing:.16em;text-transform:uppercase;font-size:clamp(12px,1.4vw,15px)}h1{font:700 clamp(43px,7vw,90px)/1.03 Georgia,serif;letter-spacing:-.045em;margin:20px 0}.intro{font-size:clamp(17px,2vw,23px);line-height:1.5;max-width:680px}.note{margin-top:26px;font-size:clamp(13px,1.4vw,16px);opacity:.85}.content{max-width:1200px;margin:auto;padding:45px clamp(16px,4vw,55px) 80px}.content h2{font:700 clamp(29px,3.5vw,43px) Georgia,serif;margin:0 0 22px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.tile{display:flex;flex-direction:column;gap:12px;min-height:210px;padding:28px;background:#fff;border:1px solid #e2e5dc;border-radius:18px;text-decoration:none;box-shadow:0 4px 20px #00000008}.tile:hover,.tile:focus-visible{outline:2px solid #397359}.tile .icon{font-size:35px;color:#33654e}.tile strong{font:700 clamp(23px,3vw,34px) Georgia,serif}.tile .desc{font-size:clamp(15px,1.7vw,18px);line-height:1.45;color:#526158}.tile .arrow{margin-top:auto;font-weight:700;color:#276047}footer{background:#17372b;color:#fff;text-align:center;padding:30px 16px}footer nav{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin:18px 0}footer a{font-size:14px}footer p{font-size:13px;opacity:.85}@media(max-width:620px){header{align-items:flex-start}header .logo{font-size:15px;overflow-wrap:anywhere}header nav{gap:8px}.switch{padding:9px;font-size:13px}.hero{padding:55px 20px}.grid{grid-template-columns:1fr}.tile{min-height:180px;padding:23px}.content{padding-top:35px}footer nav{gap:14px}}
+
+/* Light, accessible edition pages on phones in dark mode and desktop */
+:root,html,body{color-scheme:only light!important;background:#fff!important;color:#111!important}
+header,header a,header .logo,header nav{background:#fff!important;color:#111!important}
+header .switch{border-color:#ddd!important;color:#111!important}
+.hero{background:#fbfcff!important;background-image:linear-gradient(#fbfcff,#fbfcff)!important;color:#111!important}
+.hero h1,.hero .kicker,.hero .intro,.hero .note{color:#111!important}
+.content{background:#fff!important;color:#111!important}
+.content h2,.tile,.tile strong,.tile .desc,.tile .arrow,.tile .icon{color:#111!important}
+.tile{background:#fff!important;border-color:#e5e5e5!important;box-shadow:none!important}
+footer,footer a,footer p{background:#fff!important;color:#111!important}
+footer{border-top:1px solid #eee!important}
+@media(prefers-color-scheme:dark){
+:root,html,body{color-scheme:only light!important;background:#fff!important;color:#111!important}
+header,header a,header .logo,header nav{background:#fff!important;color:#111!important}
+.hero{background:#fbfcff!important;background-image:linear-gradient(#fbfcff,#fbfcff)!important;color:#111!important}
+.hero h1,.hero .kicker,.hero .intro,.hero .note{color:#111!important}
+.content,.tile,footer,footer a,footer p{background:#fff!important;color:#111!important}
+.content h2,.tile strong,.tile .desc,.tile .arrow,.tile .icon{color:#111!important}
+}
 </style>
 </head>
 <body>
