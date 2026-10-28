@@ -31,3 +31,6 @@ body header > a.brand{font-family:Georgia,'Times New Roman',serif!important;font
 /* Definitive visual lock: identical wordmark in every template, regardless of older page rules. */
 body :is(#bf-masthead-lock, .cover-top header.top > a.single-logo, header > a.logo, header > a.brand){font-family:Georgia,'Times New Roman',serif!important;font-size:26px!important;font-weight:700!important;font-style:normal!important;line-height:1.2!important;letter-spacing:-.025em!important;white-space:nowrap!important;text-transform:none!important}
 @media(max-width:700px){body :is(#bf-masthead-lock, .cover-top header.top > a.single-logo, header > a.logo, header > a.brand){font-size:15px!important;letter-spacing:-.025em!important}}
+
+/* Audit 2026-10-28: one explicit mobile wordmark size for all page templates. */
+@media(max-width:700px){body .cover-top header.top>a.single-logo,body>header>a.logo,body>header>a.brand{font-size:20px!important;line-height:1.2!important;letter-spacing:-.025em!important;text-align:left!important}}
