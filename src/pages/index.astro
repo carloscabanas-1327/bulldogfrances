@@ -208,10 +208,18 @@ img:not(.flag){border-radius:14px} .share-dock{position:fixed;right:18px;bottom:
 .cover-top .top .mobile-domain{color:#151515!important}
 .hero .half{padding-top:clamp(18px,2.5vw,30px)!important}
 @media(max-width:700px){.cover-top{height:clamp(205px,46vw,280px)!important}.cover-top .wide-dog-banner{background-position:center 68%!important}.cover-top .top{padding-top:10px!important;min-height:75px!important}.cover-top .top .brand{font-size:clamp(11px,2.5vw,16px)!important}.hero .half{padding-top:18px!important}}
+
+/* One restrained left-aligned site title, matching interior pages */
+.cover-top .top{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:16px!important;min-height:66px!important;height:66px!important;padding:0 clamp(18px,3.5vw,55px)!important;background:rgba(255,255,255,.9)!important;background-image:none!important;box-sizing:border-box!important}
+.cover-top .top .single-logo{font-family:Georgia,serif;font-size:clamp(18px,2.2vw,29px);font-weight:700;letter-spacing:-.025em;color:#111;text-decoration:none;white-space:nowrap}
+.cover-top .top .top-languages{display:flex;align-items:center;gap:18px;font:600 13px Arial,sans-serif;color:#31495a}
+.cover-top .top .top-languages a{text-decoration:none;white-space:nowrap}
+.cover-top .top .top-languages a:hover{text-decoration:underline}
+@media(max-width:700px){.cover-top .top{height:60px!important;min-height:60px!important;padding:0 12px!important;gap:8px!important}.cover-top .top .single-logo{font-size:clamp(15px,4vw,20px)}.cover-top .top .top-languages{gap:9px;font-size:11px}}
 </style>
 <link rel="stylesheet" href="/search.css"></head>
 <body>
-<div class="cover-top"><header class="top"><div class="mobile-domain">BULLDOGFRANCES.COM</div><a class="brand" href="/en/" aria-label="English — The French Bulldog"><span class="desktop-domain">BULLDOGFRANCES.COM</span><span class="language-name">🇬🇧 English →</span><small>THE FRENCH BULLDOG</small></a><a class="brand" href="/es/" aria-label="Español — El Bulldog Francés"><span class="desktop-domain">BULLDOGFRANCES.COM</span><span class="language-name">🇪🇸 Español →</span><small>EL BULLDOG FRANCÉS</small></a></header>
+<div class="cover-top"><header class="top"><a class="single-logo" href="/" aria-label="BulldogFrances.com — home">BULLDOGFRANCES.COM</a><nav class="top-languages" aria-label="Language editions"><a href="/en/" hreflang="en">English</a><a href="/es/" hreflang="es">Español</a></nav></header>
 <div class="wide-dog-banner" role="img" aria-label="Bulldog francés blanco en primer plano"></div></div>
 <main>
 <div class="split hero">
