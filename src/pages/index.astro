@@ -291,10 +291,27 @@ body .bilingual-cover .cover-language:focus-visible{outline:3px solid #204e74;ou
 body .cover-top{height:auto!important;aspect-ratio:1672/941!important;max-height:none!important;overflow:hidden!important}
 body .cover-top .wide-dog-banner{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;background-size:100% 100%!important;background-position:center center!important;background-repeat:no-repeat!important}
 @media(max-width:700px){body .cover-top{height:auto!important;aspect-ratio:1672/941!important;min-height:0!important}body .cover-top .wide-dog-banner{background-size:100% 100%!important;background-position:center center!important}}
+
+/* Rebuilt bilingual cover: real HTML language links and responsive photo, no embedded lettering. */
+body .cover-top.rebuilt-cover{position:relative!important;display:grid!important;grid-template-columns:1fr 1fr!important;align-items:center!important;aspect-ratio:auto!important;height:clamp(230px,31vw,420px)!important;min-height:0!important;overflow:hidden!important;background:#f5f3ef!important}
+body .rebuilt-cover .rebuilt-cover-dog{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 62%!important;z-index:0!important}
+body .rebuilt-cover::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,rgba(250,249,246,.89),rgba(250,249,246,.12) 34%,rgba(250,249,246,.12) 66%,rgba(250,249,246,.89))}
+body .rebuilt-cover .rebuilt-language{position:relative!important;z-index:2!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:center!important;width:max-content!important;max-width:45%!important;padding:8px!important;gap:8px!important;color:#142032!important;text-decoration:none!important;text-shadow:0 1px 3px #fffc!important}
+body .rebuilt-cover .rebuilt-en{grid-column:1!important;justify-self:start!important;margin-left:clamp(10px,2vw,38px)!important}
+body .rebuilt-cover .rebuilt-es{grid-column:2!important;justify-self:end!important;align-items:flex-end!important;text-align:right!important;margin-right:clamp(10px,2vw,38px)!important}
+body .rebuilt-cover .rebuilt-language strong{font:700 clamp(21px,3.3vw,54px)/.98 Georgia,serif!important;letter-spacing:-.035em!important}
+body .rebuilt-cover .rebuilt-language img{display:block!important;width:clamp(32px,5vw,65px)!important;height:auto!important;aspect-ratio:3/2!important;object-fit:cover!important;border-radius:4px!important;box-shadow:0 1px 4px #0003!important}
+body .rebuilt-cover .rebuilt-language span{font:700 clamp(13px,1.8vw,22px)/1.1 Georgia,serif!important}
+body .rebuilt-cover .rebuilt-language:focus-visible{outline:3px solid #153d65!important;outline-offset:2px!important}
+@media(max-width:700px){body .cover-top.rebuilt-cover{height:clamp(180px,54vw,275px)!important;grid-template-columns:1fr 1fr!important}body .rebuilt-cover .rebuilt-cover-dog{object-position:center 62%!important}body .rebuilt-cover .rebuilt-language{gap:4px!important;max-width:48%!important;padding:3px!important}body .rebuilt-cover .rebuilt-en{margin-left:5px!important}body .rebuilt-cover .rebuilt-es{margin-right:5px!important}body .rebuilt-cover .rebuilt-language strong{font-size:clamp(14px,4vw,23px)!important;letter-spacing:-.04em!important}body .rebuilt-cover .rebuilt-language img{width:clamp(25px,8vw,38px)!important}body .rebuilt-cover .rebuilt-language span{font-size:clamp(11px,3vw,15px)!important}}
 </style>
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css?v=20261028-masthead3"></head>
 <body>
-<div class="cover-top bilingual-cover" aria-label="Choose your language / Elegí tu idioma"><img class="bilingual-cover-image" src="/bulldogfrances-hero-bilingual.webp" alt="French Bulldog with a black eye patch; Frenchi Bulldog, United States flag, English on the left; Bulldog Francés, Spanish flag, Español on the right" width="1672" height="941" fetchpriority="high" /><a class="cover-language cover-language-en" href="/en/" hreflang="en" aria-label="English — French Bulldog"></a><a class="cover-language cover-language-es" href="/es/" hreflang="es" aria-label="Español — Bulldog Francés"></a></div>
+<div class="cover-top bilingual-cover rebuilt-cover" aria-label="Choose your language / Elegí tu idioma">
+<img class="rebuilt-cover-dog" src="/bulldogfrances-hero.webp" alt="White French Bulldog resting with its head on its paws" fetchpriority="high" />
+<a class="rebuilt-language rebuilt-en" href="/en/" hreflang="en" aria-label="English edition"><strong>French<br />Bulldog</strong><img src="/flags/us.svg" alt="" width="54" height="36" /><span>English</span></a>
+<a class="rebuilt-language rebuilt-es" href="/es/" hreflang="es" aria-label="Edición en español"><strong>Bulldog<br />Francés</strong><img src="/flags/es.svg" alt="" width="54" height="36" /><span>Español</span></a>
+</div>
 <main>
 <div class="split hero">
 <section class="half en" lang="en"><a class="hero-area-link" href="/en/" aria-label="Open English edition"></a><h1>Small dog<br>Big personality</h1><p>Thoughtful guides and practical information for a healthier, happier French Bulldog.</p></section>
