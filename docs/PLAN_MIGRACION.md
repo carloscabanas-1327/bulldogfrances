@@ -1,0 +1,1 @@
+Plan: inventariar Blogger, sitemap, Search Console, imágenes y URLs; crear mapeo 301 individual; auditar contenido y fuentes; probar en dominio temporal; respaldar y restaurar antes de cambiar DNS. Estado: pendiente. No hay autorización para reemplazar sitio público.
