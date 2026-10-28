@@ -11,3 +11,9 @@ header img.language-flag,header img.lang-flag{display:inline-block!important;fle
 /* Match inner-page wordmark to the bilingual homepage; keep a stable visual size during navigation. */
 @media(min-width:701px){body header a.logo,body header a.brand{font-size:clamp(18px,2.2vw,29px)!important}}
 @media(max-width:700px){body header a.logo,body header a.brand{font-size:clamp(15px,4vw,20px)!important;letter-spacing:-.025em!important}}
+
+/* 2026-10-28: single masthead geometry across the bilingual cover and all inner pages.
+   Override page-local !important rules, including the cover's more-specific .top selector. */
+body .cover-top header.top,body>header,body header.top{box-sizing:border-box!important;min-height:66px!important;height:66px!important;padding:0 clamp(18px,3.5vw,55px)!important;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:10px!important}
+body .cover-top header.top>a.single-logo,body>header>a.logo,body>header>a.brand{box-sizing:border-box!important;flex:0 1 auto!important;min-width:0!important;font:700 clamp(18px,2.2vw,29px)/1.2 Georgia,'Times New Roman',serif!important;letter-spacing:-.025em!important;white-space:nowrap!important;overflow-wrap:normal!important;text-decoration:none!important;color:#111!important}
+@media(max-width:700px){body .cover-top header.top,body>header,body header.top{min-height:60px!important;height:60px!important;padding:0 12px!important;gap:8px!important}body .cover-top header.top>a.single-logo,body>header>a.logo,body>header>a.brand{font-size:clamp(15px,4vw,20px)!important;line-height:1.2!important;letter-spacing:-.025em!important}body>header>a.brand{overflow-wrap:normal!important}body header nav,body header .top-languages{flex:0 0 auto!important}}
