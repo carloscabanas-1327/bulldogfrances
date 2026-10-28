@@ -234,6 +234,9 @@ img:not(.flag){border-radius:14px} .share-dock{position:fixed;right:18px;bottom:
 /* Mobile fix: remove exposed top gap/white stripe above the photographic masthead. */
 .cover-top{margin-top:0!important}
 @media(max-width:700px){.cover-top{margin-top:0!important}.cover-top .top{margin-top:0!important}.cover-top .wide-dog-banner{top:0!important}}
+
+/* Mobile footer: compact visual spacing while preserving comfortable tap targets */
+@media(max-width:700px){footer nav a,footer .footer-nav a,footer.split>.foot nav a{min-height:40px!important;display:flex!important;align-items:center!important;line-height:1.25!important;padding-top:5px!important;padding-bottom:5px!important}footer nav,footer .footer-nav,footer.split>.foot nav{row-gap:2px!important}footer.split>.foot nav{grid-template-rows:none!important;grid-auto-rows:minmax(40px,auto)!important}}
 </style>
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
 <body>
