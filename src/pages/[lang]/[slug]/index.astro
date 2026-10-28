@@ -53,6 +53,30 @@ h2{font:700 clamp(27px,3vw,40px)/1.16 Georgia,serif;margin:0 0 22px}
 footer{border-top:1px solid #e6e8ec;padding:25px clamp(20px,5vw,72px);color:#555e6b;font-size:14px}
 @media(max-width:700px){.article-grid{grid-template-columns:1fr}.article-art{height:120px}.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){header{padding:14px 17px}.brand{font-size:16px}.switch{padding:9px 11px;font-size:14px}.tiles{grid-template-columns:1fr}.tiles a{min-height:75px}.hero{padding:22px 20px 24px}}
+
+/* Shared editorial shell — identical across language and category pages */
+:root{color-scheme:only light!important;--ink:#202532;--muted:#4e5969;--edge:#e0e4ea}
+body{font-family:Arial,Helvetica,sans-serif!important;font-size:16px!important;line-height:1.5!important}
+header{min-height:74px!important;padding:12px clamp(18px,4vw,56px)!important;display:flex!important;align-items:center!important;justify-content:space-between!important;background:#fff!important;color:var(--ink)!important}
+header .logo,header .brand{font:700 clamp(17px,2vw,23px)/1.2 Georgia,serif!important;letter-spacing:-.02em!important;white-space:nowrap!important;text-decoration:none!important;color:var(--ink)!important}
+header .switch{display:inline-flex!important;align-items:center!important;gap:7px!important;padding:9px 13px!important;border:1px solid #d9dce4!important;border-radius:99px!important;background:#fff!important;color:var(--ink)!important;font:700 14px/1.2 Arial,sans-serif!important;white-space:nowrap!important;text-decoration:none!important}
+header .switch .flag{font-size:14px!important;line-height:1!important;display:inline-block!important}
+.hero{padding:22px clamp(20px,5vw,72px) 24px!important;background:#f5f8fc!important;color:var(--ink)!important}
+.hero h1{font:700 clamp(32px,3.5vw,46px)/1.12 Georgia,serif!important;letter-spacing:-.025em!important;margin:7px 0 9px!important;color:var(--ink)!important}
+.hero .intro,.hero .desc{font:400 clamp(15px,1.35vw,17px)/1.42 Arial,sans-serif!important;color:#444c5b!important;margin:0!important;max-width:790px!important}
+.hero .kicker,.hero .eyebrow{font:700 12px/1.3 Arial,sans-serif!important;letter-spacing:.12em!important;color:#626b7a!important;text-transform:uppercase!important;margin:0!important}
+.content{max-width:1320px!important;margin:auto!important;padding:30px clamp(20px,5vw,72px) 65px!important}
+.content h2{font:700 clamp(25px,2.6vw,35px)/1.16 Georgia,serif!important}
+footer{background:#fff!important;color:var(--ink)!important;border-top:1px solid var(--edge)!important}
+@media(max-width:540px){header{min-height:62px!important;padding:10px 14px!important;gap:8px!important}header .logo,header .brand{font-size:clamp(14px,3.7vw,18px)!important}header .switch{font-size:12px!important;padding:8px 9px!important}.hero{padding:20px 18px 22px!important}.hero h1{font-size:32px!important}.content{padding:24px 16px 48px!important}}
+
+/* Portrait-friendly editorial image ratio and one clean summary */
+.article-art{height:auto!important;aspect-ratio:16/10!important;overflow:hidden!important}
+.article-art img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center center!important}
+.article-body .article-summary{display:-webkit-box!important;-webkit-box-orient:vertical!important;-webkit-line-clamp:4!important;line-clamp:4!important;overflow:hidden!important;font-size:16px!important;line-height:1.5!important;margin:0!important}
+.article-body h3{font-size:clamp(20px,2vw,27px)!important}
+@media(max-width:700px){.article-art{aspect-ratio:4/3!important}}
+.footer-nav{display:flex;flex-wrap:wrap;gap:18px;justify-content:center;margin:16px 0}.footer-nav a{color:inherit}footer{text-align:center!important}
 </style>
 </head>
 <body>
@@ -61,9 +85,9 @@ footer{border-top:1px solid #e6e8ec;padding:25px clamp(20px,5vw,72px);color:#555
 <section class="hero"><p class="eyebrow">{lang==='en'?'French Bulldog · English edition':'Bulldog francés · Edición en español'}</p><h1>{title}</h1><p class="desc">{t.desc}</p></section>
 <section class="content">
 <p class="sample-label">{lang==='en'?'Layout demonstration · Genesis 1 in Latin':'Demostración visual · Génesis 1 en latín'}</p>
-<div class="article-grid">{demoArticles.map(a=><article class="article-card"><div class="article-art"><img src={a.photo} alt="Paisaje ilustrativo de muestra" loading="lazy" /></div><div class="article-body"><h3>{a.title}</h3><p>{a.excerpt}</p><p class="article-extra">{a.body}</p></div></article>)}</div>
+<div class="article-grid">{demoArticles.map(a=><article class="article-card"><div class="article-art"><img src={a.photo} alt="Paisaje ilustrativo de muestra" loading="lazy" /></div><div class="article-body"><h3>{a.title}</h3><p class="article-summary">{a.excerpt} {a.body}</p></div></article>)}</div>
 <p class="article-note">{lang==='en'?'Sample text for layout testing; not French Bulldog editorial articles.':'Textos de muestra para probar el diseño; no son artículos editoriales sobre bulldogs franceses.'}</p>
 <h2>{lang==='en'?'Explore more topics':'Explorar más temas'}</h2><nav class="tiles" aria-label={lang==='en'?'Related topics':'Temas relacionados'}>{Object.entries(t.cats).filter(([k])=>!['about','directory','affiliate-disclosure','privacy','terms',slug].includes(k)).map(([k,v])=><a href={'/'+lang+'/'+k+'/'}>{v}<span aria-hidden="true">→</span></a>)}</nav></section>
 </main>
-<footer>© {new Date().getFullYear()} BulldogFrances.com · {lang==='en'?'Knowledge · Care · Community':'Conocimiento · Cuidado · Comunidad'}</footer>
+<footer><strong>BULLDOGFRANCES.COM</strong><nav class="footer-nav"><a href={'/'+lang+'/'}>{lang==='en'?'Home':'Inicio'}</a><a href={'/'+lang+'/directory/'}>{lang==='en'?'Directory':'Directorio'}</a><a href={'/'+lang+'/about/'}>{lang==='en'?'About':'Acerca de'}</a><a href={'/'+lang+'/privacy/'}>{lang==='en'?'Privacy':'Privacidad'}</a><a href={'/'+lang+'/terms/'}>{lang==='en'?'Terms':'Términos'}</a></nav><p>© {new Date().getFullYear()} BulldogFrances.com. All rights reserved.</p></footer>
 </body></html>
