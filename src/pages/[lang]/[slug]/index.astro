@@ -7,6 +7,12 @@ const dict = {
 };
 
 const t=dict[lang];const title=t.cats[slug];
+const demoArticles=[
+ {n:'01',title:'In principio creavit Deus caelum et terram.',excerpt:'In principio creavit Deus caelum et terram.'},
+ {n:'02',title:'Terra autem erat inanis et vacua.',excerpt:'Et tenebrae erant super faciem abyssi; et spiritus Dei ferebatur super aquas.'},
+ {n:'03',title:'Dixitque Deus: Fiat lux.',excerpt:'Et facta est lux.'},
+ {n:'04',title:'Et vidit Deus lucem quod esset bona.',excerpt:'Et divisit lucem a tenebris.'}
+];
 export function getStaticPaths(){
  const langs=['en','es'];const slugs=['health','nutrition','training','puppies','breed-characteristics','history','genetics','daily-care','news-around-the-world','store','about','directory','affiliate-disclosure','privacy','terms'];
  return langs.flatMap(lang=>slugs.map(slug=>({params:{lang,slug}})));
@@ -31,21 +37,33 @@ header{display:flex;align-items:center;justify-content:space-between;gap:16px;pa
 .eyebrow{font-size:13px;font-weight:700;letter-spacing:.14em;color:#626b7a;text-transform:uppercase;margin:0 0 12px}
 h1{font:700 clamp(40px,5.2vw,72px)/1.08 Georgia,serif;letter-spacing:-.035em;margin:0 0 16px}
 .hero .desc{font-size:clamp(17px,1.8vw,21px);line-height:1.48;max-width:850px;margin:0;color:#444c5b}
-.content{padding:clamp(28px,4vw,48px) clamp(20px,5vw,72px) 60px}
+.content{padding:clamp(25px,3vw,38px) clamp(20px,5vw,72px) 60px}
+.sample-label{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#657084;font-weight:700;margin:0 0 14px}
+.article-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px;margin-bottom:38px}
+.article-card{border:1px solid #e0e4ea;border-radius:15px;overflow:hidden;background:#fff}
+.article-art{height:150px;background:linear-gradient(135deg,#e8eef7,#f7f9fd);display:flex;align-items:center;justify-content:center;color:#697a96;font:700 30px Georgia,serif}
+.article-body{padding:19px 22px 23px}.article-body h3{font:700 clamp(20px,2vw,27px)/1.18 Georgia,serif;margin:0 0 12px}.article-body p{font-size:16px;line-height:1.5;color:#4e5969;margin:0}
+.article-note{font-size:13px;color:#647084;margin:0 0 25px}
+.lang-tag{font:700 10px Arial,sans-serif;letter-spacing:.03em;color:#59677b;vertical-align:middle}
+.flag{font-size:14px;vertical-align:middle}
 h2{font:700 clamp(27px,3vw,40px)/1.16 Georgia,serif;margin:0 0 22px}
 .tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
 .tiles a{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:88px;padding:20px;border:1px solid #e0e4ea;border-radius:14px;background:#fff;text-decoration:none;font-size:18px;font-weight:700}
 .tiles a span{color:#697386}
 footer{border-top:1px solid #e6e8ec;padding:25px clamp(20px,5vw,72px);color:#555e6b;font-size:14px}
-@media(max-width:700px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.article-grid{grid-template-columns:1fr}.article-art{height:120px}.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){header{padding:14px 17px}.brand{font-size:16px}.switch{padding:9px 11px;font-size:14px}.tiles{grid-template-columns:1fr}.tiles a{min-height:75px}.hero{padding:34px 20px}}
 </style>
 </head>
 <body>
-<header><a class="brand" href={'/'+lang+'/'}>BULLDOGFRANCES.COM</a><a class="switch" href={'/'+(lang==='en'?'es':'en')+'/'+slug+'/'}>{lang==='en'?'🇪🇸 Español →':'🇺🇸 English →'}</a></header>
+<header><a class="brand" href={'/'+lang+'/'}>BULLDOGFRANCES.COM</a><a class="switch" href={'/'+(lang==='en'?'es':'en')+'/'+slug+'/'}><span class="flag" aria-hidden="true">{lang==='en'?'🇪🇸':'🇬🇧'}</span><span>{lang==='en'?'ES Español →':'EN English →'}</span></a></header>
 <main>
 <section class="hero"><p class="eyebrow">{lang==='en'?'French Bulldog · English edition':'Bulldog francés · Edición en español'}</p><h1>{title}</h1><p class="desc">{t.desc}</p></section>
-<section class="content"><h2>{lang==='en'?'Explore more topics':'Explorar más temas'}</h2><nav class="tiles" aria-label={lang==='en'?'Related topics':'Temas relacionados'}>{Object.entries(t.cats).filter(([k])=>!['about','directory','affiliate-disclosure','privacy','terms',slug].includes(k)).map(([k,v])=><a href={'/'+lang+'/'+k+'/'}>{v}<span aria-hidden="true">→</span></a>)}</nav></section>
+<section class="content">
+<p class="sample-label">{lang==='en'?'Layout demonstration · Genesis 1 in Latin':'Demostración visual · Génesis 1 en latín'}</p>
+<div class="article-grid">{demoArticles.map(a=><article class="article-card"><div class="article-art" aria-hidden="true">GENESIS · {a.n}</div><div class="article-body"><h3>{a.title}</h3><p>{a.excerpt}</p></div></article>)}</div>
+<p class="article-note">{lang==='en'?'Sample text for layout testing; not French Bulldog editorial articles.':'Textos de muestra para probar el diseño; no son artículos editoriales sobre bulldogs franceses.'}</p>
+<h2>{lang==='en'?'Explore more topics':'Explorar más temas'}</h2><nav class="tiles" aria-label={lang==='en'?'Related topics':'Temas relacionados'}>{Object.entries(t.cats).filter(([k])=>!['about','directory','affiliate-disclosure','privacy','terms',slug].includes(k)).map(([k,v])=><a href={'/'+lang+'/'+k+'/'}>{v}<span aria-hidden="true">→</span></a>)}</nav></section>
 </main>
 <footer>© {new Date().getFullYear()} BulldogFrances.com · {lang==='en'?'Knowledge · Care · Community':'Conocimiento · Cuidado · Comunidad'}</footer>
 </body></html>
