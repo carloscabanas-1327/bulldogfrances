@@ -10,3 +10,7 @@
 /* Keep floating search away from article share controls without shifting page header */
 @media(min-width:701px){body:has(.inline-share) #bf-search{top:auto!important;bottom:22px!important;right:22px!important}}
 @media(max-width:700px){body:has(.inline-share) #bf-search{top:auto!important;bottom:18px!important;right:16px!important}}
+
+/* Strong visible search button outline on pale backgrounds */
+#bf-search .trigger{border:2px solid #36546b!important;background:#ffffff!important;color:#213e56!important;box-shadow:0 3px 12px rgba(16,39,56,.22)!important;outline:1px solid rgba(255,255,255,.7);outline-offset:2px}
+#bf-search .trigger:hover,#bf-search .trigger:focus-visible{border-color:#19364e!important;box-shadow:0 4px 16px rgba(16,39,56,.3)!important}
