@@ -230,6 +230,10 @@ img:not(.flag){border-radius:14px} .share-dock{position:fixed;right:18px;bottom:
 .cover-top .top .top-languages a{display:inline-flex!important;align-items:center!important;gap:6px!important}
 .cover-top .top .top-languages .lang-flag{display:inline-block!important;font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif!important;font-size:20px!important;line-height:1!important;letter-spacing:0!important}
 @media(max-width:700px){.cover-top .top .top-languages .lang-flag{font-size:17px!important}}
+
+/* Mobile fix: remove exposed top gap/white stripe above the photographic masthead. */
+.cover-top{margin-top:0!important}
+@media(max-width:700px){.cover-top{margin-top:0!important}.cover-top .top{margin-top:0!important}.cover-top .wide-dog-banner{top:0!important}}
 </style>
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
 <body>
