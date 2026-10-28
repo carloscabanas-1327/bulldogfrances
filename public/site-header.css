@@ -17,3 +17,13 @@ header img.language-flag,header img.lang-flag{display:inline-block!important;fle
 body .cover-top header.top,body>header,body header.top{box-sizing:border-box!important;min-height:66px!important;height:66px!important;padding:0 clamp(18px,3.5vw,55px)!important;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:10px!important}
 body .cover-top header.top>a.single-logo,body>header>a.logo,body>header>a.brand{box-sizing:border-box!important;flex:0 1 auto!important;min-width:0!important;font:700 clamp(18px,2.2vw,29px)/1.2 Georgia,'Times New Roman',serif!important;letter-spacing:-.025em!important;white-space:nowrap!important;overflow-wrap:normal!important;text-decoration:none!important;color:#111!important}
 @media(max-width:700px){body .cover-top header.top,body>header,body header.top{min-height:60px!important;height:60px!important;padding:0 12px!important;gap:8px!important}body .cover-top header.top>a.single-logo,body>header>a.logo,body>header>a.brand{font-size:clamp(15px,4vw,20px)!important;line-height:1.2!important;letter-spacing:-.025em!important}body>header>a.brand{overflow-wrap:normal!important}body header nav,body header .top-languages{flex:0 0 auto!important}}
+
+/* Final unified wordmark rule: equal computed font metrics on cover, editions, categories and articles. */
+:root{--bf-wordmark-size:clamp(18px,2.2vw,29px)}
+body .cover-top header.top > a.single-logo,
+body > header > a.logo,
+body > header > a.brand,
+body header > a.single-logo,
+body header > a.logo,
+body header > a.brand{font-family:Georgia,'Times New Roman',serif!important;font-size:var(--bf-wordmark-size)!important;font-weight:700!important;line-height:1.2!important;letter-spacing:-.025em!important;text-transform:none!important;white-space:nowrap!important}
+@media(max-width:700px){:root{--bf-wordmark-size:clamp(15px,4vw,20px)}}
