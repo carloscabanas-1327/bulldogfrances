@@ -128,6 +128,9 @@ header .brand{min-width:0!important;overflow-wrap:anywhere!important}
 .inline-share .links .social-icon svg{display:block!important;width:19px!important;height:19px!important;fill:#fff!important;color:#fff!important}.inline-share .links .social-icon svg path{fill:#fff!important}
 
 .legal-document{max-width:850px;margin:0 auto}.legal-section{margin-bottom:28px}.legal-section h2{font:700 clamp(21px,2vw,27px)/1.2 Georgia,serif;margin:0 0 10px}.legal-section p{font:400 16px/1.7 Arial,sans-serif;color:#344052;margin:0}.legal-document a{color:#205780}
+
+/* Mobile footer: compact visual spacing while preserving comfortable tap targets */
+@media(max-width:700px){footer nav a,footer .footer-nav a,footer.split>.foot nav a{min-height:40px!important;display:flex!important;align-items:center!important;line-height:1.25!important;padding-top:5px!important;padding-bottom:5px!important}footer nav,footer .footer-nav,footer.split>.foot nav{row-gap:2px!important}footer.split>.foot nav{grid-template-rows:none!important;grid-auto-rows:minmax(40px,auto)!important}}
 </style>
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
 <body>
