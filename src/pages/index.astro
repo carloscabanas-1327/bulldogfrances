@@ -8,8 +8,7 @@ const sections = [
 {en:'History & Origins',es:'Historia y orígenes',descEn:'The breed through time',descEs:'La historia de la raza',icon:'▤',slug:'history',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
 {en:'Genetics & Breeding',es:'Genética y reproducción',descEn:'Genetics and responsible breeding',descEs:'Genética y cría responsable',icon:'⌘',slug:'genetics',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
 {en:'Daily Care',es:'Cuidados cotidianos',descEn:'Grooming and daily routines',descEs:'Higiene y rutinas',icon:'⌂',slug:'daily-care',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{en:'News Around the World',es:'Noticias del mundo',descEn:'French Bulldog news worldwide',descEs:'Actualidad del bulldog francés en el mundo',icon:'◎',slug:'news-around-the-world',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{en:'BF_STORE',es:'BF_STORE',descEn:'Food, accessories and shopping guides — coming soon',descEs:'Alimentación, accesorios y guías de compra — próximamente',icon:'▣',slug:'store',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'}
+{en:'News Around the World',es:'Noticias del mundo',descEn:'French Bulldog news worldwide',descEs:'Actualidad del bulldog francés en el mundo',icon:'◎',slug:'news-around-the-world',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'}
 ];
 ---
 <!doctype html>
@@ -185,10 +184,16 @@ footer.split>.foot.en,footer.split>.foot.es{background:#fff!important;color:#111
 .top .dog-photo{width:70px!important;height:70px!important;border-width:4px!important}
 .hero>.half{padding-top:43px!important}
 }
+
+/* Compact descriptions and hero vertical spacing */
+.hero>.half{padding-top:42px!important;padding-bottom:16px!important}
+.hero>.half p{line-height:1.35!important;margin-top:10px!important;margin-bottom:14px!important}
+.feature-body p{line-height:1.3!important;margin:5px 0!important}
+@media(max-width:650px){.hero>.half{padding-top:35px!important;padding-bottom:14px!important}.hero>.half p{font-size:clamp(13px,3.3vw,16px)!important;line-height:1.35!important}}
 </style>
 </head>
 <body>
-<header class="top"><div class="mobile-domain">BULLDOGFRANCES.COM</div><a class="brand" href="/en/" aria-label="English — The French Bulldog"><span class="desktop-domain">BULLDOGFRANCES.COM</span><span class="language-name">English →</span><small>THE FRENCH BULLDOG</small></a><a class="brand" href="/es/" aria-label="Español — El Bulldog Francés"><span class="desktop-domain">BULLDOGFRANCES.COM</span><span class="language-name">Español →</span><small>EL BULLDOG FRANCÉS</small></a><div class="dog"><img class="dog-photo" src="https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=320&h=320&fit=crop&crop=faces&auto=format&q=85" alt="Fotografía de un bulldog francés" width="112" height="112" loading="eager" decoding="async"></div></header>
+<header class="top"><div class="mobile-domain">BULLDOGFRANCES.COM</div><a class="brand" href="/en/" aria-label="English — The French Bulldog"><span class="desktop-domain">BULLDOGFRANCES.COM</span><span class="language-name">🇺🇸 English →</span><small>🇺🇸 THE FRENCH BULLDOG</small></a><a class="brand" href="/es/" aria-label="Español — El Bulldog Francés"><span class="desktop-domain">BULLDOGFRANCES.COM</span><span class="language-name">🇪🇸 Español →</span><small>🇪🇸 EL BULLDOG FRANCÉS</small></a><div class="dog"><img class="dog-photo" src="https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=320&h=320&fit=crop&crop=faces&auto=format&q=85" alt="Fotografía de un bulldog francés" width="112" height="112" loading="eager" decoding="async"></div></header>
 <main>
 <div class="split hero">
 <section class="half en" lang="en"><a class="hero-area-link" href="/en/" aria-label="Open English edition"></a><h1>Small dog.<br>Big personality.</h1><p>Thoughtful guides and practical information for a healthier, happier French Bulldog.</p><form class="search" action="/en/" method="get"><input aria-label="Search in English" name="q" placeholder="Search guides…" /><button>Search</button></form></section>
