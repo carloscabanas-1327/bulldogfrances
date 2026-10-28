@@ -1,0 +1,4 @@
+/* Unified site identity on homepage, language editions, categories and articles. */
+body header a.single-logo,body header a.logo,body header a.brand{font-family:Georgia,'Times New Roman',serif!important;font-size:clamp(18px,2.2vw,29px)!important;font-weight:700!important;line-height:1.2!important;letter-spacing:-.025em!important;text-transform:none!important;color:#111!important;text-decoration:none!important;white-space:nowrap!important}
+body header:has(a.single-logo),body>header:has(a.logo),body>header:has(a.brand){box-sizing:border-box!important;min-height:66px!important;padding-left:clamp(18px,3.5vw,55px)!important;padding-right:clamp(18px,3.5vw,55px)!important}
+@media(max-width:700px){body header a.single-logo,body header a.logo,body header a.brand{font-size:clamp(15px,4vw,20px)!important}body header:has(a.single-logo),body>header:has(a.logo),body>header:has(a.brand){min-height:60px!important;padding-left:12px!important;padding-right:12px!important}}
