@@ -1,0 +1,15 @@
+---
+const lang = Astro.params.lang;
+const slug = Astro.params.slug;
+const dict = {
+ en:{home:'Home',back:'Back to bilingual homepage',title:'French Bulldog',desc:'Editorial section under development. Articles will be published after scientific and SEO review.',cats:{health:'Health guides',nutrition:'Nutrition',training:'Training',puppies:'Puppies',about:'About',directory:'Directory','affiliate-disclosure':'Affiliate disclosure',privacy:'Privacy',terms:'Terms of use'}},
+ es:{home:'Inicio',back:'Volver a la portada bilingüe',title:'Bulldog francés',desc:'Sección editorial en preparación. Publicaremos artículos después de la revisión científica y SEO.',cats:{health:'Guías de salud',nutrition:'Alimentación',training:'Educación',puppies:'Cachorros',about:'Acerca de',directory:'Directorio','affiliate-disclosure':'Aviso de afiliación',privacy:'Privacidad',terms:'Términos de uso'}}
+};
+if (!dict[lang] || !dict[lang].cats[slug]) return Astro.redirect('/');
+const t=dict[lang];const title=t.cats[slug];
+export function getStaticPaths(){
+ const langs=['en','es'];const slugs=['health','nutrition','training','puppies','about','directory','affiliate-disclosure','privacy','terms'];
+ return langs.flatMap(lang=>slugs.map(slug=>({params:{lang,slug}})));
+}
+---
+<!doctype html><html lang={lang}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{title} | BulldogFrances.com</title><style>body{margin:0;background:#f8f6f1;color:#203c31;font-family:system-ui}header{padding:20px;display:flex;justify-content:space-between;border-bottom:1px solid #ddd}a{color:inherit}main{max-width:850px;margin:5vh auto;padding:20px}h1{font:clamp(38px,8vw,80px) Georgia,serif}p{font-size:20px;line-height:1.6}.tiles{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.tiles a{padding:20px;border-radius:12px;background:#e3ebe3;text-decoration:none}@media(max-width:500px){.tiles{grid-template-columns:1fr}}</style></head><body><header><a href="/">BULLDOGFRANCES.COM</a><a href={'/'+(lang==='en'?'es':'en')+'/'+slug+'/'}>{lang==='en'?'Español':'English'}</a></header><main><a href="/">{t.back}</a><h1>{title}</h1><p>{t.desc}</p><div class="tiles">{Object.entries(t.cats).slice(0,4).map(([k,v])=><a href={'/'+lang+'/'+k+'/'}>{v} →</a>)}</div></main></body></html>
