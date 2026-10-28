@@ -171,6 +171,20 @@ footer.split>.foot.en,footer.split>.foot.es{background:#fff!important;color:#111
 }
 .feature .photo{overflow:hidden!important;background:#f1f3f5!important}
 .feature .photo img{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit}
+
+/* Compact mobile header: no overlap between language labels and portrait */
+@media(max-width:650px){
+.top{height:130px!important;min-height:130px!important;padding:0!important;align-content:start!important;overflow:visible!important}
+.top .mobile-domain{top:8px!important;font-size:clamp(16px,5vw,23px)!important}
+.top .brand{margin-top:42px!important;min-height:55px!important;align-items:stretch!important;justify-content:center!important}
+.top .brand:first-of-type{padding:0 49px 0 12px!important;text-align:left!important}
+.top .brand:nth-of-type(2){padding:0 12px 0 49px!important;text-align:right!important}
+.top .brand .language-name{font-size:clamp(15px,3.7vw,19px)!important;white-space:nowrap!important}
+.top .brand small{font-size:clamp(8px,2vw,10px)!important;letter-spacing:0!important;white-space:normal!important;line-height:1.15!important}
+.top .dog{top:67px!important;bottom:auto!important;width:70px!important;height:70px!important;z-index:10!important}
+.top .dog-photo{width:70px!important;height:70px!important;border-width:4px!important}
+.hero>.half{padding-top:43px!important}
+}
 </style>
 </head>
 <body>
