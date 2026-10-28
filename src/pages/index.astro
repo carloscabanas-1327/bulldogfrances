@@ -225,10 +225,15 @@ img:not(.flag){border-radius:14px} .share-dock{position:fixed;right:18px;bottom:
 .cover-top{margin:12px clamp(12px,1.5vw,24px) 0!important;border-radius:24px!important;overflow:hidden!important}
 .cover-top .wide-dog-banner{border-radius:24px!important}
 @media(max-width:700px){.cover-top{margin:8px 10px 0!important;border-radius:16px!important}.cover-top .wide-dog-banner{border-radius:16px!important}}
+
+/* Visible desktop language flags beside edition labels */
+.cover-top .top .top-languages a{display:inline-flex!important;align-items:center!important;gap:6px!important}
+.cover-top .top .top-languages .lang-flag{display:inline-block!important;font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif!important;font-size:20px!important;line-height:1!important;letter-spacing:0!important}
+@media(max-width:700px){.cover-top .top .top-languages .lang-flag{font-size:17px!important}}
 </style>
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
 <body>
-<div class="cover-top"><header class="top"><a class="single-logo" href="/" aria-label="BulldogFrances.com — home">BULLDOGFRANCES.COM</a><nav class="top-languages" aria-label="Language editions"><a href="/en/" hreflang="en">English</a><a href="/es/" hreflang="es">Español</a></nav></header>
+<div class="cover-top"><header class="top"><a class="single-logo" href="/" aria-label="BulldogFrances.com — home">BULLDOGFRANCES.COM</a><nav class="top-languages" aria-label="Language editions"><a href="/en/" hreflang="en"><span class="lang-flag" aria-hidden="true">🇺🇸</span> English</a><a href="/es/" hreflang="es"><span class="lang-flag" aria-hidden="true">🇪🇸</span> Español</a></nav></header>
 <div class="wide-dog-banner" role="img" aria-label="Bulldog francés blanco en primer plano"></div></div>
 <main>
 <div class="split hero">
