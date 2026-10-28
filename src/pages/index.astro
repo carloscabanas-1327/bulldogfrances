@@ -265,16 +265,20 @@ body .cover-top header.top{position:absolute!important;inset:0 0 auto!important;
 body .cover-top .wide-dog-banner{inset:0!important;height:100%!important;background-position:center 65%!important}
 @media(max-width:700px){body .cover-top{height:clamp(255px,65vw,340px)!important}body .cover-top header.top{height:78px!important;min-height:78px!important;padding-top:0!important;padding-bottom:16px!important}body .cover-top .wide-dog-banner{background-position:center 65%!important}}
 
-/* Masthead audit: on mobile the two flags previously competed with the wordmark
-   in the same grid row. Give the brand the full first row, left aligned. */
+/* The full wordmark and two language links share one row on mobile.
+   Hide only the language words, preserving accessible links and flags. */
 @media(max-width:700px){
- body .cover-top header.top{display:flex!important;flex-direction:column!important;justify-content:flex-start!important;align-items:flex-start!important;gap:2px!important;padding:10px 12px 0!important;height:92px!important;min-height:92px!important;grid-template-columns:none!important;overflow:visible!important}
- body .cover-top header.top>a.single-logo{display:block!important;width:auto!important;max-width:100%!important;flex:none!important;align-self:flex-start!important;justify-self:start!important;margin:0!important;text-align:left!important;font-size:20px!important;letter-spacing:-.025em!important;line-height:1.2!important}
- body .cover-top header.top>.top-languages{display:flex!important;align-self:flex-start!important;justify-self:start!important;margin:0!important;gap:12px!important;flex:none!important}
- body .cover-top header.top>.top-languages>a{font-size:12px!important}
+ body .cover-top header.top{display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:space-between!important;gap:6px!important;padding:0 12px!important;height:66px!important;min-height:66px!important;overflow:visible!important}
+ body .cover-top header.top>a.single-logo{font-size:clamp(15px,4vw,20px)!important;flex:0 1 auto!important;min-width:0!important;margin:0!important;text-align:left!important;align-self:center!important}
+ body .cover-top header.top>.top-languages{display:flex!important;flex:0 0 auto!important;align-self:center!important;gap:8px!important;margin:0!important}
+ body .cover-top header.top>.top-languages>a{font-size:0!important;gap:0!important;line-height:1!important}
+ body .cover-top header.top>.top-languages .lang-flag{width:22px!important;min-width:22px!important;max-width:22px!important;height:15px!important}
+}
+@media(min-width:701px){
+ body .cover-top header.top>a.single-logo{font-size:clamp(18px,2.2vw,29px)!important;line-height:1.2!important;text-align:left!important;letter-spacing:-.025em!important}
 }
 </style>
-<link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css?v=20261028-masthead2"></head>
+<link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css?v=20261028-masthead3"></head>
 <body>
 <div class="cover-top"><header class="top"><a class="single-logo" href="/" aria-label="BulldogFrances.com — home">BULLDOGFRANCES.COM</a><nav class="top-languages" aria-label="Language editions"><a href="/en/" hreflang="en"><img class="lang-flag" src="/flags/us.svg" alt="" width="25" height="17" /> English</a><a href="/es/" hreflang="es"><img class="lang-flag" src="/flags/es.svg" alt="" width="25" height="17" /> Español</a></nav></header>
 <div class="wide-dog-banner" role="img" aria-label="Bulldog francés blanco en primer plano"></div></div>
