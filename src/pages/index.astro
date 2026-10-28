@@ -140,6 +140,12 @@ footer.split>.foot.en,footer.split>.foot.es{background:#fff!important;color:#111
 .hero .half.es{background:#fffaf0!important;background-image:linear-gradient(#fffaf0,#fffaf0)!important}
 .top,.feature-column .feature,.feature-column.en,.feature-column.es,footer.split>.foot{background:#fff!important;background-image:linear-gradient(#fff,#fff)!important}
 }
+
+/* Keep each hero click target confined to its own language column */
+.split.hero{position:relative;isolation:isolate}
+.split.hero>.half{position:relative!important;isolation:isolate;overflow:hidden}
+.split.hero>.half>.hero-area-link{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;z-index:1!important;display:block!important}
+.split.hero>.half>.search{position:relative!important;z-index:2!important}
 </style>
 </head>
 <body>
