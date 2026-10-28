@@ -237,6 +237,9 @@ img:not(.flag){border-radius:14px} .share-dock{position:fixed;right:18px;bottom:
 
 /* Mobile footer: compact visual spacing while preserving comfortable tap targets */
 @media(max-width:700px){footer nav a,footer .footer-nav a,footer.split>.foot nav a{min-height:40px!important;display:flex!important;align-items:center!important;line-height:1.25!important;padding-top:5px!important;padding-bottom:5px!important}footer nav,footer .footer-nav,footer.split>.foot nav{row-gap:2px!important}footer.split>.foot nav{grid-template-rows:none!important;grid-auto-rows:minmax(40px,auto)!important}}
+
+/* Remove excessive blank space beneath bilingual introduction on small screens. */
+@media(max-width:700px){.split.hero>.half{padding-bottom:20px!important;min-height:0!important}.split.hero>.half>p{min-height:0!important;margin-bottom:0!important}.split.hero>.half>.search{margin-top:10px!important}.split.hero{min-height:0!important}}
 </style>
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
 <body>
