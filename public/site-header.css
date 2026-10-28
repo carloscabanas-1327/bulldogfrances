@@ -7,3 +7,7 @@ body header:has(a.single-logo),body>header:has(a.logo),body>header:has(a.brand){
 header nav a:has(img.language-flag),header nav a:has(img.lang-flag),header a.switch:has(img.language-flag){display:inline-flex!important;align-items:center!important;justify-content:center;gap:8px!important;white-space:nowrap!important;vertical-align:middle!important}
 header img.language-flag,header img.lang-flag{display:inline-block!important;flex:none!important;width:25px!important;height:17px!important;max-width:25px!important;min-width:25px!important;object-fit:cover!important;border-radius:2px!important;box-shadow:0 0 0 1px rgba(0,0,0,.14)!important;vertical-align:middle!important}
 @media(max-width:700px){header nav a:has(img.language-flag),header nav a:has(img.lang-flag){gap:5px!important}header img.language-flag,header img.lang-flag{width:22px!important;min-width:22px!important;max-width:22px!important;height:15px!important}}
+
+/* Match inner-page wordmark to the bilingual homepage; keep a stable visual size during navigation. */
+@media(min-width:701px){body header a.logo,body header a.brand{font-size:clamp(18px,2.2vw,29px)!important}}
+@media(max-width:700px){body header a.logo,body header a.brand{font-size:clamp(15px,4vw,20px)!important;letter-spacing:-.025em!important}}
