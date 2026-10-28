@@ -106,10 +106,31 @@ footer.split>.foot nav a,footer.split>.foot nav a:visited{color:#111!important}
 .hero .half h1,.hero .half p,.hero .half .eyebrow{color:#111!important}
 .feature-column.en,.feature-column.es,.feature-column .feature.en,.feature-column .feature.es,footer.split>.foot.en,footer.split>.foot.es{background:#fff!important;color:#111!important}
 }
+
+/* Prevent browser auto-darkening; maintain pale flag-inspired backgrounds */
+:root,html,body{color-scheme:only light!important}
+.top,.top .brand,.mobile-domain{background:#fff!important;color:#111!important}
+.dog{filter:none!important;isolation:isolate}
+.dog-face{display:grid;place-items:center;width:1.12em;height:1.12em;border-radius:50%;background:#fff!important;box-shadow:0 3px 14px #00000012;line-height:1}
+.hero .half.en{background:#f5f8ff!important;color:#111!important}
+.hero .half.es{background:#fffdf2!important;color:#111!important}
+.hero .half.en h1,.hero .half.en p,.hero .half.en .eyebrow,.hero .half.es h1,.hero .half.es p,.hero .half.es .eyebrow{color:#111!important}
+.feature-column.en,.feature-column .feature.en,.feature-column.es,.feature-column .feature.es{background:#fff!important;color:#111!important}
+footer.split>.foot.en,footer.split>.foot.es{background:#fff!important;color:#111!important}
+.search,.search input{color-scheme:only light!important}
+@media(prefers-color-scheme:dark){
+:root,html,body{color-scheme:only light!important;background:#fff!important;color:#111!important}
+.top,.top .brand,.mobile-domain{background:#fff!important;color:#111!important}
+.hero .half.en{background:#f5f8ff!important;color:#111!important}
+.hero .half.es{background:#fffdf2!important;color:#111!important}
+.hero .half.en h1,.hero .half.en p,.hero .half.en .eyebrow,.hero .half.es h1,.hero .half.es p,.hero .half.es .eyebrow{color:#111!important}
+.feature-column.en,.feature-column .feature.en,.feature-column.es,.feature-column .feature.es,footer.split>.foot.en,footer.split>.foot.es{background:#fff!important;color:#111!important}
+.dog-face{background:#fff!important}
+}
 </style>
 </head>
 <body>
-<header class="top"><div class="mobile-domain">BULLDOGFRANCES.COM</div><a class="brand" href="/en/" aria-label="English — The French Bulldog"><span class="desktop-domain">BULLDOGFRANCES.COM</span><span class="language-name">English →</span><small>THE FRENCH BULLDOG</small></a><a class="brand" href="/es/" aria-label="Español — El Bulldog Francés"><span class="desktop-domain">BULLDOGFRANCES.COM</span><span class="language-name">Español →</span><small>EL BULLDOG FRANCÉS</small></a><div class="dog" aria-hidden="true">🐶</div></header>
+<header class="top"><div class="mobile-domain">BULLDOGFRANCES.COM</div><a class="brand" href="/en/" aria-label="English — The French Bulldog"><span class="desktop-domain">BULLDOGFRANCES.COM</span><span class="language-name">English →</span><small>THE FRENCH BULLDOG</small></a><a class="brand" href="/es/" aria-label="Español — El Bulldog Francés"><span class="desktop-domain">BULLDOGFRANCES.COM</span><span class="language-name">Español →</span><small>EL BULLDOG FRANCÉS</small></a><div class="dog" aria-hidden="true"><span class="dog-face">🐶</span></div></header>
 <main>
 <div class="split hero">
 <section class="half en" lang="en"><a class="hero-area-link" href="/en/" aria-label="Open English edition"></a><div class="eyebrow">The French Bulldog</div><h1>Small dog.<br>Big personality.</h1><p>Thoughtful guides and practical information for a healthier, happier French Bulldog.</p><form class="search" action="/en/" method="get"><input aria-label="Search in English" name="q" placeholder="Search guides…" /><button>Search</button></form></section>
