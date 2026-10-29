@@ -35,7 +35,8 @@ main{width:min(1200px,calc(100% - 32px));margin:0 auto;padding:clamp(12px,2vw,24
 .language-option strong{display:block;font:700 clamp(17px,2.3vw,25px)/1.2 Georgia,serif}
 .language-option span{display:block;font-size:clamp(12px,1.5vw,15px);color:#596674;margin-top:4px}
 .site-footer{width:min(1200px,calc(100% - 32px));margin:0 auto;border-top:1px solid #e5e9ed;padding:25px 16px 32px;text-align:center;color:#576473}
-.site-footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 20px;margin:0 auto 14px}
+.site-footer nav{display:flex;flex-direction:column;align-items:center;gap:12px;margin:0 auto 14px}
+.site-footer .footer-lang-row{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 20px}
 .site-footer a{font-size:14px;text-underline-offset:3px}
 .site-footer small{font-size:12px}
 @media(max-width:550px){.site-header-inner{padding:15px 0}.language-options{grid-template-columns:1fr;max-width:420px}.language-option{justify-content:flex-start}.cover a.en,.cover a.es{width:37%;top:12%;bottom:5%}.cover-brand{font-size:clamp(15px,4vw,22px);padding:5px 9px}.language-intro{padding-top:25px}}
@@ -56,6 +57,6 @@ main{width:min(1200px,calc(100% - 32px));margin:0 auto;padding:clamp(12px,2vw,24
 <a class="language-option" href="/es/" hreflang="es"><img src="/flags/es.svg" width="56" height="37" alt="" /><div><strong>Español</strong><span>Explorar la edición del bulldog francés</span></div></a>
 </nav>
 </main>
-<footer class="site-footer"><nav aria-label="Site links"><a href="/en/about/">About</a><a href="/es/about/">Acerca de</a><a href="/en/contact/">Contact</a><a href="/es/contact/">Contacto</a><a href="/en/privacy/">Privacy</a><a href="/es/privacy/">Privacidad</a><a href="/en/affiliate-disclosure/">Affiliate disclosure</a><a href="/es/affiliate-disclosure/">Aviso de afiliación</a></nav><small>© {new Date().getFullYear()} BulldogFrances.com</small></footer>
+<footer class="site-footer"><nav aria-label="Legal and contact links by language"><div class="footer-lang-row" lang="en" aria-label="English links"><a href="/en/about/">About</a><a href="/en/contact/">Contact</a><a href="/en/privacy/">Privacy</a><a href="/en/affiliate-disclosure/">Affiliate disclosure</a></div><div class="footer-lang-row" lang="es" aria-label="Enlaces en español"><a href="/es/about/">Acerca de</a><a href="/es/contact/">Contacto</a><a href="/es/privacy/">Privacidad</a><a href="/es/affiliate-disclosure/">Aviso de afiliación</a></div></nav><small>© {new Date().getFullYear()} BulldogFrances.com</small></footer>
 </body>
 </html>
