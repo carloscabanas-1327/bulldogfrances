@@ -17,3 +17,6 @@
 
 /* Keep search beside the centered header, not at the viewport edge. */
 @media(min-width:701px){#bf-search{top:calc(16px);right:max(20px,calc((100vw - 1200px)/2 + 142px));bottom:auto}body:has(.inline-share) #bf-search{top:16px!important;bottom:auto!important;right:max(20px,calc((100vw - 1200px)/2 + 142px))!important}}
+
+/* Requested: move desktop search button 60px lower, preserving horizontal alignment. */
+@media(min-width:701px){#bf-search,body:has(.inline-share) #bf-search{top:76px!important;bottom:auto!important}}
