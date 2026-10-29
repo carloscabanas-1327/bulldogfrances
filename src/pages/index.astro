@@ -24,9 +24,9 @@ main{width:min(1200px,calc(100% - 32px));margin:0 auto;padding:clamp(12px,2vw,24
 .cover a{position:absolute;top:12%;bottom:8%;width:32%;z-index:1;border-radius:12px}
 .cover .en{left:0}.cover .es{right:0}
 .cover a:focus-visible{outline:4px solid #214f81;outline-offset:-5px}
-.language-intro{text-align:center;padding:clamp(22px,4vw,42px) 8px 12px}
-.language-intro h1{font:700 clamp(23px,3.4vw,38px)/1.15 Georgia,serif;margin:0 0 10px}
-.language-intro p{font-size:clamp(14px,1.6vw,17px);line-height:1.5;color:#4b5662;margin:0}
+.language-intro{position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:100%;z-index:2;text-align:center;padding:clamp(12px,2vw,22px) 12px;background:linear-gradient(0deg,rgba(255,255,255,.96),rgba(255,255,255,.82));pointer-events:none}
+.language-intro h1{font:700 clamp(18px,2.5vw,30px)/1.15 Georgia,serif;margin:0 0 6px}
+.language-intro p{font-size:clamp(12px,1.3vw,15px);line-height:1.5;color:#4b5662;margin:0}
 .language-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(12px,2vw,22px);margin:20px auto 26px;max-width:920px}
 .language-option{display:flex;align-items:center;justify-content:center;gap:clamp(8px,1.5vw,16px);padding:clamp(14px,2.5vw,24px);border:1px solid #dce2e8;border-radius:16px;text-decoration:none;background:#fafbfd;transition:border-color .15s,background .15s}
 .language-option:hover,.language-option:focus-visible{border-color:#4d7295;background:#f0f6fc;outline-offset:3px}
@@ -37,7 +37,7 @@ main{width:min(1200px,calc(100% - 32px));margin:0 auto;padding:clamp(12px,2vw,24
 .site-footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 20px;margin:0 auto 14px}
 .site-footer a{font-size:14px;text-underline-offset:3px}
 .site-footer small{font-size:12px}
-@media(max-width:550px){.site-header-inner{padding:15px 0}.language-options{grid-template-columns:1fr;max-width:420px}.language-option{justify-content:flex-start}.cover a{width:37%;top:7%;bottom:5%}.language-intro{padding-top:25px}}
+@media(max-width:550px){.site-header-inner{padding:15px 0}.language-options{grid-template-columns:1fr;max-width:420px}.language-option{justify-content:flex-start}.cover a{width:37%;top:7%;bottom:5%}.language-intro{padding:10px 8px}.language-intro h1{font-size:16px}.language-intro p{font-size:11px}}
 </style>
 </head>
 <body>
@@ -47,8 +47,8 @@ main{width:min(1200px,calc(100% - 32px));margin:0 auto;padding:clamp(12px,2vw,24
 <img src="/bulldogfrances-portada-bilingue.webp" width="1671" height="941" alt="French Bulldog with English and Spanish edition labels and flags" fetchpriority="high" />
 <a class="en" href="/en/" hreflang="en" aria-label="Enter English edition"></a>
 <a class="es" href="/es/" hreflang="es" aria-label="Entrar a la edición en español"></a>
-</div>
 <section class="language-intro"><h1>One breed. Two languages. · Una raza. Dos idiomas.</h1><p>Choose your edition · Elegí tu edición para acceder a nuestras guías</p></section>
+</div>
 <nav class="language-options" aria-label="Language editions">
 <a class="language-option" href="/en/" hreflang="en"><img src="/flags/us.svg" width="56" height="37" alt="" /><div><strong>English</strong><span>Explore the French Bulldog edition</span></div></a>
 <a class="language-option" href="/es/" hreflang="es"><img src="/flags/es.svg" width="56" height="37" alt="" /><div><strong>Español</strong><span>Explorar la edición del bulldog francés</span></div></a>
