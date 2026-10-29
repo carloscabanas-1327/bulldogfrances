@@ -43,6 +43,10 @@ export function getStaticPaths(){
 .article-card:has(.inline-share[open]){overflow:visible;position:relative;z-index:20}
 .article-card:has(.inline-share[open]) .article-art img{border-radius:13px 13px 0 0}
 @media(max-width:600px){.inline-share .links{width:180px;min-width:180px}}
+
+/* Restore original discreet icon-only share control; keep colored share links. */
+.inline-share>summary{width:38px;min-width:38px;height:38px;min-height:38px;padding:0;border-radius:50%;font-size:0;gap:0;background:#fff}
+.inline-share>summary::before{content:'↗';font:700 20px/1 Arial,sans-serif}
 </style>
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
 <body>
