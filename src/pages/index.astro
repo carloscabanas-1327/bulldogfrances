@@ -1,259 +1,59 @@
 ---
-const sections = [
-{en:'Health',es:'Salud',descEn:'Prevention and veterinary care',descEs:'Prevención y salud veterinaria',icon:'♡',slug:'health',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{en:'Nutrition',es:'Alimentación',descEn:'Feeding and nutrition',descEs:'Nutrición y dietas',icon:'◉',slug:'nutrition',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{en:'Training & Behavior',es:'Educación y conducta',descEn:'Learning and behavior',descEs:'Aprendizaje y conducta',icon:'✦',slug:'training',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{en:'Puppies',es:'Cachorros',descEn:'Growth and early care',descEs:'Crecimiento y primeros cuidados',icon:'♙',slug:'puppies',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{en:'Breed Characteristics',es:'Características de la raza',descEn:'Appearance and temperament',descEs:'Aspecto y temperamento',icon:'♧',slug:'breed-characteristics',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{en:'History & Origins',es:'Historia y orígenes',descEn:'The breed through time',descEs:'La historia de la raza',icon:'▤',slug:'history',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{en:'Genetics & Breeding',es:'Genética y reproducción',descEn:'Genetics and responsible breeding',descEs:'Genética y cría responsable',icon:'⌘',slug:'genetics',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{en:'Daily Care',es:'Cuidados cotidianos',descEn:'Grooming and daily routines',descEs:'Higiene y rutinas',icon:'⌂',slug:'daily-care',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{en:'News Around the World',es:'Noticias del mundo',descEn:'French Bulldog news worldwide',descEs:'Actualidad del bulldog francés en el mundo',icon:'◎',slug:'news-around-the-world',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'}
-];
 ---
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex,nofollow"><link rel="icon" href="https://www.bulldogfrances.com.ar/favicon.ico" type="image/x-icon"><title>BulldogFrances.com | French Bulldog · Bulldog Francés</title>
-<meta name="theme-color" content="#ffffff"><meta name="color-scheme" content="light"><meta name="description" content="A bilingual French Bulldog editorial portal. Un portal bilingüe dedicado al bulldog francés.">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="theme-color" content="#ffffff" />
+<meta name="description" content="French Bulldog information in English and Spanish. Información sobre el bulldog francés en inglés y español." />
+<title>BulldogFrances.com | French Bulldog · Bulldog Francés</title>
+<link rel="icon" href="https://www.bulldogfrances.com.ar/favicon.ico" type="image/x-icon" />
 <style>
-:root{color-scheme:light;font-family:Arial,Helvetica,sans-serif;color:#1f302a;background:#fff}*{box-sizing:border-box}body{margin:0}a{color:inherit;text-decoration:none}button{font:inherit}
-.top{height:74px;display:grid;grid-template-columns:1fr 1fr;position:relative;z-index:2;background:#fff}.brand{display:flex;flex-direction:column;justify-content:center;text-align:center;gap:3px;font-family:Georgia,serif;font-size:clamp(11px,2.1vw,22px);font-weight:bold;white-space:nowrap}.brand small{font:9px Arial;letter-spacing:2px;font-weight:400}.brand:first-child{padding-right:50px}.brand:nth-child(2){padding-left:50px}.mobile-domain{display:none}.language-name{display:none}.dog{position:absolute;top:24px;left:50%;transform:translateX(-50%);font-size:clamp(66px,13vw,132px);line-height:1;filter:drop-shadow(0 4px 4px #0003);pointer-events:none;z-index:5}
-.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.half{min-width:0;padding:78px clamp(12px,4vw,70px) 24px}.en{background:linear-gradient(155deg,#244a3b,#0d2820);color:#fff}.es{background:linear-gradient(155deg,#f2e7d6,#dfcbb3);color:#352318}.eyebrow{font-size:clamp(8px,1.3vw,12px);letter-spacing:2px;text-transform:uppercase}.hero h1{font:700 clamp(24px,5.5vw,76px)/.98 Georgia,serif;letter-spacing:-.05em;margin:15px 0}.hero p{font-size:clamp(12px,1.7vw,19px);line-height:1.5;max-width:460px}.search{display:flex;background:#fff;border-radius:99px;margin:26px 0 22px;padding:5px;gap:4px}.search input{width:100%;min-width:0;border:0;background:transparent;padding:8px;color:#182d24;outline-offset:4px}.search button{border:0;border-radius:99px;background:#346b55;color:#fff;padding:10px 16px;cursor:pointer}.es .search button{background:#8e6e4e}.cats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}.cats a{text-align:center;font-size:clamp(9px,1.25vw,15px);padding:8px 1px;border-radius:8px}.cats a:hover,.cats a:focus-visible{outline:2px solid currentColor}.cats span{display:block;font-size:clamp(21px,3vw,33px);margin-bottom:7px}
-.feature{display:grid;grid-template-columns:1fr 1.2fr;gap:12px;align-items:center;padding:20px clamp(12px,4vw,70px);min-height:210px}.feature.en{background:#e4ece5;color:#18392e}.feature.es{background:#f5ede1;color:#3b291c}.photo{border-radius:12px;background:linear-gradient(135deg,#a7c8a4,#557960);height:150px;display:grid;place-items:center;font-size:75px}.es .photo{background:linear-gradient(135deg,#e5caa5,#b99874)}.feature h2{font:700 clamp(16px,2.2vw,29px)/1.08 Georgia,serif;margin:8px 0}.feature p{font-size:clamp(10px,1.3vw,15px);line-height:1.4}.feature a{text-decoration:underline;text-underline-offset:4px;font-weight:700;font-size:clamp(11px,1.3vw,15px)}
-.foot{padding:25px clamp(8px,3vw,45px) 30px;text-align:center}.foot strong{font:700 clamp(11px,2vw,19px) Georgia,serif}.foot p{font-size:12px}.foot nav{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:22px}.foot nav a{font-size:clamp(10px,1vw,13px);text-decoration:underline;text-underline-offset:3px}
-@media(max-width:550px){.hero .en{background:linear-gradient(155deg,#315c4a,#1d4033)}.hero h1{text-align:center;text-wrap:balance}.hero .eyebrow{text-align:center}.feature h2{text-align:center;text-wrap:balance}.feature .eyebrow{text-align:center}.top{height:151px;grid-template-rows:45px 79px 27px}.mobile-domain{display:block;grid-column:1/-1;grid-row:1;text-align:center;align-self:center;font:700 clamp(16px,4.4vw,23px) Georgia,serif;letter-spacing:-.02em}.desktop-domain{display:none}.brand{grid-row:2;font-size:0;align-items:center;justify-content:center;gap:7px;min-height:79px;position:relative;z-index:6}.brand:focus-visible{outline:3px solid #2b6955;outline-offset:-3px}.language-name{display:block;font:700 clamp(15px,4vw,19px)/1.15 Arial,Helvetica,sans-serif;color:#1f302a}.brand small{display:block}.top>.brand{width:100%;padding:0 8px!important;justify-self:stretch;align-self:stretch;text-align:center}.top>.brand small,.top>.brand .language-name{width:100%;text-align:center;margin-inline:auto}.brand small{font:700 clamp(11px,2.9vw,14px)/1.15 Arial,Helvetica,sans-serif;letter-spacing:.25px;white-space:normal;text-align:center;max-width:100%;text-wrap:balance}.dog{top:114px;font-size:61px}.half{padding:63px 10px 15px}.hero h1{font-size:clamp(28px,7.1vw,40px);min-height:110px;line-height:1.04;overflow-wrap:break-word}.hero p{font-size:clamp(14px,3.6vw,17px);line-height:1.5;min-height:120px}.eyebrow{font-size:clamp(11px,2.7vw,13px);letter-spacing:.6px;line-height:1.3}.search{margin:12px 0;background:#fff;color:#182d24}.search input{color:#182d24}.search input::placeholder{color:#777;opacity:1}.search input{font-size:clamp(12px,3vw,14px);padding:8px 4px;width:0;flex:1}.search button{padding:9px 7px;font-size:clamp(12px,3vw,14px)}.cats{grid-template-columns:repeat(2,1fr)}.cats a{font-size:clamp(13px,3.3vw,16px);line-height:1.3;padding:11px 1px}.cats span{font-size:clamp(27px,6vw,33px)}.feature{padding:12px 9px;display:block}.photo{height:90px;font-size:48px}.feature h2{font-size:clamp(21px,5.1vw,27px)}.feature p{font-size:clamp(14px,3.4vw,17px)}.feature a{font-size:clamp(13px,3.2vw,16px)}.foot{padding:18px 7px}.foot strong{font-size:clamp(12px,3vw,15px);overflow-wrap:anywhere}.foot p{font-size:clamp(12px,3vw,14px);line-height:1.4}.foot nav{gap:9px;flex-direction:column;align-items:center}.foot nav a{display:block;font-size:clamp(13px,3.3vw,16px);line-height:1.4}}
-.directory{align-items:stretch}.topic-panel{padding:28px clamp(12px,4vw,70px) 38px}.topic-panel h2{font:700 clamp(25px,3.3vw,42px) Georgia,serif;margin:0 0 20px}.topic-list{display:grid;grid-template-columns:1fr;gap:12px}.topic-card{min-width:0;display:flex;align-items:center;gap:14px;padding:15px;background:#fffffff0;color:#1e352a;border-radius:14px;min-height:86px;box-shadow:0 2px 8px #00000012}.topic-card:hover,.topic-card:focus-visible{outline:3px solid #9bbaa8}.topic-icon{width:58px;height:58px;flex:none;display:grid;place-items:center;background:#e2eee5;border-radius:11px;color:#234b38;font-size:34px}.es .topic-icon{background:#efe0c8;color:#6c4b30}.topic-copy{display:flex;flex:1;min-width:0;flex-direction:column;gap:5px}.topic-copy strong{font:700 clamp(17px,2vw,24px)/1.15 Georgia,serif}.topic-copy small{font-size:clamp(13px,1.4vw,16px);line-height:1.35}.topic-arrow{font-size:30px;color:#54725e}@media(max-width:550px){.topic-panel{padding:20px 9px 28px}.topic-panel h2{text-align:center;font-size:clamp(20px,5vw,27px)}.topic-list{gap:9px}.topic-card{padding:9px 7px;gap:7px;min-height:94px;align-items:center}.topic-icon{width:34px;height:48px;font-size:25px}.topic-copy strong{font:700 clamp(14px,3.5vw,18px)/1.2 Arial,Helvetica,sans-serif;overflow-wrap:anywhere}.topic-copy small{font-size:clamp(11px,2.8vw,13px);line-height:1.3}.topic-arrow{font-size:20px}}\n.directory{grid-template-columns:minmax(0,1fr) minmax(0,1fr);width:100%;align-items:stretch}.topic-panel{min-width:0;padding:24px clamp(10px,3vw,48px) 32px}.topic-panel h2{text-align:center;font:700 clamp(20px,3vw,36px) Georgia,serif;margin:0 0 18px}.topic-list{display:flex;flex-direction:column;gap:12px}.topic-card{display:flex;align-items:center;min-width:0;gap:10px;padding:13px;background:#ffffffed;color:#24392e;border-radius:13px;min-height:86px}.topic-icon{display:grid;place-items:center;flex:none;width:44px;height:52px;border-radius:9px;background:#e3eee6;color:#214b38;font-size:28px}.es .topic-icon{background:#eee0cd;color:#6e4d31}.topic-copy{display:flex;flex:1;min-width:0;flex-direction:column;gap:4px}.topic-copy strong{font:700 clamp(15px,1.8vw,23px)/1.15 Georgia,serif;overflow-wrap:anywhere}.topic-copy small{font:clamp(11px,1.25vw,15px)/1.35 Arial,sans-serif}.topic-arrow{flex:none;font-size:25px}@media(max-width:550px){.topic-panel{padding:18px 7px 24px}.topic-panel h2{font-size:clamp(17px,4.4vw,23px);margin-bottom:13px}.topic-list{gap:9px}.topic-card{padding:10px 6px;gap:6px;min-height:90px}.topic-icon{width:27px;height:42px;font-size:21px}.topic-copy strong{font:700 clamp(12px,3.2vw,16px)/1.2 Arial,sans-serif}.topic-copy small{font-size:clamp(10px,2.5vw,12px)}.topic-arrow{font-size:18px}}\n.feature-directory{align-items:stretch}.feature-column{min-width:0;display:flex;flex-direction:column}.feature-column.en{background:#e4ece5;color:#18392e}.feature-column.es{background:#f5ede1;color:#3b291c}.feature-column .feature{flex:1;min-width:0;border-bottom:1px solid #00000013;grid-template-columns:minmax(80px,1fr) minmax(0,1.2fr);padding:20px clamp(12px,3vw,45px)}.feature-column .feature .photo{min-width:0;font-size:clamp(45px,6vw,72px)}.feature-column .feature h2,.feature-column .feature p{overflow-wrap:normal;word-break:normal;hyphens:none}@media(max-width:550px){.feature-column .feature{display:grid;grid-template-columns:minmax(0,0.72fr) minmax(0,1.28fr);align-items:center;gap:7px;padding:12px 7px;min-height:158px}.feature-column .feature .photo{height:82px;font-size:clamp(28px,6vw,42px)}.feature-column .feature h2{text-align:left;font-size:clamp(13px,3.3vw,18px);line-height:1.18}.feature-column .feature .eyebrow{text-align:left;font-size:clamp(9px,2.1vw,11px)}.feature-column .feature p{font-size:clamp(11px,2.6vw,13px);line-height:1.3}.feature-column .feature a{font-size:clamp(10px,2.4vw,12px);overflow-wrap:normal}}\n@media(prefers-color-scheme:dark){:root{color-scheme:light!important}body{background:#fff;color:#1f302a}.hero .en{background:linear-gradient(155deg,#315c4a,#1d4033)!important;color:#fff!important}.hero .es{background:linear-gradient(155deg,#f2e7d6,#dfcbb3)!important;color:#352318!important}.feature-column .feature.en{background:#e4ece5!important;color:#18392e!important}.feature-column .feature.es{background:#f5ede1!important;color:#3b291c!important}.search{background:#fff!important}.search input{background:transparent!important;color:#182d24!important}}\n@media(max-width:550px){.feature-column .feature .eyebrow{display:none!important}.feature-column .feature{min-height:118px;padding-top:8px;padding-bottom:8px}.feature-column .feature h2{margin-top:0;margin-bottom:5px}.feature-column .feature p{margin-top:4px;margin-bottom:5px}.feature-column .feature .photo{height:75px}}\n.feature-column a.feature{text-decoration:none;color:inherit;cursor:pointer}.feature-column a.feature:hover,.feature-column a.feature:focus-visible{outline:2px solid #3c795b;outline-offset:-3px}.feature-column a.feature h2,.feature-column a.feature p{text-decoration:none}\n.hero .half{position:relative}.hero-area-link{position:absolute;inset:0;display:block;z-index:1;color:inherit;text-decoration:none!important;background:transparent!important}.hero-area-link:visited,.hero-area-link:hover,.hero-area-link:active{color:inherit;text-decoration:none;background:transparent}.hero-area-link:focus-visible{outline:3px solid #fff;outline-offset:-5px}.hero .search{position:relative;z-index:2}.foot nav a:visited{color:inherit}@media(max-width:550px){.foot nav{align-items:stretch!important;text-align:left;gap:9px}.foot nav a{position:relative;display:block;padding-left:15px;line-height:1.45;text-align:left}.foot nav a::before{content:"•";position:absolute;left:0;top:0}.foot{padding-left:clamp(10px,3vw,20px);padding-right:clamp(8px,2vw,16px)}.foot nav a{overflow-wrap:anywhere}}\n.feature-column a.feature,.feature-column a.feature:link,.feature-column a.feature:visited{text-decoration:none!important;color:inherit!important}.feature-column a.feature h2,.feature-column a.feature p{text-decoration:none!important}.feature-column a.feature .feature-body{min-width:0}@media(max-width:550px){footer.split .foot{text-align:left!important;padding-left:clamp(12px,3vw,22px)!important;padding-right:8px!important}footer.split .foot>strong,footer.split .foot>p{display:block;text-align:center}footer.split .foot nav{display:flex!important;flex-direction:column!important;flex-wrap:nowrap!important;align-items:stretch!important;justify-content:flex-start!important;gap:8px!important;width:100%;margin:18px 0 0!important;text-align:left!important}footer.split .foot nav a{display:block!important;position:relative;width:100%;padding:0 0 0 16px!important;margin:0!important;text-align:left!important;text-decoration:none!important;line-height:1.45;white-space:normal;overflow-wrap:anywhere}footer.split .foot nav a::before{content:"●"!important;position:absolute;left:0;top:.2em;font-size:9px;line-height:1;color:#000!important}.foot.en nav a::before{filter:drop-shadow(0 0 2px #fff)}}\n.feature-cta{display:inline-block;margin-top:8px;font-weight:700;font-size:clamp(11px,1.3vw,15px);text-decoration:none!important;color:inherit}.feature-column a.feature .feature-cta,.feature-column a.feature:hover .feature-cta,.feature-column a.feature:visited .feature-cta{text-decoration:none!important;color:inherit!important}@media(max-width:550px){.feature-cta{font-size:clamp(10px,2.5vw,12px);line-height:1.3;white-space:normal}}\n.hero .half{display:flex;flex-direction:column;align-items:stretch}.hero .half .search{margin-top:auto!important;margin-bottom:0!important;flex-shrink:0}.hero .half>p{margin-bottom:24px}@media(max-width:550px){.hero .half{padding-bottom:20px}.hero .half .search{margin-top:auto!important;margin-bottom:0!important}.hero .half>p{margin-bottom:24px}}\n
-/* Equal-height bilingual search rows and aligned footer navigation */
-.hero{align-items:stretch}
-.hero>.half{display:flex!important;flex-direction:column!important;min-width:0}
-.hero>.half>.search{margin-top:auto!important;margin-bottom:0!important;flex-shrink:0}
-.hero>.half>p{margin-bottom:24px}
-footer.split{align-items:stretch}
-footer.split>.foot{display:grid;grid-template-rows:auto auto 1fr;align-content:start;min-width:0}
-footer.split>.foot nav{align-self:start}
-.copyright-bar{width:100%;background:#f7f5f0;color:#3b463f;border-top:1px solid #dcded8;padding:18px 16px;text-align:center;font:13px/1.5 Arial,Helvetica,sans-serif}
-@media(max-width:550px){
-.hero>.half{padding-bottom:18px!important}
-.hero>.half>.search{margin-top:auto!important;margin-bottom:0!important}
-footer.split>.foot{padding:20px 12px 22px!important;grid-template-rows: minmax(34px,auto) minmax(42px,auto) 1fr}
-footer.split>.foot nav{display:grid!important;grid-template-columns:minmax(0,1fr)!important;grid-template-rows:repeat(6,minmax(30px,auto))!important;align-items:start!important;justify-items:stretch!important;gap:7px!important;width:100%!important;margin:12px 0 0!important;text-align:left!important}
-footer.split>.foot nav a{display:block!important;position:relative!important;padding:0 0 0 15px!important;text-align:left!important;line-height:1.35!important;text-decoration:none!important;font-size:clamp(12px,3vw,15px)!important;overflow-wrap:anywhere}
-footer.split>.foot nav a::before{content:"●"!important;position:absolute!important;left:0!important;top:.3em!important;color:#000!important;font-size:8px!important;line-height:1!important}
-.copyright-bar{font-size:12px;padding:16px 12px}
-}
-
-/* 2026 light editorial palette — stable even in dark-mode browsers */
-:root{color-scheme:light!important;background:#fff;color:#253a32}
-body{background:#fff;color:#253a32}
-.hero .half.en,.hero .en{background:#d9e9df!important;color:#203f34!important}
-.hero .half.es,.hero .es{background:#f6eadb!important;color:#493629!important}
-.hero .half.en h1,.hero .half.en p,.hero .half.en .eyebrow{color:#203f34!important}
-.hero .half.es h1,.hero .half.es p,.hero .half.es .eyebrow{color:#493629!important}
-.feature-column.en,.feature-column .feature.en{background:#eaf3ed!important;color:#244b3c!important}
-.feature-column.es,.feature-column .feature.es{background:#fff5e8!important;color:#59402c!important}
-.feature-column .feature.en .photo{background:linear-gradient(135deg,#c7e0cd,#94bca2)!important;color:#244b3c!important}
-.feature-column .feature.es .photo{background:linear-gradient(135deg,#f3dec3,#e0bc94)!important;color:#684a30!important}
-footer.split>.foot.en{background:#d9e9df!important;color:#203f34!important}
-footer.split>.foot.es{background:#f6eadb!important;color:#493629!important}
-footer.split>.foot nav{display:flex;flex-wrap:wrap;justify-content:center;align-content:start;gap:10px 16px}
-footer.split>.foot nav a{font-size:clamp(14px,1.35vw,18px)!important;line-height:1.5;text-align:center;text-decoration:none!important}
-footer.split>.foot nav a:hover,footer.split>.foot nav a:focus-visible{text-decoration:underline!important}
-footer.split>.foot nav a:visited{color:inherit!important}
-footer.split>.foot nav a::before{content:none}
-.copyright-bar{background:#f8f8f4!important;color:#46574e!important}
-@media(max-width:550px){
-footer.split>.foot nav{display:grid!important;grid-template-columns:minmax(0,1fr)!important;grid-template-rows:repeat(6,minmax(30px,auto))!important;justify-content:start!important;align-items:start!important;gap:7px!important}
-footer.split>.foot nav a{text-align:left!important;font-size:clamp(12px,3vw,15px)!important}
-footer.split>.foot nav a::before{content:"●"!important;color:#000!important}
-}
-@media(prefers-color-scheme:dark){
-:root{color-scheme:light!important}
-.hero .half.en,.hero .en{background:#d9e9df!important;color:#203f34!important}
-.hero .half.es,.hero .es{background:#f6eadb!important;color:#493629!important}
-.feature-column.en,.feature-column .feature.en{background:#eaf3ed!important;color:#244b3c!important}
-.feature-column.es,.feature-column .feature.es{background:#fff5e8!important;color:#59402c!important}
-footer.split>.foot.en{background:#d9e9df!important;color:#203f34!important}
-footer.split>.foot.es{background:#f6eadb!important;color:#493629!important}
-}
-
-/* Experimental white theme: barely perceptible flag-inspired washes */
-:root,:root[data-theme],html{color-scheme:light!important;background:#fff!important;color:#111!important}
-body,.top,.mobile-domain{background:#fff!important;color:#111!important}
-.top .brand,.top .brand small,.top .language-name{color:#111!important}
-.hero .half.en,.hero .en{background:linear-gradient(145deg,#f4f8ff 0%,#fff 56%,#fff7f8 100%)!important;color:#111!important}
-.hero .half.es,.hero .es{background:linear-gradient(145deg,#fffdf0 0%,#fff 54%,#fff7f7 100%)!important;color:#111!important}
-.hero .half h1,.hero .half p,.hero .half .eyebrow,.hero .half.en h1,.hero .half.en p,.hero .half.en .eyebrow,.hero .half.es h1,.hero .half.es p,.hero .half.es .eyebrow{color:#111!important}
-.feature-column.en,.feature-column .feature.en{background:#fff!important;color:#111!important}
-.feature-column.es,.feature-column .feature.es{background:#fff!important;color:#111!important}
-.feature-column .feature{border-bottom:1px solid #e7e7e7!important}
-.feature-column .feature.en .photo{background:linear-gradient(145deg,#edf5ff,#fff7f8)!important;color:#222!important}
-.feature-column .feature.es .photo{background:linear-gradient(145deg,#fff8dc,#fff0f0)!important;color:#222!important}
-.feature-column .feature h2,.feature-column .feature p,.feature-column .feature .eyebrow,.feature-column .feature .feature-cta{color:#111!important}
-footer.split>.foot.en,footer.split>.foot.es{background:#fff!important;color:#111!important}
-footer.split>.foot{border-top:1px solid #e5e5e5!important}
-footer.split>.foot nav a,footer.split>.foot nav a:visited{color:#111!important}
-.search,.hero .search{background:#fff!important;border:1px solid #d4d4d4!important}
-.search input,.hero .search input{background:transparent!important;color:#111!important}
-.search input::placeholder{color:#666!important}
-.search button{background:#edf2fa!important;color:#111!important}
-.es .search button{background:#fff2dc!important;color:#111!important}
-.copyright-bar{background:#fff!important;color:#111!important;border-top:1px solid #e5e5e5!important}
-@media(prefers-color-scheme:dark){
-:root,html,body{color-scheme:light!important;background:#fff!important;color:#111!important}
-.hero .half.en,.hero .en{background:linear-gradient(145deg,#f4f8ff 0%,#fff 56%,#fff7f8 100%)!important;color:#111!important}
-.hero .half.es,.hero .es{background:linear-gradient(145deg,#fffdf0 0%,#fff 54%,#fff7f7 100%)!important;color:#111!important}
-.hero .half h1,.hero .half p,.hero .half .eyebrow{color:#111!important}
-.feature-column.en,.feature-column.es,.feature-column .feature.en,.feature-column .feature.es,footer.split>.foot.en,footer.split>.foot.es{background:#fff!important;color:#111!important}
-}
-
-/* Prevent browser auto-darkening; maintain pale flag-inspired backgrounds */
-:root,html,body{color-scheme:only light!important}
-.top,.top .brand,.mobile-domain{background:#fff!important;color:#111!important}
-.dog{filter:none!important;isolation:isolate}
-.dog-face{display:grid;place-items:center;width:1.12em;height:1.12em;border-radius:50%;background:#fff!important;box-shadow:0 3px 14px #00000012;line-height:1}
-.hero .half.en{background:#f5f8ff!important;color:#111!important}
-.hero .half.es{background:#fffdf2!important;color:#111!important}
-.hero .half.en h1,.hero .half.en p,.hero .half.en .eyebrow,.hero .half.es h1,.hero .half.es p,.hero .half.es .eyebrow{color:#111!important}
-.feature-column.en,.feature-column .feature.en,.feature-column.es,.feature-column .feature.es{background:#fff!important;color:#111!important}
-footer.split>.foot.en,footer.split>.foot.es{background:#fff!important;color:#111!important}
-.search,.search input{color-scheme:only light!important}
-@media(prefers-color-scheme:dark){
-:root,html,body{color-scheme:only light!important;background:#fff!important;color:#111!important}
-.top,.top .brand,.mobile-domain{background:#fff!important;color:#111!important}
-.hero .half.en{background:#f5f8ff!important;color:#111!important}
-.hero .half.es{background:#fffdf2!important;color:#111!important}
-.hero .half.en h1,.hero .half.en p,.hero .half.en .eyebrow,.hero .half.es h1,.hero .half.es p,.hero .half.es .eyebrow{color:#111!important}
-.feature-column.en,.feature-column .feature.en,.feature-column.es,.feature-column .feature.es,footer.split>.foot.en,footer.split>.foot.es{background:#fff!important;color:#111!important}
-.dog-face{background:#fff!important}
-}
-
-/* Real French bulldog photo, pale backgrounds in all supported themes */
-.dog{width:clamp(76px,11vw,132px);height:clamp(76px,11vw,132px);display:block;filter:none!important}
-.dog-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 30%;border:5px solid #fff;border-radius:50%;background:#fff;box-shadow:0 2px 10px #0002}
-.hero .half.en{background:#f3f7ff!important;background-image:linear-gradient(#f3f7ff,#f3f7ff)!important}
-.hero .half.es{background:#fffaf0!important;background-image:linear-gradient(#fffaf0,#fffaf0)!important}
-.top{background:#fff!important;background-image:linear-gradient(#fff,#fff)!important}
-.feature-column .feature,.feature-column.en,.feature-column.es,footer.split>.foot{background:#fff!important;background-image:linear-gradient(#fff,#fff)!important}
-@media(prefers-color-scheme:dark){
-.hero .half.en{background:#f3f7ff!important;background-image:linear-gradient(#f3f7ff,#f3f7ff)!important}
-.hero .half.es{background:#fffaf0!important;background-image:linear-gradient(#fffaf0,#fffaf0)!important}
-.top,.feature-column .feature,.feature-column.en,.feature-column.es,footer.split>.foot{background:#fff!important;background-image:linear-gradient(#fff,#fff)!important}
-}
-
-/* Keep each hero click target confined to its own language column */
-.split.hero{position:relative;isolation:isolate}
-.split.hero>.half{position:relative!important;isolation:isolate;overflow:hidden}
-.split.hero>.half>.hero-area-link{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;z-index:1!important;display:block!important}
-.split.hero>.half>.search{position:relative!important;z-index:2!important}
-
-/* Mobile header and headline geometry */
-@media(max-width:650px){
-.top{min-height:176px!important;height:176px!important;align-items:start!important;padding-top:52px!important}
-.top .dog{top:auto!important;bottom:-31px!important;left:50%!important;transform:translateX(-50%)!important;width:78px!important;height:78px!important;z-index:4!important}
-.top .dog-photo{border-width:4px!important}
-.hero>.half{padding-top:78px!important}
-.hero>.half h1{text-align:left!important;margin-left:0!important;margin-right:0!important;letter-spacing:-.055em!important}
-.hero>.half.es h1{text-align:left!important}
-}
-
-/* Final mobile geometry: compact header with portrait fully visible */
-@media(max-width:650px){
-.top{height:170px!important;min-height:170px!important;padding:0!important;overflow:visible!important;display:grid!important;grid-template-columns:1fr 1fr!important;align-content:start!important}
-.top .mobile-domain{position:absolute!important;top:15px!important;left:0!important;right:0!important;text-align:center!important}
-.top .brand{margin-top:52px!important;min-height:55px!important}
-.top .dog{position:absolute!important;top:121px!important;bottom:auto!important;left:50%!important;transform:translateX(-50%)!important;width:82px!important;height:82px!important;z-index:20!important;overflow:visible!important}
-.top .dog-photo{width:82px!important;height:82px!important;object-fit:cover!important;border:5px solid white!important}
-.hero>.half{padding-top:75px!important}
-.hero>.half h1{text-align:left!important}
-}
-.feature .photo{overflow:hidden!important;background:#f1f3f5!important}
-.feature .photo img{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit}
-
-/* Compact mobile header: no overlap between language labels and portrait */
-@media(max-width:650px){
-.top{height:130px!important;min-height:130px!important;padding:0!important;align-content:start!important;overflow:visible!important}
-.top .mobile-domain{top:8px!important;font-size:clamp(16px,5vw,23px)!important}
-.top .brand{margin-top:42px!important;min-height:55px!important;align-items:stretch!important;justify-content:center!important}
-.top .brand:first-of-type{padding:0 49px 0 12px!important;text-align:left!important}
-.top .brand:nth-of-type(2){padding:0 12px 0 49px!important;text-align:right!important}
-.top .brand .language-name{font-size:clamp(15px,3.7vw,19px)!important;white-space:nowrap!important}
-.top .brand small{font-size:clamp(8px,2vw,10px)!important;letter-spacing:0!important;white-space:normal!important;line-height:1.15!important}
-.top .dog{top:67px!important;bottom:auto!important;width:70px!important;height:70px!important;z-index:10!important}
-.top .dog-photo{width:70px!important;height:70px!important;border-width:4px!important}
-.hero>.half{padding-top:43px!important}
-}
-
-/* Compact descriptions and hero vertical spacing */
-.hero>.half{padding-top:42px!important;padding-bottom:16px!important}
-.hero>.half p{line-height:1.35!important;margin-top:10px!important;margin-bottom:14px!important}
-.feature-body p{line-height:1.3!important;margin:5px 0!important}
-@media(max-width:650px){.hero>.half{padding-top:35px!important;padding-bottom:14px!important}.hero>.half p{font-size:clamp(13px,3.3vw,16px)!important;line-height:1.35!important}}
-
-/* Consistent rounded imagery and universal share control */
-img:not(.flag){border-radius:14px} .share-dock{position:fixed;right:18px;bottom:22px;z-index:1000;font-family:Arial,sans-serif}.share-toggle{border:1px solid #b9c5d6;border-radius:999px;background:#fff;color:#27354a;padding:12px 18px;font:700 15px Arial,sans-serif;box-shadow:0 3px 18px #0002;cursor:pointer}.share-menu{position:absolute;bottom:calc(100% + 9px);right:0;width:220px;background:#fff;color:#27354a;border:1px solid #d5dce7;border-radius:14px;box-shadow:0 10px 32px #0002;padding:8px;display:none}.share-dock[data-open="true"] .share-menu{display:block}.share-menu a,.share-menu button{display:block;width:100%;text-align:left;background:transparent;border:0;color:#27354a;text-decoration:none;font:15px Arial,sans-serif;padding:11px 13px;border-radius:8px;cursor:pointer}.share-menu a:hover,.share-menu button:hover{background:#f0f4fa}@media(max-width:600px){.share-dock{right:12px;bottom:80px}.share-toggle{padding:10px 13px;font-size:13px}}
-.share-dock,.sharebox{position:static!important;box-shadow:none!important}.inline-share{position:relative;display:inline-block;flex-shrink:0}.inline-share summary{cursor:pointer;border:1px solid #ccd5e1;border-radius:25px;padding:6px 10px;background:#fff;color:#34445b;font:600 12px Arial;list-style:none}.inline-share .links{position:absolute;right:0;top:100%;min-width:175px;background:#fff;border:1px solid #ccd5e1;border-radius:10px;padding:8px;z-index:30;box-shadow:0 6px 20px #0002}.inline-share .links a{display:block;padding:8px;color:#34445b;text-decoration:none;font:14px Arial}.heading-share{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}.heading-share h1,.heading-share h3{flex:1;min-width:0}
-/* Full-width light photo banner: no floating image or oversized white card */
-.wide-dog-banner{width:100%;height:clamp(170px,19vw,250px);background-color:#f0eee9;background-image:url('/bulldogfrances-hero.webp');background-position:center 42%;background-size:cover;background-repeat:no-repeat;overflow:hidden}
-.hero .half{padding-top:clamp(24px,3vw,42px)!important}
-@media(max-width:700px){.wide-dog-banner{height:150px;background-position:center 40%}.hero .half{padding-top:25px!important}}
-
-/* Unified photographic masthead: original approved dog, title overlays, raised face */
-.cover-top{height:clamp(235px,23vw,325px);position:relative;isolation:isolate;overflow:hidden;background:#f1eee9}
-.cover-top .wide-dog-banner{position:absolute;inset:0;width:100%;height:100%;z-index:0;background-image:url('/bulldogfrances-hero.webp')!important;background-size:cover!important;background-position:center 67%!important;background-repeat:no-repeat!important}
-.cover-top .top{position:relative!important;z-index:2!important;height:auto!important;min-height:92px!important;background:transparent!important;background-image:none!important;align-items:start!important;padding-top:18px!important}
-.cover-top .top .brand{color:#151515!important;text-shadow:0 1px 10px rgba(255,255,255,.92),0 0 3px #fff;min-width:0!important}
-.cover-top .top .brand small{color:#252525!important}
-.cover-top .top .mobile-domain{color:#151515!important}
-.hero .half{padding-top:clamp(18px,2.5vw,30px)!important}
-@media(max-width:700px){.cover-top{height:clamp(205px,46vw,280px)!important}.cover-top .wide-dog-banner{background-position:center 68%!important}.cover-top .top{padding-top:10px!important;min-height:75px!important}.cover-top .top .brand{font-size:clamp(11px,2.5vw,16px)!important}.hero .half{padding-top:18px!important}}
-
-/* One restrained left-aligned site title, matching interior pages */
-.cover-top .top{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:16px!important;min-height:66px!important;height:66px!important;padding:0 clamp(18px,3.5vw,55px)!important;background:rgba(255,255,255,.9)!important;background-image:none!important;box-sizing:border-box!important}
-.cover-top .top .single-logo{font-family:Georgia,serif;font-size:clamp(18px,2.2vw,29px);font-weight:700;letter-spacing:-.025em;color:#111;text-decoration:none;white-space:nowrap}
-.cover-top .top .top-languages{display:flex;align-items:center;gap:18px;font:600 13px Arial,sans-serif;color:#31495a}
-.cover-top .top .top-languages a{text-decoration:none;white-space:nowrap}
-.cover-top .top .top-languages a:hover{text-decoration:underline}
-@media(max-width:700px){.cover-top .top{height:60px!important;min-height:60px!important;padding:0 12px!important;gap:8px!important}.cover-top .top .single-logo{font-size:clamp(15px,4vw,20px)}.cover-top .top .top-languages{gap:9px;font-size:11px}}
-
-/* Match bilingual landing headlines to the interior edition headline scale */
-.split.hero .half h1,.hero.split .half h1{font-family:Georgia,serif!important;font-size:clamp(34px,4vw,62px)!important;line-height:1.08!important;letter-spacing:-.035em!important;font-weight:700!important;margin:12px 0 16px!important}
-@media(max-width:700px){.split.hero .half h1,.hero.split .half h1{font-size:clamp(30px,7vw,46px)!important;line-height:1.1!important}}
-
-/* Rounded corners only on the existing original homepage photograph */
-.cover-top{margin:12px clamp(12px,1.5vw,24px) 0!important;border-radius:24px!important;overflow:hidden!important}
-.cover-top .wide-dog-banner{border-radius:24px!important}
-@media(max-width:700px){.cover-top{margin:8px 10px 0!important;border-radius:16px!important}.cover-top .wide-dog-banner{border-radius:16px!important}}
-
-/* Visible desktop language flags beside edition labels */
-.cover-top .top .top-languages a{display:inline-flex!important;align-items:center!important;gap:6px!important}
-.cover-top .top .top-languages .lang-flag{display:inline-block!important;font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif!important;font-size:20px!important;line-height:1!important;letter-spacing:0!important}
-@media(max-width:700px){.cover-top .top .top-languages .lang-flag{font-size:17px!important}}
-
-/* Mobile fix: remove exposed top gap/white stripe above the photographic masthead. */
-.cover-top{margin-top:0!important}
-@media(max-width:700px){.cover-top{margin-top:0!important}.cover-top .top{margin-top:0!important}.cover-top .wide-dog-banner{top:0!important}}
-
-/* Mobile footer: compact visual spacing while preserving comfortable tap targets */
-@media(max-width:700px){footer nav a,footer .footer-nav a,footer.split>.foot nav a{min-height:40px!important;display:flex!important;align-items:center!important;line-height:1.25!important;padding-top:5px!important;padding-bottom:5px!important}footer nav,footer .footer-nav,footer.split>.foot nav{row-gap:2px!important}footer.split>.foot nav{grid-template-rows:none!important;grid-auto-rows:minmax(40px,auto)!important}}
+:root{font-family:Arial,Helvetica,sans-serif;color:#1c2b38;background:#fff;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;min-width:0}
+a{color:inherit}
+.site-header{width:100%;border-bottom:1px solid #e6e9ed;background:#fff}
+.site-header-inner{max-width:1320px;margin:auto;padding:18px clamp(16px,3vw,32px)}
+.site-name{font:700 clamp(19px,2.2vw,27px)/1.15 Georgia,serif;letter-spacing:-.025em;text-decoration:none;overflow-wrap:anywhere}
+main{max-width:1320px;margin:0 auto;padding:clamp(12px,2vw,24px)}
+.cover{position:relative;border-radius:clamp(12px,2vw,24px);overflow:hidden;background:#f2efeb}
+.cover img{display:block;width:100%;height:auto}
+.cover a{position:absolute;top:12%;bottom:8%;width:32%;z-index:1;border-radius:12px}
+.cover .en{left:0}.cover .es{right:0}
+.cover a:focus-visible{outline:4px solid #214f81;outline-offset:-5px}
+.language-intro{text-align:center;padding:clamp(22px,4vw,42px) 8px 12px}
+.language-intro h1{font:700 clamp(23px,3.4vw,38px)/1.15 Georgia,serif;margin:0 0 10px}
+.language-intro p{font-size:clamp(14px,1.6vw,17px);line-height:1.5;color:#4b5662;margin:0}
+.language-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(12px,2vw,22px);margin:20px auto 26px;max-width:920px}
+.language-option{display:flex;align-items:center;justify-content:center;gap:clamp(8px,1.5vw,16px);padding:clamp(14px,2.5vw,24px);border:1px solid #dce2e8;border-radius:16px;text-decoration:none;background:#fafbfd;transition:border-color .15s,background .15s}
+.language-option:hover,.language-option:focus-visible{border-color:#4d7295;background:#f0f6fc;outline-offset:3px}
+.language-option img{width:clamp(34px,5vw,56px);height:auto;aspect-ratio:3/2;border-radius:4px}
+.language-option strong{display:block;font:700 clamp(17px,2.3vw,25px)/1.2 Georgia,serif}
+.language-option span{display:block;font-size:clamp(12px,1.5vw,15px);color:#596674;margin-top:4px}
+.site-footer{border-top:1px solid #e5e9ed;padding:25px 16px 32px;text-align:center;color:#576473}
+.site-footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 20px;margin:0 auto 14px}
+.site-footer a{font-size:14px;text-underline-offset:3px}
+.site-footer small{font-size:12px}
+@media(max-width:550px){.site-header-inner{padding:15px 14px}.language-options{grid-template-columns:1fr;max-width:420px}.language-option{justify-content:flex-start}.cover a{width:37%;top:7%;bottom:5%}.language-intro{padding-top:25px}}
 </style>
-<link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
+</head>
 <body>
-<div class="cover-top"><header class="top"><a class="single-logo" href="/" aria-label="BulldogFrances.com — home">BULLDOGFRANCES.COM</a><nav class="top-languages" aria-label="Language editions"><a href="/en/" hreflang="en"><img class="lang-flag" src="/flags/us.svg" alt="" width="25" height="17" /> English</a><a href="/es/" hreflang="es"><img class="lang-flag" src="/flags/es.svg" alt="" width="25" height="17" /> Español</a></nav></header>
-<div class="wide-dog-banner" role="img" aria-label="Bulldog francés blanco en primer plano"></div></div>
+<header class="site-header"><div class="site-header-inner"><a class="site-name" href="/">BULLDOGFRANCES.COM</a></div></header>
 <main>
-<div class="split hero">
-<section class="half en" lang="en"><a class="hero-area-link" href="/en/" aria-label="Open English edition"></a><h1>Small dog<br>Big personality</h1><p>Thoughtful guides and practical information for a healthier, happier French Bulldog.</p></section>
-<section class="half es" lang="es"><a class="hero-area-link" href="/es/" aria-label="Abrir edición en español"></a><h1>Pequeño perro<br>Gran carácter</h1><p>Guías rigurosas e información práctica para cuidar mejor a tu bulldog francés.</p></section>
+<div class="cover" aria-label="Choose your language / Elegí tu idioma">
+<img src="/bulldogfrances-portada-bilingue.webp" width="1671" height="941" alt="French Bulldog with English and Spanish edition labels and flags" fetchpriority="high" />
+<a class="en" href="/en/" hreflang="en" aria-label="Enter English edition"></a>
+<a class="es" href="/es/" hreflang="es" aria-label="Entrar a la edición en español"></a>
 </div>
-<div class="split feature-directory">
-<div class="feature-column en" lang="en">{sections.map((s,i)=><a class="feature en" href={'/en/'+s.slug+'/'} aria-label={'Explore '+s.en}><div class="photo"><img src={s.photo} alt={s.en==='BF_STORE'?'Dog and pet products':'French Bulldog editorial topic'} loading="lazy" decoding="async" /></div><div class="feature-body"><h2>{s.en}</h2><p>{s.descEn}</p><span class="feature-cta">Explore section →</span></div></a>)}</div>
-<div class="feature-column es" lang="es">{sections.map((s,i)=><a class="feature es" href={'/es/'+s.slug+'/'} aria-label={'Explorar '+s.es}><div class="photo"><img src={s.photo} alt={s.en==='BF_STORE'?'Dog and pet products':'French Bulldog editorial topic'} loading="lazy" decoding="async" /></div><div class="feature-body"><h2>{s.es}</h2><p>{s.descEs}</p><span class="feature-cta">Explorar sección →</span></div></a>)}</div>
-</div>
+<section class="language-intro"><h1>One breed. Two languages.</h1><p>Choose your edition · Elegí tu edición</p></section>
+<nav class="language-options" aria-label="Language editions">
+<a class="language-option" href="/en/" hreflang="en"><img src="/flags/us.svg" width="56" height="37" alt="" /><div><strong>English</strong><span>Explore the French Bulldog edition</span></div></a>
+<a class="language-option" href="/es/" hreflang="es"><img src="/flags/es.svg" width="56" height="37" alt="" /><div><strong>Español</strong><span>Explorar la edición del bulldog francés</span></div></a>
+</nav>
 </main>
-<footer class="split"><div class="foot en" lang="en"><strong>BULLDOGFRANCES.COM</strong><p>Knowledge · Care · Community</p><nav aria-label="English legal and site links"><a href="/en/">Home</a><a href="/en/about/">About</a><a href="/en/contact/">Contact</a><a href="/en/directory/">Directory</a><a href="/en/affiliate-disclosure/">Affiliate Disclosure</a><a href="/en/privacy/">Privacy</a><a href="/en/terms/">Terms</a></nav></div><div class="foot es" lang="es"><strong>BULLDOGFRANCES.COM</strong><p>Conocimiento · Cuidado · Comunidad</p><nav aria-label="Enlaces legales y del sitio"><a href="/es/">Inicio</a><a href="/es/about/">Acerca de</a><a href="/es/contact/">Contacto</a><a href="/es/directory/">Directorio</a><a href="/es/affiliate-disclosure/">Aviso de afiliación</a><a href="/es/privacy/">Privacidad</a><a href="/es/terms/">Términos</a></nav></div></footer>
-<div class="copyright-bar" lang="en">© <span id="copyright-year">{new Date().getFullYear()}</span> BulldogFrances.com. All rights reserved.</div>
-<script is:inline>document.getElementById("copyright-year").textContent = new Date().getFullYear();</script>
-<script is:inline>document.querySelectorAll('.inline-share').forEach(d=>{const url=new URL(d.dataset.url||location.pathname,location.origin).href,u=encodeURIComponent(url),t=encodeURIComponent(d.dataset.title||document.title);d.querySelector('.fb').href='https://www.facebook.com/sharer/sharer.php?u='+u;d.querySelector('.wa').href='https://api.whatsapp.com/send?text='+t+'%20'+u;d.querySelector('.mail').href='mailto:?subject='+t+'&body='+u;d.querySelector('.pin').href='https://pinterest.com/pin/create/button/?url='+u+'&description='+t;d.querySelector('.copy').onclick=e=>{e.preventDefault();navigator.clipboard.writeText(url).then(()=>e.target.textContent='Copied').catch(()=>prompt('Copy link',url))}});</script><script is:inline src="/search.js"></script></body>
+<footer class="site-footer"><nav aria-label="Site links"><a href="/en/about/">About</a><a href="/es/about/">Acerca de</a><a href="/en/contact/">Contact</a><a href="/es/contact/">Contacto</a><a href="/en/privacy/">Privacy</a><a href="/es/privacy/">Privacidad</a><a href="/en/affiliate-disclosure/">Affiliate disclosure</a><a href="/es/affiliate-disclosure/">Aviso de afiliación</a></nav><small>© {new Date().getFullYear()} BulldogFrances.com</small></footer>
+</body>
 </html>
