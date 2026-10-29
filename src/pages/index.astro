@@ -315,6 +315,11 @@ body .final-cover .final-cover-link:focus-visible{outline:3px solid #234b76!impo
 
 /* Five-pixel breathing room above the rounded hero image. */
 body .cover-top{margin-top:5px!important}
+
+/* Responsive approved banner: constrain desktop dimensions; fluid on phones. */
+body .cover-top.bilingual-cover.final-cover{box-sizing:border-box!important;display:block!important;width:calc(100% - 24px)!important;max-width:1280px!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;margin:6px auto 0!important;overflow:hidden!important}
+body .cover-top.final-cover .final-cover-image{display:block!important;position:static!important;width:100%!important;max-width:100%!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important}
+@media(max-width:700px){body .cover-top.bilingual-cover.final-cover{width:calc(100% - 20px)!important;max-width:none!important;margin:6px auto 0!important;height:auto!important;aspect-ratio:auto!important}}
 </style>
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css?v=20261028-masthead3"></head>
 <body>
