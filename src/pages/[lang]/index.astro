@@ -123,14 +123,26 @@ img:not(.flag){border-radius:14px} .share-dock{position:fixed;right:18px;bottom:
 body>header{width:100%!important;padding:0!important;min-height:0!important;display:block!important}
 body>header>.header-inner{width:100%;max-width:1250px;margin:0 auto;padding:14px clamp(16px,2vw,26px);min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:16px;box-sizing:border-box}
 @media(max-width:620px){body>header>.header-inner{min-height:58px;padding:10px 16px;gap:8px}}
+
+/* Single centered page surface: header, blue hero and footer dividers align with the editorial grid. */
+.edition-shell{width:100%;max-width:1250px;margin:0 auto;background:#fff;min-width:0}
+.edition-shell>header,.edition-shell>main,.edition-shell>footer{width:100%;max-width:100%;box-sizing:border-box}
+.edition-shell>header{padding:0!important;min-height:0!important;display:block!important}
+.edition-shell>header>.header-inner{max-width:100%;width:100%}
+.edition-shell .hero{width:100%;max-width:100%;box-sizing:border-box}
+.edition-shell .content{width:100%;max-width:100%!important;box-sizing:border-box}
+.edition-shell>footer{box-sizing:border-box}
+@media(min-width:1251px){.edition-shell{border-left:1px solid #eef0f3;border-right:1px solid #eef0f3}}
 </style>
 <!-- Redeploy bilingual news and category updates -->
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
 <body>
+<div class="edition-shell">
 <header><div class="header-inner"><a class="logo" href="/">BULLDOGFRANCES.COM</a><nav aria-label={en?'Language navigation':'Navegación de idioma'}><a class="switch" href={en?'/es/':'/en/'} hreflang={en?'es':'en'}><img class="language-flag" src={en?"/flags/es.svg":"/flags/us.svg"} alt="" width="25" height="17" /> {en?'Español →':'English →'}</a></nav></div></header>
 <main>
 <section class="hero"><div class="hero-inner"><div class="kicker">{en?'English edition':'Edición en español'}</div><h1>{en?'Everything French Bulldog':'Todo sobre el bulldog francés'}</h1><p class="intro">{en?'Health, nutrition, training and everyday life — useful guides for people who love French Bulldogs.':'Salud, alimentación, educación y vida cotidiana: guías útiles para quienes aman al bulldog francés.'}</p></div></section>
 <section class="content"><nav class="grid" aria-label={en?'Topics':'Temas'}>{sections.map(s=><a class="tile" href={base+s.slug+'/'}><img class="tile-photo" src={s.photo} alt={en?`French Bulldog photo illustrating ${s.en}`:`Fotografía de bulldog francés para ${s.es}`} loading="lazy" decoding="async" /><span class="tile-content"><span class="icon" aria-hidden="true">{s.icon}</span><strong>{en?s.en:s.es}</strong><span class="desc">{en?s.descEn:s.descEs}</span><span class="arrow">{en?'Explore section →':'Explorar sección →'}</span></span></a>)}</nav></section>
 </main>
 <footer><nav><a href={base}>{en?'Home':'Inicio'}</a><a href={base+'about/'}>{en?'About':'Acerca de'}</a><a href={base+'contact/'}>{en?'Contact':'Contacto'}</a><a href={base+'directory/'}>{en?'Directory':'Directorio'}</a><a href={base+'affiliate-disclosure/'}>{en?'Affiliate disclosure':'Aviso de afiliación'}</a><a href={base+'privacy/'}>{en?'Privacy':'Privacidad'}</a><a href={base+'terms/'}>{en?'Terms':'Términos'}</a></nav><p>{en?'Independent editorial guide to French Bulldogs':'Guía editorial independiente sobre el bulldog francés'}</p><p class="copyright">© {new Date().getFullYear()} BulldogFrances.com. All rights reserved.</p></footer>
+</div>
 <script is:inline>document.querySelectorAll('.inline-share').forEach(d=>{const url=new URL(d.dataset.url||location.pathname,location.origin).href,u=encodeURIComponent(url),t=encodeURIComponent(d.dataset.title||document.title);d.querySelector('.fb').href='https://www.facebook.com/sharer/sharer.php?u='+u;d.querySelector('.wa').href='https://api.whatsapp.com/send?text='+t+'%20'+u;d.querySelector('.mail').href='mailto:?subject='+t+'&body='+u;d.querySelector('.pin').href='https://pinterest.com/pin/create/button/?url='+u+'&description='+t;d.querySelector('.copy').onclick=e=>{e.preventDefault();navigator.clipboard.writeText(url).then(()=>e.target.textContent='Copied').catch(()=>prompt('Copy link',url))}});</script><script is:inline src="/search.js"></script></body></html>
