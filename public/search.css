@@ -23,3 +23,6 @@
 
 /* Desktop adjustment: search 60px farther right. */
 @media(min-width:701px){#bf-search,body:has(.inline-share) #bf-search{right:max(20px,calc((100vw - 1200px)/2 + 82px))!important}}
+
+/* Fine tune desktop search 15px to the right. */
+@media(min-width:701px){#bf-search,body:has(.inline-share) #bf-search{right:max(20px,calc((100vw - 1200px)/2 + 67px))!important}}
