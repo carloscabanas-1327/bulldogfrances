@@ -1,16 +1,6 @@
 ---
-import { readFileSync } from 'node:fs';
-import { join } from 'node:path';
-import collection from '../../../../editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/COLLECTION_INDEX.json';
-const root = 'editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028';
-export function getStaticPaths() {
-  return collection.articles.map(article => ({
-    params: { slug: article.folder },
-    props: { article, html: readFileSync(join(process.cwd(), root, article.folder, 'ARTICLE.html'), 'utf8') }
-  }));
-}
-const { article, html } = Astro.props;
-const title = article.folder.replaceAll('-', ' ').replace(/\b\w/g, c => c.toUpperCase());
-const cleanHtml = html.replace(/<!--[\s\S]*?-->/g, '').replace(/<article\b[^>]*>/i, '').replace(/<\/article>/i, '').replace(/<li[^>]*data-mpf-related-slug="([^"]+)"[^>]*>[\s\S]*?<\/li>/g, (_,slug) => '<li><a href="/en/guides/'+slug+'/">'+slug.replaceAll('-',' ')+'</a></li>');
+import {guides,guideUrl} from '../../../data/frenchBulldogGuides.js';
+export function getStaticPaths(){return guides.map(a=>({params:{slug:a.folder},props:{url:guideUrl(a)}}))}
+const {url}=Astro.props;
+return Astro.redirect(url,301);
 ---
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{title} | BulldogFrances.com</title><meta name="description" content={'Editorial working draft: '+title+'. For educational review only.'}><style>body{margin:0;background:#f6f7f8;color:#1b2937;font:16px/1.75 system-ui,sans-serif}header,main,footer{max-width:900px;margin:auto;padding:20px}header{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;border-bottom:1px solid #dce2e7}a{color:#1a527c}h1,h2,h3{font-family:Georgia,serif;line-height:1.3}h1{font-size:clamp(28px,4vw,42px)}h2{margin-top:36px}main{background:white;border-radius:12px;margin-top:20px;padding:clamp(20px,4vw,44px);box-sizing:border-box}main p,main li{max-width:75ch}.notice{background:#fff5d8;border-left:4px solid #b48b32;padding:14px 18px;border-radius:6px}.source{font-size:13px;color:#586875}nav[aria-label="In this guide"]{background:#f3f6f8;padding:16px;border-radius:10px}footer{margin-top:30px;border-top:1px solid #ddd}li{overflow-wrap:anywhere}</style></head><body><header><a href="/">BULLDOGFRANCES.COM</a><nav><a href="/en/">English home</a> · <a href="/en/guides/">All guides</a></nav></header><main><p class="source">French Bulldog owner guides · {article.topic}</p><h1>{title}</h1><p class="notice"><strong>Working draft — not medically reviewed.</strong> This article was recovered from an editorial archive. Content, scientific references and imagery are being checked. It is educational material, not a substitute for veterinary advice.</p><div class="article-body" set:html={cleanHtml}/><p class="source">Source: MyPetsFamily editorial archive, October 28, 2026. Editorial status: review pending.</p></main><footer><a href="/en/guides/">← All English guides</a> · © {new Date().getFullYear()} BulldogFrances.com</footer></body></html>
