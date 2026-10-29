@@ -3,16 +3,16 @@ const lang = Astro.params.lang;
 export function getStaticPaths(){return [{params:{lang:'en'}},{params:{lang:'es'}}]}
 const en=lang==='en';
 const sections=[
-{slug:'health',en:'Health',es:'Salud',descEn:'Breathing, preventive care and wellbeing.',descEs:'Respiración, prevención y bienestar.',icon:'♡',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{slug:'nutrition',en:'Nutrition',es:'Alimentación',descEn:'Evidence-based feeding and nutrition.',descEs:'Alimentación basada en evidencia.',icon:'◉',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{slug:'training',en:'Training',es:'Educación',descEn:'Behavior, learning and everyday life.',descEs:'Conducta, aprendizaje y convivencia.',icon:'✦',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{slug:'puppies',en:'Puppies',es:'Cachorros',descEn:'Responsible puppy care and development.',descEs:'Cuidados responsables y desarrollo.',icon:'♙',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{slug:'breed-characteristics',en:'Breed Characteristics',es:'Características de la raza',descEn:'Appearance and temperament.',descEs:'Aspecto y temperamento.',icon:'♧',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{slug:'history',en:'History & Origins',es:'Historia y orígenes',descEn:'Origins and development.',descEs:'Orígenes y evolución.',icon:'▤',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{slug:'genetics',en:'Genetics & Breeding',es:'Genética y reproducción',descEn:'Genetics and responsible breeding.',descEs:'Genética y cría responsable.',icon:'⌘',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{slug:'daily-care',en:'Daily Care',es:'Cuidados cotidianos',descEn:'Grooming and everyday routines.',descEs:'Higiene y rutinas.',icon:'⌂',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{slug:'news-around-the-world',en:'News Around the World',es:'Noticias del mundo',descEn:'French Bulldog news, research and developments worldwide.',descEs:'Noticias, investigaciones y novedades de la raza en todo el mundo.',icon:'◎',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'},
-{slug:'store',en:'Where to Buy',es:'Dónde comprar',descEn:'Shopping guides, food and accessories.',descEs:'Guías de compra, alimentos y accesorios.',icon:'▣',photo:'https://images.unsplash.com/photo-1756780773088-483782cfe8ff?w=640&h=460&fit=crop&crop=faces&auto=format&q=82'}
+{slug:'health',en:'Health',es:'Salud',descEn:'Breathing, preventive care and wellbeing.',descEs:'Respiración, prevención y bienestar.',icon:'♡'},
+{slug:'nutrition',en:'Nutrition',es:'Alimentación',descEn:'Evidence-based feeding and nutrition.',descEs:'Alimentación basada en evidencia.',icon:'◉'},
+{slug:'training',en:'Training',es:'Educación',descEn:'Behavior, learning and everyday life.',descEs:'Conducta, aprendizaje y convivencia.',icon:'✦'},
+{slug:'puppies',en:'Puppies',es:'Cachorros',descEn:'Responsible puppy care and development.',descEs:'Cuidados responsables y desarrollo.',icon:'♙'},
+{slug:'breed-characteristics',en:'Breed Characteristics',es:'Características de la raza',descEn:'Appearance and temperament.',descEs:'Aspecto y temperamento.',icon:'♧'},
+{slug:'history',en:'History & Origins',es:'Historia y orígenes',descEn:'Origins and development.',descEs:'Orígenes y evolución.',icon:'▤'},
+{slug:'genetics',en:'Genetics & Breeding',es:'Genética y reproducción',descEn:'Genetics and responsible breeding.',descEs:'Genética y cría responsable.',icon:'⌘'},
+{slug:'daily-care',en:'Daily Care',es:'Cuidados cotidianos',descEn:'Grooming and everyday routines.',descEs:'Higiene y rutinas.',icon:'⌂'},
+{slug:'news-around-the-world',en:'News Around the World',es:'Noticias del mundo',descEn:'French Bulldog news, research and developments worldwide.',descEs:'Noticias, investigaciones y novedades de la raza en todo el mundo.',icon:'◎'},
+{slug:'store',en:'Where to Buy',es:'Dónde comprar',descEn:'Shopping guides, food and accessories.',descEs:'Guías de compra, alimentos y accesorios.',icon:'▣'}
 ];
 const base='/'+lang+'/';
 ---
@@ -52,6 +52,9 @@ header .switch{transform:translateX(2px)}
 .edition-shell>main .hero h1{font-size:clamp(27px,3vw,38px);margin-bottom:7px}
 .edition-shell>main .hero .intro{font-size:15px;line-height:1.45}
 @media(max-width:650px){.edition-shell>main .hero{padding:18px 16px}.edition-shell>main .hero h1{font-size:27px}}
+
+/* Category cards remain text-first until verified, unique images are available. */
+.tile{min-height:160px}.tile-content{min-height:150px;display:flex;flex-direction:column;justify-content:center}
 </style>
 <!-- Redeploy bilingual news and category updates -->
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
@@ -60,7 +63,7 @@ header .switch{transform:translateX(2px)}
 <header><div class="header-inner"><a class="logo" href="/">BULLDOGFRANCES.COM</a><nav aria-label={en?'Language navigation':'Navegación de idioma'}><a class="switch" href={en?'/es/':'/en/'} hreflang={en?'es':'en'}><img class="language-flag" src={en?"/flags/es.svg":"/flags/us.svg"} alt="" width="25" height="17" /> {en?'Español →':'English →'}</a></nav></div></header>
 <main>
 <section class="hero"><div class="hero-inner"><div class="kicker">{en?'English edition':'Edición en español'}</div><h1>{en?'Everything French Bulldog':'Todo sobre el bulldog francés'}</h1><p class="intro">{en?'Health, nutrition, training and everyday life — useful guides for people who love French Bulldogs.':'Salud, alimentación, educación y vida cotidiana: guías útiles para quienes aman al bulldog francés.'}</p></div></section>
-<section class="content"><nav class="grid" aria-label={en?'Topics':'Temas'}>{sections.map(s=><a class="tile" href={base+s.slug+'/'}><img class="tile-photo" src={s.photo} alt={en?`French Bulldog photo illustrating ${s.en}`:`Fotografía de bulldog francés para ${s.es}`} loading="lazy" decoding="async" /><span class="tile-content"><span class="icon" aria-hidden="true">{s.icon}</span><strong>{en?s.en:s.es}</strong><span class="desc">{en?s.descEn:s.descEs}</span><span class="arrow">{en?'Explore section →':'Explorar sección →'}</span></span></a>)}</nav></section>
+<section class="content"><nav class="grid" aria-label={en?'Topics':'Temas'}>{sections.map(s=><a class="tile" href={base+s.slug+'/'}><span class="tile-content"><span class="icon" aria-hidden="true">{s.icon}</span><strong>{en?s.en:s.es}</strong><span class="desc">{en?s.descEn:s.descEs}</span><span class="arrow">{en?'Explore section →':'Explorar sección →'}</span></span></a>)}</nav></section>
 </main>
 <footer><nav><a href={base}>{en?'Home':'Inicio'}</a><a href={base+'about/'}>{en?'About':'Acerca de'}</a><a href={base+'contact/'}>{en?'Contact':'Contacto'}</a><a href={base+'directory/'}>{en?'Directory':'Directorio'}</a><a href={base+'affiliate-disclosure/'}>{en?'Affiliate disclosure':'Aviso de afiliación'}</a><a href={base+'privacy/'}>{en?'Privacy':'Privacidad'}</a><a href={base+'terms/'}>{en?'Terms':'Términos'}</a></nav><p>{en?'Independent editorial guide to French Bulldogs':'Guía editorial independiente sobre el bulldog francés'}</p><p class="copyright">© {new Date().getFullYear()} BulldogFrances.com. All rights reserved.</p></footer>
 </div>
