@@ -237,18 +237,11 @@ img:not(.flag){border-radius:14px} .share-dock{position:fixed;right:18px;bottom:
 
 /* Mobile footer: compact visual spacing while preserving comfortable tap targets */
 @media(max-width:700px){footer nav a,footer .footer-nav a,footer.split>.foot nav a{min-height:40px!important;display:flex!important;align-items:center!important;line-height:1.25!important;padding-top:5px!important;padding-bottom:5px!important}footer nav,footer .footer-nav,footer.split>.foot nav{row-gap:2px!important}footer.split>.foot nav{grid-template-rows:none!important;grid-auto-rows:minmax(40px,auto)!important}}
-
-/* Standalone approved banner. No inherited cover-top layout or fixed dimensions. */
-.approved-cover{position:relative;display:block;width:calc(100% - 24px);max-width:100%;margin:8px 12px 0;border-radius:20px;overflow:hidden;box-sizing:border-box}
-.approved-cover>img{display:block;width:100%;max-width:100%;height:auto;object-fit:contain}
-.approved-cover>a{position:absolute;top:17%;height:70%;width:30%;z-index:2;border-radius:8px}
-.approved-cover-en{left:0}.approved-cover-es{right:0}
-.approved-cover>a:focus-visible{outline:3px solid #184b79;outline-offset:-3px}
-@media(max-width:700px){.approved-cover{width:calc(100% - 20px);margin:8px 10px 0;border-radius:14px}}
 </style>
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
 <body>
-<div class="approved-cover" aria-label="Choose a language / Elegí un idioma"><img src="/bulldogfrances-portada-bilingue.webp" width="1671" height="941" alt="Bulldog francés con las opciones French Bulldog English y Bulldog Francés Español" fetchpriority="high" /><a href="/en/" class="approved-cover-en" hreflang="en" aria-label="English — French Bulldog"></a><a href="/es/" class="approved-cover-es" hreflang="es" aria-label="Español — Bulldog Francés"></a></div>
+<div class="cover-top"><header class="top"><a class="single-logo" href="/" aria-label="BulldogFrances.com — home">BULLDOGFRANCES.COM</a><nav class="top-languages" aria-label="Language editions"><a href="/en/" hreflang="en"><img class="lang-flag" src="/flags/us.svg" alt="" width="25" height="17" /> English</a><a href="/es/" hreflang="es"><img class="lang-flag" src="/flags/es.svg" alt="" width="25" height="17" /> Español</a></nav></header>
+<div class="wide-dog-banner" role="img" aria-label="Bulldog francés blanco en primer plano"></div></div>
 <main>
 <div class="split hero">
 <section class="half en" lang="en"><a class="hero-area-link" href="/en/" aria-label="Open English edition"></a><h1>Small dog<br>Big personality</h1><p>Thoughtful guides and practical information for a healthier, happier French Bulldog.</p></section>
