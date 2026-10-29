@@ -40,6 +40,12 @@ header .switch{transform:translateX(2px)}
 /* Language landing: reduce outer margins by 10px on each side. */
 .edition-shell>header,.edition-shell>main,.edition-shell>footer{width:calc(100% - 12px);max-width:1220px}
 @media(max-width:650px){.edition-shell>header,.edition-shell>main,.edition-shell>footer{width:100%}}
+
+/* Match the category/article top precisely: 1200px header, 68px high. */
+.edition-shell>header{width:min(1200px,calc(100% - 32px));max-width:1200px;min-height:68px}
+.edition-shell>header>.header-inner{min-height:68px}
+.edition-shell>main,.edition-shell>footer{width:min(1200px,calc(100% - 32px));max-width:1200px}
+@media(max-width:650px){.edition-shell>header,.edition-shell>main,.edition-shell>footer{width:calc(100% - 20px)}}
 </style>
 <!-- Redeploy bilingual news and category updates -->
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
