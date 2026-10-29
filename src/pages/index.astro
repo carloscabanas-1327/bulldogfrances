@@ -238,95 +238,17 @@ img:not(.flag){border-radius:14px} .share-dock{position:fixed;right:18px;bottom:
 /* Mobile footer: compact visual spacing while preserving comfortable tap targets */
 @media(max-width:700px){footer nav a,footer .footer-nav a,footer.split>.foot nav a{min-height:40px!important;display:flex!important;align-items:center!important;line-height:1.25!important;padding-top:5px!important;padding-bottom:5px!important}footer nav,footer .footer-nav,footer.split>.foot nav{row-gap:2px!important}footer.split>.foot nav{grid-template-rows:none!important;grid-auto-rows:minmax(40px,auto)!important}}
 
-/* Remove excessive blank space beneath bilingual introduction on small screens. */
-@media(max-width:700px){.split.hero>.half{padding-bottom:20px!important;min-height:0!important}.split.hero>.half>p{min-height:0!important;margin-bottom:0!important}.split.hero>.half>.search{margin-top:10px!important}.split.hero{min-height:0!important}}
-
-/* Masthead: enforce identical wordmark size and frame locally, independent of CSS caching. */
-
-
-/* Keep bilingual cover wordmark anchored at the same left inset as inner pages. */
-body .cover-top header.top{justify-content:flex-start!important;padding-left:12px!important;padding-right:12px!important}
-body .cover-top header.top>a.single-logo{margin-left:0!important;margin-right:auto!important;text-align:left!important;position:static!important;transform:none!important;left:auto!important;right:auto!important;flex-shrink:0!important}
-body .cover-top header.top>.top-languages{margin-left:auto!important;flex:0 0 auto!important}
-@media(min-width:701px){body .cover-top header.top{padding-left:clamp(18px,3.5vw,55px)!important;padding-right:clamp(18px,3.5vw,55px)!important}}
-
-/* Mobile masthead: prevent the bilingual language controls from pushing Español offscreen. */
-@media(max-width:700px){
- body .cover-top header.top{width:100%!important;max-width:100vw!important;min-width:0!important;display:grid!important;grid-template-columns:minmax(0,1fr) auto!important;align-items:center!important;column-gap:5px!important;padding:0 8px!important;overflow:hidden!important}
- body .cover-top header.top>a.single-logo{min-width:0!important;max-width:100%!important;margin:0!important;justify-self:start!important;white-space:nowrap!important;}
- body .cover-top header.top>.top-languages{min-width:0!important;max-width:100%!important;margin:0!important;display:flex!important;gap:5px!important;justify-self:end!important;align-items:center!important}
- body .cover-top header.top>.top-languages>a{min-width:0!important;gap:3px!important;font-size:10px!important;white-space:nowrap!important}
- body .cover-top header.top>.top-languages .lang-flag{width:17px!important;min-width:17px!important;max-width:17px!important;height:12px!important}
-}
-
-/* Cover masthead sits on the photograph, without a separate white strip. */
-body .cover-top{height:clamp(290px,28vw,410px)!important}
-body .cover-top header.top{position:absolute!important;inset:0 0 auto!important;z-index:3!important;background:linear-gradient(180deg,rgba(255,255,255,.96) 0%,rgba(255,255,255,.80) 58%,rgba(255,255,255,0) 100%)!important;background-color:transparent!important;height:86px!important;min-height:86px!important;padding-top:0!important;padding-bottom:15px!important}
-body .cover-top .wide-dog-banner{inset:0!important;height:100%!important;background-position:center 65%!important}
-@media(max-width:700px){body .cover-top{height:clamp(255px,65vw,340px)!important}body .cover-top header.top{height:78px!important;min-height:78px!important;padding-top:0!important;padding-bottom:16px!important}body .cover-top .wide-dog-banner{background-position:center 65%!important}}
-
-/* The full wordmark and two language links share one row on mobile.
-   Hide only the language words, preserving accessible links and flags. */
-@media(max-width:700px){
- body .cover-top header.top{display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:space-between!important;gap:6px!important;padding:0 12px!important;height:66px!important;min-height:66px!important;overflow:visible!important}
- body .cover-top header.top>a.single-logo{font-size:clamp(14px,3.55vw,20px)!important;flex:0 1 auto!important;min-width:0!important;margin:0!important;text-align:left!important;align-self:center!important}
- body .cover-top header.top>.top-languages{display:flex!important;flex:0 0 auto!important;align-self:center!important;gap:5px!important;margin:0!important}
- body .cover-top header.top>.top-languages>a{font-size:11px!important;gap:3px!important;line-height:1.1!important}
- body .cover-top header.top>.top-languages .lang-flag{width:17px!important;min-width:17px!important;max-width:17px!important;height:12px!important}
-}
-@media(min-width:701px){
- body .cover-top header.top>a.single-logo{font-size:clamp(18px,2.2vw,29px)!important;line-height:1.2!important;text-align:left!important;letter-spacing:-.025em!important}
-}
-
-/* Bilingual hero artwork contains its own titles and flags; clickable transparent language zones. */
-body .cover-top.bilingual-cover{position:relative!important;isolation:isolate!important;height:auto!important;aspect-ratio:1672/941!important;margin:0 clamp(12px,1.5vw,24px)!important;border-radius:24px!important;overflow:hidden!important;background:#f4f0e9!important}
-body .bilingual-cover .bilingual-cover-image{display:block;width:100%;height:100%;object-fit:contain;aspect-ratio:1672/941}
-body .bilingual-cover .cover-language{position:absolute;top:17%;height:67%;width:28%;z-index:5;display:block;border-radius:12px}
-body .bilingual-cover .cover-language-en{left:0}
-body .bilingual-cover .cover-language-es{right:0}
-body .bilingual-cover .cover-language:focus-visible{outline:3px solid #204e74;outline-offset:-5px;background:rgba(255,255,255,.12)}
-@media(max-width:700px){body .cover-top.bilingual-cover{margin:0 10px!important;border-radius:16px!important;height:auto!important;aspect-ratio:1672/941!important}body .bilingual-cover .cover-language{top:16%;height:70%;width:30%}}
-
-/* Bilingual banner contains embedded labels and flags: never crop its edges. */
-body .cover-top{height:auto!important;aspect-ratio:1672/941!important;max-height:none!important;overflow:hidden!important}
-body .cover-top .wide-dog-banner{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;background-size:100% 100%!important;background-position:center center!important;background-repeat:no-repeat!important}
-@media(max-width:700px){body .cover-top{height:auto!important;aspect-ratio:1672/941!important;min-height:0!important}body .cover-top .wide-dog-banner{background-size:100% 100%!important;background-position:center center!important}}
-
-/* Rebuilt bilingual cover: real HTML language links and responsive photo, no embedded lettering. */
-body .cover-top.rebuilt-cover{position:relative!important;display:grid!important;grid-template-columns:1fr 1fr!important;align-items:center!important;aspect-ratio:auto!important;height:clamp(230px,31vw,420px)!important;min-height:0!important;overflow:hidden!important;background:#f5f3ef!important}
-body .rebuilt-cover .rebuilt-cover-dog{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 62%!important;z-index:0!important}
-body .rebuilt-cover::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,rgba(250,249,246,.89),rgba(250,249,246,.12) 34%,rgba(250,249,246,.12) 66%,rgba(250,249,246,.89))}
-body .rebuilt-cover .rebuilt-language{position:relative!important;z-index:2!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:center!important;width:max-content!important;max-width:45%!important;padding:8px!important;gap:8px!important;color:#142032!important;text-decoration:none!important;text-shadow:0 1px 3px #fffc!important}
-body .rebuilt-cover .rebuilt-en{grid-column:1!important;justify-self:start!important;margin-left:clamp(10px,2vw,38px)!important}
-body .rebuilt-cover .rebuilt-es{grid-column:2!important;justify-self:end!important;align-items:flex-end!important;text-align:right!important;margin-right:clamp(10px,2vw,38px)!important}
-body .rebuilt-cover .rebuilt-language strong{font:700 clamp(21px,3.3vw,54px)/.98 Georgia,serif!important;letter-spacing:-.035em!important}
-body .rebuilt-cover .rebuilt-language img{display:block!important;width:clamp(32px,5vw,65px)!important;height:auto!important;aspect-ratio:3/2!important;object-fit:cover!important;border-radius:4px!important;box-shadow:0 1px 4px #0003!important}
-body .rebuilt-cover .rebuilt-language span{font:700 clamp(13px,1.8vw,22px)/1.1 Georgia,serif!important}
-body .rebuilt-cover .rebuilt-language:focus-visible{outline:3px solid #153d65!important;outline-offset:2px!important}
-@media(max-width:700px){body .cover-top.rebuilt-cover{height:clamp(180px,54vw,275px)!important;grid-template-columns:1fr 1fr!important}body .rebuilt-cover .rebuilt-cover-dog{object-position:center 62%!important}body .rebuilt-cover .rebuilt-language{gap:4px!important;max-width:48%!important;padding:3px!important}body .rebuilt-cover .rebuilt-en{margin-left:5px!important}body .rebuilt-cover .rebuilt-es{margin-right:5px!important}body .rebuilt-cover .rebuilt-language strong{font-size:clamp(14px,4vw,23px)!important;letter-spacing:-.04em!important}body .rebuilt-cover .rebuilt-language img{width:clamp(25px,8vw,38px)!important}body .rebuilt-cover .rebuilt-language span{font-size:clamp(11px,3vw,15px)!important}}
-
-/* Final approved bilingual WebP: preserve every printed word and flag, never cover-crop. */
-body .cover-top.final-cover{display:block!important;position:relative!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:1671/941!important;overflow:hidden!important}
-body .final-cover .final-cover-image{display:block!important;position:relative!important;inset:auto!important;width:100%!important;height:auto!important;aspect-ratio:1671/941!important;object-fit:contain!important;object-position:center!important}
-body .final-cover .final-cover-link{position:absolute!important;top:23%!important;height:61%!important;width:29%!important;z-index:5!important;display:block!important;border-radius:8px!important}
-body .final-cover .final-cover-en{left:1%!important}body .final-cover .final-cover-es{right:1%!important}
-body .final-cover .final-cover-link:focus-visible{outline:3px solid #234b76!important;outline-offset:-3px!important}
-@media(max-width:700px){body .cover-top.final-cover{height:auto!important;aspect-ratio:1671/941!important}body .final-cover .final-cover-link{top:17%!important;height:72%!important;width:32%!important}}
-
-/* Five-pixel breathing room above the rounded hero image. */
-body .cover-top{margin-top:5px!important}
-
-/* Consistent fluid width: no isolated 1280px box or horizontal overflow. */
-html,body{width:100%;max-width:100%;overflow-x:clip}
-body .cover-top.bilingual-cover.final-cover{box-sizing:border-box!important;display:block!important;width:calc(100% - 24px)!important;max-width:none!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;margin:6px 12px 0!important;overflow:hidden!important}
-body .cover-top.final-cover .final-cover-image{display:block!important;position:static!important;width:100%!important;max-width:100%!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important}
-body .split,body .split.hero,body .split.directory,body footer.split{width:100%!important;max-width:100%!important;box-sizing:border-box!important;grid-template-columns:repeat(2,minmax(0,1fr))!important}
-body .split>*{min-width:0!important;box-sizing:border-box!important}
-@media(max-width:700px){body .cover-top.bilingual-cover.final-cover{width:calc(100% - 20px)!important;margin:6px 10px 0!important}}
+/* Standalone approved banner. No inherited cover-top layout or fixed dimensions. */
+.approved-cover{position:relative;display:block;width:calc(100% - 24px);max-width:100%;margin:8px 12px 0;border-radius:20px;overflow:hidden;box-sizing:border-box}
+.approved-cover>img{display:block;width:100%;max-width:100%;height:auto;object-fit:contain}
+.approved-cover>a{position:absolute;top:17%;height:70%;width:30%;z-index:2;border-radius:8px}
+.approved-cover-en{left:0}.approved-cover-es{right:0}
+.approved-cover>a:focus-visible{outline:3px solid #184b79;outline-offset:-3px}
+@media(max-width:700px){.approved-cover{width:calc(100% - 20px);margin:8px 10px 0;border-radius:14px}}
 </style>
-<link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css?v=20261028-masthead3"></head>
+<link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
 <body>
-<div class="cover-top bilingual-cover final-cover" aria-label="Choose your language / Elegí tu idioma"><img class="final-cover-image" src="/bulldogfrances-portada-bilingue.webp" alt="French Bulldog with black eye patch, English and Español language options" width="1671" height="941" fetchpriority="high" /><a class="final-cover-link final-cover-en" href="/en/" hreflang="en" aria-label="English — French Bulldog"></a><a class="final-cover-link final-cover-es" href="/es/" hreflang="es" aria-label="Español — Bulldog Francés"></a></div>
+<div class="approved-cover" aria-label="Choose a language / Elegí un idioma"><img src="/bulldogfrances-portada-bilingue.webp" width="1671" height="941" alt="Bulldog francés con las opciones French Bulldog English y Bulldog Francés Español" fetchpriority="high" /><a href="/en/" class="approved-cover-en" hreflang="en" aria-label="English — French Bulldog"></a><a href="/es/" class="approved-cover-es" hreflang="es" aria-label="Español — Bulldog Francés"></a></div>
 <main>
 <div class="split hero">
 <section class="half en" lang="en"><a class="hero-area-link" href="/en/" aria-label="Open English edition"></a><h1>Small dog<br>Big personality</h1><p>Thoughtful guides and practical information for a healthier, happier French Bulldog.</p></section>
