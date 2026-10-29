@@ -52,6 +52,9 @@ export function getStaticPaths(){
 .inline-share>summary{display:inline-flex;align-items:center;justify-content:center;gap:9px;width:auto;min-width:126px;height:48px;min-height:48px;padding:0 18px;border:1px solid #d8dedb;border-radius:999px;background:#fff;color:#155a93;font:400 20px/1.2 Arial,Helvetica,sans-serif;box-shadow:none}
 .inline-share>summary::before{content:'♧';display:inline-block;font-size:0;width:21px;height:21px;background:currentColor;mask:url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Ccircle cx=%2218%22 cy=%225%22 r=%223%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22/%3E%3Ccircle cx=%226%22 cy=%2212%22 r=%223%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22/%3E%3Ccircle cx=%2218%22 cy=%2219%22 r=%223%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22/%3E%3Cpath d=%22M9 11l6-4M9 14l6 4%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22/%3E%3C/svg%3E') center/contain no-repeat}
 .inline-share>summary:hover,.inline-share>summary:focus-visible{background:#f7fafc;border-color:#aac2d4}
+
+/* Fine alignment: language switch 2px to the right. */
+header .switch{transform:translateX(2px)}
 </style>
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
 <body>
