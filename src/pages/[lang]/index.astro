@@ -36,6 +36,10 @@ const base='/'+lang+'/';
 
 /* Fine alignment: language switch 2px to the right. */
 header .switch{transform:translateX(2px)}
+
+/* Language landing: reduce outer margins by 10px on each side. */
+.edition-shell>header,.edition-shell>main,.edition-shell>footer{width:calc(100% - 12px);max-width:1220px}
+@media(max-width:650px){.edition-shell>header,.edition-shell>main,.edition-shell>footer{width:100%}}
 </style>
 <!-- Redeploy bilingual news and category updates -->
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
