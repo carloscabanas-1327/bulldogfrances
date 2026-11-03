@@ -1,0 +1,274 @@
+# ORDEN MAESTRA UNIVERSAL
+## FUENTES, CITAS, HIPERVÍNCULOS Y TRAZABILIDAD DOCUMENTAL
+**Versión 1.0 — Directiva editorial permanente**
+
+### 1. PRINCIPIO FUNDAMENTAL
+
+Toda información publicada que requiera respaldo documental debe permitir al lector localizar, consultar y verificar directamente la fuente exacta que la sustenta.
+
+**Ninguna referencia debe utilizarse como simple elemento decorativo de credibilidad.**
+
+La fuente debe existir, ser pertinente, estar correctamente identificada y respaldar efectivamente la afirmación a la que se vincula.
+
+Esta directiva se aplica a artículos, noticias, investigaciones, publicaciones científicas, contenidos educativos, documentos históricos, páginas institucionales, revistas digitales y cualquier otro contenido informativo.
+
+Es obligatoria para redactores, investigadores, editores, revisores, agentes de inteligencia artificial y sistemas automatizados de publicación.
+
+### 2. JERARQUÍA DE FUENTES
+
+Priorizar, según la naturaleza de cada afirmación:
+
+1. Documentos originales y fuentes primarias.
+2. Publicaciones científicas y académicas revisadas por pares.
+3. Organismos públicos, instituciones oficiales y archivos documentales.
+4. Bibliotecas, universidades, museos y repositorios reconocidos.
+5. Investigaciones especializadas con metodología verificable.
+6. Fuentes periodísticas identificables y contrastables.
+7. Fuentes secundarias de calidad, cuando las primarias no estén disponibles.
+
+La autoridad institucional no reemplaza la comprobación del contenido.
+
+No presentar como fuente primaria un artículo que simplemente reproduce información de terceros.
+
+### 3. DESTINO EXACTO DE LOS HIPERVÍNCULOS
+
+Todo enlace documental debe conducir al recurso específico que respalda la información publicada.
+
+**Reglas obligatorias:**
+
+- Cuando exista un DOI válido y pertinente, priorizar su dirección canónica: `https://doi.org/identificador`.
+- Si no existe DOI, enlazar directamente el documento, artículo, capítulo, expediente, resolución, investigación o registro consultado.
+- No sustituir el enlace específico por la página principal de una institución.
+- En documentos extensos, identificar la página, sección, capítulo, artículo o fragmento pertinente.
+- Cuando corresponda, utilizar identificadores permanentes, enlaces institucionales o registros archivísticos estables.
+- Para publicaciones de acceso restringido, enlazar su ficha bibliográfica oficial y señalar la restricción.
+- Eliminar parámetros innecesarios de seguimiento, como `utm_source` y `fbclid`, sin alterar el funcionamiento del enlace.
+
+**Un enlace que funciona, pero conduce a un documento equivocado, se considera incorrecto.**
+
+### 4. TEXTO DE ANCLAJE
+
+El texto visible de cada hipervínculo debe describir claramente su destino.
+
+Evitar expresiones genéricas como:
+
+- «Haz clic aquí».
+- «Fuente».
+- «Enlace».
+- «Ver más».
+- «Más información», cuando no identifica el contenido.
+
+Utilizar, en cambio, anclajes descriptivos:
+
+- «Consultar el texto oficial de la Ley 24.303».
+- «Leer la investigación publicada en Nature».
+- «Examinar el manuscrito digitalizado en la biblioteca».
+- «Consultar las estadísticas oficiales de población de 2025».
+
+El lector debe comprender qué encontrará antes de abrir el enlace.
+
+Esta regla se aplica tanto a enlaces externos como internos.
+
+### 5. CITAS DENTRO DEL TEXTO
+
+Las afirmaciones históricas, jurídicas, científicas, estadísticas o documentales deben estar respaldadas cerca del pasaje correspondiente.
+
+Cuando resulte adecuado, utilizar referencias de autor y fecha.
+
+Ejemplo:
+
+«Según el informe publicado por la Organización Mundial de la Salud (2024), ...».
+
+No atribuir a una fuente conclusiones que no sostiene expresamente.
+
+Distinguir siempre entre:
+
+- Hecho documentado.
+- Interpretación del autor.
+- Hipótesis.
+- Estimación.
+- Opinión.
+- Información pendiente de corroboración.
+
+Las citas textuales deben reproducirse fielmente, respetar el contexto y señalar su localización exacta cuando sea posible.
+
+### 6. REFERENCIAS BIBLIOGRÁFICAS
+
+Cuando la naturaleza del contenido lo requiera, incorporar una sección final denominada «Fuentes y referencias», «Referencias bibliográficas» o su equivalente en el idioma de publicación.
+
+Cada referencia debe identificar, cuando estén disponibles:
+
+**QUIÉN:** autor, investigador, institución u organismo responsable.
+
+**CUÁNDO:** fecha de publicación, edición o actualización.
+
+**QUÉ:** título exacto del documento o trabajo.
+
+**DÓNDE:** revista, editorial, repositorio, institución, DOI o URL específica.
+
+Agregar volumen, número, páginas, edición, identificadores y demás datos pertinentes según el tipo documental.
+
+No inventar información bibliográfica ausente.
+
+Cuando no exista fecha verificable, indicar «sin fecha» o la abreviatura correspondiente al estilo adoptado.
+
+### 7. NORMALIZACIÓN INTERNACIONAL
+
+Adoptar un sistema de referencias consistente y adecuado a cada disciplina.
+
+Estándares de referencia:
+
+- **APA, 7.ª edición:** ciencias sociales, educación y numerosas publicaciones académicas.
+- **ISO 690:** referencias bibliográficas y recursos de información de distintas disciplinas.
+- **Vancouver:** medicina, biomedicina y ciencias de la salud.
+
+No mezclar arbitrariamente estilos dentro de una misma publicación.
+
+La presente orden establece principios generales de trazabilidad; no sustituye las especificaciones particulares de cada norma.
+
+### 8. FECHAS Y CONTENIDOS CAMBIANTES
+
+Registrar fechas de publicación y actualización cuando puedan verificarse.
+
+Incluir fecha de recuperación en la referencia cuando el contenido sea dinámico, cambie con frecuencia y no disponga de una versión archivada estable, conforme al estilo bibliográfico utilizado.
+
+Ejemplos:
+
+- Tableros estadísticos actualizados continuamente.
+- Bases de datos dinámicas.
+- Indicadores económicos en tiempo real.
+- Documentos colaborativos sujetos a modificaciones.
+
+Conservar internamente la fecha de última comprobación de los enlaces, aunque no sea necesario mostrarla al lector.
+
+### 9. REGISTRO DOCUMENTAL INTERNO
+
+Cada fuente utilizada debería disponer de una ficha de trazabilidad con los siguientes campos:
+
+- Identificador interno.
+- Autor u organismo.
+- Título exacto.
+- Fecha de publicación.
+- Tipo de fuente.
+- DOI o URL canónica.
+- Idioma original.
+- Página, artículo, sección o fragmento relevante.
+- Afirmaciones que respalda.
+- Fecha de verificación.
+- Estado del enlace.
+- Observaciones editoriales.
+- Copia archivada, cuando exista y su conservación esté autorizada.
+
+Este registro debe facilitar futuras auditorías, correcciones, actualizaciones y migraciones tecnológicas.
+
+### 10. VERIFICACIÓN OBLIGATORIA
+
+Antes de publicar, el responsable editorial o agente automatizado debe comprobar:
+
+1. Que la fuente existe.
+2. Que el enlace conduce al documento correcto.
+3. Que el documento respalda la afirmación.
+4. Que la cita textual es fiel al original.
+5. Que el autor y la fecha son correctos.
+6. Que el título bibliográfico corresponde al recurso.
+7. Que no existen enlaces genéricos o engañosos.
+8. Que las fuentes primarias y secundarias están diferenciadas.
+9. Que las referencias respetan el formato adoptado.
+10. Que no se han fabricado DOI, citas, documentos o datos.
+
+**Una referencia no verificada nunca debe presentarse como verificada.**
+
+Si no es posible comprobar una fuente, registrar la incidencia y evitar utilizarla como prueba concluyente.
+
+### 11. CONTENIDOS MULTILINGÜES
+
+Las versiones de un contenido en diferentes idiomas deben mantener idéntico rigor documental.
+
+Conservar los títulos originales de las fuentes y señalar las traducciones cuando sea necesario.
+
+No modificar el significado de una cita para adaptarla culturalmente.
+
+Cuando exista una traducción oficial verificable, puede enlazarse junto al documento original.
+
+Cuando la traducción sea editorial o realizada mediante inteligencia artificial, no atribuirle carácter oficial.
+
+### 12. INTELIGENCIA ARTIFICIAL Y AUTOMATIZACIÓN
+
+Todo sistema de inteligencia artificial que investigue, redacte, revise o publique contenido debe cumplir esta directiva.
+
+Queda prohibido:
+
+- Inventar referencias.
+- Fabricar citas.
+- Generar DOI ficticios.
+- Utilizar enlaces sin verificar su pertinencia.
+- Atribuir conclusiones inexistentes a documentos reales.
+- Presentar como consultada una fuente que no fue examinada.
+- Ocultar incertidumbres documentales.
+- Reemplazar silenciosamente una fuente por otra que no respalde la misma afirmación.
+
+Si una herramienta no dispone de acceso a la fuente original, debe declarar esa limitación.
+
+La automatización puede asistir en la búsqueda y comprobación, pero no convierte automáticamente una referencia en evidencia válida.
+
+### 13. AUDITORÍA Y MANTENIMIENTO
+
+Los proyectos digitales deben incorporar revisiones periódicas de sus referencias.
+
+La auditoría debe detectar:
+
+- Enlaces rotos.
+- Redirecciones incorrectas.
+- Documentos retirados.
+- Cambios sustanciales en el contenido enlazado.
+- Referencias bibliográficas incompletas.
+- Citas que no respaldan las afirmaciones.
+- Duplicaciones.
+- Parámetros de seguimiento innecesarios.
+- Fuentes obsoletas sustituidas por versiones oficiales actualizadas.
+
+Las correcciones deben conservar, cuando sea pertinente, un historial de cambios.
+
+No sustituir automáticamente una fuente sin comprobar que el nuevo documento respalda la misma información.
+
+### 14. ACCESIBILIDAD, EXPERIENCIA DE LECTURA Y SEO
+
+Los enlaces deben integrarse naturalmente en la redacción.
+
+No sobrecargar los párrafos con vínculos repetitivos.
+
+Distinguir visualmente los hipervínculos y asegurar su accesibilidad mediante teclado y tecnologías de asistencia.
+
+Evitar que las referencias interrumpan innecesariamente la lectura.
+
+El objetivo no es maximizar la cantidad de enlaces, sino su **precisión, utilidad y verificabilidad**.
+
+Los criterios de posicionamiento en buscadores nunca deben justificar la incorporación de referencias artificiales o irrelevantes.
+
+### 15. CRITERIO FINAL DE PUBLICACIÓN
+
+Antes de aprobar cualquier contenido, aplicar esta pregunta:
+
+**¿Puede una persona independiente llegar desde nuestra afirmación hasta el documento exacto que la respalda, identificarlo y comprobar que efectivamente dice lo que afirmamos?**
+
+Si la respuesta es negativa, la trazabilidad documental es insuficiente.
+
+La publicación deberá corregirse, matizarse o identificar expresamente la limitación.
+
+---
+
+## MANDATO PERMANENTE PARA TODOS LOS AGENTES
+
+A partir de la incorporación de esta orden, todo agente de investigación, redacción, revisión, edición o publicación deberá:
+
+**INVESTIGAR → IDENTIFICAR → CONTRASTAR → ENLAZAR → CITAR → VERIFICAR → PUBLICAR → AUDITAR.**
+
+No se considerará finalizada una tarea documental hasta comprobar la correspondencia entre las afirmaciones publicadas y sus fuentes.
+
+La calidad editorial se medirá por la exactitud, transparencia, accesibilidad y trazabilidad de la información, no por la cantidad de citas incorporadas.
+
+**PRINCIPIO RECTOR:**
+
+*Si una afirmación necesita una fuente, el lector debe poder encontrarla. Si una fuente se cita, debe respaldar realmente lo afirmado. Si no puede verificarse, no debe presentarse como un hecho comprobado.*
+
+**FIN DE LA ORDEN MAESTRA UNIVERSAL — VERSIÓN 1.0**
