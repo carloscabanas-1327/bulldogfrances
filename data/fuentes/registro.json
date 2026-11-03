@@ -2,7 +2,7 @@
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
  "ultima_auditoria": "2026-11-03",
- "total_fuentes": 229,
+ "total_fuentes": 235,
  "fuentes": [
   {
    "id": "F001",
@@ -969,7 +969,7 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 6,
+     "numero_referencia": 11,
      "afirmaciones": [
       "El AKC recomienda las mismas cuatro evaluaciones para los reproductores y aclara que la ecocardiografía se recomienda pero no es obligatoria."
      ]
@@ -985,7 +985,7 @@
     },
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
-     "numero_referencia": 6,
+     "numero_referencia": 11,
      "afirmaciones": [
       "The American Kennel Club lists the same four evaluations as the recommended health tests for French Bulldog breeding stock, noting that an echocardiogram is \"recommended but not required.\""
      ]
@@ -6551,7 +6551,7 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 8,
+     "numero_referencia": 14,
      "afirmaciones": [
       "El estándar FCI, por su parte, considera faltas descalificantes la dificultad respiratoria y la sordera."
      ]
@@ -13136,14 +13136,14 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 7,
+     "numero_referencia": 12,
      "afirmaciones": [
       "Se puede evaluar a partir de los 12 meses, y los reproductores deberían repetirla cada dos años."
      ]
     },
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
-     "numero_referencia": 7,
+     "numero_referencia": 12,
      "afirmaciones": [
       "Dogs can be graded from 12 months of age, and breeding dogs should be re-graded every two years."
      ]
@@ -15921,6 +15921,315 @@
    "ids_auditoria_2026_11_03": [
     "S234"
    ]
+  },
+  {
+   "id": "F230",
+   "autor_u_organismo": "Orthopedic Foundation for Animals",
+   "autores": null,
+   "organizacion": "Orthopedic Foundation for Animals",
+   "titulo_exacto": "Hip Dysplasia",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "Orthopedic Foundation for Animals",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": "2022-01-20",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://ofa.org/diseases/hip-dysplasia/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
+     "numero_referencia": 6,
+     "afirmaciones": [
+      "Seven OFA hip categories: Excellent, Good, Fair (normal), Borderline, Mild, Moderate, Severe (dysplastic).",
+      "X-rays taken by a veterinarian are sent to OFA for grading.",
+      "Dogs 4-23 months can get preliminary screenings only."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 6,
+     "afirmaciones": [
+      "Misma afirmación en la edición en español."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-03",
+   "verificado_via": "https://ofa.org/diseases/hip-dysplasia/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Grading sub-page returned client error; 24-month minimum not on this page, not used.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F231",
+   "autor_u_organismo": "Orthopedic Foundation for Animals",
+   "autores": null,
+   "organizacion": "Orthopedic Foundation for Animals",
+   "titulo_exacto": "Eye Certification",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "Orthopedic Foundation for Animals",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": "2025-06-30",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://ofa.org/diseases/eye-certification/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
+     "numero_referencia": 7,
+     "afirmaciones": [
+      "CAER purpose: give breeders eye-disease information for informed breeding decisions.",
+      "CAER exams by board-certified (ACVO) veterinary ophthalmologists.",
+      "Certification valid 12 months; annual re-exam recommended."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 7,
+     "afirmaciones": [
+      "Misma afirmación en la edición en español."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-03",
+   "verificado_via": "https://ofa.org/diseases/eye-certification/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Page does not mention CERF; claim not used.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F232",
+   "autor_u_organismo": "American College of Veterinary Ophthalmologists",
+   "autores": null,
+   "organizacion": "American College of Veterinary Ophthalmologists",
+   "titulo_exacto": "ACVO Public",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "American College of Veterinary Ophthalmologists",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.acvo.org/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
+     "numero_referencia": 8,
+     "afirmaciones": [
+      "Only ACVO Diplomates are authorized to provide ACVO CAER screening exams to breeders."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 8,
+     "afirmaciones": [
+      "Misma afirmación en la edición en español."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-03",
+   "verificado_via": "https://www.acvo.org/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 1
+   },
+   "observaciones_editoriales": "Homepage; no formal DACVO definition, the expansion is used in a news item on the page.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F233",
+   "autor_u_organismo": "Orthopedic Foundation for Animals",
+   "autores": null,
+   "organizacion": "Orthopedic Foundation for Animals",
+   "titulo_exacto": "Patellar Luxation",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "Orthopedic Foundation for Animals",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": "2022-06-08",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://ofa.org/diseases/patellar-luxation/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
+     "numero_referencia": 9,
+     "afirmaciones": [
+      "Kneecap pops out of place, medial or lateral.",
+      "Dog examined awake.",
+      "OFA number issued to dogs normal at 12 months or older."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 9,
+     "afirmaciones": [
+      "Misma afirmación en la edición en español."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-03",
+   "verificado_via": "https://ofa.org/diseases/patellar-luxation/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F234",
+   "autor_u_organismo": "Orthopedic Foundation for Animals",
+   "autores": null,
+   "organizacion": "Orthopedic Foundation for Animals",
+   "titulo_exacto": "Cardiac Disease",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "Orthopedic Foundation for Animals",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": "2023-06-26",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://ofa.org/diseases/cardiac-disease/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
+     "numero_referencia": 10,
+     "afirmaciones": [
+      "Basic exam based on auscultation.",
+      "Advanced exam by a veterinary cardiologist; echo always required.",
+      "Evaluations valid 1 year."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 10,
+     "afirmaciones": [
+      "Misma afirmación en la edición en español."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-03",
+   "verificado_via": "https://ofa.org/diseases/cardiac-disease/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F235",
+   "autor_u_organismo": "University of Pennsylvania School of Veterinary Medicine",
+   "autores": null,
+   "organizacion": "University of Pennsylvania School of Veterinary Medicine",
+   "titulo_exacto": "PennGen Laboratories",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "University of Pennsylvania School of Veterinary Medicine",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.vet.upenn.edu/research/research-laboratories/penngenn-laboratories",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
+     "numero_referencia": 13,
+     "afirmaciones": [
+      "PennGen is a group of genetic testing laboratories (CGAT section).",
+      "Offers DNA tests for specific variants in specific breeds; can test cystine in urine."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 13,
+     "afirmaciones": [
+      "Misma afirmación en la edición en español."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-03",
+   "verificado_via": "https://www.vet.upenn.edu/research/research-laboratories/penngenn-laboratories",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Page does not mention French Bulldogs or cystinuria type 3; that recommendation is cited to FBDCA. Cystinuria definition and HSF4 genetics not verified (VGL page unreachable), so not stated.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
   }
  ]
 }
