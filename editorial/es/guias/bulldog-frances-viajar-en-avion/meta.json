@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "¿Puede un bulldog francés viajar en avión?",
-      "a": "Sí, pero casi siempre solo en cabina. American, Alaska, Iberia, Lufthansa, KLM, Air Europa y LATAM no aceptan razas de hocico corto en bodega. En cabina, el límite suele ser de 8 a 10 kg con el transportín, que muchos adultos superan."
+      "a": "Sí, pero casi siempre solo en cabina. A noviembre de 2026, American, Alaska, Iberia, Lufthansa, KLM, Air Europa, LATAM y Avianca no aceptan razas de hocico corto en bodega como equipaje. En cabina, el límite suele ser de 8 a 10 kg con el transportín, que muchos adultos superan."
     },
     {
       "q": "¿Por qué las aerolíneas no aceptan bulldogs franceses en bodega?",
@@ -38,5 +38,6 @@
       "q": "¿Qué necesita un perro para entrar a Estados Unidos?",
       "a": "Desde el 1 de agosto de 2024, el CDC exige que el perro se vea sano, tenga al menos 6 meses, microchip y el recibo del formulario CDC Dog Import Form. Puede haber requisitos extra según el país de origen."
     }
-  ]
+  ],
+  "enUrl": "/en/daily-care/flying-with-a-french-bulldog/"
 }
