@@ -1,6 +1,8 @@
 ---
 // Spanish edition home. The English edition home is the site root (src/pages/index.astro).
 import Seo from '../../components/Seo.astro';
+import {esGuides,esGuideUrl,esCategoryLabels} from '../../data/spanishGuides.js';
+import {nutritionArticles} from '../../data/frenchBulldogGuides.js';
 const lang = Astro.params.lang;
 export function getStaticPaths(){return [{params:{lang:'es'}}]}
 const en=lang==='en';
@@ -17,12 +19,17 @@ const sections=[
 {slug:'store',en:'Where to Buy',es:'Dónde comprar',descEn:'Shopping guides, food and accessories.',descEs:'Guías de compra, alimentos y accesorios.',icon:'▣'}
 ];
 const base='/'+lang+'/';
+// Every Spanish article, grouped by topic, so the Spanish home links to all Spanish pages.
+const byTopic=Object.entries(esCategoryLabels).map(([slug,label])=>({slug,label,items:[
+  ...(slug==='nutrition'?nutritionArticles.map(a=>({url:'/es/nutrition/'+a.slug+'/',title:a.es})):[]),
+  ...esGuides.filter(g=>g.category===slug).map(g=>({url:esGuideUrl(g),title:g.title}))
+].sort((a,b)=>a.title.localeCompare(b.title,'es'))})).filter(c=>c.items.length);
 ---
 <!doctype html>
 <html lang={lang}>
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<Seo title="Bulldog francés — Edición en español | BulldogFrances.com" description="Guías sobre salud, alimentación, educación y cuidados del bulldog francés." lang="es" path="/es/" alternates={{en:'/',es:'/es/'}} /><meta name="color-scheme" content="light">
+<Seo title="Bulldog francés — Edición en español | BulldogFrances.com" description="Guías sobre salud, alimentación, educación y cuidados del bulldog francés." lang="es" path="/es/" alternates={{en:'/en/',es:'/es/'}} xDefault="/" /><meta name="color-scheme" content="light">
 <title>{en?'French Bulldog — English edition':'Bulldog francés — Edición en español'} | BulldogFrances.com</title>
 
 <style is:global>
@@ -55,6 +62,8 @@ header .switch{transform:translateX(2px)}
 .edition-shell>main .hero .intro{font-size:15px;line-height:1.45}
 @media(max-width:650px){.edition-shell>main .hero{padding:18px 16px}.edition-shell>main .hero h1{font-size:27px}}
 
+/* Full Spanish index on the Spanish home */
+.all-guides{padding:clamp(22px,4vw,40px) 0}.all-guides h2{font:700 clamp(24px,3vw,32px)/1.2 Georgia,serif;margin:0 0 18px}.all-guides .index{columns:3 260px;column-gap:28px}.all-guides section{break-inside:avoid;margin:0 0 20px}.all-guides h3{font:700 18px/1.3 Georgia,serif;margin:0 0 8px}.all-guides h3 a{text-decoration:none}.all-guides ul{margin:0;padding-left:18px;line-height:1.5;font-size:15px}.all-guides li{margin:0 0 6px}
 /* Category cards remain text-first until verified, unique images are available. */
 .tile{min-height:160px}.tile-content{min-height:150px;display:flex;flex-direction:column;justify-content:center}
 </style>
@@ -62,11 +71,12 @@ header .switch{transform:translateX(2px)}
 <link rel="stylesheet" href="/search.css"><link rel="stylesheet" href="/site-header.css"></head>
 <body>
 <div class="edition-shell">
-<header><div class="header-inner"><a class="logo" href={en?"/":"/es/"}>BULLDOGFRANCES.COM</a><nav aria-label={en?'Language navigation':'Navegación de idioma'}><a class="switch" href={en?'/es/':'/'} hreflang={en?'es':'en'}><img class="language-flag" src={en?"/flags/es.svg":"/flags/us.svg"} alt="" width="25" height="17" /> {en?'Español →':'English →'}</a></nav></div></header>
+<header><div class="header-inner"><a class="logo" href={en?"/":"/es/"}>BULLDOGFRANCES.COM</a><nav aria-label={en?'Language navigation':'Navegación de idioma'}><a class="switch" href={en?'/es/':'/en/'} hreflang={en?'es':'en'}><img class="language-flag" src={en?"/flags/es.svg":"/flags/us.svg"} alt="" width="25" height="17" /> {en?'Español →':'English →'}</a></nav></div></header>
 <main>
 <section class="hero"><div class="hero-inner"><div class="kicker">{en?'English edition':'Edición en español'}</div><h1>{en?'Everything French Bulldog':'Todo sobre el bulldog francés'}</h1><p class="intro">{en?'Health, nutrition, training and everyday life — useful guides for people who love French Bulldogs.':'Salud, alimentación, educación y vida cotidiana: guías útiles para quienes aman al bulldog francés.'}</p></div></section>
 <section class="content"><nav class="grid" aria-label={en?'Topics':'Temas'}>{sections.map(s=><a class="tile" href={base+s.slug+'/'}><span class="tile-content"><span class="icon" aria-hidden="true">{s.icon}</span><strong>{en?s.en:s.es}</strong><span class="desc">{en?s.descEn:s.descEs}</span><span class="arrow">{en?'Explore section →':'Explorar sección →'}</span></span></a>)}</nav></section>
+<section class="all-guides" aria-labelledby="todas"><h2 id="todas">Todas las guías en español</h2><div class="index">{byTopic.map(c=><section><h3><a href={'/es/'+c.slug+'/'}>{c.label}</a></h3><ul>{c.items.map(i=><li><a href={i.url}>{i.title}</a></li>)}</ul></section>)}</div></section>
 </main>
-<footer><nav><a href={base}>{en?'Home':'Inicio'}</a><a href={base+'about/'}>{en?'About':'Acerca de'}</a><a href={base+'contact/'}>{en?'Contact':'Contacto'}</a><a href={base+'directory/'}>{en?'Directory':'Directorio'}</a><a href={base+'affiliate-disclosure/'}>{en?'Affiliate disclosure':'Aviso de afiliación'}</a><a href={base+'editorial-policy/'}>{en?'Editorial policy':'Política editorial'}</a><a href={base+'privacy/'}>{en?'Privacy':'Privacidad'}</a><a href={base+'terms/'}>{en?'Terms':'Términos'}</a></nav><p>{en?'Independent editorial guide to French Bulldogs':'Guía editorial independiente sobre el bulldog francés'}</p><p class="copyright">© {new Date().getFullYear()} BulldogFrances.com. {en?'All rights reserved.':'Todos los derechos reservados.'}</p></footer>
+<footer><nav><a href={base}>{en?'Home':'Inicio'}</a><a href={base+'about/'}>{en?'About':'Acerca de'}</a><a href={base+'contact/'}>{en?'Contact':'Contacto'}</a><a href={base+'directory/'}>{en?'Directory':'Directorio'}</a><a href={base+'affiliate-disclosure/'}>{en?'Affiliate disclosure':'Aviso de afiliación'}</a><a href={base+'editorial-policy/'}>{en?'Editorial policy':'Política editorial'}</a><a href={base+'privacy/'}>{en?'Privacy':'Privacidad'}</a><a href={base+'terms/'}>{en?'Terms':'Términos'}</a><a href="/">{en?'Choose language':'Elegir idioma'}</a></nav><p>{en?'Independent editorial guide to French Bulldogs':'Guía editorial independiente sobre el bulldog francés'}</p><p class="copyright">© {new Date().getFullYear()} BulldogFrances.com. {en?'All rights reserved.':'Todos los derechos reservados.'}</p></footer>
 </div>
 <script is:inline>document.querySelectorAll('.inline-share').forEach(d=>{const url=new URL(d.dataset.url||location.pathname,location.origin).href,u=encodeURIComponent(url),t=encodeURIComponent(d.dataset.title||document.title);d.querySelector('.fb').href='https://www.facebook.com/sharer/sharer.php?u='+u;d.querySelector('.wa').href='https://api.whatsapp.com/send?text='+t+'%20'+u;d.querySelector('.mail').href='mailto:?subject='+t+'&body='+u;d.querySelector('.pin').href='https://pinterest.com/pin/create/button/?url='+u+'&description='+t;d.querySelector('.copy').onclick=e=>{e.preventDefault();navigator.clipboard.writeText(url).then(()=>e.target.textContent=document.documentElement.lang==='es'?'Enlace copiado':'Copied').catch(()=>prompt(document.documentElement.lang==='es'?'Copiar enlace':'Copy link',url))}});</script><script is:inline src="/search.js"></script></body></html>

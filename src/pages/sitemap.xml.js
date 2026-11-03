@@ -7,7 +7,9 @@ const pages = ['about','contact','directory','affiliate-disclosure','privacy','t
 export function GET() {
   const entries = [];
   const pair = (en, es) => { entries.push({ loc: en, alt: { en, es } }); entries.push({ loc: es, alt: { en, es } }); };
-  pair('/', '/es/');
+  // Root is the bilingual language gateway (x-default); each edition has its own home.
+  entries.push({ loc: '/', alt: { en: '/en/', es: '/es/' }, xd: '/' });
+  pair('/en/', '/es/');
   categories.forEach(c => pair('/en/' + c.slug + '/', '/es/' + c.slug + '/'));
   pages.forEach(p => pair('/en/' + p + '/', '/es/' + p + '/'));
   nutritionArticles.forEach(a => pair('/en/nutrition/' + a.slug + '/', '/es/nutrition/' + a.slug + '/'));
@@ -21,7 +23,7 @@ export function GET() {
   enPages.forEach(u => pairs.has(u) ? pair(u, pairs.get(u)) : entries.push({ loc: u }));
   esPages.forEach(u => { if (!pairedEs.has(u)) entries.push({ loc: u }); });
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n` +
-    entries.map(e => `<url><loc>${SITE}${e.loc}</loc>` + (e.lastmod ? `<lastmod>${e.lastmod}</lastmod>` : '') + (e.alt ? Object.entries(e.alt).map(([l, u]) => `<xhtml:link rel="alternate" hreflang="${l}" href="${SITE}${u}"/>`).join('') + `<xhtml:link rel="alternate" hreflang="x-default" href="${SITE}${e.alt.en}"/>` : '') + `</url>`).join('\n') +
+    entries.map(e => `<url><loc>${SITE}${e.loc}</loc>` + (e.lastmod ? `<lastmod>${e.lastmod}</lastmod>` : '') + (e.alt ? Object.entries(e.alt).map(([l, u]) => `<xhtml:link rel="alternate" hreflang="${l}" href="${SITE}${u}"/>`).join('') + `<xhtml:link rel="alternate" hreflang="x-default" href="${SITE}${e.xd || (e.loc === '/en/' || e.loc === '/es/' ? '/' : e.alt.en)}"/>` : '') + `</url>`).join('\n') +
     `\n</urlset>\n`;
   return new Response(xml, { headers: { 'Content-Type': 'application/xml; charset=utf-8' } });
 }

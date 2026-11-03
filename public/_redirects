@@ -1,6 +1,5 @@
-# Cloudflare Pages redirects (301). English edition home lives at the root.
-/en/ / 301
-/en/guides/ / 301
+# Cloudflare Pages redirects (301). The root (/) is the language gateway; English home is /en/.
+/en/guides/ /en/ 301
 /en/guides/french-bulldog-with-longer-snout/ /en/breed-characteristics/french-bulldog-with-longer-snout/ 301
 /en/guides/merle-french-bulldog-health-risks/ /en/genetics/merle-french-bulldog-health-risks/ 301
 /en/guides/white-french-bulldog-deafness/ /en/genetics/white-french-bulldog-deafness/ 301
