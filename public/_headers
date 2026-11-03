@@ -1,0 +1,5 @@
+# Keep Cloudflare's pages.dev copies (production alias and previews) out of search results.
+https://bulldogfrances-cfh.pages.dev/*
+  X-Robots-Tag: noindex
+https://:version.bulldogfrances-cfh.pages.dev/*
+  X-Robots-Tag: noindex
