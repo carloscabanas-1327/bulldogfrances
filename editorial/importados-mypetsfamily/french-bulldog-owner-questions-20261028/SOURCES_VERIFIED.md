@@ -32,9 +32,13 @@ Facts below were checked against the source page on 2026-11-03 before being used
 | WSAVA, Selecting a Pet Food (2021) + BCS chart (2025) | 8 questions (nutritionist, formulation, QC, research; adequacy statement, calories, contact, manufacturer); ideal BCS 4-5/9: ribs palpable, waist visible, abdomen tucked. |
 | FDA, DCM investigation page | Last update Dec 23, 2022; no further updates until meaningful new science. |
 | ASPCA, People Foods to Avoid | Alcohol/yeast dough, chocolate/caffeine, grapes/raisins, onion/garlic/chives, macadamia, xylitol, salt, raw meat/eggs/bones, dairy, nuts, citrus, coconut. Poison Control (888) 426-4435. |
+| Merck owner page, Allergies in Dogs (Sept 2024) | Food allergy itch non-seasonal; diagnosis by elimination/hydrolyzed diet; trial up to 3 months; blood and skin tests not reliable; challenge signs return 1 h-14 d; common allergens beef, chicken, eggs, corn, wheat, soy, milk; strictness incl. treats, flavored meds, toothpaste. |
+| AAFCO, Reading Labels | "Complete" = all nutrients; "balanced" = correct ratios; formulation vs feeding trial; treats usually not complete and balanced. |
 | French Bulldog Rescue Network, Fad Colors | Advocacy position: merle introduced via crossbreeding (cited as the group's position, not as a lab finding). |
 
 Not yet verified (do not cite until checked): OFA breed statistics percentages; Packer 2015 craniofacial ratio figures; UC Davis dilute (D locus) page; any AKC statement that registration does not imply health.
 
 Articles with uncited general guidance that should get veterinary review before final publication: pregnant-french-bulldog-care (whelping emergency thresholds), french-bulldog-first-heat-care (first heat age, diestrus length), french-bulldog-tail-pocket (cleaning routine, fold surgery; status PARTIAL_SOURCES).
 All 24 guides rewritten as of 2026-11-03.
+
+Nutrition articles (editorial/nutrition/) use the WSAVA, AAFCO, FDA, ASPCA, Merck allergy, Packer 2015 and O'Neill 2021 rows above. The 10% treat rule is presented as a common rule of thumb, not cited.
