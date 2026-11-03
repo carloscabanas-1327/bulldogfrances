@@ -1,0 +1,174 @@
+{
+ "descripcion": "Registro interno de imágenes (directiva IMÁGENES USA v1.0, punto 17 y 19). Fotos del archivo del blog de Carlos, exportadas con Google Takeout el 2026-11-03; Carlos confirmó el 2026-11-03 que usar solo sus fotos propias y las generadas con IA.",
+ "imagenes": [
+  {
+   "image_id": "merle-puppy",
+   "web_file": "/images/photos/merle-puppy.webp",
+   "master_file": "Takeout/Blogger (blog \"Bulldog Francés\") / 001_Bulldog-Frances-Choco-Merle-2.jpeg",
+   "source_type": "propia",
+   "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
+   "alt_en": "French Bulldog puppy with a mottled merle coat and a blue collar, lying on a cream satin cloth",
+   "alt_es": "Cachorro de bulldog francés con pelaje merle jaspeado y collar azul, echado sobre una tela satinada color crema",
+   "width": 768,
+   "height": 1024,
+   "articulos": [
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/merle-french-bulldog-health-risks",
+    "editorial/es/guias/bulldog-frances-merle"
+   ],
+   "review_status": "aprobada por Carlos (solo propias + IA)",
+   "created_at": "2026-11-03"
+  },
+  {
+   "image_id": "fawn-and-black-puppies",
+   "web_file": "/images/photos/fawn-and-black-puppies.webp",
+   "master_file": "Takeout/Blogger (blog \"Bulldog Francés\") / 018_Bulldog-Frances-Dorada-3.jpeg",
+   "source_type": "propia",
+   "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
+   "alt_en": "Two French Bulldog puppies, one fawn and one black brindle, resting side by side on a satin cloth",
+   "alt_es": "Dos cachorros de bulldog francés, uno leonado y otro atigrado oscuro, descansando juntos sobre una tela satinada",
+   "width": 768,
+   "height": 821,
+   "articulos": [
+    "editorial/en/guides/french-bulldog-puppy-care",
+    "editorial/es/guias/cuidados-cachorro-bulldog-frances"
+   ],
+   "review_status": "aprobada por Carlos (solo propias + IA)",
+   "created_at": "2026-11-03"
+  },
+  {
+   "image_id": "puppies-together",
+   "web_file": "/images/photos/puppies-together.webp",
+   "master_file": "Takeout/Blogger (blog \"Bulldog Francés\") / 034_Bulldog-Frances-Dorada-5.jpeg",
+   "source_type": "propia",
+   "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
+   "alt_en": "Fawn and black brindle French Bulldog puppies lying close together and looking at the camera",
+   "alt_es": "Cachorros de bulldog francés leonado y atigrado oscuro echados muy juntos, mirando a la cámara",
+   "width": 930,
+   "height": 652,
+   "articulos": [
+    "editorial/en/guides/puppy-socialization",
+    "editorial/es/guias/socializacion-del-cachorro"
+   ],
+   "review_status": "aprobada por Carlos (solo propias + IA)",
+   "created_at": "2026-11-03"
+  },
+  {
+   "image_id": "brindle-puppy-sitting",
+   "web_file": "/images/photos/brindle-puppy-sitting.webp",
+   "master_file": "Takeout/Blogger (blog \"Bulldog Francés\") / 020_Bulldog-Frances-Negra-1.jpeg",
+   "source_type": "propia",
+   "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
+   "alt_en": "Black brindle French Bulldog puppy sitting upright on a cream satin cloth",
+   "alt_es": "Cachorro de bulldog francés atigrado oscuro sentado sobre una tela satinada color crema",
+   "width": 768,
+   "height": 1024,
+   "articulos": [
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-puppy-health-checklist",
+    "editorial/es/guias/revision-salud-cachorro-bulldog-frances"
+   ],
+   "review_status": "aprobada por Carlos (solo propias + IA)",
+   "created_at": "2026-11-03"
+  },
+  {
+   "image_id": "pied-puppy-sweater",
+   "web_file": "/images/photos/pied-puppy-sweater.webp",
+   "master_file": "Takeout/Blogger (blog \"Bulldog Francés\") / 023_P3270351.JPG",
+   "source_type": "propia",
+   "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
+   "alt_en": "White and black pied French Bulldog puppy wearing a knitted orange sweater on a striped blanket",
+   "alt_es": "Cachorro de bulldog francés pied, blanco con manchas negras, con un suéter tejido naranja sobre una manta a rayas",
+   "width": 1600,
+   "height": 1200,
+   "articulos": [
+    "editorial/en/guides/pied-french-bulldog",
+    "editorial/es/guias/bulldog-frances-pied"
+   ],
+   "review_status": "aprobada por Carlos (solo propias + IA)",
+   "created_at": "2026-11-03"
+  },
+  {
+   "image_id": "pied-puppy-resting",
+   "web_file": "/images/photos/pied-puppy-resting.webp",
+   "master_file": "Takeout/Blogger (blog \"Bulldog Francés\") / 024_P3260374.JPG",
+   "source_type": "propia",
+   "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
+   "alt_en": "Pied French Bulldog puppy resting on a striped blanket and a blue cushion",
+   "alt_es": "Cachorro de bulldog francés pied descansando sobre una manta a rayas y un cojín azul",
+   "width": 1600,
+   "height": 1200,
+   "articulos": [
+    "editorial/en/guides/how-much-do-french-bulldogs-sleep",
+    "editorial/es/guias/cuantas-horas-duerme-bulldog-frances"
+   ],
+   "review_status": "aprobada por Carlos (solo propias + IA)",
+   "created_at": "2026-11-03"
+  },
+  {
+   "image_id": "pied-puppy-portrait",
+   "web_file": "/images/photos/pied-puppy-portrait.webp",
+   "master_file": "Takeout/Blogger (blog \"Bulldog Francés\") / 028_DSC_4683.JPG",
+   "source_type": "propia",
+   "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
+   "alt_en": "Close-up of a black and white French Bulldog puppy with upright bat ears, looking at the camera",
+   "alt_es": "Primer plano de un cachorro de bulldog francés blanco y negro con orejas de murciélago erguidas, mirando a la cámara",
+   "width": 1600,
+   "height": 1071,
+   "articulos": [
+    "editorial/en/guides/how-to-train-a-french-bulldog",
+    "editorial/es/guias/como-educar-bulldog-frances"
+   ],
+   "review_status": "aprobada por Carlos (solo propias + IA)",
+   "created_at": "2026-11-03"
+  },
+  {
+   "image_id": "pied-puppy-cushion",
+   "web_file": "/images/photos/pied-puppy-cushion.webp",
+   "master_file": "Takeout/Blogger (blog \"Bulldog Francés\") / 029_DSC_4682.JPG",
+   "source_type": "propia",
+   "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
+   "alt_en": "Black and white French Bulldog puppy resting its chin on a red polka-dot cushion",
+   "alt_es": "Cachorro de bulldog francés blanco y negro apoyando la cabeza en un cojín rojo de lunares",
+   "width": 1600,
+   "height": 1071,
+   "articulos": [
+    "editorial/en/guides/can-french-bulldogs-be-left-alone",
+    "editorial/es/guias/bulldog-frances-solo-en-casa"
+   ],
+   "review_status": "aprobada por Carlos (solo propias + IA)",
+   "created_at": "2026-11-03"
+  },
+  {
+   "image_id": "kids-and-frenchie-ai",
+   "web_file": "/images/photos/kids-and-frenchie-ai.webp",
+   "master_file": "Takeout/Blogger (blog \"Bulldog Francés\") / 030_chicos-bulldog.webp",
+   "source_type": "generada_con_ia",
+   "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
+   "alt_en": "AI-generated illustration of a fawn French Bulldog sitting on a lawn while three children play nearby",
+   "alt_es": "Ilustración generada con IA de un bulldog francés leonado sentado en el césped mientras tres niños juegan cerca",
+   "width": 1024,
+   "height": 1024,
+   "articulos": [
+    "editorial/en/guides/french-bulldog-temperament",
+    "editorial/es/guias/caracter-bulldog-frances"
+   ],
+   "review_status": "aprobada por Carlos (solo propias + IA)",
+   "created_at": "2026-11-03"
+  },
+  {
+   "image_id": "comic-coche-calor-ai",
+   "web_file": "/images/photos/comic-coche-calor-ai.webp",
+   "master_file": "Takeout/Blogger (blog \"Bulldog Francés\") / 003_Nunca_dejes_a_tu_perro_en_el_auto.png",
+   "source_type": "generada_con_ia",
+   "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
+   "alt_en": null,
+   "alt_es": "Historieta generada con IA: un dueño deja a su bulldog francés en el auto \"solo cinco minutos\", el calor sube, una persona da aviso y lo rescatan. Mensaje final: nunca dejes a tu perro solo en el auto, ni con las ventanas entreabiertas",
+   "width": 1024,
+   "height": 1536,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-calor-golpe-de-calor"
+   ],
+   "review_status": "aprobada por Carlos (solo propias + IA)",
+   "created_at": "2026-11-03"
+  }
+ ]
+}
