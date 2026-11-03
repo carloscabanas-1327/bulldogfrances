@@ -1,6 +1,0 @@
----
-import {guides,guideUrl} from '../../../data/frenchBulldogGuides.js';
-export function getStaticPaths(){return guides.map(a=>({params:{slug:a.folder},props:{url:guideUrl(a)}}))}
-const {url}=Astro.props;
-return Astro.redirect(url,301);
----
