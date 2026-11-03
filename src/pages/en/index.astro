@@ -54,7 +54,7 @@ const jsonld = {
 <meta name="theme-color" content="#ffffff" />
 <title>{title}</title>
 <Seo title={title} description={description} lang="en" path="/en/" alternates={{ en: '/en/', es: '/es/' }} xDefault="/" jsonld={jsonld} />
-<link rel="preload" as="image" href="/bulldogfrances-hero.webp" />
+<link rel="preload" as="image" href="/bulldogfrances-pied-hero.webp" />
 <style>
 :root{font-family:Arial,Helvetica,sans-serif;color:#1c2b38;background:#fff;color-scheme:light;--ink:#152538;--muted:#566474;--line:#e3e8ee;--soft:#f4f7fb;--accent:#205b86;--warm:#8a5a2b}
 *{box-sizing:border-box}
@@ -78,7 +78,7 @@ header.site .wrap{display:flex;align-items:center;justify-content:space-between;
 .btn.primary{background:var(--ink);color:#fff}
 .btn.secondary{border:1px solid #c6d1dc;color:var(--ink)}
 .btn:hover{opacity:.9}
-.hero img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:clamp(14px,2vw,24px)}
+.hero img{display:block;width:100%;height:auto;aspect-ratio:808/941;max-height:620px;object-fit:cover;object-position:50% 40%;border-radius:clamp(14px,2vw,24px)}
 section.block{padding:clamp(22px,4vw,40px) 0}
 section.block h2{font:700 clamp(24px,3vw,32px)/1.2 Georgia,serif;color:var(--ink);margin:0 0 18px}
 .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
@@ -110,7 +110,7 @@ section.block h2{font:700 clamp(24px,3vw,32px)/1.2 Georgia,serif;color:var(--ink
 footer.site{border-top:1px solid var(--line);margin-top:24px;padding:26px 0 34px;color:var(--muted);font-size:14px}
 footer.site nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin-bottom:12px}
 footer.site a{text-underline-offset:3px}
-@media(max-width:860px){.hero{grid-template-columns:1fr}.hero img{order:-1}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.trust{grid-template-columns:1fr}}
+@media(max-width:860px){.hero{grid-template-columns:1fr}.hero img{order:-1;max-height:60vh}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.trust{grid-template-columns:1fr}}
 @media(max-width:560px){.cards{grid-template-columns:1fr}.top-nav .hide-sm{display:none}.top-nav{gap:10px;font-size:14px}.logo{font-size:16px}.lang-switch{padding:6px 9px}.lang-switch img{display:none}}
 </style>
 </head>
@@ -135,7 +135,7 @@ footer.site a{text-underline-offset:3px}
         <a class="btn secondary" href="/en/puppies/">Getting a puppy?</a>
       </div>
     </div>
-    <img src="/bulldogfrances-hero.webp" width="2048" height="1365" alt="Cream French Bulldog lying on the floor and looking up at the camera" fetchpriority="high" />
+    <img src="/bulldogfrances-pied-hero.webp" width="808" height="941" alt="White French Bulldog with a black patch over one eye, lying on the floor and looking at the camera" fetchpriority="high" />
   </section>
 
   <section class="block" aria-labelledby="popular">

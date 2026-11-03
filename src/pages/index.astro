@@ -21,7 +21,7 @@ const jsonld = {
 <meta name="theme-color" content="#ffffff" />
 <title>{title}</title>
 <Seo title={title} description={description} lang="en" path="/" alternates={{ en: '/en/', es: '/es/' }} xDefault="/" jsonld={jsonld} />
-<link rel="preload" as="image" href="/bulldogfrances-hero.webp" />
+<link rel="preload" as="image" href="/bulldogfrances-pied-hero.webp" />
 <style>
 :root{font-family:Arial,Helvetica,sans-serif;color:#1c2b38;background:#fff;color-scheme:light;--ink:#152538;--muted:#566474;--line:#e3e8ee;--soft:#f4f7fb;--accent:#205b86}
 *{box-sizing:border-box}
@@ -32,7 +32,7 @@ header{border-bottom:1px solid var(--line)}
 header .wrap{display:flex;align-items:center;min-height:68px}
 .logo{font:700 clamp(18px,2.2vw,24px)/1.1 Georgia,serif;letter-spacing:-.02em;color:var(--ink)}
 main{flex:1;padding:clamp(24px,5vw,56px) 0}
-.hero{display:block;width:100%;height:auto;max-height:420px;aspect-ratio:3/2;object-fit:cover;border-radius:clamp(14px,2vw,24px);margin:0 0 clamp(20px,4vw,36px)}
+.hero{display:block;width:min(360px,100%);height:auto;max-height:48vh;aspect-ratio:808/941;object-fit:cover;object-position:50% 40%;border-radius:clamp(14px,2vw,24px);margin:0 auto clamp(20px,4vw,36px)}
 .choices{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .choice{display:flex;flex-direction:column;gap:10px;padding:clamp(20px,3vw,32px);border:1px solid var(--line);border-radius:18px;text-decoration:none;background:#fff;transition:box-shadow .15s,border-color .15s}
 .choice:hover,.choice:focus-visible{border-color:#b9c8d6;box-shadow:0 8px 26px #13283c17}
@@ -47,7 +47,7 @@ footer{border-top:1px solid var(--line);padding:22px 0 30px;color:var(--muted);f
 <body>
 <header><div class="wrap"><span class="logo">BULLDOGFRANCES.COM</span></div></header>
 <main class="wrap">
-  <img class="hero" src="/bulldogfrances-hero.webp" width="2048" height="1365" alt="" fetchpriority="high" />
+  <img class="hero" src="/bulldogfrances-pied-hero.webp" width="808" height="941" alt="" fetchpriority="high" />
   <nav class="choices" aria-label="Choose your language / Elige tu idioma">
     <a class="choice" href="/en/" hreflang="en" lang="en">
       <img src="/flags/us.svg" alt="" width="36" height="24" />
