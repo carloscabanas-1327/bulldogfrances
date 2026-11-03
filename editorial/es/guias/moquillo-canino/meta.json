@@ -4,17 +4,45 @@
   "description": "Qué es el moquillo en perros (distemper), cómo se contagia, sus síntomas por etapas, si tiene cura y el calendario de vacunas que protege a tu cachorro.",
   "category": "health",
   "primaryKeyword": "moquillo canino",
-  "secondaryKeywords": ["moquillo en perros", "moquillo canino síntomas", "moquillo canino tiene cura", "cómo se contagia el moquillo", "distemper canino"],
+  "secondaryKeywords": [
+    "moquillo en perros",
+    "moquillo canino síntomas",
+    "moquillo canino tiene cura",
+    "cómo se contagia el moquillo",
+    "distemper canino"
+  ],
   "keywordEn": "distemper in dogs",
   "lastReviewed": "2026-11-03",
   "status": "REVISED_DRAFT_SOURCED",
-  "related": ["tos-de-las-perreras", "cuidados-cachorro-bulldog-frances", "socializacion-del-cachorro"],
-  "oldUrls": ["/2021/09/que-es-y-como-prevenir-el-moquillo.html"],
+  "related": [
+    "tos-de-las-perreras",
+    "cuidados-cachorro-bulldog-frances",
+    "socializacion-del-cachorro"
+  ],
+  "oldUrls": [
+    "/2021/09/que-es-y-como-prevenir-el-moquillo.html"
+  ],
   "faq": [
-    {"q": "¿El moquillo canino tiene cura?", "a": "No existe un medicamento que mate el virus. El tratamiento es de sostén y algunos perros se recuperan, pero muchos mueren o quedan con secuelas neurológicas. Por eso la vacunación es tan importante."},
-    {"q": "¿Cómo se contagia el moquillo?", "a": "Por las gotitas que expulsa un perro enfermo al toser, estornudar o ladrar, y por su saliva, orina o heces. También puede venir de animales silvestres como zorros o mapaches."},
-    {"q": "¿El moquillo se contagia a humanos?", "a": "No. El virus del moquillo no infecta a las personas."},
-    {"q": "¿Cuáles son las etapas del moquillo?", "a": "Suele empezar con lagañas, fiebre y mocos; sigue con tos, vómitos o diarrea; puede engrosar las almohadillas; y en algunos perros aparecen tics, convulsiones o parálisis semanas después."},
-    {"q": "¿Puede un perro vacunado tener moquillo?", "a": "Es poco frecuente si completó bien la serie de cachorro y los refuerzos. El riesgo está sobre todo en cachorros que todavía no terminaron sus vacunas."}
-  ]
+    {
+      "q": "¿El moquillo canino tiene cura?",
+      "a": "No existe un medicamento que mate el virus. El tratamiento es de sostén y algunos perros se recuperan, pero muchos mueren o quedan con secuelas neurológicas. Por eso la vacunación es tan importante."
+    },
+    {
+      "q": "¿Cómo se contagia el moquillo?",
+      "a": "Por las gotitas que expulsa un perro enfermo al toser, estornudar o ladrar, y por su saliva, orina o heces. También puede venir de animales silvestres como zorros o mapaches."
+    },
+    {
+      "q": "¿El moquillo se contagia a humanos?",
+      "a": "No. El virus del moquillo no infecta a las personas."
+    },
+    {
+      "q": "¿Cuáles son las etapas del moquillo?",
+      "a": "Suele empezar con lagañas, fiebre y mocos; sigue con tos, vómitos o diarrea; puede engrosar las almohadillas; y en algunos perros aparecen tics, convulsiones o parálisis semanas después."
+    },
+    {
+      "q": "¿Puede un perro vacunado tener moquillo?",
+      "a": "Es poco frecuente si completó bien la serie de cachorro y los refuerzos. El riesgo está sobre todo en cachorros que todavía no terminaron sus vacunas."
+    }
+  ],
+  "enUrl": "/en/health/distemper-in-dogs/"
 }
