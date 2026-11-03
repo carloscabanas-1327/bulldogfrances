@@ -27,9 +27,14 @@ Facts below were checked against the source page on 2026-11-03 before being used
 | AAAAI, Pet Allergy | No truly hypoallergenic breeds; dander not affected by hair length or shedding; allergens in dander, skin flakes, saliva, urine. |
 | AVSAB position statements | Reward-based training only; aversive tools not under any circumstances; puppy socialization first 3 months, classes from 7-8 weeks, 1 set of vaccines 7 days before. |
 | AAHA life stage checklists | Seniors: exams at least every 6 months with screening tests. |
+| Gard et al. 2025, Vet Sci 12(9):792 | 20 dogs with nasal hyperkeratosis, 12 French Bulldogs; emollient twice daily 60 d; score -54.5% (investigators) / -62.3% (owners) at D60; no side effects; pilot, uncontrolled. |
+| USDA APHIS, 78 FR 57227 (Sept 18, 2013) | Retail pet store = seller, buyer and animal physically present; sight-unseen sellers need license; exemption for 4 or fewer breeding females selling own offspring. |
+| WSAVA, Selecting a Pet Food (2021) + BCS chart (2025) | 8 questions (nutritionist, formulation, QC, research; adequacy statement, calories, contact, manufacturer); ideal BCS 4-5/9: ribs palpable, waist visible, abdomen tucked. |
+| FDA, DCM investigation page | Last update Dec 23, 2022; no further updates until meaningful new science. |
+| ASPCA, People Foods to Avoid | Alcohol/yeast dough, chocolate/caffeine, grapes/raisins, onion/garlic/chives, macadamia, xylitol, salt, raw meat/eggs/bones, dairy, nuts, citrus, coconut. Poison Control (888) 426-4435. |
 | French Bulldog Rescue Network, Fad Colors | Advocacy position: merle introduced via crossbreeding (cited as the group's position, not as a lab finding). |
 
 Not yet verified (do not cite until checked): OFA breed statistics percentages; Packer 2015 craniofacial ratio figures; UC Davis dilute (D locus) page; any AKC statement that registration does not imply health.
 
 Articles with uncited general guidance that should get veterinary review before final publication: pregnant-french-bulldog-care (whelping emergency thresholds), french-bulldog-first-heat-care (first heat age, diestrus length), french-bulldog-tail-pocket (cleaning routine, fold surgery; status PARTIAL_SOURCES).
-Not rewritten yet: french-bulldog-dry-nose, french-bulldog-puppy-paperwork (sources pending: VCA, AKC registration pages and USDA APHIS licensing could not be fetched).
+All 24 guides rewritten as of 2026-11-03.
