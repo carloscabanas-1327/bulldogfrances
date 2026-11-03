@@ -1,3 +1,5 @@
+import {readFileSync,existsSync} from 'node:fs';
+import {join} from 'node:path';
 import collection from '../../editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/COLLECTION_INDEX.json';
 export const categories = [
   {slug:'health',label:'Health',description:'Breathing, symptoms, veterinary care and wellbeing.'},
@@ -61,7 +63,10 @@ const titles = {
  "french-bulldog-aggression-behavior": "French Bulldog Aggression: Causes and Safe Next Steps",
  "french-bulldog-crying-whining": "Why Is My French Bulldog Crying or Whining?"
 };
-export const guideTitle = slug=>titles[slug] || slug.replaceAll('-', ' ').replace(/\b\w/g, c=>c.toUpperCase());
+// Optional per-article meta.json ({title, description, lastReviewed}) overrides the defaults.
+const metaCache={};
+export const guideMeta = slug=>{if(!(slug in metaCache)){const f=join(process.cwd(),'editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028',slug,'meta.json');let m={};if(existsSync(f)){try{m=JSON.parse(readFileSync(f,'utf8'))}catch{m={}}}metaCache[slug]=m}return metaCache[slug]};
+export const guideTitle = slug=>guideMeta(slug).title || titles[slug] || slug.replaceAll('-', ' ').replace(/\b\w/g, c=>c.toUpperCase());
 // Short, plain-text summary taken from the first paragraph of the draft.
 export const guideSummary = html=>{const m=html.match(/<p>([\s\S]*?)<\/p>/i);const t=(m?m[1]:'').replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim();return t.length>158?t.slice(0,155).replace(/\s+\S*$/,'')+'…':t};
 export const guideUrl = a=>'/en/'+a.category+'/'+a.folder+'/';
