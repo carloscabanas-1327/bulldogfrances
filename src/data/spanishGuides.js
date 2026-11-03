@@ -22,3 +22,10 @@ export const esGuides = existsSync(root)
 
 export const esGuideUrl = g => '/es/' + g.category + '/' + g.slug + '/';
 export const esGuideHtml = g => readFileSync(join(root, g.slug, 'ARTICLE.html'), 'utf8');
+
+// Spanish URL paired with an English page (set via enUrl in the Spanish meta.json,
+// or esUrl in an English editorial/en/guides meta.json).
+export const esUrlForEn = enPath => {
+  const g = esGuides.find(x => x.enUrl === enPath);
+  return g ? esGuideUrl(g) : null;
+};
