@@ -1,0 +1,180 @@
+---
+// English edition home. The root (/) is only the bilingual language gateway.
+import Seo from '../../components/Seo.astro';
+import { SITE } from '../../data/site.js';
+import { categories, guides, guideTitle, guideUrl, nutritionArticles } from '../../data/frenchBulldogGuides.js';
+import { enGuides, enGuideUrl } from '../../data/englishGuides.js';
+
+const featuredSlugs = [
+  'french-bulldog-heat-safety',
+  'french-bulldog-noisy-breathing',
+  'french-bulldog-puppy-health-checklist',
+  'french-bulldog-breeder-health-tests',
+  'french-bulldog-back-pain-weak-legs',
+  'french-bulldog-red-eyes',
+];
+const featured = featuredSlugs
+  .map(slug => guides.find(g => g.folder === slug))
+  .filter(Boolean)
+  .map(g => ({ url: guideUrl(g), title: guideTitle(g.folder), label: categories.find(c => c.slug === g.category).label }));
+featured.splice(3, 0, { url: '/en/nutrition/' + nutritionArticles[0].slug + '/', title: nutritionArticles[0].en, label: 'Nutrition' });
+const shown = featured.slice(0, 6);
+
+// Every English article, grouped by topic, so the English home links to all English pages.
+const byTopic = categories.map(c => ({
+  ...c,
+  items: [
+    ...(c.slug === 'nutrition' ? nutritionArticles.map(a => ({ url: '/en/nutrition/' + a.slug + '/', title: a.en })) : []),
+    ...guides.filter(g => g.category === c.slug).map(g => ({ url: guideUrl(g), title: guideTitle(g.folder) })),
+    ...enGuides.filter(g => g.category === c.slug).map(g => ({ url: enGuideUrl(g), title: g.title })),
+  ].sort((a, b) => a.title.localeCompare(b.title, 'en')),
+}));
+const counts = Object.fromEntries(byTopic.map(c => [c.slug, c.items.length]));
+const comingSoon = [
+  { slug: 'history', label: 'History & Origins' },
+  { slug: 'news-around-the-world', label: 'News Around the World' },
+  { slug: 'store', label: 'Where to Buy' },
+];
+const title = 'BulldogFrances.com | French Bulldog Health, Care & Training Guides';
+const description = 'Independent French Bulldog guides on breathing, heat safety, puppies, nutrition, genetics and everyday care, written for owners in the US.';
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'BulldogFrances.com',
+  url: SITE + '/en/',
+  inLanguage: 'en-US',
+  potentialAction: { '@type': 'SearchAction', target: SITE + '/en/search/?q={query}', 'query-input': 'required name=query' },
+};
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#ffffff" />
+<title>{title}</title>
+<Seo title={title} description={description} lang="en" path="/en/" alternates={{ en: '/en/', es: '/es/' }} xDefault="/" jsonld={jsonld} />
+<link rel="preload" as="image" href="/bulldogfrances-pied-hero.webp" />
+<style>
+:root{font-family:Arial,Helvetica,sans-serif;color:#1c2b38;background:#fff;color-scheme:light;--ink:#152538;--muted:#566474;--line:#e3e8ee;--soft:#f4f7fb;--accent:#205b86;--warm:#8a5a2b}
+*{box-sizing:border-box}
+body{margin:0;background:#fff}
+a{color:inherit}
+.wrap{width:min(1200px,calc(100% - 32px));margin:0 auto}
+header.site{border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:68px}
+.logo{font:700 clamp(18px,2.2vw,24px)/1.1 Georgia,serif;letter-spacing:-.02em;text-decoration:none;color:var(--ink)}
+.top-nav{display:flex;align-items:center;gap:14px;font-size:15px}
+.top-nav a{text-decoration:none}
+.top-nav a:hover{text-decoration:underline}
+.lang-switch{display:inline-flex;align-items:center;gap:7px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;color:var(--muted)}
+.lang-switch img{width:22px;height:15px;border-radius:2px}
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(20px,4vw,48px);align-items:center;padding:clamp(24px,5vw,56px) 0}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--warm);margin:0 0 12px}
+.hero h1{font:700 clamp(34px,5.2vw,60px)/1.05 Georgia,serif;letter-spacing:-.03em;color:var(--ink);margin:0 0 16px}
+.hero p.lead{font-size:clamp(17px,1.8vw,20px);line-height:1.55;color:var(--muted);margin:0 0 24px;max-width:36ch}
+.ctas{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:13px 20px;border-radius:999px;text-decoration:none;font-weight:700;font-size:15px}
+.btn.primary{background:var(--ink);color:#fff}
+.btn.secondary{border:1px solid #c6d1dc;color:var(--ink)}
+.btn:hover{opacity:.9}
+.hero img{display:block;width:100%;height:auto;aspect-ratio:808/941;max-height:620px;object-fit:cover;object-position:50% 40%;border-radius:clamp(14px,2vw,24px)}
+section.block{padding:clamp(22px,4vw,40px) 0}
+section.block h2{font:700 clamp(24px,3vw,32px)/1.2 Georgia,serif;color:var(--ink);margin:0 0 18px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.card{display:flex;flex-direction:column;gap:8px;padding:20px;border:1px solid var(--line);border-radius:14px;text-decoration:none;background:#fff;transition:box-shadow .15s,border-color .15s}
+.card:hover,.card:focus-visible{border-color:#b9c8d6;box-shadow:0 6px 22px #13283c14}
+.card small{font-size:12px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--accent)}
+.card strong{font:700 19px/1.3 Georgia,serif;color:var(--ink)}
+.topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.topic{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:16px 18px;border-radius:12px;background:var(--soft);text-decoration:none;font-weight:700;color:var(--ink)}
+.topic span{font-weight:400;font-size:14px;color:var(--muted);white-space:nowrap}
+.topic:hover{background:#e8eff7}
+.topic.soon{background:#fff;border:1px dashed #cdd6df;color:var(--muted)}
+.trust{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.trust div{padding:18px;border-left:3px solid var(--accent);background:var(--soft);border-radius:0 12px 12px 0}
+.trust strong{display:block;color:var(--ink);margin-bottom:6px}
+.trust p{margin:0;color:var(--muted);line-height:1.5;font-size:15px}
+/* Full English index on the English home */
+.index{columns:3 260px;column-gap:28px}
+.index section{break-inside:avoid;margin:0 0 20px}
+.index h3{font:700 18px/1.3 Georgia,serif;margin:0 0 8px;color:var(--ink)}
+.index h3 a{text-decoration:none}
+.index ul{margin:0;padding-left:18px;line-height:1.5;font-size:15px}
+.index li{margin:0 0 6px}
+.es-band{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;padding:20px 24px;border:1px solid var(--line);border-radius:14px;margin:clamp(16px,3vw,28px) 0}
+.es-band p{margin:0;color:var(--muted)}
+.es-band strong{color:var(--ink)}
+.es-band a{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--accent);text-decoration:none}
+.es-band img{width:24px;height:16px;border-radius:2px}
+footer.site{border-top:1px solid var(--line);margin-top:24px;padding:26px 0 34px;color:var(--muted);font-size:14px}
+footer.site nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin-bottom:12px}
+footer.site a{text-underline-offset:3px}
+@media(max-width:860px){.hero{grid-template-columns:1fr}.hero img{order:-1;max-height:60vh}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.trust{grid-template-columns:1fr}}
+@media(max-width:560px){.cards{grid-template-columns:1fr}.top-nav .hide-sm{display:none}.top-nav{gap:10px;font-size:14px}.logo{font-size:16px}.lang-switch{padding:6px 9px}.lang-switch img{display:none}}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <a class="logo" href="/en/">BULLDOGFRANCES.COM</a>
+  <nav class="top-nav" aria-label="Site">
+    <a href="/en/search/">Search</a>
+    <a class="hide-sm" href="/en/directory/">All guides</a>
+    <a class="lang-switch" href="/es/" hreflang="es" lang="es"><img src="/flags/es.svg" alt="" width="22" height="15" />Español</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <p class="kicker">Independent French Bulldog guide</p>
+      <h1>Everything French Bulldog</h1>
+      <p class="lead">Clear, source-based guides on breathing, heat safety, puppies, nutrition and everyday care for Frenchie owners.</p>
+      <div class="ctas">
+        <a class="btn primary" href="/en/health/">Start with health</a>
+        <a class="btn secondary" href="/en/puppies/">Getting a puppy?</a>
+      </div>
+    </div>
+    <img src="/bulldogfrances-pied-hero.webp" width="808" height="941" alt="White French Bulldog with a black patch over one eye, lying on the floor and looking at the camera" fetchpriority="high" />
+  </section>
+
+  <section class="block" aria-labelledby="popular">
+    <h2 id="popular">Popular guides</h2>
+    <div class="cards">
+      {shown.map(g => <a class="card" href={g.url}><small>{g.label}</small><strong>{g.title}</strong></a>)}
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="topics">
+    <h2 id="topics">Browse by topic</h2>
+    <nav class="topics" aria-label="Topics">
+      {categories.map(c => <a class="topic" href={'/en/' + c.slug + '/'}>{c.label}<span>{counts[c.slug]} {counts[c.slug] === 1 ? 'guide' : 'guides'}</span></a>)}
+      {comingSoon.map(c => <a class="topic soon" href={'/en/' + c.slug + '/'}>{c.label}<span>Coming soon</span></a>)}
+    </nav>
+  </section>
+
+  <section class="block" aria-labelledby="approach">
+    <h2 id="approach">How we write</h2>
+    <div class="trust">
+      <div><strong>Sources first</strong><p>Guides cite veterinary schools, breed health registries and peer-reviewed research.</p></div>
+      <div><strong>Welfare over sales</strong><p>We don't sell puppies. Commercial links, if any, are always disclosed.</p></div>
+      <div><strong>Not a vet visit</strong><p>Our guides explain and prepare you; they don't replace your veterinarian.</p></div>
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="all-guides">
+    <h2 id="all-guides">All English guides</h2>
+    <div class="index">
+      {byTopic.filter(c => c.items.length).map(c => <section><h3><a href={'/en/' + c.slug + '/'}>{c.label}</a></h3><ul>{c.items.map(i => <li><a href={i.url}>{i.title}</a></li>)}</ul></section>)}
+    </div>
+  </section>
+</main>
+
+<footer class="site"><div class="wrap">
+  <nav aria-label="Footer">
+    <a href="/en/about/">About</a><a href="/en/editorial-policy/">Editorial policy</a><a href="/en/contact/">Contact</a><a href="/en/directory/">Directory</a><a href="/en/affiliate-disclosure/">Affiliate disclosure</a><a href="/en/privacy/">Privacy</a><a href="/en/terms/">Terms</a><a href="/">Choose language</a>
+  </nav>
+  <small>© {new Date().getFullYear()} BulldogFrances.com. All rights reserved. Educational content, not veterinary advice.</small>
+</div></footer>
+</body>
+</html>
