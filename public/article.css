@@ -1,6 +1,6 @@
 /* Article figures and inline definitions (shared by EN and ES article pages). */
 .article-body figure.article-figure{margin:28px 0;max-width:100%}
-.article-body figure.article-figure img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid #dbe5ee;background:#f6f9fc}
+.article-body figure.article-figure img{display:block;width:auto;max-width:100%;max-height:min(80vh,760px);margin:0 auto;height:auto;border-radius:14px;border:1px solid #dbe5ee;background:#f6f9fc}
 .article-body figure.article-figure figcaption{font-size:14px;line-height:1.5;color:#586879;margin-top:8px}
 .article-body h3{font-size:21px;margin:28px 0 6px;color:#152538}
 .article-body p.term{background:#f7f9fb;border-left:4px solid #205b86;border-radius:6px;padding:10px 14px;font-size:15.5px}
