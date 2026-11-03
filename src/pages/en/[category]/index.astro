@@ -1,9 +1,10 @@
 ---
 import Seo from '../../../components/Seo.astro';
 import {categories,guides,guideTitle,guideUrl,nutritionArticles} from '../../../data/frenchBulldogGuides.js';
+import {enGuides,enGuideUrl} from '../../../data/englishGuides.js';
 export function getStaticPaths(){return categories.map(category=>({params:{category:category.slug},props:{category}}))}
 const {category}=Astro.props;
-const articles=guides.filter(a=>a.category===category.slug).map(a=>({url:guideUrl(a),title:guideTitle(a.folder),note:'French Bulldog guide'}));
+const articles=[...guides.filter(a=>a.category===category.slug).map(a=>({url:guideUrl(a),title:guideTitle(a.folder),note:'French Bulldog guide'})),...enGuides.filter(g=>g.category===category.slug).map(g=>({url:enGuideUrl(g),title:g.title,note:g.description}))].sort((a,b)=>a.title.localeCompare(b.title,'en'));
 if(category.slug==='nutrition') articles.unshift(...nutritionArticles.map(a=>({url:'/en/nutrition/'+a.slug+'/',title:a.en,note:a.descEn})));
 const path='/en/'+category.slug+'/';
 const title=category.label+' | French Bulldog | BulldogFrances.com';
