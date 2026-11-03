@@ -10,7 +10,7 @@ const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLo
 function search(){
  results.replaceChildren();
  const q=norm(input.value.trim());
- if(!q){results.textContent='Enter a search term / Escribí un término';return}
+ if(!q){results.textContent='Enter a search term / Escribe un término';return}
  if(!index){results.textContent='Search index unavailable / Índice no disponible';return}
  const words=q.split(/\s+/);
  const found=index.filter(x=>words.every(w=>norm(x.title+' '+x.category+' '+(x.summary||'')+' '+(x.keywords||'')).includes(w))).slice(0,30);
@@ -20,7 +20,7 @@ function search(){
 }
 root.querySelector('.trigger').addEventListener('click',async()=>{
  overlay.hidden=false;input.focus();
- if(!index){results.textContent='Loading… / Cargando…';try{const response=await fetch('/search-index.json',{cache:'no-cache'});if(!response.ok)throw Error('HTTP '+response.status);index=await response.json();results.textContent='Type a term and press Search or Enter / Escribí un término y presioná Buscar o Enter'}catch(e){results.textContent='Search unavailable / No se pudo cargar la búsqueda'}}
+ if(!index){results.textContent='Loading… / Cargando…';try{const response=await fetch('/search-index.json',{cache:'no-cache'});if(!response.ok)throw Error('HTTP '+response.status);index=await response.json();results.textContent='Type a term and press Search or Enter / Escribe un término y presiona Buscar o Enter'}catch(e){results.textContent='Search unavailable / No se pudo cargar la búsqueda'}}
 });
 root.querySelector('.search-form').addEventListener('submit',e=>{e.preventDefault();search()});
 root.querySelector('.close').addEventListener('click',()=>overlay.hidden=true);
