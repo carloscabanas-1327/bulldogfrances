@@ -703,3 +703,6 @@ Researched 2026-11-03 with WebSearch/WebFetch. Each fact was seen on a page I lo
 - Aeroméxico's brachycephalic policy is not verified, and LATAM's breed list is behind a link I did not load.
 - I found no current official DOT figure for the share of animal deaths that were brachycephalic. The "about half of 122 deaths" figure is DOT data from 2005–2010, cited by AVMA and AP.
 - Policies change: Alaska changed its policy twice in 2026. Tell readers to confirm with the airline when they book.
+
+## Batch 2026-11-03 (61 new EN/ES guides)
+New facts verified for this batch are logged per writer in editorial/_ledgers/ (es1-es4, en1-en3, new1-new2), each with source and URL.

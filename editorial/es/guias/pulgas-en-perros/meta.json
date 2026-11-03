@@ -4,17 +4,44 @@
   "description": "Cómo saber si tu perro tiene pulgas, por qué vuelven aunque lo trates, cómo eliminarlas del perro y de la casa, y qué antipulgas son peligrosos para gatos.",
   "category": "health",
   "primaryKeyword": "pulgas en perros",
-  "secondaryKeywords": ["cómo quitar las pulgas a un perro", "pulgas en perros que no salen de casa", "las pulgas de perro se pegan a los humanos", "pulgas en cachorros", "pulgas en perros remedios caseros"],
+  "secondaryKeywords": [
+    "cómo quitar las pulgas a un perro",
+    "pulgas en perros que no salen de casa",
+    "las pulgas de perro se pegan a los humanos",
+    "pulgas en cachorros",
+    "pulgas en perros remedios caseros"
+  ],
   "keywordEn": "fleas on dogs",
   "lastReviewed": "2026-11-03",
   "status": "REVISED_DRAFT_SOURCED",
-  "related": ["acaros-en-los-oidos-perros", "sarna-demodecica-perros"],
-  "oldUrls": ["/2021/09/pulgas-en-perros.html"],
+  "related": [
+    "acaros-en-los-oidos-perros",
+    "sarna-demodecica-perros"
+  ],
+  "oldUrls": [
+    "/2021/09/pulgas-en-perros.html"
+  ],
   "faq": [
-    {"q": "¿Cómo saber si mi perro tiene pulgas?", "a": "Revisa la base de la cola, la espalda baja y los muslos. Además de pulgas verás puntitos negros que, sobre un papel húmedo, se vuelven rojizos: son heces de pulga."},
-    {"q": "¿Por qué mi perro tiene pulgas si no sale de casa?", "a": "Las pulgas pueden entrar con otra mascota, en la ropa o quedar como pupas de una infestación anterior. Las pupas pueden esperar meses antes de nacer."},
-    {"q": "¿Las pulgas de perro se pegan a los humanos?", "a": "Pueden picar a las personas, sobre todo en los tobillos, pero no viven ni se reproducen sobre ellas. Necesitan un perro o un gato."},
-    {"q": "¿Funcionan los remedios caseros contra las pulgas?", "a": "No rompen el ciclo de la pulga. Lo eficaz es un antipulgas veterinario para todas las mascotas de la casa más limpieza del ambiente. El ajo, además, es tóxico para los perros."},
-    {"q": "¿Cómo quitar las pulgas a un cachorro de 2 meses?", "a": "Usa solo un producto cuya etiqueta autorice esa edad y ese peso, indicado por el veterinario, y limpia a fondo la cama y la casa."}
-  ]
+    {
+      "q": "¿Cómo saber si mi perro tiene pulgas?",
+      "a": "Revisa la base de la cola, la espalda baja y los muslos. Además de pulgas verás puntitos negros que, sobre un papel húmedo, se vuelven rojizos: son heces de pulga."
+    },
+    {
+      "q": "¿Por qué mi perro tiene pulgas si no sale de casa?",
+      "a": "Las pulgas pueden entrar con otra mascota, en la ropa o quedar como pupas de una infestación anterior. Las pupas pueden esperar meses antes de nacer."
+    },
+    {
+      "q": "¿Las pulgas de perro se pegan a los humanos?",
+      "a": "Pueden picar a las personas, sobre todo en los tobillos, pero no viven ni se reproducen sobre ellas. Necesitan un perro o un gato."
+    },
+    {
+      "q": "¿Funcionan los remedios caseros contra las pulgas?",
+      "a": "No rompen el ciclo de la pulga. Lo eficaz es un antipulgas veterinario para todas las mascotas de la casa más limpieza del ambiente. El ajo, además, es tóxico para los perros."
+    },
+    {
+      "q": "¿Cómo quitar las pulgas a un cachorro de 2 meses?",
+      "a": "Usa solo un producto cuya etiqueta autorice esa edad y ese peso, indicado por el veterinario, y limpia a fondo la cama y la casa."
+    }
+  ],
+  "enUrl": "/en/health/fleas-on-dogs/"
 }
