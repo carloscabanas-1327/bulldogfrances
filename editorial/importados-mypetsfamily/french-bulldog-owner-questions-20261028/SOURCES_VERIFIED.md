@@ -19,6 +19,7 @@ Facts below were checked against the source page on 2026-11-03 before being used
 | UC Davis VGL, Coat Length | Five recessive FGF5 variants; L4 in French Bulldog; "Long hair is also known as Fluffy in the French Bulldog"; carrier x carrier = 25% long. |
 | Strain et al. 2009, JVIM 23(2):282-286 | 153 merle dogs; single merle 2.7% uni / 0.9% bi deaf; double merle 10% uni / 15% bi. |
 | Merck Vet Manual, Deafness in Animals | Congenital deafness linked to piebald/merle; unilateral deafness may go undetected without BAER. |
+| Merck Vet Manual, Hereditary Alopecia and Hypotrichosis (Moriello, Carnevale, Feb 2025) | CDA: MLPH recessive; born normal, signs before 1 year in blue/fawn areas; managed not cured; cosmetic; biopsy. |
 | French Bulldog Rescue Network, Fad Colors | Advocacy position: merle introduced via crossbreeding (cited as the group's position, not as a lab finding). |
 
-Not yet verified (do not cite until checked): OFA breed statistics percentages; Packer 2015 craniofacial ratio figures.
+Not yet verified (do not cite until checked): OFA breed statistics percentages; Packer 2015 craniofacial ratio figures; UC Davis dilute (D locus) page; any AKC statement that registration does not imply health.
