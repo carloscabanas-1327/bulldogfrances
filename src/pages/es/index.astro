@@ -1,0 +1,174 @@
+---
+// Spanish edition home: same layout as the English home (/en/), Spanish content only.
+import Seo from '../../components/Seo.astro';
+import { SITE } from '../../data/site.js';
+import { categories, guides, guideUrl, nutritionArticles } from '../../data/frenchBulldogGuides.js';
+import { enGuides, enGuideUrl } from '../../data/englishGuides.js';
+import { esGuides, esGuideUrl, esCategoryLabels } from '../../data/spanishGuides.js';
+
+// Popular guides: the Spanish counterparts of the English home's featured guides.
+const featuredEn = ['french-bulldog-heat-safety','french-bulldog-noisy-breathing','french-bulldog-puppy-health-checklist','french-bulldog-breeder-health-tests','french-bulldog-back-pain-weak-legs','french-bulldog-red-eyes']
+  .map(slug => guides.find(g => g.folder === slug)).filter(Boolean).map(guideUrl);
+const toCard = g => ({ url: esGuideUrl(g), title: g.title, label: esCategoryLabels[g.category] });
+let shown = featuredEn.map(u => esGuides.find(g => g.enUrl === u)).filter(Boolean).map(toCard);
+shown.splice(3, 0, { url: '/es/nutrition/' + nutritionArticles[0].slug + '/', title: nutritionArticles[0].es, label: 'Alimentación' });
+for (const g of esGuides) { if (shown.length >= 6) break; if (!shown.some(x => x.url === esGuideUrl(g))) shown.push(toCard(g)); }
+shown = shown.slice(0, 6);
+
+// Every Spanish article, grouped by topic, so the Spanish home links to all Spanish pages.
+const byTopic = categories.map(c => ({
+  slug: c.slug, label: esCategoryLabels[c.slug] || c.label,
+  items: [
+    ...(c.slug === 'nutrition' ? nutritionArticles.map(a => ({ url: '/es/nutrition/' + a.slug + '/', title: a.es })) : []),
+    ...esGuides.filter(g => g.category === c.slug).map(g => ({ url: esGuideUrl(g), title: g.title })),
+  ].sort((a, b) => a.title.localeCompare(b.title, 'es')),
+}));
+const counts = Object.fromEntries(byTopic.map(c => [c.slug, c.items.length]));
+const comingSoon = [
+  { slug: 'history', label: 'Historia y orígenes' },
+  { slug: 'news-around-the-world', label: 'Noticias del mundo' },
+  { slug: 'store', label: 'Dónde comprar' },
+];
+const title = 'BulldogFrances.com | Guías de salud, cuidados y educación del bulldog francés';
+const description = 'Guías independientes sobre el bulldog francés: respiración, calor, cachorros, alimentación, genética y cuidados diarios, con fuentes verificables.';
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'BulldogFrances.com',
+  url: SITE + '/es/',
+  inLanguage: 'es',
+  potentialAction: { '@type': 'SearchAction', target: SITE + '/es/search/?q={query}', 'query-input': 'required name=query' },
+};
+---
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#ffffff" />
+<title>{title}</title>
+<Seo title={title} description={description} lang="es" path="/es/" alternates={{ en: '/en/', es: '/es/' }} xDefault="/" jsonld={jsonld} />
+<link rel="preload" as="image" href="/bulldogfrances-pied-hero.webp" />
+<style>
+:root{font-family:Arial,Helvetica,sans-serif;color:#1c2b38;background:#fff;color-scheme:light;--ink:#152538;--muted:#566474;--line:#e3e8ee;--soft:#f4f7fb;--accent:#205b86;--warm:#8a5a2b}
+*{box-sizing:border-box}
+body{margin:0;background:#fff}
+a{color:inherit}
+.wrap{width:min(1200px,calc(100% - 32px));margin:0 auto}
+header.site{border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:68px}
+.logo{font:700 clamp(18px,2.2vw,24px)/1.1 Georgia,serif;letter-spacing:-.02em;text-decoration:none;color:var(--ink)}
+.top-nav{display:flex;align-items:center;gap:14px;font-size:15px}
+.top-nav a{text-decoration:none}
+.top-nav a:hover{text-decoration:underline}
+.lang-switch{display:inline-flex;align-items:center;gap:7px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;color:var(--muted)}
+.lang-switch img{width:22px;height:15px;border-radius:2px}
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(20px,4vw,48px);align-items:center;padding:clamp(24px,5vw,56px) 0}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--warm);margin:0 0 12px}
+.hero h1{font:700 clamp(34px,5.2vw,60px)/1.05 Georgia,serif;letter-spacing:-.03em;color:var(--ink);margin:0 0 16px}
+.hero p.lead{font-size:clamp(17px,1.8vw,20px);line-height:1.55;color:var(--muted);margin:0 0 24px;max-width:36ch}
+.ctas{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:13px 20px;border-radius:999px;text-decoration:none;font-weight:700;font-size:15px}
+.btn.primary{background:var(--ink);color:#fff}
+.btn.secondary{border:1px solid #c6d1dc;color:var(--ink)}
+.btn:hover{opacity:.9}
+.hero img{display:block;width:100%;height:auto;aspect-ratio:808/941;max-height:620px;object-fit:cover;object-position:50% 40%;border-radius:clamp(14px,2vw,24px)}
+section.block{padding:clamp(22px,4vw,40px) 0}
+section.block h2{font:700 clamp(24px,3vw,32px)/1.2 Georgia,serif;color:var(--ink);margin:0 0 18px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.card{display:flex;flex-direction:column;gap:8px;padding:20px;border:1px solid var(--line);border-radius:14px;text-decoration:none;background:#fff;transition:box-shadow .15s,border-color .15s}
+.card:hover,.card:focus-visible{border-color:#b9c8d6;box-shadow:0 6px 22px #13283c14}
+.card small{font-size:12px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--accent)}
+.card strong{font:700 19px/1.3 Georgia,serif;color:var(--ink)}
+.topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.topic{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:16px 18px;border-radius:12px;background:var(--soft);text-decoration:none;font-weight:700;color:var(--ink)}
+.topic span{font-weight:400;font-size:14px;color:var(--muted);white-space:nowrap}
+.topic:hover{background:#e8eff7}
+.topic.soon{background:#fff;border:1px dashed #cdd6df;color:var(--muted)}
+.trust{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.trust div{padding:18px;border-left:3px solid var(--accent);background:var(--soft);border-radius:0 12px 12px 0}
+.trust strong{display:block;color:var(--ink);margin-bottom:6px}
+.trust p{margin:0;color:var(--muted);line-height:1.5;font-size:15px}
+/* Full English index on the English home */
+.index{columns:3 260px;column-gap:28px}
+.index section{break-inside:avoid;margin:0 0 20px}
+.index h3{font:700 18px/1.3 Georgia,serif;margin:0 0 8px;color:var(--ink)}
+.index h3 a{text-decoration:none}
+.index ul{margin:0;padding-left:18px;line-height:1.5;font-size:15px}
+.index li{margin:0 0 6px}
+.es-band{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;padding:20px 24px;border:1px solid var(--line);border-radius:14px;margin:clamp(16px,3vw,28px) 0}
+.es-band p{margin:0;color:var(--muted)}
+.es-band strong{color:var(--ink)}
+.es-band a{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--accent);text-decoration:none}
+.es-band img{width:24px;height:16px;border-radius:2px}
+footer.site{border-top:1px solid var(--line);margin-top:24px;padding:26px 0 34px;color:var(--muted);font-size:14px}
+footer.site nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin-bottom:12px}
+footer.site a{text-underline-offset:3px}
+@media(max-width:860px){.hero{grid-template-columns:1fr}.hero img{order:-1;max-height:60vh}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.trust{grid-template-columns:1fr}}
+@media(max-width:560px){.cards{grid-template-columns:1fr}.top-nav .hide-sm{display:none}.top-nav{gap:10px;font-size:14px}.logo{font-size:16px}.lang-switch{padding:6px 9px}.lang-switch img{display:none}}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <a class="logo" href="/es/">BULLDOGFRANCES.COM</a>
+  <nav class="top-nav" aria-label="Sitio">
+    <a href="/es/search/">Buscar</a>
+    <a class="hide-sm" href="/es/directory/">Todas las guías</a>
+    <a class="lang-switch" href="/en/" hreflang="en" lang="en"><img src="/flags/us.svg" alt="" width="22" height="15" />English</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <p class="kicker">Guía independiente del bulldog francés</p>
+      <h1>Todo sobre el bulldog francés</h1>
+      <p class="lead">Guías claras y con fuentes sobre respiración, calor, cachorros, alimentación y cuidados diarios para quienes tienen un bulldog francés.</p>
+      <div class="ctas">
+        <a class="btn primary" href="/es/health/">Empieza por la salud</a>
+        <a class="btn secondary" href="/es/puppies/">¿Vas a tener un cachorro?</a>
+      </div>
+    </div>
+    <img src="/bulldogfrances-pied-hero.webp" width="808" height="941" alt="Bulldog francés blanco con un parche negro en un ojo, echado en el suelo mirando a la cámara" fetchpriority="high" />
+  </section>
+
+  <section class="block" aria-labelledby="popular">
+    <h2 id="popular">Guías populares</h2>
+    <div class="cards">
+      {shown.map(g => <a class="card" href={g.url}><small>{g.label}</small><strong>{g.title}</strong></a>)}
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="topics">
+    <h2 id="topics">Explora por tema</h2>
+    <nav class="topics" aria-label="Temas">
+      {byTopic.map(c => <a class="topic" href={'/es/' + c.slug + '/'}>{c.label}<span>{counts[c.slug]} {counts[c.slug] === 1 ? 'guía' : 'guías'}</span></a>)}
+      {comingSoon.map(c => <a class="topic soon" href={'/es/' + c.slug + '/'}>{c.label}<span>Próximamente</span></a>)}
+    </nav>
+  </section>
+
+  <section class="block" aria-labelledby="approach">
+    <h2 id="approach">Cómo escribimos</h2>
+    <div class="trust">
+      <div><strong>Primero las fuentes</strong><p>Las guías citan facultades de veterinaria, registros de salud de la raza e investigación revisada por pares.</p></div>
+      <div><strong>Bienestar antes que ventas</strong><p>No vendemos cachorros. Si hay enlaces comerciales, siempre lo indicamos.</p></div>
+      <div><strong>No reemplaza al veterinario</strong><p>Nuestras guías te explican y te preparan, pero no sustituyen la consulta veterinaria.</p></div>
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="all-guides">
+    <h2 id="all-guides">Todas las guías en español</h2>
+    <div class="index">
+      {byTopic.filter(c => c.items.length).map(c => <section><h3><a href={'/es/' + c.slug + '/'}>{c.label}</a></h3><ul>{c.items.map(i => <li><a href={i.url}>{i.title}</a></li>)}</ul></section>)}
+    </div>
+  </section>
+</main>
+
+<footer class="site"><div class="wrap">
+  <nav aria-label="Pie de página">
+    <a href="/es/about/">Acerca de</a><a href="/es/editorial-policy/">Política editorial</a><a href="/es/contact/">Contacto</a><a href="/es/directory/">Directorio</a><a href="/es/affiliate-disclosure/">Aviso de afiliación</a><a href="/es/privacy/">Privacidad</a><a href="/es/terms/">Términos</a><a href="/">Elegir idioma</a>
+  </nav>
+  <small>© {new Date().getFullYear()} BulldogFrances.com. Todos los derechos reservados. Contenido educativo, no es consejo veterinario.</small>
+</div></footer>
+</body>
+</html>
