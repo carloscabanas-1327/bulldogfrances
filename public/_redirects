@@ -133,4 +133,7 @@
 /search/label/* /es/ 301
 /search /es/ 301
 /p/* /es/ 301
-/feeds/* /es/ 301
+/feeds/* /sitemap.xml 301
+/atom.xml /sitemap.xml 301
+/rss.xml /sitemap.xml 301
+/sitemap-pages.xml /sitemap.xml 301
