@@ -12,8 +12,7 @@ const imageUrl = image.startsWith('http') ? image : SITE + image;
 {description && <meta name="description" content={description} />}
 {alts.length > 1 && alts.map(([l, url]) => <link rel="alternate" hreflang={l} href={SITE + url} />)}
 {alts.length > 1 && (xDefault || alternates.en) && <link rel="alternate" hreflang="x-default" href={SITE + (xDefault || alternates.en)} />}
-<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-<link rel="icon" href="/favicon.png" type="image/png" sizes="64x64" />
+<link rel="icon" href="/favicon.ico" sizes="16x16" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <meta property="og:site_name" content="BulldogFrances.com" />
 <meta property="og:type" content={type} />
