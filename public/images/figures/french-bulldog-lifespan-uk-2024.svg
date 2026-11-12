@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">Median survival of French Bulldogs compared with all dogs in the 2024 UK study</title>
+<desc id="desc">Comparative horizontal bar chart. The French Bulldog median survival estimate is 9.8 years and the all-dogs median is 12.5 years. These are study estimates from the United Kingdom, not an individual prediction.</desc>
+<rect width="1200" height="620" fill="#f7fafc"/>
+<text x="72" y="95" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="37" fill="#18283c">How long do French Bulldogs live?</text>
+<text x="72" y="139" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#42556b">Median survival estimates · 2024 UK study</text>
+<g font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#21364c">
+<text x="72" y="252">French Bulldog</text>
+<text x="72" y="384">All dogs</text>
+</g>
+<rect x="353" y="213" width="706" height="59" rx="12" fill="#dde5ee"/>
+<rect x="353" y="213" width="553.5" height="59" rx="12" fill="#246f9b"/>
+<rect x="353" y="345" width="706" height="59" rx="12" fill="#dde5ee"/>
+<rect x="353" y="345" width="706" height="59" rx="12" fill="#355c55"/>
+<text x="925" y="253" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#18283c">9.8 yrs</text>
+<text x="1071" y="385" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#18283c">12.5</text>
+<line x1="72" y1="461" x2="1128" y2="461" stroke="#c2cfdd" stroke-width="2"/>
+<text x="72" y="502" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#3b4e62">Data: McMillan et al., Scientific Reports (2024), doi:10.1038/s41598-023-50458-w</text>
+<text x="72" y="539" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#3b4e62">584,734 UK dogs. Not a US estimate or a prediction for an individual dog.</text>
+<text x="72" y="584" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#586b7f">Original visualization: BulldogFrances.com</text>
+</svg>

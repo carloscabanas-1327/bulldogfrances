@@ -339,6 +339,26 @@
    ],
    "review_status": "aprobada por Carlos (\"sube las fotos que haya\", 2026-11-03)",
    "created_at": "2026-11-04"
+  },
+  {
+   "image_id": "french-bulldog-lifespan-uk-2024-chart",
+   "web_file": "/images/figures/french-bulldog-lifespan-uk-2024.svg",
+   "master_file": "public/images/figures/french-bulldog-lifespan-uk-2024.svg",
+   "source_type": "infografia_editorial_original",
+   "rights_status": "Gráfico original de BulldogFrances.com, creado a partir de datos publicados; fuente científica citada en el artículo.",
+   "alt_en": "Chart comparing median survival estimates in a 2024 UK study: French Bulldogs 9.8 years and all dogs 12.5 years. These figures are not a prediction for an individual dog.",
+   "alt_es": null,
+   "width": 1200,
+   "height": 620,
+   "articulos": [
+    "editorial/en/guides/french-bulldog-lifespan"
+   ],
+   "source_study": "McMillan KM et al. Longevity of companion dog breeds: those at risk from early death. Scientific Reports. 2024;14:531. doi:10.1038/s41598-023-50458-w.",
+   "doi": "10.1038/s41598-023-50458-w",
+   "generation_prompt": null,
+   "model": null,
+   "review_status": "datos y fuente contrastados; gráfica editorial pendiente de aprobación visual final",
+   "created_at": "2026-11-12"
   }
  ]
 }
