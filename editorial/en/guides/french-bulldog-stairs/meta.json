@@ -43,5 +43,14 @@
       "q": "What if my French Bulldog suddenly cannot use the stairs?",
       "a": "Sudden back-leg weakness, dragging legs or bladder-control loss is an emergency. Restrict movement and seek immediate veterinary care."
     }
-  ]
+  ],
+  "image": "/images/hero/french-bulldog-stairs-editorial-ai.webp",
+  "imageAlt": "AI-generated editorial image of a fawn French Bulldog wearing a harness standing beside indoor stairs with nonslip treads and a safety gate",
+  "imageWidth": 1200,
+  "imageHeight": 675,
+  "imageType": "image/webp",
+  "socialImage": "/images/social/french-bulldog-stairs-editorial-ai-social.jpg",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "socialImageType": "image/jpeg"
 }
