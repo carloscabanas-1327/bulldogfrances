@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 (SEO2 EN stairs y hemivertebrae, 2 estudios primarios incorporados; auditoría global aún pendiente)",
- "total_fuentes": 248,
+ "ultima_auditoria": "2026-11-12 (SEO2 56 EN, CDC import rules updated for English flight guide)",
+ "total_fuentes": 249,
  "fuentes": [
   {
    "id": "F001",
@@ -3963,13 +3963,6 @@
    "contenido_dinamico": false,
    "seccion_relevante": null,
    "usos": [
-    {
-     "articulo": "editorial/en/guides/flying-with-a-french-bulldog/ARTICLE.html",
-     "numero_referencia": 18,
-     "afirmaciones": [
-      "Since August 1, 2024, every dog entering the US, including your own returning dog, must look healthy, be at least 6 months old, be microchipped and have a CDC Dog Import Form receipt."
-     ]
-    },
     {
      "articulo": "editorial/es/guias/bulldog-frances-viajar-en-avion/ARTICLE.html",
      "numero_referencia": 19,
@@ -16791,6 +16784,51 @@
    "observaciones_editoriales": "Estudio original: no extrapolar sus datos a riesgos individuales o poblaciones no estudiadas. Verificado con texto en PMC y/o ficha original de la revista el 12 nov 2026.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F249",
+   "autor_u_organismo": "Centers for Disease Control and Prevention",
+   "autores": null,
+   "organizacion": "Centers for Disease Control and Prevention",
+   "titulo_exacto": "Frequently Asked Questions on Dog Importations",
+   "tipo_fuente": "nota_prensa",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "CDC",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": "2026-08-27",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.cdc.gov/importation/dogs/faqs.html",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/flying-with-a-french-bulldog/ARTICLE.html",
+     "numero_referencia": 18,
+     "afirmaciones": [
+      "As of November 2026, dogs entering the United States need a CDC Dog Import Form receipt, a microchip, apparent good health and a minimum age of six months; high-risk rabies country history triggers additional requirements."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.cdc.gov/importation/dogs/faqs.html",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 1
+   },
+   "observaciones_editoriales": "Updated CDC FAQ dated Aug 27 2026; source does not replace requirements of individual airlines.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [
+    "S060"
+   ]
   }
  ]
 }
