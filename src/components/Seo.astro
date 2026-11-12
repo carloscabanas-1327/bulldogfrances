@@ -3,7 +3,7 @@
 // hreflang is emitted only for real localized counterparts, and x-default only
 // when a specific neutral fallback is provided (the bilingual language gateway).
 import { SITE, INDEXABLE, DEFAULT_OG_IMAGE } from '../data/site.js';
-const { title, description, lang = 'en', path, alternates = {}, image = DEFAULT_OG_IMAGE, type = 'website', noindex = false, jsonld, xDefault } = Astro.props;
+const { title, description, lang = 'en', path, alternates = {}, image = DEFAULT_OG_IMAGE, imageAlt, imageWidth, imageHeight, imageType, type = 'website', noindex = false, jsonld, xDefault } = Astro.props;
 const canonical = SITE + path;
 const robots = INDEXABLE && !noindex ? 'index,follow,max-image-preview:large' : 'noindex,nofollow';
 const validPair = alternates.en && alternates.es &&
@@ -27,9 +27,14 @@ const safeJson = jsonld ? JSON.stringify(jsonld).replace(/</g, '\\u003c') : null
 {description && <meta property="og:description" content={description} />}
 <meta property="og:url" content={canonical} />
 <meta property="og:image" content={imageUrl} />
+{imageAlt && <meta property="og:image:alt" content={imageAlt} />}
+{imageWidth && <meta property="og:image:width" content={imageWidth} />}
+{imageHeight && <meta property="og:image:height" content={imageHeight} />}
+{imageType && <meta property="og:image:type" content={imageType} />}
 <meta property="og:locale" content={lang === 'es' ? 'es_ES' : 'en_US'} />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 {description && <meta name="twitter:description" content={description} />}
 <meta name="twitter:image" content={imageUrl} />
+{imageAlt && <meta name="twitter:image:alt" content={imageAlt} />}
 {safeJson && <script type="application/ld+json" set:html={safeJson} />}
