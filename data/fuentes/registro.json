@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 — EN clinical review on seven guides incl. pregnancy/pyometra; 254 sources",
- "total_fuentes": 254,
+ "ultima_auditoria": "2026-11-12 — SEO2 six English pages: demodex, ear mites, fleas, resource guarding, overweight and underweight. F255-F256 added; document-level and claim-level QA pending for remainder.",
+ "total_fuentes": 256,
  "fuentes": [
   {
    "id": "F001",
@@ -17042,6 +17042,107 @@
     "supported": 2
    },
    "observaciones_editoriales": "Exact Merck page/section verified 2026-11-12. Editorial review only, no case-specific veterinary opinion.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F255",
+   "autor_u_organismo": "United States Food and Drug Administration",
+   "autores": null,
+   "organizacion": "U.S. Food and Drug Administration",
+   "titulo_exacto": "Fact Sheet for Pet Owners and Veterinarians about Potential Adverse Events Associated with Isoxazoline Flea and Tick Products",
+   "tipo_fuente": "documento_oficial",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "FDA Animal & Veterinary",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.fda.gov/animal-veterinary/animal-health-literacy/fact-sheet-pet-owners-and-veterinarians-about-potential-adverse-events-associated-isoxazoline-flea",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Fast Facts; What should I know?; risk of neurologic adverse events",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/demodectic-mange-in-dogs/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "Most dogs and cats use isoxazoline flea and tick products safely, but neurological adverse reactions including tremors, ataxia and seizures have been reported."
+     ]
+    },
+    {
+     "articulo": "editorial/en/guides/ear-mites-in-dogs/ARTICLE.html",
+     "numero_referencia": 7,
+     "afirmaciones": [
+      "FDA reports infrequent neurologic reactions to isoxazoline products, including in animals without seizure history."
+     ]
+    },
+    {
+     "articulo": "editorial/en/guides/fleas-on-dogs/ARTICLE.html",
+     "numero_referencia": 9,
+     "afirmaciones": [
+      "Veterinarians should consider medical history before choosing flea and tick drugs in the isoxazoline class."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.fda.gov/animal-veterinary/animal-health-literacy/fact-sheet-pet-owners-and-veterinarians-about-potential-adverse-events-associated-isoxazoline-flea",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Verified direct FDA fact sheet Nov 12 2026. This is an adverse-event safety statement, not prevalence/incidence of events, or indication for treating demodicosis. Merck handles extra-label treatment claim separately.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F256",
+   "autor_u_organismo": "American Animal Hospital Association",
+   "autores": null,
+   "organizacion": "AAHA",
+   "titulo_exacto": "Changing Behaviors — 2015 AAHA Canine and Feline Behavior Management Guidelines",
+   "tipo_fuente": "guia_profesional",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "AAHA",
+   "fecha_publicacion": "2015",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.aaha.org/resources/2015-aaha-canine-and-feline-behavior-management-guidelines/changing-behaviors/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Aversive techniques; reward-based training",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/food-aggression-in-dogs/ARTICLE.html",
+     "numero_referencia": 8,
+     "afirmaciones": [
+      "Aversive techniques may increase fear and aggression or suppress warnings, making bites more dangerous.",
+      "AAHA recommends rewarding desired behaviors and using nonaversive behavior modification."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.aaha.org/resources/2015-aaha-canine-and-feline-behavior-management-guidelines/changing-behaviors/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Direct official AAHA behavior guideline, and ASPCA Food Guarding precautions independently reviewed; behavior modification in dogs with existing aggression requires qualified professional help.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }
