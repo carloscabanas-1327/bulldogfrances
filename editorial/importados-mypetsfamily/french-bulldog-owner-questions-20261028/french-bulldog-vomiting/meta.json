@@ -1,6 +1,41 @@
 {
   "title": "French Bulldog Vomiting: Causes and Warning Signs",
-  "description": "French Bulldog vomiting or regurgitation? Learn to tell them apart, common causes, urgent warning signs, and when to contact a veterinarian.",
+  "description": "French Bulldog vomiting: identify the difference from regurgitation, possible causes, emergency warning signs and when to call your veterinarian.",
   "lastReviewed": "2026-11-12",
-  "status": "REVISED_DRAFT_SOURCED"
+  "status": "REVISED_DRAFT_SOURCED",
+  "seoTitle": "French Bulldog Vomiting: Causes & When to Worry",
+  "primaryKeyword": "french bulldog vomiting",
+  "secondaryKeywords": [
+    "french bulldog throwing up",
+    "french bulldog regurgitation",
+    "french bulldog vomiting after eating"
+  ],
+  "keywordEs": "bulldog francés vomita",
+  "image": "/images/hero/french-bulldog-vomiting-vs-regurgitation.webp",
+  "imageAlt": "Educational comparison chart: vomiting involves active abdominal effort while regurgitation is mostly passive; emergency warning signs below",
+  "imageWidth": 1672,
+  "imageHeight": 941,
+  "imageType": "image/webp",
+  "faq": [
+    {
+      "q": "Why is my French Bulldog throwing up after eating?",
+      "a": "The material may be true vomiting or passive regurgitation. Airway or esophageal conditions and many digestive disorders can contribute. Repeated episodes should be assessed by a veterinarian."
+    },
+    {
+      "q": "What's the difference between vomiting and regurgitation?",
+      "a": "Vomiting generally involves nausea, retching and active belly contractions. Regurgitation is usually passive, often with undigested food. Video of an episode can help a veterinarian."
+    },
+    {
+      "q": "When is vomiting an emergency for a French Bulldog?",
+      "a": "Seek urgent care for an enlarged abdomen with repeated unproductive retching, collapse, blood, suspected poisoning or obstruction, or difficulty breathing."
+    },
+    {
+      "q": "What can I give my French Bulldog for vomiting?",
+      "a": "Do not give human medications or start fasting a puppy without veterinary advice. Keep water available unless your veterinarian instructs otherwise and ask for an assessment if vomiting persists."
+    }
+  ],
+  "socialImage": "/images/social/french-bulldog-vomiting-vs-regurgitation-social.jpg",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "socialImageType": "image/jpeg"
 }

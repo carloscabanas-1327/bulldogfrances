@@ -418,6 +418,60 @@
    ],
    "created_at": "2026-11-12",
    "subject": "mature French Bulldog resting outdoors; illustration does not establish medical age or prognosis"
+  },
+  {
+   "image_id": "french-bulldog-tail-pocket-vet-ai",
+   "web_file": "/images/hero/french-bulldog-tail-pocket-vet-ai.webp",
+   "master_file": "Original PNG generated in ChatGPT conversation 2026-11-12: file_00000000716c820ead1e54bdce5975f7 (original not in public repo)",
+   "source_type": "generada_con_ia",
+   "model": "OpenAI image generation",
+   "generation_id": "315d4c02-5aa0-480c-ba3e-1b4021714a16",
+   "generation_prompt": "Photorealistic French Bulldog with short tail being examined at a veterinary clinic. Editorial illustration, no diagnostic features represented.",
+   "rights_status": "Original AI-generated for this site's editorial update; not a third-party photograph. No actual medical consultation is depicted.",
+   "review_status": "Generated editorial illustration; requires human visual approval for anatomical realism before using as clinical evidence.",
+   "alt_en": "AI-generated illustration of a fawn French Bulldog with a short curled tail being gently examined by a veterinarian in a clinic",
+   "alt_es": "Ilustración generada con IA de un bulldog francés leonado examinado por una veterinaria en una clínica",
+   "width": 1672,
+   "height": 941,
+   "format": "WebP",
+   "quality": 88,
+   "web_bytes": 198936,
+   "articulos": [
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-tail-pocket"
+   ],
+   "created_at": "2026-11-12",
+   "social_file": "/images/social/french-bulldog-tail-pocket-vet-ai-social.jpg",
+   "social_width": 1200,
+   "social_height": 630,
+   "social_format": "JPEG",
+   "social_bytes": 177440
+  },
+  {
+   "image_id": "french-bulldog-vomit-vs-regurgitation-chart",
+   "web_file": "/images/hero/french-bulldog-vomiting-vs-regurgitation.webp",
+   "master_file": "Original editable generation source: Pillow layout prepared 2026-11-12 (source code not currently versioned)",
+   "source_type": "infografia_editorial_original",
+   "model": null,
+   "generation_id": null,
+   "generation_prompt": null,
+   "rights_status": "Original layout and typography created for BulldogFrances.com; factual descriptions adapted and cited from Merck Veterinary Manual.",
+   "review_status": "Text and source checked; graphical illustration is educational, not diagnostic.",
+   "alt_en": "Educational comparison chart: vomiting involves active abdominal effort while regurgitation is mostly passive; emergency warning signs below",
+   "alt_es": "Gráfico educativo sobre vómitos y regurgitación en perros: contracciones abdominales frente a expulsión pasiva; señales de urgencia debajo",
+   "width": 1672,
+   "height": 941,
+   "format": "WebP",
+   "quality": 89,
+   "web_bytes": 81646,
+   "articulos": [
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-vomiting"
+   ],
+   "created_at": "2026-11-12",
+   "social_file": "/images/social/french-bulldog-vomiting-vs-regurgitation-social.jpg",
+   "social_width": 1200,
+   "social_height": 630,
+   "social_format": "JPEG",
+   "social_bytes": 115122
   }
  ]
 }
