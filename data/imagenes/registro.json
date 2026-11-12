@@ -439,7 +439,12 @@
    "articulos": [
     "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-tail-pocket"
    ],
-   "created_at": "2026-11-12"
+   "created_at": "2026-11-12",
+   "social_file": "/images/social/french-bulldog-tail-pocket-vet-ai-social.jpg",
+   "social_width": 1200,
+   "social_height": 630,
+   "social_format": "JPEG",
+   "social_bytes": 177440
   },
   {
    "image_id": "french-bulldog-vomit-vs-regurgitation-chart",
@@ -461,7 +466,12 @@
    "articulos": [
     "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-vomiting"
    ],
-   "created_at": "2026-11-12"
+   "created_at": "2026-11-12",
+   "social_file": "/images/social/french-bulldog-vomiting-vs-regurgitation-social.jpg",
+   "social_width": 1200,
+   "social_height": 630,
+   "social_format": "JPEG",
+   "social_bytes": 115122
   }
  ]
 }
