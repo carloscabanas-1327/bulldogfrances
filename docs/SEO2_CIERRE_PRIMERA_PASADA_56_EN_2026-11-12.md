@@ -37,6 +37,10 @@ No completar con imágenes ornamentales irrelevantes; para neurología, ojos, in
 5. **Oftalmología, enfermedades infecciosas, embarazo y neurología**: requieren revisión de urgencias y fuentes específicas antes del visto bueno final.
 6. **Datos de KP** son estimaciones de Google Ads por coincidencia de términos, no visitas orgánicas ni dificultad de SEO; «sin dato» no implica cero.
 
+## Segunda pasada: nueve revisiones clínicas focalizadas (2026-11-12)
+
+La rama apilada `audit/seo2-clinical-infectious-2026-11-12` añade inspección de afirmaciones y correcciones documentales a **nueve artículos EN**: distemper, kennel cough, blindness, french-bulldog-going-blind, food allergies, pregnancy, first heat, blue-eyed French Bulldog y Frenchton. El registro pasó a **254 fuentes** (F250–F254). Los textos de seis guías y tres páginas adicionales se contrastaron en sus referencias numeradas y metadatos. **En total, 19 de las 56 páginas fueron trabajadas sustantivamente en tandas, pero ninguna obtiene aprobación clínica profesional o de despliegue solo por eso.** Quedan **37 páginas sin la misma revisión individual sustantiva documentada**. El inventario estructural 56/56 sigue completado. Ver `docs/AUDITORIA_SEO2_EN_CLINICA_2026-11-12.md` y matriz CSV actualizada.
+
 ## Pruebas de aceptación para declarar terminado (todavía no superadas)
 
 - Confirmar palabra clave y SERP para cada intención, sin canibalización y sin reclamar métricas no consultadas.
