@@ -19,7 +19,7 @@ function inspect(type,slug,folder,meta,htmlPath){
   const desc = meta.description || '';
   const rendered = (meta.seoTitle || meta.title || '') + basename;
   const paras = [...article.matchAll(/<p(?:\s+[^>]*)?>([\s\S]*?)<\/p>/gi)];
-  const lead = norm((paras[0] || [,''])[1]);
+  const lead = norm(((paras[0] || [,''])[1]).replace(/<sup\b[^>]*>[\s\S]*?<\/sup>/gi,''));
   const first = (lead.match(/^[\s\S]*?[.!?](?=\s|$)/) || [lead])[0];
   const ids = [...article.matchAll(/id="ref-(\d+)"/g)].map(m=>m[1]);
   const cites = [...article.matchAll(/href="#ref-(\d+)"/g)].map(m=>m[1]);
