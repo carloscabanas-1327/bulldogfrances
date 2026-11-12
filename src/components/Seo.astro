@@ -1,17 +1,24 @@
 ---
-// Shared <head> tags: robots, canonical, hreflang, social previews and favicon.
+// Shared metadata for Cloudflare-rendered Astro pages.
+// hreflang is emitted only for real localized counterparts, and x-default only
+// when a specific neutral fallback is provided (the bilingual language gateway).
 import { SITE, INDEXABLE, DEFAULT_OG_IMAGE } from '../data/site.js';
 const { title, description, lang = 'en', path, alternates = {}, image = DEFAULT_OG_IMAGE, type = 'website', noindex = false, jsonld, xDefault } = Astro.props;
 const canonical = SITE + path;
 const robots = INDEXABLE && !noindex ? 'index,follow,max-image-preview:large' : 'noindex,nofollow';
-const alts = Object.entries(alternates).filter(([, url]) => url);
+const validPair = alternates.en && alternates.es &&
+  (path === alternates.en || path === alternates.es || path === xDefault);
+const alts = validPair
+  ? [{ code: 'en-US', url: alternates.en }, { code: 'es', url: alternates.es }]
+  : [];
 const imageUrl = image.startsWith('http') ? image : SITE + image;
+const safeJson = jsonld ? JSON.stringify(jsonld).replace(/</g, '\\u003c') : null;
 ---
 <meta name="robots" content={robots} />
 <link rel="canonical" href={canonical} />
 {description && <meta name="description" content={description} />}
-{alts.length > 1 && alts.map(([l, url]) => <link rel="alternate" hreflang={l} href={SITE + url} />)}
-{alts.length > 1 && (xDefault || alternates.en) && <link rel="alternate" hreflang="x-default" href={SITE + (xDefault || alternates.en)} />}
+{alts.map(alt => <link rel="alternate" hreflang={alt.code} href={SITE + alt.url} />)}
+{alts.length === 2 && xDefault && <link rel="alternate" hreflang="x-default" href={SITE + xDefault} />}
 <link rel="icon" href="/favicon.ico" sizes="16x16" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <meta property="og:site_name" content="BulldogFrances.com" />
@@ -20,12 +27,9 @@ const imageUrl = image.startsWith('http') ? image : SITE + image;
 {description && <meta property="og:description" content={description} />}
 <meta property="og:url" content={canonical} />
 <meta property="og:image" content={imageUrl} />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:locale" content={lang === 'es' ? 'es_US' : 'en_US'} />
-
+<meta property="og:locale" content={lang === 'es' ? 'es_ES' : 'en_US'} />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 {description && <meta name="twitter:description" content={description} />}
 <meta name="twitter:image" content={imageUrl} />
-{jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+{safeJson && <script type="application/ld+json" set:html={safeJson} />}
