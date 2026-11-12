@@ -1,6 +1,6 @@
 {
   "title": "How Often Should a Dog Poop? Normal Frequency and When to Worry",
-  "seoTitle": "How Often Should a Dog Poop? Adults and Puppies",
+  "seoTitle": "How Often Should a Dog Poop?",
   "description": "How often should a dog poop? Normal daily frequency for adult dogs and puppies, how long a dog can go without pooping, and signs of constipation.",
   "category": "daily-care",
   "primaryKeyword": "how often should a dog poop",
@@ -43,5 +43,6 @@
       "a": "Check with your vet first. For mild cases vets often suggest more water, a consistent diet and fiber such as plain pumpkin or psyllium. Do not give human laxatives without your vet's advice."
     }
   ],
-  "image": "/images/photos/merle-puppy-pink-collar.webp"
+  "image": "/images/photos/merle-puppy-pink-collar.webp",
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }
