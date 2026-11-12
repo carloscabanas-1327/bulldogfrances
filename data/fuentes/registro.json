@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-03",
- "total_fuentes": 235,
+ "ultima_auditoria": "2026-11-12 (tanda editorial 01: diez guías EN/ES; ver docs/AUDITORIA_KP_TANDA_01_2026-11-12.md)",
+ "total_fuentes": 239,
  "fuentes": [
   {
    "id": "F001",
@@ -7151,9 +7151,9 @@
      "articulo": "editorial/es/guias/bulldog-frances-calor-golpe-de-calor/ARTICLE.html",
      "numero_referencia": 1,
      "afirmaciones": [
-      "En un estudio de 905.543 perros del Reino Unido, el bulldog francés tenía unas 5 veces más probabilidades de sufrir un golpe de calor que el labrador.",
-      "En comparación con el labrador, el bulldog francés tenía unas 5,3 veces más probabilidades de golpe de calor y el bulldog inglés unas 12,5 veces; los perros braquicéfalos en conjunto, el doble que los de hocico medio.",
-      "El 14 % de los casos registrados fueron mortales."
+      "En 905.543 perros británicos, el bulldog francés tuvo OR ajustada de 6,49 para enfermedad relacionada con el calor frente al labrador (no equivale a un riesgo absoluto 6,49 veces mayor).",
+      "La tabla 2 presenta OR ajustadas de 6,49 para bulldog francés y 13,95 para bulldog inglés frente al labrador; los braquicéfalos en conjunto tuvieron aproximadamente 2,1 frente a los mesocéfalos.",
+      "La tasa de mortalidad entre episodios de enfermedad por calor registrados fue de aproximadamente 14,18 %, no la mortalidad general de los bulldogs franceses."
      ]
     },
     {
@@ -7188,20 +7188,20 @@
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-heat-safety/ARTICLE.html",
      "numero_referencia": 1,
      "afirmaciones": [
-      "In a study of 905,543 UK dogs, French Bulldogs had about 5 times the odds of heat-related illness compared with Labrador Retrievers.",
-      "Flat-faced (brachycephalic) dogs as a group had about twice the odds of mid-length-faced dogs.",
-      "Researchers at the Royal Veterinary College and Nottingham Trent University reviewed the veterinary records of 905,543 dogs in the UK in 2016 and found 390 cases of heat-related illness."
+      "In 905,543 UK dogs, French Bulldogs had an adjusted odds ratio of 6.49 for heat-related illness compared with Labrador Retrievers.",
+      "In table 2, Bulldogs had adjusted odds ratio 13.95; brachycephalic dogs overall had approximately twice the odds of mesocephalic dogs.",
+      "The cohort comprised 905,543 dogs in 2016, with 395 incident heat-related illness events involving 390 individual dogs."
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-12",
    "verificado_via": "https://irep.ntu.ac.uk/id/eprint/39958 ; https://api.crossref.org/works/10.1038/s41598-020-66015-8",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "partial": 3,
     "supported": 10
    },
-   "observaciones_editoriales": "Antes enlazado al repositorio de Nottingham Trent (que lista solo a Hall y Carter); autores según Crossref. Ahora DOI. La razón de probabilidades del bulldog francés no aparece en el resumen leído. Fusionada con S183 (mismo documento).",
+   "observaciones_editoriales": "Antes enlazado al repositorio de Nottingham Trent (que lista solo a Hall y Carter); autores según Crossref. Ahora DOI. La razón de probabilidades del bulldog francés no aparece en el resumen leído. Fusionada con S183 (mismo documento). Revisión puntual 2026-11-12: Tabla 2 de Hall et al. 2020; se rectifican OR de bulldog francés 6,49 y bulldog inglés 13,95. Diferenciar episodios (395) y perros (390).",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S098",
@@ -9845,8 +9845,8 @@
      "articulo": "editorial/es/guias/bulldog-frances-ronca-respira-mal/ARTICLE.html",
      "numero_referencia": 1,
      "afirmaciones": [
-      "En clínicas del Reino Unido, los bulldogs franceses tenían unas 31 veces más probabilidad de diagnóstico de BOAS que otros perros.",
-      "Un estudio del Royal Veterinary College con 2.781 bulldogs franceses encontró unas 31 veces más probabilidad de BOAS y unas 42 veces más de narinas estrechas (estenosis de narinas) que en otras razas."
+      "OR ajustada de BOAS 30,89 frente a perros de otras razas; no representa probabilidad absoluta.",
+      "OR ajustada de narinas estrechas 42,14; muestra 2.781 bulldogs franceses y 21.850 otros perros."
      ]
     },
     {
@@ -12668,11 +12668,11 @@
   },
   {
    "id": "F185",
-   "autor_u_organismo": "Texas A&M University College of Veterinary Medicine & Biomedical Sciences, Cardiology Service",
+   "autor_u_organismo": "Texas A&M Veterinary Medical Teaching Hospital, Cardiology Service",
    "autores": null,
-   "organizacion": "Texas A&M University College of Veterinary Medicine & Biomedical Sciences, Cardiology Service",
-   "titulo_exacto": "Measuring Your Pet's Breathing Rate",
-   "tipo_fuente": "documento_pdf",
+   "organizacion": "Texas A&M Veterinary Medical Teaching Hospital, Cardiology Service",
+   "titulo_exacto": "Information for Cardiology Clients",
+   "tipo_fuente": "pagina_web",
    "es_fuente_primaria": false,
    "revista": null,
    "sitio": "Texas A&M Veterinary Medical Teaching Hospital",
@@ -12684,30 +12684,32 @@
    "paginas": null,
    "doi": null,
    "pmid": null,
-   "url_canonica": "https://vetmed.tamu.edu/hospital/wp-content/uploads/sites/15/2018/01/cardiology-home-breathing.pdf",
-   "urls_anteriores": [],
+   "url_canonica": "https://vethospital.tamu.edu/small-animal/cardiology/information-for-cardiology-clients/",
+   "urls_anteriores": [
+    "https://vetmed.tamu.edu/hospital/wp-content/uploads/sites/15/2018/01/cardiology-home-breathing.pdf"
+   ],
    "idioma_original": "en",
    "acceso": "abierto",
-   "contenido_dinamico": false,
-   "seccion_relevante": null,
+   "contenido_dinamico": true,
+   "seccion_relevante": "Measuring Your Pet’s Breathing Rate",
    "usos": [
     {
      "articulo": "editorial/es/guias/bulldog-frances-ronca-respira-mal/ARTICLE.html",
      "numero_referencia": 3,
      "afirmaciones": [
-      "Dormido y en calma, un perro respira normalmente de 15 a 30 veces por minuto; más de 30 de forma constante no es normal.",
-      "El servicio de cardiología de la Universidad Texas A&M explica que perros y gatos en reposo respiran entre 15 y 30 veces por minuto y que una frecuencia que se mantiene por encima de unas 30 no es normal.",
-      "Si además notas otras señales de alarma, trátalo como urgencia."
+      "Sección oficial de Texas A&M: muchos perros en reposo respiran entre 15 y 30 veces por minuto; valores persistentemente mayores de unas 30 requieren consulta.",
+      "Cómo contar las respiraciones: ciclos completos durante 30 segundos, multiplicar por dos.",
+      "La frecuencia por sí sola no diagnostica BOAS; si hay signos graves no se debe esperar para acudir a urgencias."
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
-   "verificado_via": "https://vetmed.tamu.edu/hospital/wp-content/uploads/sites/15/2018/01/cardiology-home-breathing.pdf",
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://vethospital.tamu.edu/small-animal/cardiology/information-for-cardiology-clients/",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "supported": 3
    },
-   "observaciones_editoriales": "Sin fecha en el documento (la ruta 2018/01 es solo la carpeta de subida).",
+   "observaciones_editoriales": "Página oficial de Texas A&M verificada el 12 nov 2026; contiene la sección específica con instrucciones. La página explica monitorización general de respiración para problemas cardíacos, no una prueba diagnóstica de BOAS; el PDF previo no se pudo verificar directamente.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S225"
@@ -16228,6 +16230,196 @@
     "supported": 2
    },
    "observaciones_editoriales": "Page does not mention French Bulldogs or cystinuria type 3; that recommendation is cited to FBDCA. Cystinuria definition and HSF4 genetics not verified (VGL page unreachable), so not stated.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F236",
+   "autor_u_organismo": "University of Cambridge, Department of Veterinary Medicine",
+   "autores": null,
+   "organizacion": "University of Cambridge, Department of Veterinary Medicine",
+   "titulo_exacto": "Management & Treatment",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "University of Cambridge, Department of Veterinary Medicine",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.vet.cam.ac.uk/boas/about-boas/management-treatment",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Management; Fitness; Avoid overheating; Risks and prognosis",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-noisy-breathing/ARTICLE.html",
+     "numero_referencia": 6,
+     "afirmaciones": [
+      "Obesidad asociada a BOAS, manejo de condición corporal y reducción de calor/ejercicio excesivo.",
+      "Seguimiento y limitaciones de cirugía correctiva."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/bulldog-frances-ronca-respira-mal/ARTICLE.html",
+     "numero_referencia": 9,
+     "afirmaciones": [
+      "Condición corporal y obesidad asociada a BOAS; manejo del calor y ejercicio.",
+      "La cirugía no elimina todos los problemas respiratorios y requiere seguimiento."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.vet.cam.ac.uk/boas/about-boas/management-treatment",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 4
+   },
+   "observaciones_editoriales": "Fuente institucional consultada en su sección específica el 12 nov 2026; comprobar de nuevo si cambia el contenido.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F237",
+   "autor_u_organismo": "Blue Cross",
+   "autores": null,
+   "organizacion": "Blue Cross",
+   "titulo_exacto": "Why do dogs cough?",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Blue Cross",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.bluecross.org.uk/advice/dog/health-and-injuries/why-do-dogs-cough",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Pulling on the lead",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-noisy-breathing/ARTICLE.html",
+     "numero_referencia": 7,
+     "afirmaciones": [
+      "La presión de la correa sobre el collar puede provocar tos; un arnés puede ayudar a reducirla."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/bulldog-frances-ronca-respira-mal/ARTICLE.html",
+     "numero_referencia": 10,
+     "afirmaciones": [
+      "La presión sobre el collar puede provocar tos; un arnés puede reducirla."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.bluecross.org.uk/advice/dog/health-and-injuries/why-do-dogs-cough",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Fuente institucional consultada en su sección específica el 12 nov 2026; comprobar de nuevo si cambia el contenido.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F238",
+   "autor_u_organismo": "American College of Veterinary Surgeons",
+   "autores": null,
+   "organizacion": "American College of Veterinary Surgeons",
+   "titulo_exacto": "Brachycephalic Syndrome",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "American College of Veterinary Surgeons",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.acvs.org/small-animal/brachycephalic-syndrome/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Treatment; Aftercare and Outcome",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-noisy-breathing/ARTICLE.html",
+     "numero_referencia": 8,
+     "afirmaciones": [
+      "Opciones de cirugía según anatomía; mayor dificultad por cambios laríngeos crónicos.",
+      "Riesgos posoperatorios y pronóstico relativamente más favorable en jóvenes."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.acvs.org/small-animal/brachycephalic-syndrome/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Fuente institucional consultada en su sección específica el 12 nov 2026; comprobar de nuevo si cambia el contenido.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F239",
+   "autor_u_organismo": "American College of Veterinary Surgeons",
+   "autores": null,
+   "organizacion": "American College of Veterinary Surgeons",
+   "titulo_exacto": "Síndrome Braquicefálico",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "American College of Veterinary Surgeons",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.acvs.org/es/small-animal/brachycephalic-syndrome/",
+   "urls_anteriores": [],
+   "idioma_original": "es",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Tratamiento; Cuidados posteriores y evolución",
+   "usos": [
+    {
+     "articulo": "editorial/es/guias/bulldog-frances-ronca-respira-mal/ARTICLE.html",
+     "numero_referencia": 11,
+     "afirmaciones": [
+      "Opciones quirúrgicas para las obstrucciones braquicefálicas, con riesgos posoperatorios.",
+      "Pronóstico más favorable en animales jóvenes; cambios laríngeos crónicos pueden limitar la mejoría."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.acvs.org/es/small-animal/brachycephalic-syndrome/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Fuente institucional consultada en su sección específica el 12 nov 2026; comprobar de nuevo si cambia el contenido.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }
