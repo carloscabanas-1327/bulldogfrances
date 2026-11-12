@@ -1,6 +1,6 @@
 {
   "title": "Pied French Bulldog: Colors, Genetics and Deafness Risk",
-  "seoTitle": "Pied French Bulldog: Colors, Genetics & Hearing",
+  "seoTitle": "Pied French Bulldog: Color & Health",
   "description": "What a pied French Bulldog is, which pied colors the breed standards accept, how the MITF gene works, and why a BAER hearing test matters.",
   "category": "genetics",
   "primaryKeyword": "pied french bulldog",
@@ -44,5 +44,6 @@
       "a": "Pied is white spotting from the S locus. Merle is a different gene that dilutes pigment in patches and carries higher hearing and eye risks, especially when a dog has two copies."
     }
   ],
-  "image": "/images/photos/pied-puppy-sweater.webp"
+  "image": "/images/photos/pied-puppy-sweater.webp",
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }

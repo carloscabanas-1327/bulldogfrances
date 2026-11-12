@@ -1,6 +1,6 @@
 {
   "title": "Puppy Socialization: The Window, Classes and a Checklist That Works",
-  "seoTitle": "Puppy Socialization: Window, Classes and Checklist",
+  "seoTitle": "Puppy Socialization: A Safe Guide",
   "description": "Puppy socialization made simple: when the window closes, how to socialize before vaccinations, what to look for in classes, plus a ready-to-use checklist.",
   "category": "puppies",
   "primaryKeyword": "puppy socialization",
@@ -43,5 +43,6 @@
       "a": "No, but it takes longer. Use gradual exposure at a distance where your dog stays relaxed, with treats, and see a veterinary behaviorist if there is strong fear or snapping."
     }
   ],
-  "image": "/images/photos/puppies-together.webp"
+  "image": "/images/photos/puppies-together.webp",
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }

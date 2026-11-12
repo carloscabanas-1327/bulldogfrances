@@ -1,6 +1,6 @@
 {
   "title": "How to Train a French Bulldog: Puppy Basics, Biting and Leash Tips",
-  "seoTitle": "How to Train a French Bulldog (Reward-Based Guide)",
+  "seoTitle": "How to Train a French Bulldog",
   "description": "How to train a French Bulldog with rewards: why it works, puppy basics, how to stop biting, leash walking on a harness and the mistakes to avoid.",
   "category": "training",
   "primaryKeyword": "how to train a french bulldog",
@@ -43,5 +43,6 @@
       "a": "No. Veterinary behaviorists at AVSAB advise against dominance-based training and recommend reward-based methods for every dog, because punishment increases fear and can lead to aggression."
     }
   ],
-  "image": "/images/photos/pied-puppy-portrait.webp"
+  "image": "/images/photos/pied-puppy-portrait.webp",
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }
