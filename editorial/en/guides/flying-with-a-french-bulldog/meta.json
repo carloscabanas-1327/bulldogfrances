@@ -1,7 +1,7 @@
 {
   "title": "Flying With a French Bulldog: Airline Rules, Cabin Size and Risks",
   "seoTitle": "Flying With a French Bulldog",
-  "description": "Flying with a French Bulldog: why Frenchies can't fly cargo, American, Delta and Alaska cabin rules, carrier size, CDC entry rules and tips for a safe flight.",
+  "description": "Flying with a French Bulldog: compare airline cabin and cargo restrictions, carrier fit, veterinary precautions and current CDC entry requirements.",
   "category": "daily-care",
   "primaryKeyword": "flying with a french bulldog",
   "secondaryKeywords": [
@@ -25,24 +25,25 @@
   "faq": [
     {
       "q": "Can French Bulldogs fly on planes?",
-      "a": "Yes, but usually only in the cabin. As of November 2026, American, Delta and Alaska do not accept snub-nosed dogs in cargo, so your Frenchie must fit in a carrier under the seat. Confirm the current rules with your airline when you book."
+      "a": "Some can fly in the cabin if they meet the airline's rules and fit comfortably in an approved under-seat carrier. Cabin and cargo acceptance varies by route, aircraft, carrier and dog."
     },
     {
-      "q": "Can French Bulldogs fly in cargo?",
-      "a": "Major US airlines including American, Delta and Alaska do not allow it. Short-nosed dogs have a higher risk of heatstroke and breathing problems under stress or heat, and about half of 122 airline-related dog deaths in DOT data released in 2010 involved short-faced breeds."
+      "q": "Can French Bulldogs fly as checked pets or cargo?",
+      "a": "Many airlines restrict brachycephalic dogs in checked baggage or cargo because of breathing and heat risks. Ask your airline for its current policy before you book; do not assume another carrier has identical rules."
     },
     {
-      "q": "Can a French Bulldog fit under an airplane seat?",
-      "a": "Smaller Frenchies can. US airlines such as American cap soft-sided carriers at about 18 by 11 by 11 inches, and the dog must stay in it under the seat for the whole flight. Many adults, which can weigh up to 28 lb, are too big to fit comfortably."
+      "q": "Will a French Bulldog fit under an airplane seat?",
+      "a": "A small dog may fit, but it must have adequate space in an airline-approved carrier that fits the aircraft's under-seat dimensions. Check the exact aircraft and cabin policy; a weight limit alone is not enough."
     },
     {
-      "q": "Should I sedate my French Bulldog for a flight?",
-      "a": "No. The AVMA advises against tranquilizers for air travel. Talk to your vet before giving any medication."
+      "q": "Should I sedate my French Bulldog before a flight?",
+      "a": "Do not use sedatives or tranquilizers on your own. Discuss fitness to fly, medications, heat risk and airway symptoms with your veterinarian well ahead of travel."
     },
     {
-      "q": "What does my dog need to come back into the US?",
-      "a": "Since August 1, 2024, the CDC requires every dog entering the US to look healthy, be at least 6 months old, be microchipped and have a CDC Dog Import Form receipt. Dogs that have been in high-risk rabies countries need more."
+      "q": "What documents does a dog need to enter the United States?",
+      "a": "Under current CDC rules, a dog entering or returning to the U.S. generally needs to appear healthy, be at least six months old, have a readable microchip and a CDC Dog Import Form receipt. More documents are required after travel to certain high-risk rabies countries; check the CDC Dog Importation Navigator."
     }
   ],
-  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
+  "lastEdited": "2026-11-12"
 }
