@@ -1,6 +1,6 @@
 # AUDITORÍA SEO 2 — EN: Heatstroke e IVDD
 Fecha de revisión: 2026-11-12. Rama: `editorial/seo2-heat-ivdd-2026-11-12`.
-Estado: **correcciones editoriales en borrador; no completo**. Sin publicación ni validación de Cloudflare.
+Estado: **correcciones editoriales y archivos visuales incorporados al PR en borrador; QA externo incompleto**. Sin publicación ni validación de Cloudflare.
 
 ## Alcance y KP
 Se auditan 2 de los 56 artículos EN. El inventario de `main` antes de esta rama registra 28 con imagen declarada (incluye 4 externas de nutrición) y 28 sin imagen principal; la declaración no prueba la imagen visible en navegador. Para `french bulldog overheating`, el informe KP US/en de 2026-11-12 registra 110 búsquedas/mes. **No hay métrica KP verificada** en esta tanda para las frases exactas `french bulldog heatstroke` o `french bulldog back pain`. Las variantes propuestas son hipótesis editoriales sujetas a KP, no volúmenes inventados.
@@ -16,12 +16,12 @@ Veredicto: **Correcciones importantes (metadatos contradictorios y claridad de u
 | Media | Sección de primeros auxilios | La instrucción de llamar al veterinario estaba después del enfriamiento. | Llamar al profesional mientras comienza el enfriamiento; transporte inmediato sin demora. |
 | Baja | H2 signos | Intención de búsqueda poco explícita. | H2 orientado a signos de heatstroke; evitar rellenar de keywords. |
 | Baja | H2 «80°F» | La edición US requiere equivalencia Celsius. | Añadido 27°C como aproximación. |
-| Media | Imagen | Sin principal declarada ni verificada en `main`. | Pendiente generar/aprobar e incorporar WebP con derechos y alt. |
+| Media | Imagen | No había imagen de portada al comenzar la tanda. | Incorporadas portada WebP de 1200×675 (49.012 bytes) y JPEG social 1200×630 (101.980 bytes); ALT, figcaption y origen en `data/imagenes/registro.json`. Pendiente revisión visual final del propietario y Cloudflare. |
 
 Fuentes:
 - [1] Hall EJ et al. *Scientific Reports*. 2020. `https://doi.org/10.1038/s41598-020-66015-8`. **Contrastada anteriormente en la tabla científica; aOR 6,49 (French Bulldog vs Labrador).**
 - [2] Cambridge BOAS, Recognition & Diagnosis. `https://www.vet.cam.ac.uk/boas/about-boas/recognition-diagnosis`. **Apertura directa no reconfirmada en esta tanda; revisar.**
-- [3] Royal Veterinary College. *Cool first, transport second* (20 Jul 2023). `https://www.rvc.ac.uk/vetcompass/news/the-rvc-urges-owners-of-hot-dogs-to-cool-first-transport-second`. **Verificada mediante contenido recuperado de la página.**
+- [3] Royal Veterinary College. *Cool first, transport second* (20 Jul 2023). `https://www.rvc.ac.uk/vetcompass/news/the-rvc-urges-owners-of-hot-dogs-to-cool-first-transport-second`. **Contenido y fecha localizados mediante el índice web; apertura directa devolvió 403 en esta ejecución, así que no declarar verificación integral del enlace.**
 - [4] RVC. *How to Cool Hot Dogs* (PDF). **No se reabrió directamente en esta tanda. No marcar completamente verificada.**
 
 ## 2. French Bulldog Back Pain and Weak Back Legs: IVDD Signs and Care
@@ -36,18 +36,22 @@ Veredicto: **Problemas importantes (respaldo científico y consejos de manejo ex
 | Media | Tratamiento | «Varias semanas» de confinamiento y recaída frecuente sin cita específica. | Dejar indicación de duración y movilidad al veterinario. |
 | Media | Estudios | «Tres veces más» sin distinguir razón de odds ajustada de probabilidad. | Aclarada aOR 3,00 del estudio O’Neill et al. (tabla 3). |
 | Media | SEO | Título renderizado extenso, sin `seoTitle` corto, ni keyword declarada. | `seoTitle` breve y keyword declarada como hipótesis a comprobar con KP. |
-| Media | Imagen | No hay imagen principal declarada en `main`. | Pendiente de imagen específica con derechos. |
+| Media | Imagen | No había imagen principal al comenzar la tanda. | Incorporadas portada WebP de 1200×675 (51.286 bytes) y JPEG social de 1200×630 (99.664 bytes); ALT, pie y procedencia registrados. Pendiente revisión visual final del propietario y Cloudflare. |
 
 Fuentes:
 - [1] Cornell Riney Canine Health Center. *Intervertebral disc disease*. `https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/intervertebral-disc-disease`. **Verificada directamente.**
-- [2] O'Neill DG et al. *Canine Medicine and Genetics*. 2021;8:13. `https://doi.org/10.1186/s40575-021-00112-3`. **Verificada en tabla 3 del PDF científico (aOR 3,00; IC95% 1,94–4,64).**
+- [2] O'Neill DG et al. *Canine Medicine and Genetics*. 2021;8:13. `https://doi.org/10.1186/s40575-021-00112-3`. **Datos verificados también en el texto científico íntegro de PMC, tabla 3 (aOR 3,00; IC95% 1,94–4,64).**
 - [3] University of California, Davis, Veterinary Genetics Laboratory. *Chondrodystrophy (CDDY and IVDD) and Chondrodysplasia (CDPA)*. `https://vgl.ucdavis.edu/test/cddy-cdpa`. **Verificada directamente; genotipo ≠ diagnóstico.**
 - [4] Merck Veterinary Manual. *Congenital and Inherited Spinal Cord Disorders in Dogs and Cats*, «Congenital Vertebral Malformations». `https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system-in-small-animals/congenital-and-inherited-spinal-cord-disorders-in-dogs-and-cats`. **Verificada directamente (revisada Mar 2026, actualizada Jul 2026).**
 - [5] AKC DNA Resource Center. *French Bulldog DNA Tests*. `https://www.akc.org/breeder-programs/dna/dna-resource-center/akc-dna-health/breed-specific-dna-testing-recommendations/french-bulldog-dna-tests/`. **Registro interno de verificación previa; apertura no reconfirmada en esta tanda.**
 
 ## QA y bloqueos
-- Modificados 4 archivos editoriales HTML/JSON y el registro `data/fuentes/registro.json` (2 fuentes nuevas: F241, F242).
+- Modificados 4 archivos editoriales HTML/JSON, `data/fuentes/registro.json` (2 fuentes nuevas: F241, F242), `data/imagenes/registro.json` (2 fichas de imagen) y 4 imágenes binarias originales (2 WebP + 2 JPEG).
+- Los cuatro archivos físicos se comprobaron por rutas, tamaños y SHA de GitHub, idénticos a los originales preparados, en el árbol de la rama.
+- Las imágenes son editoriales generadas con IA; no se presentan como fotografías clínicas ni evidencia diagnóstica. El registro documenta procedencia, textos ALT, medidas y aprobación visual pendiente.
 - Conservados slugs, rutas canónicas, URLs entre idiomas y tipos de schema de la plantilla.
 - La plantilla añade ` | BulldogFrances.com` (21 caracteres) al `seoTitle`: el título final, no solo el campo, se mantuvo por debajo de 56 caracteres en estos dos artículos.
-- **Pendiente antes de fusionar:** dos imágenes principales pertinentes, validar WebP y dimensiones, incorporar en HTML y registro, comprobar respuestas de todos los enlaces, build Astro, vista móvil, despliegue Cloudflare, y KP exacto de ambas intenciones.
+- **QA superado en esta tanda:** metadatos JSON válidos; título con sufijo de marca <=56 (53 y 52); meta descripciones 145 y 140; keyword en primer párrafo y H2; IMG de la portada coincide con `meta.json`, `loading=eager`, prioridad alta y dimensiones declaradas; todas las citas internas [N] tienen referencias correspondientes.
+- **Pendiente antes de fusionar:** verificación directa de enlaces aún bloqueados (RVC/Cambridge), build Astro, comprobación visual móvil, test de datos estructurados, despliegue Cloudflare y KP de ambas keywords exactas. También resta la aprobación visual final del propietario.
+- **Nueva fuente a considerar, sin atribuirla aún al artículo:** RECOVER Guidelines: First Aid for Dogs and Cats (2026), DOI `https://doi.org/10.1111/vec.70138`. El índice de la revista permite conocer sus recomendaciones sobre enfriamiento activo y transporte; la apertura directa de la publicación falló por timeout. No se utiliza como fuente verificada hasta contrastarla íntegramente.
 - No hay validación veterinaria profesional ni medición actual de Search Console, Core Web Vitals o tráfico orgánico. El PR no debe marcarse completo sin esos controles.
