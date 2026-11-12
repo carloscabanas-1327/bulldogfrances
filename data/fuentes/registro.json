@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 (revisión puntual EN tail-pocket y vomiting; fuentes enlazadas revisadas, F240 acceso directo bloqueado; no sustituye auditoría global previa)",
- "total_fuentes": 240,
+ "ultima_auditoria": "2026-11-12 (revisión puntual EN heat safety e IVDD; 2 nuevas fuentes con destinos específicos; sin auditoría global completa)",
+ "total_fuentes": 242,
  "fuentes": [
   {
    "id": "F001",
@@ -976,7 +976,7 @@
     },
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-back-pain-weak-legs/ARTICLE.html",
-     "numero_referencia": 3,
+     "numero_referencia": 5,
      "afirmaciones": [
       "A DNA test for the CDDY gene shows whether a dog carries a known disc disease risk factor.",
       "Both appear on the AKC's DNA health panel for the breed.",
@@ -6181,13 +6181,6 @@
      "numero_referencia": 3,
      "afirmaciones": [
       "The French Bulldog Rescue Network counts blue among the \"fad colors\" whose popularity is recent, warning that \"we do not yet know what health problems might be associated with each new color.\""
-     ]
-    },
-    {
-     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-back-pain-weak-legs/ARTICLE.html",
-     "numero_referencia": 4,
-     "afirmaciones": [
-      "The French Bulldog Rescue Network also lists malformed vertebrae (hemivertebrae) among the breed's known problems."
      ]
     },
     {
@@ -16455,6 +16448,93 @@
     "supported": 2
    },
    "observaciones_editoriales": "El buscador recuperó un extracto específico del manual; al abrir la URL el acceso devolvió 403. Verificación indirecta; repetir comprobación directa antes de afirmar auditoría integral.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F241",
+   "autor_u_organismo": "University of California, Davis, Veterinary Genetics Laboratory",
+   "autores": null,
+   "organizacion": "University of California, Davis, Veterinary Genetics Laboratory",
+   "titulo_exacto": "Chondrodystrophy (CDDY and IVDD) and Chondrodysplasia (CDPA)",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "University of California, Davis, Veterinary Genetics Laboratory",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://vgl.ucdavis.edu/test/cddy-cdpa",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Test overview; genotype interpretation; breed frequency",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-back-pain-weak-legs/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "The CDDY variant is associated with IVDD risk, but genotype does not diagnose a specific symptomatic dog.",
+      "Breeding decisions can consider genetic testing while clinical examination is still needed."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://vgl.ucdavis.edu/test/cddy-cdpa",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Página específica examinada el 12 de noviembre de 2026; no implica evaluación veterinaria del artículo.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F242",
+   "autor_u_organismo": "Merck Veterinary Manual",
+   "autores": null,
+   "organizacion": "Merck Veterinary Manual",
+   "titulo_exacto": "Congenital and Inherited Spinal Cord Disorders in Dogs and Cats",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Merck Veterinary Manual",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": "2026-07",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system-in-small-animals/congenital-and-inherited-spinal-cord-disorders-in-dogs-and-cats",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Congenital Vertebral Malformations in Dogs",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-back-pain-weak-legs/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "Hemivertebrae and other congenital vertebral malformations occur in screw-tailed breeds and are not necessarily symptomatic."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system-in-small-animals/congenital-and-inherited-spinal-cord-disorders-in-dogs-and-cats",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 1
+   },
+   "observaciones_editoriales": "Página específica examinada el 12 de noviembre de 2026; no implica evaluación veterinaria del artículo.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }
