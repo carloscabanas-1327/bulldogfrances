@@ -13,7 +13,7 @@
     "blindness in dogs treatment"
   ],
   "keywordEs": "ceguera en perros",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "french-bulldog-going-blind",
@@ -44,5 +44,6 @@
       "a": "Yes. If the eyes aren't painful, most dogs adapt well using smell and hearing, especially with a consistent home layout, gated stairs and verbal cues."
     }
   ],
-  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
+  "seoAuditNote": "2026-11-12: claim-level source audit and triage rewrite; not professionally reviewed by a veterinarian."
 }
