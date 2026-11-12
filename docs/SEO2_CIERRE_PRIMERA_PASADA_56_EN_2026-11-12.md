@@ -41,6 +41,10 @@ No completar con imágenes ornamentales irrelevantes; para neurología, ojos, in
 
 La rama apilada `audit/seo2-clinical-infectious-2026-11-12` añade inspección de afirmaciones y correcciones documentales a **nueve artículos EN**: distemper, kennel cough, blindness, french-bulldog-going-blind, food allergies, pregnancy, first heat, blue-eyed French Bulldog y Frenchton. El registro pasó a **254 fuentes** (F250–F254). Los textos de seis guías y tres páginas adicionales se contrastaron en sus referencias numeradas y metadatos. **En total, 19 de las 56 páginas fueron trabajadas sustantivamente en tandas, pero ninguna obtiene aprobación clínica profesional o de despliegue solo por eso.** Quedan **37 páginas sin la misma revisión individual sustantiva documentada**. El inventario estructural 56/56 sigue completado. Ver `docs/AUDITORIA_SEO2_EN_CLINICA_2026-11-12.md` y matriz CSV actualizada.
 
+## Tercera pasada: seis revisiones de piel, parásitos, conducta y peso (2026-11-12)
+
+La rama apilada `audit/seo2-parasites-behavior-weight-2026-11-12` añade **seis revisiones individuales**: demodicosis, ácaros auriculares, pulgas, protección de recursos/food aggression, sobrepeso y bajo peso. La matriz de 56 páginas marca el trabajo con `targeted_clinical_review_QA_pending`. El registro documental incorpora **F255 (FDA, isoxazolinas)** y **F256 (AAHA, conducta)**, y acumula **256 fuentes**. Se comprobaron títulos, metas, seis aperturas y referencias internas de estos seis archivos. **Total acumulado de artículos trabajados sustantivamente: 25/56. Restantes: 31/56**, sin contar como revisión clínica profesional ni QA de compilación/publicación. Detalle: `docs/AUDITORIA_SEO2_EN_PARASITOS_CONDUCTA_PESO_2026-11-12.md`.
+
 ## Pruebas de aceptación para declarar terminado (todavía no superadas)
 
 - Confirmar palabra clave y SERP para cada intención, sin canibalización y sin reclamar métricas no consultadas.
