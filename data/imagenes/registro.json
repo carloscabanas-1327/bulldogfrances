@@ -115,8 +115,7 @@
    "height": 1071,
    "articulos": [
     "editorial/en/guides/how-to-train-a-french-bulldog",
-    "editorial/es/guias/como-educar-bulldog-frances",
-    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-noisy-breathing"
+    "editorial/es/guias/como-educar-bulldog-frances"
    ],
    "review_status": "aprobada por Carlos (solo propias + IA)",
    "created_at": "2026-11-03"
@@ -359,6 +358,41 @@
    "generation_prompt": null,
    "model": null,
    "review_status": "datos y fuente contrastados; gráfica editorial pendiente de aprobación visual final",
+   "created_at": "2026-11-12"
+  },
+  {
+   "image_id": "boas-veterinary-visit-ai",
+   "project": "BULLDOGFRANCES.COM",
+   "article_id": "french-bulldog-noisy-breathing",
+   "species": "dog",
+   "breed": "French Bulldog",
+   "animal_count": 1,
+   "age_group": "adult (illustrated)",
+   "coat": "fawn",
+   "human_presence": "veterinarian in background",
+   "environment": "veterinary exam room",
+   "geographic_context": "not location-specific",
+   "shot_type": "close-up",
+   "camera_angle": "eye-level",
+   "activity": "veterinary visit (illustration)",
+   "source_type": "generada_con_ia",
+   "model": "OpenAI image generation",
+   "generation_id": "06d19e78-605e-4a0b-8b2c-5186ed0098e0",
+   "generation_prompt": "Fawn French Bulldog in the foreground at a bright modern veterinary clinic, veterinarian in white coat behind, photorealistic editorial scene; generated for the site and chosen by its owner.",
+   "rights_status": "Original generated with AI in the owner's ChatGPT conversation; explicitly selected for website use 2026-11-12; no source photo from a third party.",
+   "review_status": "approved by owner in conversation 2026-11-12; check in public layout after deployment",
+   "alt_en": "Fawn French Bulldog at a veterinary clinic, with a veterinarian in a white coat in the background; AI-generated illustration",
+   "alt_es": "Ilustración generada con IA: bulldog francés leonado en una clínica veterinaria con una veterinaria al fondo",
+   "width": 1731,
+   "height": 909,
+   "master_file": "Original 1731x909 PNG, conversation file file_000000008010820e9d563b14d7d6890a (not in public repo)",
+   "web_file": "/images/hero/french-bulldog-breathing-vet-ai.webp",
+   "format": "WebP",
+   "quality": 88,
+   "web_bytes": 169284,
+   "articulos": [
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-noisy-breathing"
+   ],
    "created_at": "2026-11-12"
   }
  ]
