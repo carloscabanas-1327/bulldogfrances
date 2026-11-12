@@ -1,0 +1,276 @@
+{
+  "date": "2026-11-12",
+  "scope": "Individual structured inspection, source claims pending live corroboration",
+  "items": [
+    {
+      "slug": "kennel-cough-in-dogs",
+      "title": "Kennel Cough in Dogs: Warning Signs",
+      "seoTitleLength": 56,
+      "descriptionLength": 153,
+      "primaryKeyword": "kennel cough",
+      "leadSentence": "Kennel cough is a highly contagious respiratory infection that causes a harsh, honking cough in dogs.",
+      "leadLength": 101,
+      "headings": [
+        "Kennel cough symptoms and sound",
+        "How long does kennel cough last?",
+        "Why French Bulldogs need closer watching",
+        "When kennel cough is an emergency",
+        "Is kennel cough contagious?",
+        "Kennel cough treatment at home and at the vet",
+        "Kennel cough vaccine",
+        "Sources and references"
+      ],
+      "referenceCount": 7,
+      "referenceLinks": [
+        "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/kennel-cough",
+        "https://www.vet.cornell.edu/index%2Ephp/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/bordetellosis",
+        "https://www.avma.org/blog/answering-clients-questions-about-cirdc",
+        "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/risks-kennel-cough",
+        "https://www.avma.org/news/making-sense-mystery-illness-found-across-us",
+        "https://www.aaha.org/resources/2022-aaha-canine-vaccination-guidelines/recommendations-for-core-and-noncore-canine-vaccines/",
+        "https://wsava.org/wp-content/uploads/2024/05/2024-Guidelines-for-the-Vaccination-of-Dogs-and-Cats.pdf"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "overweight-french-bulldog",
+      "title": "Overweight French Bulldog: Signs",
+      "seoTitleLength": 53,
+      "descriptionLength": 151,
+      "primaryKeyword": "overweight french bulldog",
+      "leadSentence": "An overweight French Bulldog is not just a cosmetic issue.",
+      "leadLength": 58,
+      "headings": [
+        "How much should a French Bulldog weigh?",
+        "Is my French Bulldog fat? The body condition score",
+        "How extra weight affects breathing",
+        "Joints, spine and lifespan",
+        "Safe French Bulldog weight loss with your vet",
+        "Overweight French Bulldog puppy",
+        "Sources and references"
+      ],
+      "referenceCount": 14,
+      "referenceLinks": [
+        "https://wsava.org/wp-content/uploads/2025/06/WSAVA_BCSCat_BCSDog_Nutrition_250612.pdf",
+        "https://doi.org/10.1371/journal.pone.0137496",
+        "https://doi.org/10.1111/jvim.17019",
+        "https://doi.org/10.5326/JAAHA-MS-7232",
+        "https://images.akc.org/pdf/breeds/standards/FrenchBulldog.pdf",
+        "https://www.royalkennelclub.com/breed-standards/utility/french-bulldog/",
+        "https://www.fci.be/Nomenclature/Standards/101g09-en.pdf",
+        "https://www.aaha.org/resources/weight-management/",
+        "https://doi.org/10.1111/j.1748-5827.2011.01079.x",
+        "https://www.vet.cam.ac.uk/boas/about-boas/recognition-diagnosis",
+        "https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord/degenerative-diseases-of-the-spinal-column-and-cord-in-animals",
+        "https://vcahospitals.com/know-your-pet/cervical-intervertebral-disk-disease-in-dogs",
+        "https://penntoday.upenn.edu/news/study-finds-dogs-fed-reduced-calorie-diet-live-nearly-two-years-longer-dogs-unrestricted-diet",
+        "https://www.aaha.org/resources/2021-aaha-nutrition-and-weight-management-guidelines/weight-reduction-in-the-obese-pet/"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "pied-french-bulldog",
+      "title": "Pied French Bulldog: Color & Health",
+      "seoTitleLength": 56,
+      "descriptionLength": 138,
+      "primaryKeyword": "pied french bulldog",
+      "leadSentence": "A pied French Bulldog has a mostly white coat with patches of color, usually brindle or fawn.",
+      "leadLength": 93,
+      "headings": [
+        "What is a pied French Bulldog?",
+        "Pied French Bulldog colors",
+        "Pied genetics: the S locus and MITF",
+        "Pied French Bulldogs and deafness",
+        "BAER hearing test",
+        "Pied French Bulldog puppies: what to ask breeders",
+        "Sources and references"
+      ],
+      "referenceCount": 10,
+      "referenceLinks": [
+        "https://vgl.ucdavis.edu/test/piebald-dog",
+        "https://images.akc.org/pdf/breeds/standards/FrenchBulldog.pdf",
+        "https://www.fci.be/Nomenclature/Standards/101g09-en.pdf",
+        "https://www.royalkennelclub.com/breed-standards/utility/french-bulldog/",
+        "https://www.merckvetmanual.com/ear-disorders/deafness/deafness-in-animals",
+        "https://artsci.lsu.edu/vetmed/deafness/baerexpl.php",
+        "https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/utility/french-bulldog/",
+        "https://vgl.ucdavis.edu/test/dilute-dog",
+        "https://artsci.lsu.edu/vetmed/deafness/genetics.php",
+        "https://artsci.lsu.edu/vetmed/deafness/breeds.php"
+      ],
+      "image": "/images/photos/pied-puppy-sweater.webp",
+      "flags": [],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "puppy-socialization",
+      "title": "Puppy Socialization: A Safe Guide",
+      "seoTitleLength": 54,
+      "descriptionLength": 154,
+      "primaryKeyword": "puppy socialization",
+      "leadSentence": "Puppy socialization is the process of gently introducing a young puppy to the people, animals, sounds and places it will meet in life.",
+      "leadLength": 134,
+      "headings": [
+        "The puppy socialization window",
+        "Socializing your puppy before vaccinations",
+        "Puppy socialization classes",
+        "How to socialize a puppy",
+        "Puppy socialization checklist",
+        "Older or fearful puppies and dogs",
+        "Sources and references"
+      ],
+      "referenceCount": 7,
+      "referenceLinks": [
+        "https://www.msdvetmanual.com/behavior/behavior-of-dogs/behavior-problems-of-dogs",
+        "https://www.merckvetmanual.com/behavior/behavior-of-dogs/social-behavior-of-dogs",
+        "https://avsab.org/wp-content/uploads/2024/12/Puppy-Socialization-Position-Statement-FINAL.pdf",
+        "https://doi.org/10.5326/JAAHA-MS-5825",
+        "https://www.royalkennelclub.com/your-dog/getting-a-dog/caring-for-a-new-pup/your-puppys-first-few-weeks-at-home/",
+        "https://www.bluecross.org.uk/advice/dog/socialising-your-puppy",
+        "https://about.illinoisstate.edu/vfdouga/files/2021/08/AVSAB-Humane-Dog-Training-Position-Statement-2021.pdf"
+      ],
+      "image": "/images/photos/puppies-together.webp",
+      "flags": [],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "blue-french-bulldog-hair-loss",
+      "title": "Blue French Bulldog Hair Loss",
+      "seoTitleLength": 50,
+      "descriptionLength": 154,
+      "primaryKeyword": "blue french bulldog hair loss",
+      "leadSentence": "Is your blue French Bulldog losing hair?",
+      "leadLength": 40,
+      "headings": [
+        "What makes a French Bulldog blue",
+        "What color dilution alopecia looks like",
+        "Other causes of hair loss",
+        "How a vet diagnoses it",
+        "Caring for a dog with CDA",
+        "Before buying a blue puppy",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 4,
+      "referenceLinks": [
+        "https://www.merckvetmanual.com/integumentary-system/congenital-and-inherited-anomalies-of-the-integumentary-system/hereditary-alopecia-and-hypotrichosis-in-animals",
+        "https://images.akc.org/pdf/breeds/standards/FrenchBulldog.pdf",
+        "https://frenchbulldogrescue.org/health-safty/fad-colors/",
+        "https://doi.org/10.1186/s40575-021-00112-3"
+      ],
+      "image": "/images/photos/blue-puppy-sitting.webp",
+      "flags": [
+        "KEYWORD_NOT_EXACT_IN_LEAD",
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "double-merle-french-bulldog",
+      "title": "Double Merle French Bulldog Risks",
+      "seoTitleLength": 54,
+      "descriptionLength": 134,
+      "primaryKeyword": "double merle french bulldog",
+      "leadSentence": "A double merle French Bulldog inherits the merle gene from both parents.",
+      "leadLength": 72,
+      "headings": [
+        "How a double merle is created",
+        "How to recognize a double merle",
+        "Health risks, with numbers",
+        "Testing a double merle puppy",
+        "Living with a deaf or low-vision Frenchie",
+        "Why responsible breeders never pair two merles",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 3,
+      "referenceLinks": [
+        "https://vgl.ucdavis.edu/test/merle",
+        "https://doi.org/10.1111/j.1939-1676.2008.0257.x",
+        "https://www.merckvetmanual.com/ear-disorders/deafness/deafness-in-animals"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "fluffy-french-bulldog-health",
+      "title": "Fluffy French Bulldog: Health",
+      "seoTitleLength": 50,
+      "descriptionLength": 147,
+      "primaryKeyword": "fluffy french bulldog",
+      "leadSentence": "Fluffy French Bulldogs have a long coat caused by a recessive gene.",
+      "leadLength": 67,
+      "headings": [
+        "What makes a French Bulldog fluffy",
+        "Is a fluffy Frenchie a purebred?",
+        "Are fluffy Frenchies healthier?",
+        "Grooming a longer coat",
+        "Skin and coat problems to watch for",
+        "Before you buy a fluffy puppy",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 4,
+      "referenceLinks": [
+        "https://vgl.ucdavis.edu/test/coat-length-dog",
+        "https://images.akc.org/pdf/breeds/standards/FrenchBulldog.pdf",
+        "https://www.vet.cam.ac.uk/boas/about-boas/recognition-diagnosis",
+        "https://doi.org/10.1186/s40575-021-00112-3"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "NO_FAQ"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-aggression-behavior",
+      "title": "French Bulldog Aggression: Help",
+      "seoTitleLength": 52,
+      "descriptionLength": 122,
+      "primaryKeyword": "french bulldog aggression",
+      "leadSentence": "Are French Bulldogs aggressive?",
+      "leadLength": 31,
+      "headings": [
+        "Are French Bulldogs aggressive?",
+        "Why a Frenchie might growl or bite",
+        "Warning signs before a bite",
+        "What to do, step by step",
+        "Training methods that work",
+        "Puppies: preventing problems early",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 3,
+      "referenceLinks": [
+        "https://doi.org/10.1186/s40575-021-00112-3",
+        "https://avsab.org/resources/position-statements/",
+        "https://avsab.org/wp-content/uploads/2024/12/Puppy-Socialization-Position-Statement-FINAL.pdf"
+      ],
+      "image": "/images/photos/black-puppy-lying.webp",
+      "flags": [
+        "KEYWORD_NOT_EXACT_IN_LEAD",
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    }
+  ]
+}
