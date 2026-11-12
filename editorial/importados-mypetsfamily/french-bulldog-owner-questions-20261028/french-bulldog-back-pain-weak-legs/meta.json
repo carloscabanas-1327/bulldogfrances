@@ -9,5 +9,14 @@
     "french bulldog weak back legs",
     "french bulldog IVDD symptoms",
     "french bulldog spinal problems"
-  ]
+  ],
+  "image": "/images/hero/french-bulldog-ivdd-vet-editorial-ai.webp",
+  "imageAlt": "AI-generated editorial image of a brindle French Bulldog standing during a veterinary examination with its owner nearby",
+  "imageWidth": 1200,
+  "imageHeight": 675,
+  "imageType": "image/webp",
+  "socialImage": "/images/social/french-bulldog-ivdd-vet-editorial-ai-social.jpg",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "socialImageType": "image/jpeg"
 }
