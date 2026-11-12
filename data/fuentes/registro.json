@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 clinical EN distemper, kennel cough and blindness; register F251 original diabetic-cataract cohort",
- "total_fuentes": 251,
+ "ultima_auditoria": "2026-11-12 EN clinical source audits: distemper, CIRDC, blindness, food allergies; 252 sources",
+ "total_fuentes": 252,
  "fuentes": [
   {
    "id": "F001",
@@ -16909,6 +16909,51 @@
     "supported_by_abstract": 2
    },
    "observaciones_editoriales": "Verified against the original publisher's abstract; full article not independently read. Replaces a secondary Veterinary Practice citation for English version only; Spanish citation remains on F001 pending separate review.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F252",
+   "autor_u_organismo": "Pucheu-Haston CM",
+   "autores": "Pucheu-Haston CM",
+   "organizacion": "Merck Veterinary Manual",
+   "titulo_exacto": "Cutaneous Food Allergy in Animals (Adverse Food Reactions)",
+   "tipo_fuente": "manual_veterinario",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Merck Veterinary Manual — Professional",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": "2025-08",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.merckvetmanual.com/integumentary-system/food-allergy/cutaneous-food-allergy-in-animals",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Dietary elimination; rechallenge to diagnose cutaneous food allergy",
+   "usos": [
+    {
+     "articulo": "editorial/nutrition/french-bulldog-food-allergies/ARTICLE.en.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "Food allergy requires improvement on elimination diet plus symptom recurrence on controlled challenge for confirmation.",
+      "Relapse after oral challenge may take hours to 10-14 days; timing needs veterinary oversight.",
+      "Skin signs are not specific to food allergy; coexistent environmental or flea allergy is possible."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.merckvetmanual.com/integumentary-system/food-allergy/cutaneous-food-allergy-in-animals",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Professional Merck section directly examined November 12, 2026; no standalone clinical diagnosis or test of this site's readers.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }
