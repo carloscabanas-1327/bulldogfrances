@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 EN clinical source audits: distemper, CIRDC, blindness, food allergies; 252 sources",
- "total_fuentes": 252,
+ "ultima_auditoria": "2026-11-12 — EN clinical review on seven guides incl. pregnancy/pyometra; 254 sources",
+ "total_fuentes": 254,
  "fuentes": [
   {
    "id": "F001",
@@ -16954,6 +16954,94 @@
     "supported": 3
    },
    "observaciones_editoriales": "Professional Merck section directly examined November 12, 2026; no standalone clinical diagnosis or test of this site's readers.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F253",
+   "autor_u_organismo": "Merck Veterinary Manual",
+   "autores": null,
+   "organizacion": "Merck Veterinary Manual",
+   "titulo_exacto": "Dystocia in Small Animals",
+   "tipo_fuente": "manual_veterinario",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Merck Veterinary Manual",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.merckvetmanual.com/reproductive-system/reproductive-diseases-of-the-female-small-animal/dystocia-in-small-animals",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Signs of dystocia; indications for cesarean section",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/pregnant-french-bulldog-care/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "Intense contractions without a puppy, green/black discharge before delivery, and long intervals between pups may indicate obstructed labor and need urgent veterinary care.",
+      "Dystocia has multiple possible causes; anatomy and fetal size cannot be determined from breed alone."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.merckvetmanual.com/reproductive-system/reproductive-diseases-of-the-female-small-animal/dystocia-in-small-animals",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Exact Merck page/section verified 2026-11-12. Editorial review only, no case-specific veterinary opinion.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F254",
+   "autor_u_organismo": "Merck Veterinary Manual",
+   "autores": null,
+   "organizacion": "Merck Veterinary Manual",
+   "titulo_exacto": "Reproductive Disorders of Female Dogs",
+   "tipo_fuente": "manual_veterinario",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Merck Veterinary Manual",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.merckvetmanual.com/dog-owners/reproductive-disorders-of-dogs/reproductive-disorders-of-female-dogs",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Pyometra",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-first-heat-care/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "Pyometra may present with lethargy, vomiting, increased drinking and urination, abdominal enlargement or vaginal discharge.",
+      "Closed-cervix pyometra may have no visible discharge and can progress rapidly to shock."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.merckvetmanual.com/dog-owners/reproductive-disorders-of-dogs/reproductive-disorders-of-female-dogs",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Exact Merck page/section verified 2026-11-12. Editorial review only, no case-specific veterinary opinion.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }
