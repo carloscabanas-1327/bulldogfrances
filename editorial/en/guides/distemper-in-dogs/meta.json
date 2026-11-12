@@ -13,7 +13,7 @@
     "can dogs survive distemper"
   ],
   "keywordEs": "moquillo canino",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "kennel-cough-in-dogs",
@@ -40,8 +40,9 @@
     },
     {
       "q": "Can a vaccinated dog get distemper?",
-      "a": "It is uncommon in dogs that completed the puppy series and boosters. The highest risk is in puppies that haven't finished their shots and in unvaccinated dogs."
+      "a": "Core vaccination is highly effective, but protection depends on completing an appropriate schedule and the dog's immune response. A dog with suspected distemper still needs prompt veterinary assessment."
     }
   ],
-  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
+  "seoAuditNote": "Clinical-source editorial check (2026-11-12); not professional veterinary approval or live publication verification."
 }
