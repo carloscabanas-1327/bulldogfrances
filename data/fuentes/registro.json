@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 (SEO2 review EN diarrhea/red eyes; four new institutional source records, F243-F246; not a full-site audit)",
- "total_fuentes": 246,
+ "ultima_auditoria": "2026-11-12 (SEO2 EN stairs y hemivertebrae, 2 estudios primarios incorporados; auditoría global aún pendiente)",
+ "total_fuentes": 248,
  "fuentes": [
   {
    "id": "F001",
@@ -3800,14 +3800,6 @@
    "seccion_relevante": null,
    "usos": [
     {
-     "articulo": "editorial/en/guides/french-bulldog-tail-spine/ARTICLE.html",
-     "numero_referencia": 6,
-     "afirmaciones": [
-      "Another study of the same issue found that, in French Bulldogs, the more severe the screw tail, the more severe the hemivertebrae in the chest tend to be.",
-      "Researchers have also suggested breeding away from severe screw tails because of their link to spinal malformations."
-     ]
-    },
-    {
      "articulo": "editorial/es/guias/bulldog-frances-cola-columna/ARTICLE.html",
      "numero_referencia": 6,
      "afirmaciones": [
@@ -5467,13 +5459,6 @@
    "contenido_dinamico": false,
    "seccion_relevante": null,
    "usos": [
-    {
-     "articulo": "editorial/en/guides/french-bulldog-stairs/ARTICLE.html",
-     "numero_referencia": 6,
-     "afirmaciones": [
-      "The later study's authors think this is at least partly because owners changed habits after a diagnosis."
-     ]
-    },
     {
      "articulo": "editorial/es/guias/bulldog-frances-escaleras/ARTICLE.html",
      "numero_referencia": 7,
@@ -16712,6 +16697,94 @@
     "supported": 2
    },
    "observaciones_editoriales": "Documento específico abierto y contenido relevante contrastado durante auditoría SEO2. No equivale a revisión veterinaria profesional.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F247",
+   "autor_u_organismo": "Packer RMA et al.",
+   "autores": "Packer RMA, Seath IJ, O'Neill DG, De Decker S, Volk HA",
+   "organizacion": null,
+   "titulo_exacto": "DachsLife 2015: an investigation of lifestyle associations with the risk of intervertebral disc disease in Dachshunds",
+   "tipo_fuente": "articulo_cientifico",
+   "es_fuente_primaria": true,
+   "revista": "Canine Genetics and Epidemiology",
+   "sitio": null,
+   "fecha_publicacion": "2016",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": "3",
+   "numero": null,
+   "paginas": "8",
+   "doi": "10.1186/s40575-016-0039-8",
+   "pmid": null,
+   "url_canonica": "https://doi.org/10.1186/s40575-016-0039-8",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": "Abstract; Methods; Results; Discussion",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/french-bulldog-stairs/ARTICLE.html",
+     "numero_referencia": 6,
+     "afirmaciones": [
+      "Owner questionnaire reported associations between activity restrictions and recorded IVDD in Dachshunds.",
+      "Reverse causation makes causal claims about stair use and furniture jumping inappropriate; not French Bulldog-specific data."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://doi.org/10.1186/s40575-016-0039-8",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Estudio original: no extrapolar sus datos a riesgos individuales o poblaciones no estudiadas. Verificado con texto en PMC y/o ficha original de la revista el 12 nov 2026.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F248",
+   "autor_u_organismo": "Lackmann F et al.",
+   "autores": "Lackmann F, Forterre F, Brunnberg L, Loderstedt S",
+   "organizacion": null,
+   "titulo_exacto": "Epidemiological study of congenital malformations of the vertebral column in French bulldogs, English bulldogs and pugs",
+   "tipo_fuente": "articulo_cientifico",
+   "es_fuente_primaria": true,
+   "revista": "Veterinary Record",
+   "sitio": null,
+   "fecha_publicacion": "2022",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": "190",
+   "numero": "1",
+   "paginas": "e509",
+   "doi": "10.1002/vetr.509",
+   "pmid": "34021609",
+   "url_canonica": "https://doi.org/10.1002/vetr.509",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": "Abstract; Methods; Results; Discussion",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/french-bulldog-tail-spine/ARTICLE.html",
+     "numero_referencia": 6,
+     "afirmaciones": [
+      "Prospective German study assessed 265 dogs including 199 French Bulldogs.",
+      "Severe tail malformation was associated with vertebral malformations elsewhere in the spine, not a stand-alone clinical diagnosis."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://doi.org/10.1002/vetr.509",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Estudio original: no extrapolar sus datos a riesgos individuales o poblaciones no estudiadas. Verificado con texto en PMC y/o ficha original de la revista el 12 nov 2026.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }
