@@ -6,6 +6,7 @@ Read this whole file before writing. Repo root: /home/claude/bulldogfrances. Do 
 - English edition targets US owners (primary market). Spanish edition: neutral Spanish for Latin America, US Hispanics and Spain. Use "tú" (Elige, Revisa, Lleva), NEVER voseo (no "tenés", "podés", "mirá", "fijate", "llevalo").
 - Every page is written natively for its audience. When adapting an article from the other language, re-structure for that language's search intent and keywords; do not translate sentence by sentence. Units: Spanish uses kg/°C first; English uses lb/°F first (with metric in parentheses where useful).
 - Tone: clear, warm, practical, no fluff, no hype. Short paragraphs. No made-up anecdotes, testimonials, stats or quotes.
+- **Temperature conversions are mandatory in English:** whenever an article states a temperature, write °F followed immediately by °C in parentheses, for example **77 °F (25 °C)** or **80–85 °F (27–29 °C)**. Calculate real conversions; do not present an approximate Celsius number as exact. In the Spanish edition, use °C first, adding °F only if useful for the audience.
 
 ## Facts and sources (most important rule)
 - Every number, study result or clinical claim must come from a source you can cite. Reuse facts from these verified ledgers first:
