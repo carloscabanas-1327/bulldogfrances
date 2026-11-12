@@ -13,7 +13,7 @@
     "kennel cough sound"
   ],
   "keywordEs": "tos de las perreras",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "distemper-in-dogs",
@@ -32,7 +32,7 @@
     },
     {
       "q": "How long is a dog contagious with kennel cough?",
-      "a": "Cornell notes dogs can stay contagious for up to 8 weeks, possibly longer, after the cough stops. Keep your dog away from daycare, dog parks and groomers while coughing and for a while after."
+      "a": "The duration varies with the organism. Cornell notes that dogs infected with Bordetella can remain contagious for up to eight weeks or longer after symptoms stop; ask your veterinarian before returning to dog groups."
     },
     {
       "q": "Can a vaccinated dog get kennel cough?",
@@ -43,5 +43,6 @@
       "a": "See a vet the same day for fever, lethargy, loss of appetite, a wet cough or thick nasal discharge, which can signal pneumonia. Labored breathing is an emergency, especially in short-nosed breeds like French Bulldogs."
     }
   ],
-  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
+  "seoAuditNote": "Clinical-source editorial check (2026-11-12); not professional veterinary approval or live publication verification."
 }
