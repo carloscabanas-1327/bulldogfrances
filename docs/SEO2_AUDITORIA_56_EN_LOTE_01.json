@@ -1,0 +1,300 @@
+{
+  "date": "2026-11-12",
+  "scope": "Detailed source-file audit (not independent clinical signoff)",
+  "items": [
+    {
+      "slug": "blindness-in-dogs",
+      "title": "Blindness in Dogs: Signs & Causes",
+      "titleLen": 54,
+      "descLen": 156,
+      "keyword": "blindness in dogs",
+      "firstSentence": "Blindness in dogs can come on over months or almost overnight.",
+      "firstLength": 62,
+      "sections": [
+        "Signs your dog is going blind",
+        "Blindness in dogs: causes",
+        "Sudden blindness in dogs: when it's urgent",
+        "Blindness in dogs with diabetes and in old age",
+        "Treatment: can blindness in dogs be reversed?",
+        "Living with a blind dog",
+        "Sources and references"
+      ],
+      "sourceRefCount": 12,
+      "sourceLinks": [
+        "https://www.merckvetmanual.com/dog-owners/eye-disorders-of-dogs/glaucoma-in-dogs",
+        "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/acute-glaucoma-in-small-animals",
+        "https://www.merckvetmanual.com/dog-owners/eye-disorders-of-dogs/disorders-of-the-lens-in-dogs",
+        "https://vcahospitals.com/know-your-pet/progressive-retinal-atrophy-in-dogs",
+        "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/sudden-acquired-retinal-degeneration-syndrome-in-dogs",
+        "https://vcahospitals.com/know-your-pet/corneal-ulcers-in-dogs",
+        "https://www.veterinary-practice.com/article/treatment-and-management-canine-diabetic-cataract",
+        "https://acvo.org/tips-treatments-tricks/tips-on-adjusting-to-your-pets-blindness",
+        "https://vcahospitals.com/resources/conditions-dog/eyes-ears-nose/signs-of-vision-loss-in-pets",
+        "https://doi.org/10.1186/s40575-017-0045-5",
+        "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/acute-vision-loss-in-small-animals",
+        "https://doi.org/10.5326/0420207"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "CLINICAL_CLAIMS_REQUIRE_SOURCE_CHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "blue-eyed-french-bulldog",
+      "title": "Blue-Eyed French Bulldog: Risks",
+      "titleLen": 52,
+      "descLen": 155,
+      "keyword": "blue eyed french bulldog",
+      "firstSentence": "A blue eyed French Bulldog stands out, and that is exactly why sellers promote them.",
+      "firstLength": 84,
+      "sections": [
+        "Do French Bulldog eyes stay blue?",
+        "What causes blue eyes in an adult French Bulldog",
+        "Blue eyed merle and white French Bulldogs",
+        "French Bulldog blue eyes: health risks",
+        "Blue eyes and the breed standard",
+        "When \"blue\" means an eye problem",
+        "Buying a blue eyed French Bulldog puppy",
+        "Sources and references"
+      ],
+      "sourceRefCount": 12,
+      "sourceLinks": [
+        "https://vgl.ucdavis.edu/test/merle",
+        "https://www.merckvetmanual.com/ear-disorders/deafness/deafness-in-animals",
+        "https://artsci.lsu.edu/vetmed/deafness/genetics.php",
+        "https://images.akc.org/pdf/breeds/standards/FrenchBulldog.pdf",
+        "https://www.fci.be/Nomenclature/Standards/101g09-en.pdf",
+        "https://www.royalkennelclub.com/breed-standards/utility/french-bulldog/",
+        "https://www.merckvetmanual.com/dog-owners/eye-disorders-of-dogs/glaucoma-in-dogs",
+        "https://doi.org/10.1371/journal.pgen.1007648",
+        "https://vgl.ucdavis.edu/test/dilute-dog",
+        "https://doi.org/10.1111/j.1939-1676.2008.0257.x",
+        "https://www.merckvetmanual.com/dog-owners/eye-disorders-of-dogs/disorders-of-the-anterior-uvea-in-dogs",
+        "https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/utility/french-bulldog/"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "can-french-bulldogs-be-left-alone",
+      "title": "Can French Bulldogs Be Left Alone?",
+      "titleLen": 55,
+      "descLen": 149,
+      "keyword": "can french bulldogs be left alone",
+      "firstSentence": "Can French Bulldogs be left alone?",
+      "firstLength": 34,
+      "sections": [
+        "How long can French Bulldogs be left alone?",
+        "Can French Bulldogs be left alone for 8 hours?",
+        "French Bulldog separation anxiety: symptoms",
+        "Anxiety, boredom or barking?",
+        "How to teach your Frenchie to stay home alone",
+        "Mistakes that make it worse",
+        "When to get professional help",
+        "Sources and references"
+      ],
+      "sourceRefCount": 12,
+      "sourceLinks": [
+        "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/leftalone",
+        "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/home-alone-preventing-separation-anxiety",
+        "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/separation-anxiety",
+        "https://frenchbulldogclub.org/wp-content/uploads/2018/12/right-for-you-Logo-PR.pdf",
+        "https://www.msdvetmanual.com/behavior/behavior-of-dogs/behavior-problems-of-dogs",
+        "https://www.royalkennelclub.com/your-dog/getting-a-dog/caring-for-a-new-pup/your-puppys-first-few-weeks-at-home/",
+        "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/behaviour/separationrelatedbehaviour",
+        "https://avsab.org/separation-anxiety-the-great-imitator-part-1-2/",
+        "https://www.akc.org/expert-advice/dog-breeds/french-bulldog-right-for-you/",
+        "https://avsab.org/how-to-tell-if-your-dog-has-separation-anxiety-and-5-things-to-do-if-she-does/",
+        "https://www.rspca.org.uk/webContent/staticImages/Pdfs/LearningToBeLeftAlone.pdf",
+        "https://www.pdsa.org.uk/pet-help-and-advice/pet-health-hub/other-veterinary-advice/separation-anxiety-in-dogs"
+      ],
+      "image": "/images/photos/pied-puppy-cushion.webp",
+      "flags": [],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "demodectic-mange-in-dogs",
+      "title": "Demodectic Mange in Dogs: Signs",
+      "titleLen": 52,
+      "descLen": 143,
+      "keyword": "demodectic mange in dogs",
+      "firstSentence": "Demodectic mange in dogs (also called demodicosis or \"red mange\") is caused by a tiny mite that almost every dog already carries.",
+      "firstLength": 129,
+      "sections": [
+        "Is demodectic mange contagious to humans?",
+        "Demodectic mange symptoms: what it looks like",
+        "Why French Bulldogs are prone to it",
+        "Demodectic mange in adult dogs",
+        "Demodectic mange in dogs: treatment",
+        "What it means for breeding and buying a puppy",
+        "Sources and references"
+      ],
+      "sourceRefCount": 4,
+      "sourceLinks": [
+        "https://www.merckvetmanual.com/integumentary-system/mange/mange-in-dogs-and-cats",
+        "https://vcahospitals.com/know-your-pet/mange-demodectic-in-dogs",
+        "https://doi.org/10.1111/jsap.13067",
+        "https://www.esccap.org/uploads/docs/cgqtqpf1_0720_ESCCAP_GL3__English_v19_1p.pdf"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "CLINICAL_CLAIMS_REQUIRE_SOURCE_CHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "distemper-in-dogs",
+      "title": "Distemper in Dogs: Signs & Care",
+      "titleLen": 52,
+      "descLen": 152,
+      "keyword": "distemper in dogs",
+      "firstSentence": "Distemper in dogs is one of the most serious viral diseases a dog can get.",
+      "firstLength": 74,
+      "sections": [
+        "How do dogs get distemper?",
+        "Distemper in dogs symptoms timeline",
+        "Can dogs survive distemper? Treatment",
+        "Distemper vaccine schedule",
+        "Is distemper contagious to humans or cats?",
+        "After a case of distemper at home",
+        "Sources and references"
+      ],
+      "sourceRefCount": 8,
+      "sourceLinks": [
+        "https://www.merckvetmanual.com/dog-owners/disorders-affecting-multiple-body-systems-of-dogs/canine-distemper-hardpad-disease",
+        "https://www.avma.org/public/PetCare/Pages/Canine-Distemper.aspx",
+        "https://Vet.osu.edu/sites/default/files/documents/Canine%20Distemper%20Fact%20Sheet%2020200123.pdf",
+        "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/canine-distemper-virus",
+        "https://www.aaha.org/resources/2022-aaha-canine-vaccination-guidelines/recommendations-for-core-and-noncore-canine-vaccines/",
+        "https://www.woah.org/app/uploads/2021/03/morbillivirus-canids-and-felidsinfection-with.pdf",
+        "https://wsava.org/wp-content/uploads/2024/05/2024-Guidelines-for-the-Vaccination-of-Dogs-and-Cats.pdf",
+        "https://www.avma.org/resources-tools/pet-owners/petcare/feline-panleukopenia"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "CLINICAL_CLAIMS_REQUIRE_SOURCE_CHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "ear-mites-in-dogs",
+      "title": "Ear Mites in Dogs: Signs & Care",
+      "titleLen": 52,
+      "descLen": 148,
+      "keyword": "ear mites in dogs",
+      "firstSentence": "Ear mites in dogs cause intense itching, head shaking and a dark, waxy ear discharge.",
+      "firstLength": 85,
+      "sections": [
+        "Ear mites in dogs: symptoms",
+        "What do ear mites look like?",
+        "Ear mites vs ear infection",
+        "Ear mites in dogs treatment",
+        "Do home remedies work?",
+        "Are ear mites contagious?",
+        "Sources and references"
+      ],
+      "sourceRefCount": 6,
+      "sourceLinks": [
+        "https://vcahospitals.com/know-your-pet/ear-mites-otodectes-in-cats-and-dogs",
+        "https://www.merckvetmanual.com/dog-owners/ear-disorders-of-dogs/ear-infections-and-otitis-externa-in-dogs",
+        "https://www.merckvetmanual.com/integumentary-system/mange/mange-in-dogs-and-cats",
+        "https://www.esccap.org/uploads/docs/cgqtqpf1_0720_ESCCAP_GL3__English_v19_1p.pdf",
+        "https://doi.org/10.1186/s40575-021-00112-3",
+        "https://www.merckvetmanual.com/ear-disorders/diseases-of-the-pinna/mite-infestations-affecting-the-pinna-in-animals"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "CLINICAL_CLAIMS_REQUIRE_SOURCE_CHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "fleas-on-dogs",
+      "title": "Fleas on Dogs: Signs & Treatment",
+      "titleLen": 53,
+      "descLen": 143,
+      "keyword": "fleas on dogs",
+      "firstSentence": "Fleas on dogs cause more than itching: they can trigger skin allergies, make young puppies anemic and pass tapeworms.",
+      "firstLength": 117,
+      "sections": [
+        "What fleas on dogs look like (and how to check)",
+        "Symptoms and health risks",
+        "Why fleas keep coming back",
+        "Fleas on dogs treatment: a 3-step plan",
+        "Fleas in the house and on people",
+        "If you also have cats",
+        "Sources and references"
+      ],
+      "sourceRefCount": 8,
+      "sourceLinks": [
+        "https://vcahospitals.com/resources/preventive-dog/parasites/flea-lifecycle",
+        "https://www.purdue.edu/newsroom/releases/2015/Q2/purdue-vet-spring-signals-return-of-dangerous-pet-parasites.html",
+        "https://www.merckvetmanual.com/integumentary-system/fleas-and-flea-allergy-dermatitis/fleas-in-dogs-and-cats",
+        "https://capcvet.org/guidelines/fleas/",
+        "https://www.pdsa.org.uk/pet-help-and-advice/pet-health-hub/conditions/permethrin-toxicity-in-cats",
+        "https://www.merckvetmanual.com/dog-owners/skin-disorders-of-dogs/fleas-of-dogs",
+        "https://www.merckvetmanual.com/integumentary-system/fleas-and-flea-allergy-dermatitis/flea-allergy-dermatitis-in-dogs-and-cats",
+        "https://vcahospitals.com/know-your-pet/flea-control-in-dogs"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "CLINICAL_CLAIMS_REQUIRE_SOURCE_CHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "flying-with-a-french-bulldog",
+      "title": "Flying With a French Bulldog",
+      "titleLen": 49,
+      "descLen": 158,
+      "keyword": "flying with a french bulldog",
+      "firstSentence": "Flying with a French Bulldog requires careful planning because many airlines restrict snub-nosed dogs in cargo or checked baggage.",
+      "firstLength": 130,
+      "sections": [
+        "Can French Bulldogs fly in cargo?",
+        "US airline rules for French Bulldogs",
+        "Flying with a French Bulldog in the cabin",
+        "Flying internationally",
+        "Tips for flying with a French Bulldog",
+        "If your Frenchie is too big for the cabin",
+        "Sources and references"
+      ],
+      "sourceRefCount": 18,
+      "sourceLinks": [
+        "https://www.aa.com/web/i18n/travel-info/special-assistance/pets.html",
+        "https://www.deltacargo.com/Cargo/catalog/products/pet-shipment",
+        "https://public.alaskacargo.com/petconnect/restrictions",
+        "https://www.delta.com/us/en/pet-travel/overview",
+        "https://www.avma.org/public/PetCare/Pages/Short-nosed-Dogs-and-Air-Travel-FAQs.aspx",
+        "https://public.alaskacargo.com/notices/2026/brachycephalic-(short-nosed)-breed-restrictions",
+        "https://public.alaskacargo.com/notices/2026/french-english-bulldog-embargo",
+        "https://www.aphis.usda.gov/pet-travel/pets-on-planes/preparing-pets-air-travel",
+        "https://doi.org/10.1038/s41598-020-66015-8",
+        "https://www.transportation.gov/airconsumer/animal-incident-reporting-2026",
+        "https://www.southwest.com/html/customer-service/travel-fees.html",
+        "https://images.akc.org/pdf/breeds/standards/FrenchBulldog.pdf",
+        "https://www.lufthansa.com/ie/en/dangerous-dogs",
+        "https://www.lufthansa.com/lu/en/register-animals-cabin",
+        "https://cuba.klm.com/information/pets/reservation",
+        "https://www.iberia.com/us/faqs/pets-carriage/",
+        "https://www.fci.be/Nomenclature/Standards/101g09-en.pdf",
+        "https://www.cdc.gov/media/releases/2024/s0508-Dog-Importation-Regulation.html"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "AIRLINE_POLICIES_VOLATILE"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    }
+  ]
+}
