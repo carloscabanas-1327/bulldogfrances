@@ -4,17 +4,42 @@
   "description": "French Bulldog lifespan from the largest studies: the 9.8-year median, where the 4.5-year figure comes from, common causes of death and how to help.",
   "category": "breed-characteristics",
   "primaryKeyword": "french bulldog lifespan",
-  "secondaryKeywords": ["how long do french bulldogs live", "french bulldog lifespan 4.5 years", "french bulldog lifespan male vs female", "french bulldog lifespan uk", "french bulldog lifespan with ivdd"],
+  "secondaryKeywords": [
+    "how long do french bulldogs live",
+    "french bulldog lifespan 4.5 years",
+    "french bulldog lifespan male vs female",
+    "french bulldog lifespan uk",
+    "french bulldog lifespan with ivdd"
+  ],
   "keywordEs": "esperanza de vida bulldog francés",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
-  "related": ["senior-french-bulldog-care", "overweight-french-bulldog", "french-bulldog-back-pain-weak-legs"],
+  "related": [
+    "senior-french-bulldog-care",
+    "overweight-french-bulldog",
+    "french-bulldog-back-pain-weak-legs"
+  ],
   "esUrl": "/es/breed-characteristics/esperanza-de-vida-bulldog-frances/",
   "faq": [
-    {"q": "How long do French Bulldogs live on average?", "a": "A 2024 UK study of 584,734 dogs found a median lifespan of 9.8 years for French Bulldogs, compared with 12.5 years for all dogs. Many individual Frenchies live longer or shorter than that."},
-    {"q": "Do French Bulldogs really only live 4.5 years?", "a": "No. The 4.5-year figure comes from a 2022 life-table study whose authors warned that its French Bulldog sample was small and skewed toward young dogs. The larger 2024 study gives a median of 9.8 years."},
-    {"q": "Do male or female French Bulldogs live longer?", "a": "In the UK VetCompass study of French Bulldogs, longevity did not differ between males and females."},
-    {"q": "What do French Bulldogs usually die from?", "a": "In a UK study of French Bulldog deaths, brain disorders and spinal cord disorders were the most common recorded causes, followed by respiratory problems, tumors, behavior problems and injuries."},
-    {"q": "How can I help my French Bulldog live longer?", "a": "Keep your dog lean, get breathing problems checked, prevent heatstroke, protect the spine and keep up with regular vet checkups."}
+    {
+      "q": "How long do French Bulldogs live on average?",
+      "a": "A 2024 UK study of 584,734 dogs estimated median survival at 9.8 years for French Bulldogs, versus 12.5 years for all dogs. It is a population estimate, not a prediction for an individual dog."
+    },
+    {
+      "q": "Do French Bulldogs really only live 4.5 years?",
+      "a": "The 4.53-year result comes from a 2022 life-table study with different methods and a much smaller French Bulldog sample. It should not be confused with the 9.8-year median survival estimate from a larger 2024 study."
+    },
+    {
+      "q": "Do male or female French Bulldogs live longer?",
+      "a": "A small UK study did not detect a statistically significant difference in recorded longevity between males and females; it cannot establish that their lifespans are identical."
+    },
+    {
+      "q": "What do French Bulldogs usually die from?",
+      "a": "In a UK study of French Bulldog deaths, brain disorders and spinal cord disorders were the most common recorded causes, followed by respiratory problems, tumors, behavior problems and injuries."
+    },
+    {
+      "q": "How can I help my French Bulldog live longer?",
+      "a": "Keep your dog lean, get breathing problems checked, prevent heatstroke, protect the spine and keep up with regular vet checkups."
+    }
   ]
 }

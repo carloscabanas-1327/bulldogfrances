@@ -12,7 +12,7 @@
     "cuánto tiempo puede estar un perro en el auto"
   ],
   "keywordEn": "french bulldog heatstroke",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "bulldog-frances-ronca-respira-mal",
@@ -30,7 +30,7 @@
     },
     {
       "q": "¿Qué hago si mi perro tiene un golpe de calor?",
-      "a": "Sácalo del calor y enfríalo enseguida con agua, por inmersión si está consciente o echándole agua con un ventilador si no lo está. Después llévalo al veterinario. Las toallas mojadas enfrían mucho peor."
+      "a": "Sácalo del calor y enfríalo de inmediato con agua más fresca que el perro sobre el cuerpo, sin mojarle la cara, y un ventilador si hay. Contacta urgencias veterinarias y no retrases el traslado. No sumerjas a un perro inconsciente."
     },
     {
       "q": "¿Cuánto tiempo puede estar un perro encerrado en un auto?",
@@ -38,7 +38,7 @@
     },
     {
       "q": "¿Por qué el bulldog francés sufre tanto el calor?",
-      "a": "Porque se enfría jadeando y su hocico corto, sus narinas estrechas y su paladar largo hacen que respire con esfuerzo. En un estudio británico tenía unas 5 veces más probabilidades de golpe de calor que el labrador."
+      "a": "El hocico corto y las obstrucciones respiratorias limitan el enfriamiento mediante el jadeo. Un estudio británico encontró una OR ajustada de 6,49 para enfermedad por calor frente al labrador; no es una probabilidad absoluta multiplicada por 6,49."
     },
     {
       "q": "¿Un perro se recupera solo de un golpe de calor?",
