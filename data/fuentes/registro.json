@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 (SEO2 56 EN, CDC import rules updated for English flight guide)",
- "total_fuentes": 249,
+ "ultima_auditoria": "2026-11-12 SEO2 clinical distemper+kennel cough; F250 AVMA added as indexed-only, no global recheck",
+ "total_fuentes": 250,
  "fuentes": [
   {
    "id": "F001",
@@ -16829,6 +16829,51 @@
    "ids_auditoria_2026_11_03": [
     "S060"
    ]
+  },
+  {
+   "id": "F250",
+   "autor_u_organismo": "American Veterinary Medical Association",
+   "autores": null,
+   "organizacion": "American Veterinary Medical Association",
+   "titulo_exacto": "Canine infectious respiratory disease complex (kennel cough)",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "AVMA",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.avma.org/resources-tools/pet-owners/petcare/canine-infectious-respiratory-disease-complex-kennel-cough",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "What are the signs?; How is CIRDC spread?; How is CIRDC treated?",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/kennel-cough-in-dogs/ARTICLE.html",
+     "numero_referencia": 8,
+     "afirmaciones": [
+      "Kennel cough comprises several pathogens and ranges from mild cough to severe respiratory disease.",
+      "Rapid or labored breathing, fever, lethargy and productive cough warrant veterinary assessment.",
+      "Most mild cases recover with supportive care; antibiotics are not routinely necessary unless pneumonia is suspected."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.avma.org/resources-tools/pet-owners/petcare/canine-infectious-respiratory-disease-complex-kennel-cough",
+   "estado_enlace": "contenido_indexado_no_accesible_directamente",
+   "resultado_verificacion_afirmaciones": {
+    "supported_by_search_index": 3
+   },
+   "observaciones_editoriales": "AVMA page was located in the search index with relevant text. Direct interactive page view showed iframe only; do not claim full on-page verification. Text also cross-checked with Cornell and Merck direct pages.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
   }
  ]
 }
