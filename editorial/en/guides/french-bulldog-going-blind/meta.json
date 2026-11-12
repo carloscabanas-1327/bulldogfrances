@@ -12,7 +12,7 @@
     "french bulldog vision problems"
   ],
   "keywordEs": "bulldog francés ciego",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "blindness-in-dogs",
@@ -23,11 +23,11 @@
   "faq": [
     {
       "q": "Do French Bulldogs go blind easily?",
-      "a": "No, most French Bulldogs keep their sight. Eye problems are common in the breed, especially corneal ulcers, but most are treatable if they are seen early."
+      "a": "Reliable breed-wide lifetime rates of blindness were not established in the sources reviewed. French Bulldogs do have documented eye risks, notably corneal ulcers, and red, painful or cloudy eyes need prompt examination."
     },
     {
       "q": "Can cherry eye make my French Bulldog blind?",
-      "a": "Cherry eye itself does not cause blindness. It is a tear gland that has slipped out of place, and vets usually reposition it rather than remove it to lower the risk of dry eye later."
+      "a": "Cherry eye itself is a prolapsed tear gland, not blindness. Veterinary assessment matters because the gland helps produce tears, and inappropriate removal increases the risk of dry-eye complications."
     },
     {
       "q": "How can I tell if my French Bulldog is losing its sight?",
@@ -35,12 +35,13 @@
     },
     {
       "q": "What should I do if my French Bulldog suddenly goes blind?",
-      "a": "Treat it as an emergency and see a vet the same day. Some causes of sudden vision loss can only be treated if they are caught quickly."
+      "a": "Sudden loss of sight is an ophthalmic emergency. Seek immediate veterinary assessment; some causes need treatment urgently to protect the eye and remaining vision."
     },
     {
       "q": "Can a blind French Bulldog live a happy life?",
       "a": "Yes. Veterinary ophthalmologists say most pets with comfortable eyes adapt well using smell and hearing, especially with a stable home layout and safety gates."
     }
   ],
-  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
+  "seoAuditNote": "2026-11-12: claim-level source audit and triage rewrite; not professionally reviewed by a veterinarian."
 }
