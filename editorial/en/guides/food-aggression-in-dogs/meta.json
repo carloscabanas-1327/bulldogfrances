@@ -12,7 +12,7 @@
     "resource guarding in dogs"
   ],
   "keywordEs": "perro agresivo con la comida",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "how-to-train-a-french-bulldog",
@@ -32,16 +32,17 @@
     },
     {
       "q": "Can food aggression in dogs be fixed?",
-      "a": "Often, yes. A gradual plan that teaches your dog that people near the bowl bring better treats usually helps, and shelter research shows most guarding dogs do well in homes. Severe cases need a behavior professional."
+      "a": "Resource guarding can sometimes improve with management and reward-based behavior treatment. If the dog has growled, snapped or bitten, do not attempt bowl-removal exercises; seek a qualified veterinary behavior professional."
     },
     {
       "q": "Why does my puppy growl when eating?",
-      "a": "Puppies can learn to guard food, for example when littermates compete over one shared pan. Feed your puppy in a quiet spot and use the same calm treat-tossing approach, without punishment."
+      "a": "Competition, fear or learning history can contribute. Avoid punishment and forced food removal. Feed the puppy in a secure, quiet area and consult a qualified behavior professional if growling or snapping occurs."
     },
     {
       "q": "What if my dog has food aggression towards other dogs?",
       "a": "Feed pets in separate rooms or crates, pick up bowls when meals end, and give chews only when the animals are apart. If there have been fights, talk to your vet or a behavior professional."
     }
   ],
-  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
+  "seoAuditNote": "2026-11-12 targeted source/claim review; not professional veterinary approval or live-site verification"
 }
