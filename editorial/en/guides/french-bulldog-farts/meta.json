@@ -1,6 +1,6 @@
 {
   "title": "French Bulldog Farts: Why They Happen and How to Reduce Gas",
-  "seoTitle": "French Bulldog Farts: Causes, Diet and Remedies",
+  "seoTitle": "French Bulldog Farts: Causes",
   "description": "Why French Bulldog farts are so common and smelly, which foods cause gas, simple remedies that help, and the signs that mean a vet visit or an emergency.",
   "category": "nutrition",
   "primaryKeyword": "french bulldog farts",
@@ -44,5 +44,6 @@
       "a": "Yes. VCA lists soybeans, peas, beans, dairy, high-fat and spicy foods and some fibers as common triggers. A highly digestible diet that is lower in fat and fiber often helps."
     }
   ],
-  "image": "/images/photos/black-puppy-teddy.webp"
+  "image": "/images/photos/black-puppy-teddy.webp",
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }

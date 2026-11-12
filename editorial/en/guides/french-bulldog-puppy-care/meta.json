@@ -1,6 +1,6 @@
 {
   "title": "French Bulldog Puppy Care: Vet Schedule, Feeding and Safety Guide",
-  "seoTitle": "French Bulldog Puppy Care Guide: The First Months",
+  "seoTitle": "French Bulldog Puppy Care Guide",
   "description": "French Bulldog puppy care guide: vet visits, vaccine and deworming schedule, a feeding schedule by age, puppy-proofing and the breed's special needs.",
   "category": "puppies",
   "primaryKeyword": "french bulldog puppy care",
@@ -43,5 +43,6 @@
       "a": "Walk in the cool parts of the day, keep shade and water available, and never leave your puppy in a car. French Bulldogs are at higher risk of heatstroke than many breeds."
     }
   ],
-  "image": "/images/photos/fawn-and-black-puppies.webp"
+  "image": "/images/photos/fawn-and-black-puppies.webp",
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }

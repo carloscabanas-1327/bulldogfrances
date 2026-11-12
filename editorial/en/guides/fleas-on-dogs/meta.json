@@ -1,6 +1,6 @@
 {
   "title": "Fleas on Dogs: How to Check, Treat Your Dog and Clear Your House",
-  "seoTitle": "Fleas on Dogs: How to Check, Treat and Prevent",
+  "seoTitle": "Fleas on Dogs: Signs & Treatment",
   "description": "Fleas on dogs: what they look like, the wet paper towel test, a 3-step treatment plan for your dog and house, and why home remedies fall short.",
   "category": "health",
   "primaryKeyword": "fleas on dogs",
@@ -42,5 +42,6 @@
       "q": "Why does my dog still have fleas after treatment?",
       "a": "Usually because pupae in the home keep hatching for weeks, another pet wasn't treated, or the product wasn't applied correctly. VCA says there is no evidence that fleas have become resistant to insecticides."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }

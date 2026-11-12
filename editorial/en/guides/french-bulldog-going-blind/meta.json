@@ -1,20 +1,46 @@
 {
   "title": "French Bulldog Going Blind? Myths, Eye Problems and Early Signs",
-  "seoTitle": "French Bulldog Going Blind? Myths and Early Signs",
+  "seoTitle": "French Bulldog Going Blind: Signs",
   "description": "Is your French Bulldog going blind? Myths vs facts, the Frenchie eye problems that can cost vision, early warning signs and how blind dogs adapt.",
   "category": "health",
   "primaryKeyword": "french bulldog going blind",
-  "secondaryKeywords": ["do french bulldogs go blind", "french bulldog blind in one eye", "french bulldog sudden blindness", "french bulldog eye problems", "french bulldog vision problems"],
+  "secondaryKeywords": [
+    "do french bulldogs go blind",
+    "french bulldog blind in one eye",
+    "french bulldog sudden blindness",
+    "french bulldog eye problems",
+    "french bulldog vision problems"
+  ],
   "keywordEs": "bulldog francés ciego",
   "lastReviewed": "2026-11-03",
   "status": "REVISED_DRAFT_SOURCED",
-  "related": ["blindness-in-dogs", "french-bulldog-red-eyes", "french-bulldog-breeder-health-tests"],
+  "related": [
+    "blindness-in-dogs",
+    "french-bulldog-red-eyes",
+    "french-bulldog-breeder-health-tests"
+  ],
   "esUrl": "/es/health/bulldog-frances-se-queda-ciego/",
   "faq": [
-    {"q": "Do French Bulldogs go blind easily?", "a": "No, most French Bulldogs keep their sight. Eye problems are common in the breed, especially corneal ulcers, but most are treatable if they are seen early."},
-    {"q": "Can cherry eye make my French Bulldog blind?", "a": "Cherry eye itself does not cause blindness. It is a tear gland that has slipped out of place, and vets usually reposition it rather than remove it to lower the risk of dry eye later."},
-    {"q": "How can I tell if my French Bulldog is losing its sight?", "a": "Early signs include hesitating on stairs or furniture, clinginess in new places, startling easily and less eye contact. Bumping into things may not appear until vision is almost gone."},
-    {"q": "What should I do if my French Bulldog suddenly goes blind?", "a": "Treat it as an emergency and see a vet the same day. Some causes of sudden vision loss can only be treated if they are caught quickly."},
-    {"q": "Can a blind French Bulldog live a happy life?", "a": "Yes. Veterinary ophthalmologists say most pets with comfortable eyes adapt well using smell and hearing, especially with a stable home layout and safety gates."}
-  ]
+    {
+      "q": "Do French Bulldogs go blind easily?",
+      "a": "No, most French Bulldogs keep their sight. Eye problems are common in the breed, especially corneal ulcers, but most are treatable if they are seen early."
+    },
+    {
+      "q": "Can cherry eye make my French Bulldog blind?",
+      "a": "Cherry eye itself does not cause blindness. It is a tear gland that has slipped out of place, and vets usually reposition it rather than remove it to lower the risk of dry eye later."
+    },
+    {
+      "q": "How can I tell if my French Bulldog is losing its sight?",
+      "a": "Early signs include hesitating on stairs or furniture, clinginess in new places, startling easily and less eye contact. Bumping into things may not appear until vision is almost gone."
+    },
+    {
+      "q": "What should I do if my French Bulldog suddenly goes blind?",
+      "a": "Treat it as an emergency and see a vet the same day. Some causes of sudden vision loss can only be treated if they are caught quickly."
+    },
+    {
+      "q": "Can a blind French Bulldog live a happy life?",
+      "a": "Yes. Veterinary ophthalmologists say most pets with comfortable eyes adapt well using smell and hearing, especially with a stable home layout and safety gates."
+    }
+  ],
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }
