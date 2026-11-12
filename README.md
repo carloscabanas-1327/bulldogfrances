@@ -51,7 +51,7 @@ bulldogfrances/
 └── scripts/
 ```
 
-GitHub será el repositorio de código, contenidos, evidencias y versiones. Se evaluará Cloudflare para el despliegue. Esta estructura no implica que las carpetas, automatizaciones o el sitio ya existan.
+GitHub guarda solo el código y los contenidos versionados. Todo lo que se ejecuta (compilación, despliegue y cualquier tarea automática) corre en Cloudflare: Cloudflare Pages compila y publica el sitio desde `main`. No hay GitHub Actions.
 
 ## Sitio existente y migración
 
