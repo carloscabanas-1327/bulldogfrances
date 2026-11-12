@@ -42,5 +42,10 @@
       "q": "¿Qué hago si mi bulldog francés no respira bien?",
       "a": "Si tiene encías azuladas o grises, se desmaya o se ahoga con calor, ve a urgencias de inmediato y mantenlo fresco y tranquilo. Si los signos son leves pero constantes, pide cita y lleva un vídeo de su respiración."
     }
-  ]
+  ],
+  "image": "/images/hero/french-bulldog-breathing-vet-ai.webp",
+  "imageAlt": "Ilustración generada con IA: un bulldog francés leonado en una clínica veterinaria, con una veterinaria al fondo",
+  "imageWidth": 1731,
+  "imageHeight": 909,
+  "imageType": "image/webp"
 }
