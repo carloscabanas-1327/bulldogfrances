@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 SEO2 clinical distemper+kennel cough; F250 AVMA added as indexed-only, no global recheck",
- "total_fuentes": 250,
+ "ultima_auditoria": "2026-11-12 clinical EN distemper, kennel cough and blindness; register F251 original diabetic-cataract cohort",
+ "total_fuentes": 251,
  "fuentes": [
   {
    "id": "F001",
@@ -29,15 +29,6 @@
    "contenido_dinamico": false,
    "seccion_relevante": null,
    "usos": [
-    {
-     "articulo": "editorial/en/guides/blindness-in-dogs/ARTICLE.html",
-     "numero_referencia": 7,
-     "afirmaciones": [
-      "in one study, half had cataracts within 170 days of diagnosis.",
-      "Usually gradual; can be fast in diabetic dogs.",
-      "In a study of 200 diabetic dogs, 50% had cataracts within 170 days of diagnosis, 75% within 370 days and 80% within 470 days."
-     ]
-    },
     {
      "articulo": "editorial/es/guias/ceguera-en-perros/ARTICLE.html",
      "numero_referencia": 10,
@@ -759,8 +750,10 @@
    "paginas": null,
    "doi": null,
    "pmid": null,
-   "url_canonica": "https://acvo.org/tips-treatments-tricks/tips-on-adjusting-to-your-pets-blindness",
-   "urls_anteriores": [],
+   "url_canonica": "https://www.acvo.org/tips-treatments-tricks/tips-on-adjusting-to-your-pets-blindness",
+   "urls_anteriores": [
+    "https://acvo.org/tips-treatments-tricks/tips-on-adjusting-to-your-pets-blindness"
+   ],
    "idioma_original": "en",
    "acceso": "abierto",
    "contenido_dinamico": false,
@@ -800,8 +793,8 @@
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
-   "verificado_via": "https://acvo.org/tips-treatments-tricks/tips-on-adjusting-to-your-pets-blindness",
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.acvo.org/tips-treatments-tricks/tips-on-adjusting-to-your-pets-blindness",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "supported": 3,
@@ -16872,6 +16865,50 @@
     "supported_by_search_index": 3
    },
    "observaciones_editoriales": "AVMA page was located in the search index with relevant text. Direct interactive page view showed iframe only; do not claim full on-page verification. Text also cross-checked with Cornell and Merck direct pages.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F251",
+   "autor_u_organismo": "Beam S, Correa MT, Davidson MG",
+   "autores": "Beam S, Correa MT, Davidson MG",
+   "organizacion": "North Carolina State University",
+   "titulo_exacto": "A retrospective-cohort study on the development of cataracts in dogs with diabetes mellitus: 200 cases",
+   "tipo_fuente": "articulo_cientifico",
+   "es_fuente_primaria": true,
+   "revista": "Veterinary Ophthalmology",
+   "sitio": "Wiley",
+   "fecha_publicacion": "1999",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": "2",
+   "numero": "3",
+   "paginas": "169–172",
+   "doi": "10.1046/j.1463-5224.1999.00073.x",
+   "pmid": "11397260",
+   "url_canonica": "https://doi.org/10.1046/j.1463-5224.1999.00073.x",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "resumen_abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": "Abstract; retrospective cohort 200 referred dogs; survival analysis",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/blindness-in-dogs/ARTICLE.html",
+     "numero_referencia": 7,
+     "afirmaciones": [
+      "Study examined a selected referral sample of 200 diabetic dogs, not a representative population of all dogs.",
+      "In this cohort, estimated cataract development was 50% by 170 days, 75% by 370 days and 80% by 470 days after diabetes diagnosis."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://onlinelibrary.wiley.com/doi/10.1046/j.1463-5224.1999.00073.x",
+   "estado_enlace": "resumen_consultado_texto_completo_no_verificado",
+   "resultado_verificacion_afirmaciones": {
+    "supported_by_abstract": 2
+   },
+   "observaciones_editoriales": "Verified against the original publisher's abstract; full article not independently read. Replaces a secondary Veterinary Practice citation for English version only; Spanish citation remains on F001 pending separate review.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }
