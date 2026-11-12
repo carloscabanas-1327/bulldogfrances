@@ -1,0 +1,270 @@
+{
+  "date": "2026-11-12",
+  "scope": "Eight imported article audits, medical/source links need independent QA",
+  "items": [
+    {
+      "slug": "french-bulldog-noisy-breathing",
+      "title": "French Bulldog Breathing Problems",
+      "seoTitleLength": 54,
+      "descriptionLength": 146,
+      "primaryKeyword": "french bulldog breathing problems",
+      "leadSentence": "French Bulldog breathing problems can show up as snoring, snorting or wheezing.",
+      "leadLength": 79,
+      "headings": [
+        "French Bulldog breathing problems: causes and signs",
+        "Normal or not? The warning signs",
+        "When it is an emergency",
+        "How vets grade breathing",
+        "What you can do at home",
+        "Treatment options, including surgery",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 8,
+      "referenceLinks": [
+        "https://www.vet.cam.ac.uk/boas/about-boas/recognition-diagnosis",
+        "https://doi.org/10.1186/s40575-021-00112-3",
+        "https://doi.org/10.1371/journal.pone.0181928",
+        "https://www.royalkennelclub.com/health-and-dog-care/health-dog-care/health/getting-started-with-health-testing-and-screening/respiratory-function-grading-scheme/",
+        "https://frenchbulldogclub.org/health/testingregistries/",
+        "https://www.vet.cam.ac.uk/boas/about-boas/management-treatment",
+        "https://www.bluecross.org.uk/advice/dog/health-and-injuries/why-do-dogs-cough",
+        "https://www.acvs.org/small-animal/brachycephalic-syndrome/"
+      ],
+      "image": "/images/hero/french-bulldog-breathing-vet-ai.webp",
+      "flags": [
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-puppy-health-checklist",
+      "title": "French Bulldog Puppy Health Check",
+      "seoTitleLength": 54,
+      "descriptionLength": 134,
+      "primaryKeyword": "french bulldog puppy health checklist",
+      "leadSentence": "Use this French Bulldog puppy health checklist before you pay a deposit.",
+      "leadLength": 72,
+      "headings": [
+        "Step 1: Check the parents' records first",
+        "Step 2: Breathing and nostrils",
+        "Step 3: Eyes, ears and skin folds",
+        "Step 4: Movement and body",
+        "Step 5: Behavior and upbringing",
+        "Step 6: Your first vet visit",
+        "Printable checklist",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 5,
+      "referenceLinks": [
+        "https://www.vet.cam.ac.uk/boas/about-boas/recognition-diagnosis",
+        "https://doi.org/10.1186/s40575-021-00112-3",
+        "https://frenchbulldogclub.org/health/testingregistries/",
+        "https://ofa.org/chic-programs/",
+        "https://www.merckvetmanual.com/ear-disorders/deafness/deafness-in-animals"
+      ],
+      "image": "/images/photos/brindle-puppy-sitting.webp",
+      "flags": [
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-puppy-paperwork",
+      "title": "French Bulldog Puppy Paperwork",
+      "seoTitleLength": 51,
+      "descriptionLength": 124,
+      "primaryKeyword": "french bulldog puppy paperwork",
+      "leadSentence": "Buying a French Bulldog?",
+      "leadLength": 24,
+      "headings": [
+        "The documents to ask for",
+        "Registration papers: what they do and do not prove",
+        "Health records for the parents",
+        "The sales contract",
+        "Buying online: what the law says",
+        "Paperwork red flags",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 4,
+      "referenceLinks": [
+        "https://frenchbulldogclub.org/health/testingregistries/",
+        "https://ofa.org/chic-programs/",
+        "https://www.govinfo.gov/content/pkg/FR-2013-09-18/html/2013-22616.htm",
+        "https://www.akc.org/breeder-programs/dna/dna-resource-center/akc-dna-health/breed-specific-dna-testing-recommendations/french-bulldog-dna-tests/"
+      ],
+      "image": "/images/photos/white-puppy-eye-patch.webp",
+      "flags": [
+        "KEYWORD_NOT_EXACT_IN_LEAD",
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-red-eyes",
+      "title": "French Bulldog Red Eyes: Causes",
+      "seoTitleLength": 52,
+      "descriptionLength": 155,
+      "primaryKeyword": "french bulldog red eyes",
+      "leadSentence": "French Bulldog red eyes can signal irritation, a painful corneal ulcer or another urgent eye problem.",
+      "leadLength": 101,
+      "headings": [
+        "French Bulldog Red Eyes: Why the Breed Is Vulnerable",
+        "Common causes of red eyes",
+        "Urgent Red-Eye Signs: Same Day or Emergency?",
+        "Cherry eye",
+        "At home: what to do and not do",
+        "Prevention and screening",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 6,
+      "referenceLinks": [
+        "https://doi.org/10.1186/s40575-021-00112-3",
+        "https://www.merckvetmanual.com/dog-owners/eye-disorders-of-dogs/disorders-of-the-nasal-cavity-and-tear-ducts-in-dogs",
+        "https://www.merckvetmanual.com/dog-owners/eye-disorders-of-dogs/disorders-of-the-cornea-in-dogs",
+        "https://frenchbulldogclub.org/health/testingregistries/",
+        "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/overview-of-ophthalmic-emergencies-in-small-animals",
+        "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/anti-inflammatory-agents-in-animals"
+      ],
+      "image": "/images/photos/white-puppy-eye-patch.webp",
+      "flags": [
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-tail-pocket",
+      "title": "French Bulldog Tail Pocket: Care",
+      "seoTitleLength": 53,
+      "descriptionLength": 150,
+      "primaryKeyword": "french bulldog tail pocket",
+      "leadSentence": "A French Bulldog tail pocket is a skin fold or recess near the base of a short, curled tail.",
+      "leadLength": 92,
+      "headings": [
+        "What is a tail pocket?",
+        "Signs of infection",
+        "How to check and clean it",
+        "What not to use",
+        "When to see a vet",
+        "Scooting: tail pocket or anal glands?",
+        "What your veterinarian can check and how to prepare",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 3,
+      "referenceLinks": [
+        "https://doi.org/10.1186/s40575-021-00112-3",
+        "https://vcacanada.com/know-your-pet/corkscrew-tails",
+        "https://www.mspca.org/clinical/tail-fold-intertrigo-screw-tail/"
+      ],
+      "image": "/images/hero/french-bulldog-tail-pocket-vet-ai.webp",
+      "flags": [],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-vomiting",
+      "title": "French Bulldog Vomiting: Causes",
+      "seoTitleLength": 52,
+      "descriptionLength": 145,
+      "primaryKeyword": "french bulldog vomiting",
+      "leadSentence": "French Bulldog vomiting can look like regurgitation, but the two are different.",
+      "leadLength": 79,
+      "headings": [
+        "Vomiting or regurgitation?",
+        "Why Frenchies bring food back up",
+        "When to call the vet",
+        "Emergency signs",
+        "What you can do at home",
+        "Preventing repeat episodes",
+        "What to tell your veterinarian",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 4,
+      "referenceLinks": [
+        "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/vomiting-in-dogs",
+        "https://www.vet.cam.ac.uk/boas/about-boas/recognition-diagnosis",
+        "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/disorders-of-the-stomach-and-intestines-in-dogs",
+        "https://www.merckvetmanual.com/dog-owners/lung-and-airway-disorders-of-dogs/pneumonia-in-dogs"
+      ],
+      "image": "/images/hero/french-bulldog-vomiting-vs-regurgitation.webp",
+      "flags": [
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-with-longer-snout",
+      "title": "French Bulldog Longer Snout: BOAS",
+      "seoTitleLength": 54,
+      "descriptionLength": 123,
+      "primaryKeyword": "french bulldogs with longer snouts",
+      "leadSentence": "Do French Bulldogs with longer snouts breathe better?",
+      "leadLength": 53,
+      "headings": [
+        "What the research says about muzzle length",
+        "Other features that matter",
+        "Is a longer-snouted Frenchie still purebred?",
+        "Why a longer snout is not a guarantee",
+        "How to choose a puppy with better breathing odds",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 4,
+      "referenceLinks": [
+        "https://doi.org/10.1371/journal.pone.0137496",
+        "https://www.vet.cam.ac.uk/boas/about-boas/recognition-diagnosis",
+        "https://doi.org/10.1371/journal.pone.0181928",
+        "https://images.akc.org/pdf/breeds/standards/FrenchBulldog.pdf"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "merle-french-bulldog-health-risks",
+      "title": "Merle French Bulldog Health Risks",
+      "seoTitleLength": 54,
+      "descriptionLength": 145,
+      "primaryKeyword": "merle french bulldog",
+      "leadSentence": "Merle French Bulldogs look striking, but the gene behind the pattern is linked to hearing and eye problems.",
+      "leadLength": 107,
+      "headings": [
+        "What \"merle\" means",
+        "Is merle a recognized French Bulldog color?",
+        "Hearing loss: what the numbers say",
+        "Eye problems",
+        "Cryptic merle: the hidden risk",
+        "If you already own a merle Frenchie",
+        "If you are thinking of buying one",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 5,
+      "referenceLinks": [
+        "https://vgl.ucdavis.edu/test/merle",
+        "https://doi.org/10.1111/j.1939-1676.2008.0257.x",
+        "https://images.akc.org/pdf/breeds/standards/FrenchBulldog.pdf",
+        "https://frenchbulldogrescue.org/health-safty/fad-colors/",
+        "https://frenchbulldogclub.org/health/testingregistries/"
+      ],
+      "image": "/images/photos/merle-puppy.webp",
+      "flags": [
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    }
+  ]
+}
