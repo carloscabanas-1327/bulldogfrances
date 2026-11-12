@@ -1,7 +1,7 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 (actualización puntual de los artículos BOAS; auditoría integral previa 2026-11-03)",
+ "ultima_auditoria": "2026-11-12 (tanda editorial 01: diez guías EN/ES; ver docs/AUDITORIA_KP_TANDA_01_2026-11-12.md)",
  "total_fuentes": 239,
  "fuentes": [
   {
@@ -7151,9 +7151,9 @@
      "articulo": "editorial/es/guias/bulldog-frances-calor-golpe-de-calor/ARTICLE.html",
      "numero_referencia": 1,
      "afirmaciones": [
-      "En un estudio de 905.543 perros del Reino Unido, el bulldog francés tenía unas 5 veces más probabilidades de sufrir un golpe de calor que el labrador.",
-      "En comparación con el labrador, el bulldog francés tenía unas 5,3 veces más probabilidades de golpe de calor y el bulldog inglés unas 12,5 veces; los perros braquicéfalos en conjunto, el doble que los de hocico medio.",
-      "El 14 % de los casos registrados fueron mortales."
+      "En 905.543 perros británicos, el bulldog francés tuvo OR ajustada de 6,49 para enfermedad relacionada con el calor frente al labrador (no equivale a un riesgo absoluto 6,49 veces mayor).",
+      "La tabla 2 presenta OR ajustadas de 6,49 para bulldog francés y 13,95 para bulldog inglés frente al labrador; los braquicéfalos en conjunto tuvieron aproximadamente 2,1 frente a los mesocéfalos.",
+      "La tasa de mortalidad entre episodios de enfermedad por calor registrados fue de aproximadamente 14,18 %, no la mortalidad general de los bulldogs franceses."
      ]
     },
     {
@@ -7188,20 +7188,20 @@
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-heat-safety/ARTICLE.html",
      "numero_referencia": 1,
      "afirmaciones": [
-      "In a study of 905,543 UK dogs, French Bulldogs had about 5 times the odds of heat-related illness compared with Labrador Retrievers.",
-      "Flat-faced (brachycephalic) dogs as a group had about twice the odds of mid-length-faced dogs.",
-      "Researchers at the Royal Veterinary College and Nottingham Trent University reviewed the veterinary records of 905,543 dogs in the UK in 2016 and found 390 cases of heat-related illness."
+      "In 905,543 UK dogs, French Bulldogs had an adjusted odds ratio of 6.49 for heat-related illness compared with Labrador Retrievers.",
+      "In table 2, Bulldogs had adjusted odds ratio 13.95; brachycephalic dogs overall had approximately twice the odds of mesocephalic dogs.",
+      "The cohort comprised 905,543 dogs in 2016, with 395 incident heat-related illness events involving 390 individual dogs."
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-12",
    "verificado_via": "https://irep.ntu.ac.uk/id/eprint/39958 ; https://api.crossref.org/works/10.1038/s41598-020-66015-8",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "partial": 3,
     "supported": 10
    },
-   "observaciones_editoriales": "Antes enlazado al repositorio de Nottingham Trent (que lista solo a Hall y Carter); autores según Crossref. Ahora DOI. La razón de probabilidades del bulldog francés no aparece en el resumen leído. Fusionada con S183 (mismo documento).",
+   "observaciones_editoriales": "Antes enlazado al repositorio de Nottingham Trent (que lista solo a Hall y Carter); autores según Crossref. Ahora DOI. La razón de probabilidades del bulldog francés no aparece en el resumen leído. Fusionada con S183 (mismo documento). Revisión puntual 2026-11-12: Tabla 2 de Hall et al. 2020; se rectifican OR de bulldog francés 6,49 y bulldog inglés 13,95. Diferenciar episodios (395) y perros (390).",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S098",
