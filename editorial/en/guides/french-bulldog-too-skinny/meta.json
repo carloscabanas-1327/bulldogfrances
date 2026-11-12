@@ -12,7 +12,7 @@
     "very skinny french bulldog"
   ],
   "keywordEs": "bulldog francés flaco",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "how-much-should-a-french-bulldog-eat",
@@ -28,7 +28,7 @@
     },
     {
       "q": "Why is my French Bulldog so skinny even though he eats?",
-      "a": "Possible causes include worms, not enough calories, poor absorption such as exocrine pancreatic insufficiency, intestinal disease or food allergies. A vet exam with stool and blood tests is the way to find out."
+      "a": "Unexplained weight loss despite appetite has several possible causes, including inadequate calories, parasites, malabsorption and other illness. Veterinary history, examination and selected tests help distinguish them."
     },
     {
       "q": "How can I make my French Bulldog gain weight?",
@@ -40,8 +40,9 @@
     },
     {
       "q": "Why is my French Bulldog puppy not gaining weight?",
-      "a": "Roundworms are one possible cause: poor growth is often one of the first signs in young puppies. Not getting enough food is another. Call your vet if your puppy stops gaining weight."
+      "a": "Growth rates differ by age and expected mature size. Use a veterinary puppy growth chart and contact a veterinarian promptly if the puppy loses weight, fails to gain or seems unwell."
     }
   ],
-  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
+  "seoAuditNote": "2026-11-12 targeted source/claim review; not professional veterinary approval or live-site verification"
 }
