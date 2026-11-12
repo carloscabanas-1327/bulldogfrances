@@ -591,6 +591,48 @@
     "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-diarrhea"
    ],
    "created_at": "2026-11-12"
+  },
+  {
+   "image_id": "stairs-safe-gated-harness-ai-2026-11-12",
+   "project": "BULLDOGFRANCES.COM",
+   "article_id": "french-bulldog-stairs",
+   "species": "dog",
+   "breed": "French Bulldog",
+   "animal_count": 1,
+   "age_group": "adult (illustrated)",
+   "coat": "fawn with black mask",
+   "human_presence": "adult owner partly visible",
+   "environment": "home staircase, nonslip carpet treads, safety gate",
+   "geographic_context": "generic residential setting, not a documentary photograph of a specific place",
+   "season": "not specified",
+   "weather": "indoor daylight",
+   "shot_type": "medium-wide, portrait of dog with staircase context",
+   "camera_angle": "eye level",
+   "activity": "standing on level floor beside stairs",
+   "source_type": "generada_con_ia",
+   "model": "OpenAI image generation",
+   "generation_id": "813e56b8-513e-42ad-be8c-06aa33f90d3e",
+   "generation_prompt": "Photorealistic French Bulldog on the level floor beside a home staircase with visible nonslip treads and safety gate, an adult owner close by holding the dog's harness leash, no jumping and no medical diagnosis, warm natural daylight",
+   "rights_status": "Original created by OpenAI image generation for this editorial update; no third-party photo used.",
+   "review_status": "Preliminary anatomical and contextual review passed; final human owner approval and live mobile check pending.",
+   "alt_en": "AI-generated editorial image of a fawn French Bulldog wearing a harness standing beside indoor stairs with nonslip treads and a safety gate",
+   "alt_es": null,
+   "width": 1200,
+   "height": 675,
+   "format": "WebP",
+   "quality": 84,
+   "web_bytes": 138194,
+   "master_file": "ChatGPT image generation original PNG file_000000001ce0820e9d7967d1b289199b, 1672×941; original not committed to public repository",
+   "web_file": "/images/hero/french-bulldog-stairs-editorial-ai.webp",
+   "social_file": "/images/social/french-bulldog-stairs-editorial-ai-social.jpg",
+   "social_width": 1200,
+   "social_height": 630,
+   "social_format": "JPEG",
+   "social_bytes": 182186,
+   "articulos": [
+    "editorial/en/guides/french-bulldog-stairs"
+   ],
+   "created_at": "2026-11-12"
   }
  ]
 }
