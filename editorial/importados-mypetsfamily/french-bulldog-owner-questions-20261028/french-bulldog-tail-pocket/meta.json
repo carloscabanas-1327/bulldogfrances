@@ -1,6 +1,37 @@
 {
   "title": "French Bulldog Tail Pocket: Cleaning and Warning Signs",
-  "description": "French Bulldog tail pocket care: how to check and clean the fold safely, spot infection, and know when pain or repeated irritation needs veterinary care.",
+  "description": "French Bulldog tail pocket: learn how to check and clean a tail fold gently, signs of infection, when to see a veterinarian and when surgery may help.",
   "lastReviewed": "2026-11-12",
-  "status": "REVISED_DRAFT_SOURCED"
+  "status": "REVISED_DRAFT_SOURCED",
+  "seoTitle": "French Bulldog Tail Pocket: Care & Warning Signs",
+  "primaryKeyword": "french bulldog tail pocket",
+  "secondaryKeywords": [
+    "french bulldog tail pocket cleaning",
+    "french bulldog tail pocket infection",
+    "french bulldog screw tail"
+  ],
+  "keywordEs": "bolsillo de cola bulldog francés",
+  "image": "/images/hero/french-bulldog-tail-pocket-vet-ai.webp",
+  "imageAlt": "AI-generated illustration of a fawn French Bulldog with a short curled tail being gently examined by a veterinarian in a clinic",
+  "imageWidth": 1672,
+  "imageHeight": 941,
+  "imageType": "image/webp",
+  "faq": [
+    {
+      "q": "Do all French Bulldogs have a tail pocket?",
+      "a": "No. A short tail does not automatically mean there is a hidden pocket. A veterinarian can check whether your dog's tail shape creates a fold that needs regular care."
+    },
+    {
+      "q": "How do I clean a French Bulldog tail pocket?",
+      "a": "Clean only a comfortable, visible area with a product your veterinarian recommends, then pat dry gently. Do not pry up a fixed tail or insert swabs into deep or painful folds."
+    },
+    {
+      "q": "How can I tell if the tail pocket is infected?",
+      "a": "Foul odor, discharge, persistent irritation, pain, scooting or fecal contamination are reasons to book a veterinary exam. The presence of infection needs clinical assessment."
+    },
+    {
+      "q": "When does a French Bulldog tail pocket need surgery?",
+      "a": "Repeated severe irritation, infections or anatomical obstruction may lead a veterinarian to discuss surgery. Medical care and surgery have different risks and benefits, so evaluation is individual."
+    }
+  ]
 }
