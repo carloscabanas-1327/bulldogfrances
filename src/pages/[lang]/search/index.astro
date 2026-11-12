@@ -1,26 +1,127 @@
 ---
 import Seo from '../../../components/Seo.astro';
 import {homeUrl} from '../../../data/site.js';
-import {guides,guideTitle,categories} from '../../../data/frenchBulldogGuides.js';
-import {esGuides,esCategoryLabels} from '../../../data/spanishGuides.js';
-import {enGuides} from '../../../data/englishGuides.js';
-export function getStaticPaths(){return [{params:{lang:'es'}},{params:{lang:'en'}}]}
+export function getStaticPaths() {
+  return [{params:{lang:'es'}},{params:{lang:'en'}}];
+}
 const lang=Astro.params.lang;
 const es=lang==='es';
-const entries=[{"path":"health","en":"Health","es":"Salud","type":"category"},{"path":"nutrition","en":"Nutrition","es":"Alimentación","type":"category"},{"path":"training","en":"Training and behavior","es":"Educación y conducta","type":"category"},{"path":"puppies","en":"Puppies","es":"Cachorros","type":"category"},{"path":"breed-characteristics","en":"Breed characteristics","es":"Características de la raza","type":"category"},{"path":"history","en":"History and origins","es":"Historia y orígenes","type":"category"},{"path":"genetics","en":"Genetics and breeding","es":"Genética y reproducción","type":"category"},{"path":"daily-care","en":"Daily care","es":"Cuidados cotidianos","type":"category"},{"path":"news-around-the-world","en":"News around the world","es":"Noticias del mundo","type":"category"},{"path":"store","en":"Where to buy","es":"Dónde comprar","type":"category"},{"path":"nutrition/how-much-should-a-french-bulldog-eat","en":"How Much Should a French Bulldog Eat?","es":"¿Cuánto debe comer un bulldog francés?","descEn":"Feeding portions, ideal weight, activity and calories","descEs":"Raciones, peso ideal, actividad y calorías","type":"article"},{"path":"nutrition/best-food-for-french-bulldogs","en":"Choosing Food for a French Bulldog","es":"Cómo elegir alimento para un bulldog francés","descEn":"Complete diets, food labels and nutritional quality","descEs":"Dietas completas, etiquetas y calidad nutricional","type":"article"},{"path":"nutrition/french-bulldog-food-allergies","en":"Food Allergies in French Bulldogs","es":"Alergias alimentarias en el bulldog francés","descEn":"Food allergies, itching and veterinary diagnosis","descEs":"Alergias, picazón y diagnóstico veterinario","type":"article"},{"path":"nutrition/safe-treats-for-french-bulldogs","en":"Safe Treats and Foods to Avoid","es":"Premios seguros y alimentos que deben evitarse","descEn":"Treats, toxic foods and choking prevention","descEs":"Premios, alimentos tóxicos y prevención de atragantamiento","type":"article"}];
-const guideEntries=guides.map(g=>({path:g.category+'/'+g.folder,en:guideTitle(g.folder),es:guideTitle(g.folder),descEn:(categories.find(c=>c.slug===g.category)||{}).label,type:'article'}));
-const enExtraEntries=enGuides.map(g=>({path:g.category+'/'+g.slug,en:g.title,descEn:g.description,type:'article'}));
-const esGuideEntries=esGuides.map(g=>({path:g.category+'/'+g.slug,es:g.title,descEs:g.description||esCategoryLabels[g.category],type:'article'}));
-// Each edition searches only its own language.
-const allEntries=es?[...entries,...esGuideEntries]:[...entries,...guideEntries,...enExtraEntries];
+const pageTitle=es?'Buscar artículos sobre el bulldog francés':'Search French Bulldog Guides';
+const description=es
+  ? 'Busca por síntomas, alimentación, cuidados, salud y temas dentro de las guías en español de BulldogFrances.com.'
+  : 'Search French Bulldog health, nutrition, training and care guides, including full article text.';
 ---
-<!doctype html><html lang={lang}><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><Seo title={(es?'Buscar':'Search')+' | BulldogFrances.com'} lang={lang} path={'/'+lang+'/search/'} alternates={{en:'/en/search/',es:'/es/search/'}} noindex={true} /><meta name="color-scheme" content="light"/><title>{es?'Buscar':'Search'} | BulldogFrances.com</title>
-<style>
-:root{color-scheme:light;font-family:Arial,Helvetica,sans-serif;color:#263243;background:#fff}*{box-sizing:border-box}body{margin:0;overflow-x:hidden}a{color:inherit}header{padding:19px clamp(16px,5vw,65px);border-bottom:1px solid #e4e8ef;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}header a{font-weight:700;text-decoration:none}main{max-width:950px;margin:auto;padding:32px 20px 80px}h1{font:700 clamp(30px,5vw,48px)/1.15 Georgia,serif;margin:0 0 18px}.search{display:flex;gap:8px;max-width:100%;margin-bottom:25px}.search input{min-width:0;flex:1;padding:14px;border:1px solid #bfc8d4;border-radius:10px;font-size:17px}.search button{background:#253b52;color:white;border:0;border-radius:10px;padding:12px 19px;font-size:16px;cursor:pointer}.result{padding:18px 0;border-bottom:1px solid #e3e8ef}.result a{font:700 23px/1.25 Georgia,serif}.result p{margin:8px 0 0;color:#526074;line-height:1.5}.kind{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#687a90;font-weight:700}.status{color:#526074}footer{border-top:1px solid #e3e8ef;text-align:center;padding:24px;color:#526074}@media(max-width:520px){header{padding:14px 16px}header a{font-size:15px}.search button{padding:12px}.result a{font-size:21px}}
-</style></head><body><header><a href={homeUrl(lang)}>BULLDOGFRANCES.COM</a><a href={'/'+(es?'en':'es')+'/search/'} hreflang={es?'en':'es'} lang={es?'en':'es'}>{es?'EN English':'ES Español'}</a></header><main><h1>{es?'Buscar en BulldogFrances.com':'Search BulldogFrances.com'}</h1><form class="search" action={'/'+lang+'/search/'} method="get" role="search"><input id="q" name="q" type="search" placeholder={es?'Buscar artículos y categorías':'Search articles and categories'} aria-label={es?'Buscar':'Search'} autofocus/><button type="submit">{es?'Buscar':'Search'}</button></form><p class="status" id="status" aria-live="polite"></p><div id="results"></div></main><footer><a href={homeUrl(lang)}>{es?'Inicio':'Home'}</a> · © {new Date().getFullYear()} BulldogFrances.com</footer>
-<script define:vars={{entries:allEntries,lang}}>
-const es=lang==='es';const input=document.querySelector('#q');const results=document.querySelector('#results');const status=document.querySelector('#status');const params=new URLSearchParams(location.search);input.value=params.get('q')||'';
-const normalize=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
-function render(){const q=normalize(input.value);const terms=q.split(/\s+/).filter(Boolean);const found=terms.length?entries.filter(x=>{const hay=normalize([x.en,x.es,x.descEn,x.descEs,x.path].join(' '));return terms.every(t=>hay.includes(t))}):[];results.replaceChildren();status.textContent=!q?(es?'Escribe una palabra para buscar.':'Enter a word to search.'):found.length?(es?found.length+' resultados':'Results: '+found.length):(es?'No encontramos coincidencias en el contenido registrado.':'No matches in the registered content.');for(const x of found){const item=document.createElement('article');item.className='result';const kind=document.createElement('div');kind.className='kind';kind.textContent=x.type==='article'?(es?'Artículo':'Article'):(es?'Categoría':'Category');const a=document.createElement('a');a.href='/'+lang+'/'+x.path+'/';a.textContent=es?x.es:x.en;const p=document.createElement('p');p.textContent=es?(x.descEs||''):(x.descEn||'');item.append(kind,a,p);results.append(item)}}
-input.addEventListener('input',render);render();
-</script></body></html>
+<!doctype html>
+<html lang={lang}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <Seo title={pageTitle+' | BulldogFrances.com'} description={description} lang={lang} path={'/'+lang+'/search/'} alternates={{en:'/en/search/',es:'/es/search/'}} noindex={true} />
+  <title>{pageTitle} | BulldogFrances.com</title>
+  <style>
+    :root{font-family:Arial,Helvetica,sans-serif;background:#fff;color:#1c2d3d;color-scheme:light}
+    *{box-sizing:border-box}body{margin:0}a{color:#235477}a:hover{text-decoration:underline}
+    header,main,footer{width:min(1020px,calc(100% - 32px));margin:auto}
+    header{padding:20px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;border-bottom:1px solid #e0e7ec}
+    header a.brand{font:700 21px/1.2 Georgia,serif;text-decoration:none;color:#152538}
+    header nav{display:flex;gap:20px;flex-wrap:wrap}
+    main{padding:clamp(28px,5vw,55px) 0 70px}
+    h1{font:700 clamp(30px,4vw,43px)/1.15 Georgia,serif;margin:0 0 10px}
+    .lead{color:#536375;line-height:1.6;margin:0 0 28px}
+    .search-form{display:flex;gap:10px;align-items:stretch;max-width:760px}
+    .search-form input{flex:1;min-width:0;border:1px solid #aebbc9;border-radius:11px;padding:14px 16px;font:inherit;font-size:18px;background:#fff;color:#21364a}
+    .search-form button{background:#253f57;color:#fff;border:0;border-radius:11px;font:700 16px Arial,sans-serif;padding:12px 25px;cursor:pointer}
+    .search-form button:hover{background:#365b78}
+    .search-form input:focus-visible,.search-form button:focus-visible,a:focus-visible{outline:3px solid #8ab9dc;outline-offset:2px}
+    .status{margin:23px 0 10px;color:#54677a;font-size:15px;min-height:26px}
+    .results{padding:0;margin:0;list-style:none}
+    .results li{padding:20px 0;border-bottom:1px solid #e3e9ed}
+    .results a{display:inline-block;font:700 22px/1.3 Georgia,serif;text-decoration:underline;text-underline-offset:3px}
+    .results p{color:#506075;margin:8px 0 0;line-height:1.6;overflow-wrap:anywhere;max-width:85ch}
+    .category{display:block;color:#566b80;font-size:13px;text-transform:uppercase;letter-spacing:.035em;font-weight:700;margin-bottom:5px}
+    footer{border-top:1px solid #e0e7ec;padding:25px 0;color:#647385;font-size:14px}
+    @media(max-width:560px){.search-form{flex-direction:column}.search-form button{min-height:46px}.results a{font-size:20px}}
+  </style>
+</head>
+<body>
+  <header>
+    <a href={homeUrl(lang)} class="brand">BULLDOGFRANCES.COM</a>
+    <nav aria-label={es?'Navegación':'Navigation'}>
+      <a href={homeUrl(lang)}>{es?'Inicio':'Home'}</a>
+      <a href={'/'+lang+'/directory/'}>{es?'Todas las guías':'All guides'}</a>
+      <a href={'/'+(es?'en':'es')+'/search/'} lang={es?'en':'es'} hreflang={es?'en-US':'es'}>{es?'English':'Español'}</a>
+    </nav>
+  </header>
+  <main>
+    <h1>{pageTitle}</h1>
+    <p class="lead">{es
+      ? 'Busca por síntomas, tratamientos, alimentación o cualquier palabra que aparezca en nuestras guías. Los resultados pertenecen solo a la edición en español.'
+      : 'Search symptoms, health conditions, feeding or any term in our guides. Results come only from the English edition.'}</p>
+    <form class="search-form" action={'/'+lang+'/search/'} method="get" role="search">
+      <input id="query" name="q" type="search" maxlength="180" autocomplete="off"
+        placeholder={es?'Ej.: respiración, alergia, golpe de calor':'E.g., breathing, allergies, heatstroke'}
+        aria-label={es?'Buscar dentro de los artículos':'Search inside articles'} />
+      <button type="submit">{es?'Buscar':'Search'}</button>
+    </form>
+    <p class="status" id="search-status" role="status" aria-live="polite">{es?'Preparando buscador…':'Preparing search…'}</p>
+    <ol class="results" id="search-results" aria-label={es?'Resultados de búsqueda':'Search results'}></ol>
+    <noscript><p>{es?'Activa JavaScript para utilizar el buscador interno.':'Enable JavaScript to use the internal search.'}</p></noscript>
+  </main>
+  <footer>© {new Date().getFullYear()} BulldogFrances.com · <a href={homeUrl(lang)}>{es?'Volver al inicio':'Back to home'}</a></footer>
+  <script is:inline type="module">
+    import {loadSearchIndex,searchCatalog} from '/search-core.js';
+    const lang=document.documentElement.lang==='es'?'es':'en';
+    const es=lang==='es';
+    const input=document.getElementById('query');
+    const status=document.getElementById('search-status');
+    const results=document.getElementById('search-results');
+    const form=document.querySelector('.search-form');
+    const query=new URLSearchParams(window.location.search).get('q')||'';
+    input.value=query.slice(0,180);
+    let index=null;
+    let timer=null;
+    const labels={
+      empty:es?'Escribe una palabra para comenzar.':'Enter a word to begin.',
+      loading:es?'Cargando índice…':'Loading search index…',
+      error:es?'El buscador no está disponible en este momento. Inténtalo de nuevo.':'Search is temporarily unavailable. Please try again.',
+      none:es?'Sin coincidencias. Prueba otra palabra o una expresión más corta.':'No matches. Try another keyword or a shorter phrase.'
+    };
+    function render(){
+      results.replaceChildren();
+      if(!index){status.textContent=labels.error;return;}
+      const q=input.value.trim();
+      if(!q){status.textContent=labels.empty;return;}
+      const found=searchCatalog(index,q,lang);
+      status.textContent=found.length?(es?found.length+' resultados':'Results: '+found.length):labels.none;
+      const fragment=document.createDocumentFragment();
+      for(const {item,excerpt} of found){
+        const li=document.createElement('li');
+        const cat=document.createElement('span');cat.className='category';cat.textContent=item.category||'';
+        const link=document.createElement('a');link.href=item.url;link.textContent=item.title;
+        const snip=document.createElement('p');snip.textContent=excerpt||item.summary||'';
+        li.append(cat,link,snip);fragment.append(li);
+      }
+      results.append(fragment);
+    }
+    form.addEventListener('submit',event=>{
+      event.preventDefault();
+      const q=input.value.trim();
+      const u=new URL(window.location.href);
+      if(q)u.searchParams.set('q',q);else u.searchParams.delete('q');
+      window.history.replaceState(null,'',u);
+      render();
+    });
+    input.addEventListener('input',()=>{
+      clearTimeout(timer);
+      timer=setTimeout(render,140);
+    });
+    window.addEventListener('popstate',()=>{
+      input.value=new URLSearchParams(window.location.search).get('q')||'';
+      render();
+    });
+    status.textContent=labels.loading;
+    try{index=await loadSearchIndex();render();}
+    catch(e){status.textContent=labels.error;results.replaceChildren();}
+  </script>
+</body>
+</html>
