@@ -2,7 +2,22 @@
 **Fecha:** 2026-11-12 · **Estado:** PR de revisión editorial, no fusionado y sin publicación. **Base:** rama de PR #30 (`editorial/seo2-heat-ivdd-2026-11-12`). Mantener los cambios separados de `main` hasta verificar QA.
 
 ## Alcance y Keyword Planner
-Dos guías existentes del conjunto EN de 56: `french-bulldog-diarrhea` y `french-bulldog-red-eyes`. No se cambiaron rutas ni se crearon páginas competidoras. **Consulta KP real US/en/16 meses solicitada:** [pipeline 3060787838](https://gitlab.com/carlos-proyectos/keywords-planner-repo/-/pipelines/3060787838) y job `kp_consulta` #17978343304. Hasta recibir resultado válido, **sin métrica comprobada de búsquedas mensuales** para estos términos; las keywords declaradas son candidatas basadas en la intención de búsqueda.
+Dos guías existentes del conjunto EN de 56: `french-bulldog-diarrhea` y `french-bulldog-red-eyes`. No se cambiaron rutas ni se crearon páginas competidoras. **Consulta KP Google Ads API US/en/16 meses completada con éxito, sin caché:** [job 17978343304](https://gitlab.com/carlos-proyectos/keywords-planner-repo/-/jobs/17978343304) y [pipeline 3060787838](https://gitlab.com/carlos-proyectos/keywords-planner-repo/-/pipelines/3060787838). Medias mensuales estimadas/redondeadas; **no equivalen a visitas, impresiones orgánicas ni dificultad SEO**.
+
+| Consulta exacta | Volumen/mes estimado | Competencia Ads | Índice Ads |
+|---|---:|---|---:|
+| french bulldog cherry eye | 880 | LOW | 3 |
+| french bulldog red eyes | 260 | LOW | 12 |
+| french bulldog diarrhea | 170 | HIGH | 83 |
+| french bulldog eye infection | 70 | HIGH | 88 |
+| french bulldog diarrhea and vomiting | 20 | HIGH | 68 |
+| french bulldog loose stool | 10 | LOW | 29 |
+| french bulldog bloody diarrhea | 10 | LOW | 26 |
+| french bulldog squinting eye | sin dato | sin dato | sin dato |
+
+El orden de los resultados y las expresiones anteriores se verificó en el log real. Sin cifra ≠ búsqueda cero.
+
+**Decisión SEO:** consolidar guía existente para `french bulldog red eyes` (260) y preparar la **propuesta**, no publicación, de una página independiente para `french bulldog cherry eye` (880): signos visibles, diferenciación de conjuntivitis/úlcera, tratamiento de preservación glandular, cuándo acudir al veterinario. Evitar repetir la guía general de ojos rojos; plantear enlaces internos recíprocos después de verificar intención, fuentes e inventario.
 
 ## 1. French Bulldog Diarrhea
 URL: `/en/nutrition/french-bulldog-diarrhea/`.
