@@ -418,7 +418,7 @@
    "tipo_fuente": "pagina_web",
    "es_fuente_primaria": true,
    "revista": null,
-   "sitio": "aa.com",
+   "sitio": "American Airlines",
    "fecha_publicacion": null,
    "fecha_actualizacion": null,
    "copyright": null,
@@ -427,8 +427,10 @@
    "paginas": null,
    "doi": null,
    "pmid": null,
-   "url_canonica": "https://www.aa.com/i18n/travel-info/special-assistance/pets.jsp",
-   "urls_anteriores": [],
+   "url_canonica": "https://www.aa.com/web/i18n/travel-info/special-assistance/pets.html",
+   "urls_anteriores": [
+    "https://www.aa.com/i18n/travel-info/special-assistance/pets.jsp"
+   ],
    "idioma_original": "en",
    "acceso": "abierto",
    "contenido_dinamico": true,
@@ -462,14 +464,14 @@
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
-   "verificado_via": "https://www.aa.com/i18n/travel-info/special-assistance/pets.jsp",
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.aa.com/web/i18n/travel-info/special-assistance/pets.html",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "partial": 3,
     "supported": 5
    },
-   "observaciones_editoriales": "Página de normas dinámica: requiere fecha de consulta. Título corregido (\"Travel with pets\" → \"Traveling with pets\").",
+   "observaciones_editoriales": "Direct airline policy/cargo page checked 2026-11-12. Conditions and fees change; verify again before departure. No universal carrier size asserted.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S002"
@@ -5265,12 +5267,12 @@
    "id": "F080",
    "autor_u_organismo": "Delta Air Lines",
    "autores": null,
-   "organizacion": "Delta Air Lines",
-   "titulo_exacto": "Shipping Your Pet",
+   "organizacion": "Delta Cargo",
+   "titulo_exacto": "Products: Pet Shipment",
    "tipo_fuente": "pagina_web",
    "es_fuente_primaria": true,
    "revista": null,
-   "sitio": "delta.com",
+   "sitio": "Delta Cargo",
    "fecha_publicacion": null,
    "fecha_actualizacion": null,
    "copyright": null,
@@ -5279,8 +5281,10 @@
    "paginas": null,
    "doi": null,
    "pmid": null,
-   "url_canonica": "https://www.delta.com/us/en/pet-travel/shipping-your-pet",
-   "urls_anteriores": [],
+   "url_canonica": "https://www.deltacargo.com/Cargo/catalog/products/pet-shipment",
+   "urls_anteriores": [
+    "https://www.delta.com/us/en/pet-travel/shipping-your-pet"
+   ],
    "idioma_original": "en",
    "acceso": "abierto",
    "contenido_dinamico": true,
@@ -5302,14 +5306,14 @@
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
-   "verificado_via": "https://www.delta.com/us/en/pet-travel/shipping-your-pet",
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.deltacargo.com/Cargo/catalog/products/pet-shipment",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "partial": 1,
     "supported": 2
    },
-   "observaciones_editoriales": "Delta Cargo solo transporta mascotas de personal militar en activo o del Servicio Exterior con traslado (PCS).",
+   "observaciones_editoriales": "Direct airline policy/cargo page checked 2026-11-12. Conditions and fees change; verify again before departure. No universal carrier size asserted.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S071"
