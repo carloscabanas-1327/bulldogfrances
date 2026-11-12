@@ -13,7 +13,7 @@
     "are ear mites contagious to humans"
   ],
   "keywordEs": "ácaros en los oídos de perros",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "fleas-on-dogs",
@@ -36,12 +36,13 @@
     },
     {
       "q": "Are ear mites contagious to humans?",
-      "a": "Rarely. At most they may cause a temporary itchy rash in some people, which clears once the pets are treated. They spread easily between dogs and cats, so all pets in the home should be treated."
+      "a": "Ear mites spread primarily among dogs and cats. Human reactions are uncommon. A veterinarian can advise which animals in close contact with the infected pet should be treated."
     },
     {
       "q": "Can dogs get ear mites from cats?",
-      "a": "Yes. Ear mites pass between cats and dogs by close contact, and cats can carry them without symptoms. Treat every animal in the household at the same time."
+      "a": "Yes. Dogs and cats can pass ear mites through close contact, including when a cat has few signs. Ask your veterinarian whether each exposed animal needs treatment."
     }
   ],
-  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
+  "seoAuditNote": "2026-11-12 targeted source/claim review; not professional veterinary approval or live-site verification"
 }
