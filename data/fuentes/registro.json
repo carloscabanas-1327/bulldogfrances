@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 (tanda editorial 01: diez guías EN/ES; ver docs/AUDITORIA_KP_TANDA_01_2026-11-12.md)",
- "total_fuentes": 239,
+ "ultima_auditoria": "2026-11-12 (revisión puntual EN tail-pocket y vomiting; fuentes enlazadas revisadas, F240 acceso directo bloqueado; no sustituye auditoría global previa)",
+ "total_fuentes": 240,
  "fuentes": [
   {
    "id": "F001",
@@ -5205,21 +5205,19 @@
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-vomiting/ARTICLE.html",
      "numero_referencia": 3,
      "afirmaciones": [
-      "Repeated unproductive retching with a swollen belly can be bloat, a life-threatening emergency.",
-      "Merck calls bloat \"a life-threatening emergency.\"",
-      "Merck warns an obstructed dog \"may be unable to stop vomiting, which can lead to life-threatening consequences.\"",
-      "Sudden bloody vomiting or diarrhea, which can quickly lead to dehydration and shock."
+      "Retching repetido improductivo acompañado de distensión abdominal puede ser bloat y necesita urgencia.",
+      "Una obstrucción digestiva, vómitos hemorrágicos importantes o signos de shock pueden requerir asistencia urgente."
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-12",
    "verificado_via": "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/disorders-of-the-stomach-and-intestines-in-dogs",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "supported": 7,
     "partial": 1
    },
-   "observaciones_editoriales": "Se añaden autores (antes omitidos).",
+   "observaciones_editoriales": "Se añaden autores (antes omitidos). | Revisión editorial puntual 2026-11-12 para french-bulldog-vomiting: Consultada tabla de contenido Merck sobre bloat, obstruction y trastornos hemorrágicos, edición actualizada 2026.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S115"
@@ -7536,22 +7534,20 @@
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-tail-pocket/ARTICLE.html",
      "numero_referencia": 2,
      "afirmaciones": [
-      "A corkscrew tail is a malformation of the tail vertebrae and often comes with a deep skin fold.",
-      "In severe cases, surgery can be curative.",
-      "Check the fold if you notice any of these signs:",
-      "medical management, which often means lifelong care, and surgical correction.",
-      "It is a major decision, but it can be curative."
+      "Cola en sacacorchos: conformación vertebral anómala asociada a pliegues profundos y posibles problemas para defecar.",
+      "El diagnóstico requiere examen clínico; imágenes radiográficas y cultivos en algunos pacientes.",
+      "La limpieza debe individualizarse; algunas colas requieren cuidado después de las deposiciones; el tratamiento médico puede ser continuo y la cirugía puede ser curativa en casos seleccionados."
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-12",
    "verificado_via": "https://vcacanada.com/know-your-pet/corkscrew-tails",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "supported": 5,
     "partial": 3
    },
-   "observaciones_editoriales": "Sitio VCA Canada (no VCA Animal Hospitals).",
+   "observaciones_editoriales": "Sitio VCA Canada (no VCA Animal Hospitals). | Revisión editorial puntual 2026-11-12 para french-bulldog-tail-pocket: Secciones clínicas y manejo consultadas en VCA Canada; sin recomendar productos específicos no prescritos.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S195"
@@ -10008,8 +10004,8 @@
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-tail-pocket/ARTICLE.html",
      "numero_referencia": 1,
      "afirmaciones": [
-      "French Bulldogs had about 11 times the odds of skin fold dermatitis compared with other dogs in a large UK study.",
-      "A Royal Veterinary College study of 2,781 French Bulldogs found about 11 times the odds of skin fold dermatitis compared with other dogs."
+      "El estudio VetCompass 2021 informó OR ajustada 11,18 (IC95% 7,19–17,40) de dermatitis de pliegues, comparado con otras razas; no representa riesgo absoluto.",
+      "El resultado no distingue entre dermatitis de pliegues en hocico, cola u otras localizaciones y no es una estimación de infección de bolsillos caudales."
      ]
     },
     {
@@ -10075,7 +10071,7 @@
     "partial": 4,
     "unverifiable": 1
    },
-   "observaciones_editoriales": "Leído en la página de BMC y en el PDF de Springer. Tabla 2 confirmada: «Allergic skin disorder» aOR 7,68 (IC 95 % 4,97–11,87); skin fold dermatitis 11,18; aural discharge 14,40; corneal ulceration 4,38. Las cifras del texto se redondean (7,7). Existía una referencia con título inventado («Health of French Bulldogs in the UK»), ya corregida. Fusionada con N2. | Confirmed 2026-11-12 against journal full text and PubMed Central.",
+   "observaciones_editoriales": "Leído en la página de BMC y en el PDF de Springer. Tabla 2 confirmada: «Allergic skin disorder» aOR 7,68 (IC 95 % 4,97–11,87); skin fold dermatitis 11,18; aural discharge 14,40; corneal ulceration 4,38. Las cifras del texto se redondean (7,7). Existía una referencia con título inventado («Health of French Bulldogs in the UK»), ya corregida. Fusionada con N2. | Confirmed 2026-11-12 against journal full text and PubMed Central. | Revisión editorial puntual 2026-11-12 para french-bulldog-tail-pocket: Verificado con PubMed/PMC y tabla 2; corregido el error de interpretación estadística.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S075",
@@ -10631,15 +10627,13 @@
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-tail-pocket/ARTICLE.html",
      "numero_referencia": 3,
      "afirmaciones": [
-      "Tail fold infection is most common in English Bulldogs and seen less often in French Bulldogs.",
-      "In severe cases, surgery can be curative.",
-      "Vets call this tail fold intertrigo.",
-      "Check the fold if you notice any of these signs:",
-      "MSPCA-Angell notes that folds tucked under the tail are often impossible to keep clean in the long term; surgery removes the abnormal tail vertebrae together with the entire skin pocket."
+      "La dermatitis de pliegues involucra humedad y fricción; puede afectar la base de la cola.",
+      "Mal olor, contaminación fecal, frotarse y dolor son signos frecuentes.",
+      "Los pliegues profundos pueden requerir cirugía; una foto ilustrativa no es diagnóstico de deformidad."
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-12",
    "verificado_via": "https://www.mspca.org/clinical/tail-fold-intertrigo-screw-tail/",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
@@ -10647,7 +10641,7 @@
     "unverifiable": 1,
     "supported": 2
    },
-   "observaciones_editoriales": "Extracto del libro de Pavletic (Atlas of Small Animal Wound Management and Reconstructive Surgery, 4.ª ed., 2018) publicado por MSPCA-Angell.",
+   "observaciones_editoriales": "Extracto del libro de Pavletic (Atlas of Small Animal Wound Management and Reconstructive Surgery, 4.ª ed., 2018) publicado por MSPCA-Angell. | Revisión editorial puntual 2026-11-12 para french-bulldog-tail-pocket: Visto artículo clínico MSPCA-Angell 2026, secciones Introduction y Surgical Management.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S144"
@@ -14663,8 +14657,8 @@
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-vomiting/ARTICLE.html",
      "numero_referencia": 2,
      "afirmaciones": [
-      "In French Bulldogs, regurgitation and gagging often go along with BOAS, the breed's airway disease.",
-      "The University of Cambridge lists gastrointestinal signs among the recognized features of BOAS."
+      "Cambridge BOAS reconoce signos gastrointestinales, dificultades de deglución, regurgitación, cambios esofágicos y hernia hiatal en algunos perros afectados.",
+      "Regurgitación o vómitos no prueban por sí solos diagnóstico de BOAS."
      ]
     },
     {
@@ -14694,7 +14688,7 @@
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-12",
    "verificado_via": "https://www.vet.cam.ac.uk/boas/about-boas/recognition-diagnosis",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
@@ -14702,7 +14696,7 @@
     "supported": 4,
     "not_supported": 1
    },
-   "observaciones_editoriales": "Título unificado (las referencias usaban el encabezado de sección o variantes). No menciona FGF5 ni pelaje.",
+   "observaciones_editoriales": "Título unificado (las referencias usaban el encabezado de sección o variantes). No menciona FGF5 ni pelaje. | Revisión editorial puntual 2026-11-12 para french-bulldog-vomiting: Consultada sección Gastrointestinal signs and eating difficulties de Cambridge.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S216"
@@ -15215,21 +15209,20 @@
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-vomiting/ARTICLE.html",
      "numero_referencia": 1,
      "afirmaciones": [
-      "Regurgitation is passive and brings up undigested food, often tube-shaped.",
-      "See a vet for vomiting more than once or twice a day, lasting more than a few days, or with blood, pain, weakness or fever.",
-      "it \"is a passive motion that does not require effort or contraction of the abdominal muscles.\" Regurgitated food \"tends to be undigested and may have a cylindrical shape,\" and coughing or difficulty breathing \"are more often associated with regurgitation than with vomiting.\"",
-      "Merck says vomiting that is long-term, happens \"more often than once or twice daily,\" or comes with \"blood, abdominal pain, depression, dehydration, weakness, fever, weight loss, or other signs requires a more detailed examination.\""
+      "El vómito es expulsión activa de contenido digestivo con contracciones abdominales; la regurgitación es típicamente pasiva con comida frecuentemente sin digerir.",
+      "Vómitos repetidos, crónicos o acompañados de sangre, dolor, debilidad, fiebre o deshidratación requieren evaluación.",
+      "El agua no debe retirarse sin reemplazo de fluidos indicado por el veterinario."
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-12",
    "verificado_via": "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/vomiting-in-dogs",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "supported": 5,
     "partial": 3
    },
-   "observaciones_editoriales": "Se añade autor (antes omitido).",
+   "observaciones_editoriales": "Se añade autor (antes omitido). | Revisión editorial puntual 2026-11-12 para french-bulldog-vomiting: Verificado contra Merck Veterinary Manual ed. dog owners; citas extensas textuales sustituidas por paráfrasis y mayor seguridad en el manejo casero.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S116"
@@ -16418,6 +16411,50 @@
     "supported": 2
    },
    "observaciones_editoriales": "Fuente institucional consultada en su sección específica el 12 nov 2026; comprobar de nuevo si cambia el contenido.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F240",
+   "autor_u_organismo": "Kuehn NF",
+   "autores": "Kuehn NF",
+   "organizacion": "Merck & Co., Inc.",
+   "titulo_exacto": "Pneumonia in Dogs",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Merck Veterinary Manual (Dog Owners version)",
+   "fecha_publicacion": "2018-06",
+   "fecha_actualizacion": "2024-09",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.merckvetmanual.com/dog-owners/lung-and-airway-disorders-of-dogs/pneumonia-in-dogs",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Aspiration Pneumonia",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-vomiting/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "Vómitos persistentes y problemas del esófago o deglución pueden ocasionar neumonía por aspiración.",
+      "Dificultad para respirar después de regurgitar o vomitar requiere valoración veterinaria urgente."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.merckvetmanual.com/dog-owners/lung-and-airway-disorders-of-dogs/pneumonia-in-dogs",
+   "estado_enlace": "contenido_indexado_no_accesible_directamente_403",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "El buscador recuperó un extracto específico del manual; al abrir la URL el acceso devolvió 403. Verificación indirecta; repetir comprobación directa antes de afirmar auditoría integral.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }
