@@ -255,7 +255,7 @@
       "slug": "flying-with-a-french-bulldog",
       "title": "Flying With a French Bulldog",
       "titleLen": 49,
-      "descLen": 158,
+      "descLen": 147,
       "keyword": "flying with a french bulldog",
       "firstSentence": "Flying with a French Bulldog requires careful planning because many airlines restrict snub-nosed dogs in cargo or checked baggage.",
       "firstLength": 130,
@@ -287,14 +287,15 @@
         "https://cuba.klm.com/information/pets/reservation",
         "https://www.iberia.com/us/faqs/pets-carriage/",
         "https://www.fci.be/Nomenclature/Standards/101g09-en.pdf",
-        "https://www.cdc.gov/media/releases/2024/s0508-Dog-Importation-Regulation.html"
+        "https://www.cdc.gov/importation/dogs/faqs.html"
       ],
       "image": null,
       "flags": [
         "HERO_MISSING",
         "AIRLINE_POLICIES_VOLATILE"
       ],
-      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING",
+      "note_2026_11_12": "CDC reference updated to official 2026 FAQ; Article and FAQ texts reconciled; dateModified now uses substantive lastEdited separate from prior lastReviewed."
     }
   ]
 }
