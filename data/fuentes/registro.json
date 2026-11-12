@@ -7135,8 +7135,8 @@
      "articulo": "editorial/en/guides/french-bulldog-lifespan/ARTICLE.html",
      "numero_referencia": 5,
      "afirmaciones": [
-      "Breathing, spine and heat problems are the big breed-specific risks to manage.",
-      "in a UK study, French Bulldogs were among the breeds at significantly higher risk, and about 14% of heatstroke events in all dogs were fatal."
+      "Hall et al. 2020 UK study: 395 incident heat-related illness events in 2016, 56 fatal, event case fatality rate 14.18%.",
+      "French Bulldogs were among the breeds with elevated risk; denominator and setting are essential."
      ]
     },
     {
@@ -7201,7 +7201,7 @@
     "partial": 3,
     "supported": 10
    },
-   "observaciones_editoriales": "Antes enlazado al repositorio de Nottingham Trent (que lista solo a Hall y Carter); autores según Crossref. Ahora DOI. La razón de probabilidades del bulldog francés no aparece en el resumen leído. Fusionada con S183 (mismo documento). Revisión puntual 2026-11-12: Tabla 2 de Hall et al. 2020; se rectifican OR de bulldog francés 6,49 y bulldog inglés 13,95. Diferenciar episodios (395) y perros (390).",
+   "observaciones_editoriales": "Antes enlazado al repositorio de Nottingham Trent (que lista solo a Hall y Carter); autores según Crossref. Ahora DOI. La razón de probabilidades del bulldog francés no aparece en el resumen leído. Fusionada con S183 (mismo documento). Revisión puntual 2026-11-12: Tabla 2 de Hall et al. 2020; se rectifican OR de bulldog francés 6,49 y bulldog inglés 13,95. Diferenciar episodios (395) y perros (390). | Confirmed 2026-11-12 on original full text Scientific Reports 2020.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S098",
@@ -9085,10 +9085,9 @@
      "articulo": "editorial/en/guides/french-bulldog-lifespan/ARTICLE.html",
      "numero_referencia": 1,
      "afirmaciones": [
-      "In a 2024 study of 584,734 UK dogs, French Bulldogs had a median lifespan of 9.8 years, compared with 12.5 years for all dogs.",
-      "French Bulldogs had a median of 9.8 years, the same as the English Bulldog, and they were among the ten breeds most at risk of early death.",
-      "the data did not record why dogs died, it covers UK dogs only, and fast-growing breeds can have many young dogs in the records, which makes lifespan harder to estimate.",
-      "In the 2024 study, flat-faced (brachycephalic) purebreds had a median lifespan of 11.2 years versus 12.8 years for breeds with medium-length faces, and about 1.4 times the risk of dying earlier."
+      "The McMillan et al. 2024 study included 584,734 UK dogs. Median survival was 12.5 years for all dogs; French Bulldog median survival was 9.8 years (95% CI 9.4–10.1).",
+      "The breed-specific Dogs Trust table reports 11,821 French Bulldog individuals and 2,495 deceased; these are included in the whole UK study, not a US estimate.",
+      "Brachycephalic conformation is associated with reduced survival in this observational dataset."
      ]
     },
     {
@@ -9117,14 +9116,14 @@
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-12",
    "verificado_via": "https://www.nature.com/articles/s41598-023-50458-w.pdf (HTML page failed; Crossref also read)",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "supported": 6,
     "partial": 2
    },
-   "observaciones_editoriales": "Antes se enlazaba el PDF de nature.com; ahora el DOI. PMID no obtenido.",
+   "observaciones_editoriales": "Antes se enlazaba el PDF de nature.com; ahora el DOI. PMID no obtenido. | Cross-checked on 2026-11-12 against the Dogs Trust 2024 original breed table PDF https://www.dogstrust.org.uk/downloads/life-expectancy-breeds-table-2024.pdf (PDF first page, French Bulldog row). Author Correction of 2024 affects Figure 3 Miniature Dachshund label, not this estimate.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S145"
@@ -9542,9 +9541,9 @@
      "articulo": "editorial/en/guides/french-bulldog-lifespan/ARTICLE.html",
      "numero_referencia": 3,
      "afirmaciones": [
-      "In a UK study of French Bulldog deaths, brain and spinal cord disorders were the most common recorded causes.",
-      "In the UK VetCompass study of French Bulldogs, the median longevity of females (4.0 years) did not differ from that of males (3.5 years).",
-      "The median age at death was just 3.6 years, again because most dogs in the study were young (median age 1.3 years)."
+      "O'Neill et al. 2018 UK VetCompass sample recorded 98 French Bulldog deaths, 84 with a known cause.",
+      "Brain and spinal cord disorder groups were the two largest recorded cause groups (10 and 8 of 84, respectively).",
+      "Small sample does not establish worldwide distribution of causes of death; female/male ages at death not significantly different in this sample."
      ]
     },
     {
@@ -9568,14 +9567,14 @@
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-12",
    "verificado_via": "https://link.springer.com/content/pdf/10.1186/s40575-018-0057-9.pdf (second attempt; first was rate-limited); also PMC5932866 and Europe PMC REST",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "supported": 4,
     "partial": 4
    },
-   "observaciones_editoriales": "Antes enlazado al PDF de Springer; ahora DOI. Longevidad basada en pocas muertes (98). La cita textual correcta: las hembras \"did not differ to males\".",
+   "observaciones_editoriales": "Antes enlazado al PDF de Springer; ahora DOI. Longevidad basada en pocas muertes (98). La cita textual correcta: las hembras \"did not differ to males\". | Verified 2026-11-12 via PMC5932866 indexed original study.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S103"
@@ -9703,8 +9702,8 @@
      "articulo": "editorial/en/guides/french-bulldog-lifespan/ARTICLE.html",
      "numero_referencia": 6,
      "afirmaciones": [
-      "in a larger 2021 study, French Bulldogs had about 3 times the odds of spinal cord disorders compared with other dogs.",
-      "French Bulldogs had about 31 times the odds of BOAS compared with other dogs in the 2021 UK study."
+      "O'Neill et al. 2021: adjusted odds ratio of BOAS diagnosis 30.89 for French Bulldogs compared with other dogs, not a 30.89x individual risk.",
+      "Grouped spinal cord disorder adjusted odds ratio was 3.00, not a probability or a prediction."
      ]
     },
     {
@@ -10067,7 +10066,7 @@
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-12",
    "verificado_via": "https://link.springer.com/content/pdf/10.1186/s40575-021-00112-3.pdf",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
@@ -10076,7 +10075,7 @@
     "partial": 4,
     "unverifiable": 1
    },
-   "observaciones_editoriales": "Leído en la página de BMC y en el PDF de Springer. Tabla 2 confirmada: «Allergic skin disorder» aOR 7,68 (IC 95 % 4,97–11,87); skin fold dermatitis 11,18; aural discharge 14,40; corneal ulceration 4,38. Las cifras del texto se redondean (7,7). Existía una referencia con título inventado («Health of French Bulldogs in the UK»), ya corregida. Fusionada con N2.",
+   "observaciones_editoriales": "Leído en la página de BMC y en el PDF de Springer. Tabla 2 confirmada: «Allergic skin disorder» aOR 7,68 (IC 95 % 4,97–11,87); skin fold dermatitis 11,18; aural discharge 14,40; corneal ulceration 4,38. Las cifras del texto se redondean (7,7). Existía una referencia con título inventado («Health of French Bulldogs in the UK»), ya corregida. Fusionada con N2. | Confirmed 2026-11-12 against journal full text and PubMed Central.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S075",
@@ -12062,8 +12061,9 @@
      "articulo": "editorial/en/guides/french-bulldog-lifespan/ARTICLE.html",
      "numero_referencia": 4,
      "afirmaciones": [
-      "Keeping a dog lean is linked to a longer life across breeds.",
-      "In a North American study of 50,787 dogs from 12 breeds, overweight dogs had a shorter median lifespan in every breed studied."
+      "Salt et al. 2019 studied 50,787 neutered client-owned dogs, from twelve breeds, in North American practices.",
+      "In each of the twelve studied breeds, overweight status was associated with shorter median lifespan.",
+      "French Bulldogs were NOT among the twelve breeds studied, so this does NOT directly establish a French Bulldog-specific longevity benefit."
      ]
     },
     {
@@ -12075,14 +12075,14 @@
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-12",
    "verificado_via": "https://livrepository.liverpool.ac.uk/3029909/",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "partial": 2,
     "supported": 2
    },
-   "observaciones_editoriales": "Antes enlazado al repositorio de la Universidad de Liverpool; ahora DOI. El bulldog francés no estaba entre las 12 razas estudiadas.",
+   "observaciones_editoriales": "Antes enlazado al repositorio de la Universidad de Liverpool; ahora DOI. El bulldog francés no estaba entre las 12 razas estudiadas. | Confirmed 2026-11-12 on the full Wiley article. Breeds included Cocker Spaniel, Beagle, Boxer, Chihuahua, Dachshund, German Shepherd, Golden Retriever, Labrador, Pit Bull Terrier, Pomeranian, Shih Tzu and Yorkshire Terrier; NOT French Bulldogs.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S104"
@@ -12634,11 +12634,9 @@
      "articulo": "editorial/en/guides/french-bulldog-lifespan/ARTICLE.html",
      "numero_referencia": 2,
      "afirmaciones": [
-      "The widely shared \"4.5 years\" comes from a 2022 life-table study whose authors warned that their French Bulldog sample was small and skewed toward young dogs.",
-      "Breathing, spine and heat problems are the big breed-specific risks to manage.",
-      "It gave French Bulldogs a life expectancy at birth of 4.53 years, the lowest of 18 breeds, against 11.23 years for all dogs.",
-      "The authors were careful to explain why that figure should be read with caution:",
-      "The life-table authors linked the short lives of French Bulldogs, Bulldogs and Pugs to early-onset problems such as obstructed airways (BOAS), spinal disease and difficult births."
+      "Teng et al. 2022 reported 4.53 years of life expectancy at birth, not a median lifespan, in a UK life-table analysis.",
+      "The paper specifically warns about small French Bulldog sample n=232 and bias toward younger dogs amid surging popularity.",
+      "The 2022 and 2024 statistics use different datasets and measures and are not directly interchangeable."
      ]
     },
     {
@@ -12653,14 +12651,14 @@
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-12",
    "verificado_via": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9050668/",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "supported": 5,
     "partial": 3
    },
-   "observaciones_editoriales": "Antes enlazaba a PMC; ahora DOI. Las cifras de 2018 (1,3 años) y de 2024 no proceden de este artículo.",
+   "observaciones_editoriales": "Antes enlazaba a PMC; ahora DOI. Las cifras de 2018 (1,3 años) y de 2024 no proceden de este artículo. | Verified 2026-11-12 against Scientific Reports full text and PMID 35484374. Internal text also discusses 4.55 in one paragraph; cited 4.53 refers to abstract and table estimate.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S161"

@@ -395,6 +395,29 @@
     "editorial/es/guias/bulldog-frances-ronca-respira-mal"
    ],
    "created_at": "2026-11-12"
+  },
+  {
+   "image_id": "french-bulldog-lifespan-mature-garden-ai",
+   "web_file": "/images/hero/french-bulldog-lifespan-mature-ai.webp",
+   "master_file": "Original generated PNG 1672×941 (ChatGPT conversation file_000000005b50820e8c38c5dce5eecd36; original not published in repo)",
+   "source_type": "generada_con_ia",
+   "model": "OpenAI image generation",
+   "generation_id": "7f463491-3586-41d5-a699-20bc10972d6f",
+   "generation_prompt": "Photorealistic mature fawn French Bulldog with naturally greying muzzle resting on a sunny garden patio; gentle editorial light; no text.",
+   "rights_status": "Original generada con IA para esta edición por el propietario mediante ChatGPT. No procede de fotografías de terceros.",
+   "review_status": "ilustración editorial original seleccionada para el artículo; fotografía real no simulada; revisión visual del propietario posible después de publicar",
+   "alt_en": "Mature fawn French Bulldog with a graying muzzle resting on a sunny garden patio; AI-generated editorial illustration",
+   "alt_es": "Ilustración generada con IA de un bulldog francés leonado adulto, con hocico canoso, descansando en un jardín soleado",
+   "width": 1672,
+   "height": 941,
+   "format": "WebP",
+   "quality": 88,
+   "web_bytes": 233884,
+   "articulos": [
+    "editorial/en/guides/french-bulldog-lifespan"
+   ],
+   "created_at": "2026-11-12",
+   "subject": "mature French Bulldog resting outdoors; illustration does not establish medical age or prognosis"
   }
  ]
 }
