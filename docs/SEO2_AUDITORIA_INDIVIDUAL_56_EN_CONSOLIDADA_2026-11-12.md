@@ -89,6 +89,15 @@
 
 **Métricas SEO reales pendientes:** estado de indexación de cada ruta, impresiones, consultas, CTR, posición, Core Web Vitals, enlaces rotos en sitio público y QA móvil. Sin datos directos de Search Console no hay evidencia de aumento de tráfico.
 
+## Correcciones verificadas después de la primera matriz
+
+- Se contrastó la fuente original [Mansour et al., 2018](https://doi.org/10.1371/journal.pgen.1007850): el DVL2 homocigoto se observó en los **79 bulldogs franceses de la muestra**, no se puede asegurar para todos los individuos. La guía **Frenchton** y su FAQ ahora distinguen muestra, predicción individual y los riesgos BOAS. Se confirmó también el estudio [Tomlinson et al., 2024](https://doi.org/10.1371/journal.pone.0315411): **39/104** Boston Terriers grado 0 BOAS, comparados con datos anteriores de franceses; no mide Frenchtons.
+- La guía **Flying With a French Bulldog** actualizó referencias de American y Delta y la FAQ de requisitos de ingreso al país según [CDC, 27 agosto 2026](https://www.cdc.gov/importation/dogs/faqs.html). Se eliminaron tarifas estáticas y generalizaciones sobre dimensiones de transportadoras.
+- La plantilla Astro `src/pages/en/[category]/[slug].astro` distingue `lastReviewed` (revisión de fuentes, no falsificada) de `lastEdited` (corrección editorial sustantiva). El campo `dateModified` de Article JSON-LD usa la fecha más reciente **solo** cuando esa fecha consta y muestra `Last updated` en la página.
+- Tras actualizar bibliografía y registro, se volvió a comprobar la correspondencia de las **389 referencias** y no hubo desajustes. Son **249 fuentes únicas registradas**, sin inferir de ello que todas las URLs hayan respondido hoy.
+- En la revisión de búsquedas públicas, Google mostraba URLs ya indexadas con contenido **anterior** a las ramas de trabajo. No se ha confundido versión indexada con versión del PR.
+- Documentación oficial de [Google Article structured data](https://developers.google.com/search/docs/appearance/structured-data/article): recomienda URL de imagen representativa y fechas precisas; se exige no inventar autor ni fecha y no presentar ausencia de FAQ como fallo estructural de Google.
+
 ## Criterio de finalización
 
 **Finalizado hoy:** censo y auditoría estructural individual de los 56 artículos, normalización de metadatos, control de correspondencia de 389 referencias y registro explícito de las incidencias por página.
