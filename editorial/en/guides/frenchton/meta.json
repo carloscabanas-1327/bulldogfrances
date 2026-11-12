@@ -12,7 +12,7 @@
     "frenchton how big do they get"
   ],
   "keywordEs": "frenchton (cruce entre bulldog francés y boston terrier)",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "french-bulldog-lifespan",
@@ -27,7 +27,7 @@
     },
     {
       "q": "Are Frenchtons healthier than French Bulldogs?",
-      "a": "Not necessarily. Both parent breeds have flat faces and can share inherited risks. A study of other designer crosses cannot establish the health of Frenchtons specifically; evaluate each parent and puppy."
+      "a": "No Frenchton-specific study in this audit establishes a health advantage. Both parents are brachycephalic breeds and can transmit airway, ocular or spine-related predispositions; individual screening is essential."
     },
     {
       "q": "How long do Frenchtons live?",
@@ -35,7 +35,7 @@
     },
     {
       "q": "How big do Frenchtons get?",
-      "a": "There is no standardized Frenchton size. Adult size varies with the parents and genetics, so the parent breeds' size standards are only rough context, not a promise about a puppy."
+      "a": "There is no standardized Frenchton adult size or population-wide growth chart. Each puppy may differ from either parent, so breeder weight promises should be treated cautiously."
     },
     {
       "q": "What health tests should a Frenchton breeder do?",
@@ -43,5 +43,6 @@
     }
   ],
   "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
-  "lastEdited": "2026-11-12"
+  "lastEdited": "2026-11-12",
+  "seoAuditNote": "Edited 2026-11-12: genetic associations and inference limitations reviewed; no Frenchton prospective outcomes inferred."
 }
