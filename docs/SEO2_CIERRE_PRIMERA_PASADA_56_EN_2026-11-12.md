@@ -48,7 +48,7 @@ La rama apilada `audit/seo2-parasites-behavior-weight-2026-11-12` añade **seis 
 ## Pruebas de aceptación para declarar terminado (todavía no superadas)
 
 - Confirmar palabra clave y SERP para cada intención, sin canibalización y sin reclamar métricas no consultadas.
-- Revisar **afirmación por afirmación** cada una de las 22 páginas aún sin revisión individual focalizada documentada; registrar cita exacta en registro de fuentes.
+- Revisar **afirmación por afirmación** las 26 filas aún marcadas como `anchor_integrity_only`; conciliar 10 revisiones históricas no identificadas por ese campo antes de determinar el saldo real; registrar cita exacta en registro de fuentes.
 - Resolver las **23 imágenes** ausentes y las 4 externas de nutrición con validación de propiedad/relevancia.
 - Ejecutar `npm run build` en un checkout de la rama, revisar 56 rutas, `robots.txt`, `sitemap.xml`, JSON-LD, hreflang recíproco, consola del navegador y presentación móvil.
 - Verificar que Cloudflare Pages sirve el commit esperado. Comparar 404, CWV, GSC (indexación, consultas, impresiones y CTR), sin afirmar subida de tráfico previa a datos reales.
@@ -59,3 +59,9 @@ Este documento cierra **el censo técnico y la normalización de metadatos**, no
 ## Cuarta tanda: seis revisiones de neurología, calor, respiración, merle y compra responsable (2026-11-12)
 
 La rama `audit/seo4-six-clinical-breed-guides-2026-11-12`, apilada sobre SEO3 PR #36, revisa seis guías aún pendientes con 30 correcciones de precisión y seguridad; se documentan en `docs/AUDITORIA_SEO4_EN_SEIS_GUIAS_CLINICAS_2026-11-12.md`. Progreso acumulado **34/56** con revisión individual focalizada; **22/56** pendientes. Registro de fuentes permanece en **256**; ninguna aprobación clínica ni de publicación implícita.
+
+## Quinta tanda: seis guías de genética, pelajes y conformación (2026-11-12)
+
+La rama `audit/seo5-genetics-coats-conformation-six-2026-11-12`, apilada sobre PR #37, incorpora **63 sustituciones editoriales** en seis artículos pendientes (61 sustantivas y dos ajustes de apertura SEO). Afecta a pérdida de pelo azul, pelaje fluffy, hocico más largo, merle, mini y sordera asociada al manto blanco. F204 registra un uso nuevo y F257 documenta una nueva fuente de UC Davis (registro **257**). Informe: `docs/AUDITORIA_SEO5_EN_GENETICA_PELAJES_CONFORMACION_2026-11-12.md`.
+
+**Control de consistencia pendiente:** 40/56 revisiones individuales según el acumulado histórico (16 pendientes), pero la marca específica de la matriz muestra **30/56** `targeted_claims_checked` y **26/56** `anchor_integrity_only`; se deben localizar las 10 revisiones históricas no marcadas antes de equiparar ambas cifras. Ninguna de estas sumas constituye aprobación clínica, QA técnica ni autorización de publicación.
