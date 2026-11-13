@@ -1,6 +1,6 @@
 {
   "title": "Cómo saber si un cachorro de bulldog francés está sano: lista",
-  "seoTitle": "Cómo saber si un cachorro bulldog francés está sano",
+  "seoTitle": "Revisión del cachorro bulldog",
   "description": "Cómo saber si un cachorro de bulldog francés está sano: pruebas de los padres, narinas, ojos, oídos, piel y qué pedir en la primera visita al veterinario.",
   "category": "puppies",
   "primaryKeyword": "cómo saber si un cachorro de bulldog francés está sano",
@@ -12,7 +12,7 @@
     "cuándo es la primera visita al veterinario de un cachorro"
   ],
   "keywordEn": "french bulldog puppy health checklist",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "papeles-cachorro-bulldog-frances",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "¿Cómo saber si un cachorro de bulldog francés está sano?",
-      "a": "Revisa las pruebas de salud de los padres, mira que tenga narinas abiertas y respire sin ruido en reposo, que ojos, oídos, pliegues y piel estén limpios y que camine con normalidad. Después, confírmalo con tu veterinario."
+      "a": "Una visita breve no descarta enfermedad hereditaria; pide pruebas parentales y examen veterinario del cachorro, con atención a respiración y ojos."
     },
     {
       "q": "¿Cómo deben ser las narinas de un cachorro de bulldog francés?",
@@ -43,5 +43,6 @@
       "a": "No siempre, pero el ruido fuerte cuando está despierto y tranquilo, el esfuerzo al respirar o la mala recuperación tras jugar son señales de alarma que conviene revisar con el veterinario."
     }
   ],
-  "image": "/images/photos/brindle-puppy-sitting.webp"
+  "image": "/images/photos/brindle-puppy-sitting.webp",
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

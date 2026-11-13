@@ -8,8 +8,10 @@
     "seoAuditNote": "Source audit 2026-11-12; not individually examined by a veterinary specialist"
   },
   "es": {
-    "title": "Alergias alimentarias en el bulldog francés: señales y diagnóstico",
-    "description": "Cómo reconocer una alergia alimentaria, cómo funciona la dieta de eliminación y por qué los análisis de sangre no son fiables."
+    "title": "Alergias alimentarias del bulldog francés",
+    "description": "Alergia alimentaria en bulldog francés: otras causas de picor, dieta de eliminación y provocación veterinaria, y límites de los tests caseros.",
+    "seoAuditKeywordEvidence": "KP no consultado para mercados hispanos",
+    "seoAuditScope": "Revisión focalizada, sin validación veterinaria profesional ni renderizado Astro"
   },
   "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED"

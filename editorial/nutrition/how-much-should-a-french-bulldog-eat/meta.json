@@ -7,8 +7,10 @@
     "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume unverified"
   },
   "es": {
-    "title": "¿Cuánto debe comer un bulldog francés? Raciones y condición corporal",
-    "description": "Cómo calcular la ración de un bulldog francés, evaluar su condición corporal con la escala WSAVA y mantenerlo delgado."
+    "title": "Cuánto debe comer un bulldog francés",
+    "description": "Raciones del bulldog francés según condición corporal, calorías y edad. La tabla del alimento orienta, pero no sirve igual para todos los perros.",
+    "seoAuditKeywordEvidence": "KP no consultado para mercados hispanos",
+    "seoAuditScope": "Revisión focalizada, sin validación veterinaria profesional ni renderizado Astro"
   },
   "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED"
