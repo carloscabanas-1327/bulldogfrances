@@ -1,6 +1,6 @@
 {
   "title": "¿Por qué mi bulldog francés llora? Causas y cómo ayudarlo",
-  "seoTitle": "Bulldog francés llora mucho: causas y qué hacer",
+  "seoTitle": "Bulldog francés que llora",
   "description": "¿Tu bulldog francés llora mucho? Causas habituales, cuándo el llanto indica dolor, cachorro que llora en la noche, llanto al quedarse solo y cómo reducirlo.",
   "category": "training",
   "primaryKeyword": "bulldog francés llora",
@@ -13,7 +13,7 @@
     "por qué mi perro llora cuando hace popó"
   ],
   "keywordEn": "french bulldog crying",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "bulldog-frances-solo-en-casa",
@@ -25,7 +25,7 @@
   "faq": [
     {
       "q": "¿Por qué mi bulldog francés llora mucho?",
-      "a": "Lo más habitual es que pida atención, comida, salir o compañía, y que haya aprendido que llorar funciona. Si el llanto es nuevo o aparece al moverse o al cogerlo, puede ser dolor y conviene ir al veterinario."
+      "a": "El llanto puede reflejar dolor, miedo o necesidades, no solo búsqueda de atención. Si es repentino o al moverse, pide valoración veterinaria."
     },
     {
       "q": "¿Por qué mi perro llora sin razón aparente?",
@@ -44,5 +44,6 @@
       "a": "Enséñale poco a poco con ausencias muy cortas que vas alargando, déjale un juguete de comida y sal y vuelve con calma. Si llora, rompe cosas o se orina siempre que te vas, consulta al veterinario por ansiedad por separación."
     }
   ],
-  "image": "/images/photos/puppy-in-hands.webp"
+  "image": "/images/photos/puppy-in-hands.webp",
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

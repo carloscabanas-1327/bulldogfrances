@@ -25,7 +25,7 @@
   "faq": [
     {
       "q": "¿Qué es un bulldog francés fluffy?",
-      "a": "Fluffy describe pelo largo asociado a variantes recesivas de FGF5; no es otra raza y ese rasgo no permite deducir si el perro respira bien o tendrá menos enfermedades."
+      "a": "El pelo largo se asocia con variantes FGF5 y no predice salud. Pide las pruebas respiratorias, oculares y ortopédicas además del ADN del pelaje."
     },
     {
       "q": "¿El bulldog francés fluffy es de raza pura o un cruce?",
@@ -44,5 +44,5 @@
       "a": "No hay pruebas de que tengan más ni menos. El gen del pelo no cambia la cara, así que tienen los mismos riesgos de la raza, como el síndrome braquicefálico y los problemas de piel."
     }
   ],
-  "seoAuditKeywordEvidenceES": "Keyword Planner: volumen y competencia por país aún sin comprobar en esta auditoría"
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

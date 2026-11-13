@@ -1,6 +1,6 @@
 {
   "title": "Bulldog francés muda de pelo: cuánto suelta y cuándo preocuparse",
-  "seoTitle": "Bulldog francés muda de pelo: cuánto suelta y por qué",
+  "seoTitle": "Muda de pelo del bulldog francés",
   "description": "Cómo es la muda de pelo del bulldog francés, por qué suelta mucho pelo, cómo cepillarlo y qué calvas o caídas de pelo indican un problema de piel.",
   "category": "daily-care",
   "primaryKeyword": "bulldog francés muda de pelo",
@@ -12,7 +12,7 @@
     "bulldog francés muda"
   ],
   "keywordEn": "french bulldog shedding",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "cada-cuanto-banar-bulldog-frances",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "¿El bulldog francés suelta mucho pelo?",
-      "a": "Suelta una cantidad moderada. Su pelo es corto y sin subpelo, así que no forma mechones, pero el Royal Kennel Club lo clasifica como una raza que suelta pelo."
+      "a": "La cantidad de pelo perdido varía por individuo y estación. Las calvas, costras o el picor persistente exigen descartar otras causas."
     },
     {
       "q": "¿Cuándo mudan el pelo los bulldogs franceses?",
@@ -43,5 +43,6 @@
       "a": "No. Según la AAAAI no existen razas realmente hipoalergénicas: los alérgenos están en la caspa, la saliva y la orina, no en el largo del pelo."
     }
   ],
-  "image": "/images/photos/pied-blue-puppy-plush.webp"
+  "image": "/images/photos/pied-blue-puppy-plush.webp",
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }
