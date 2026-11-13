@@ -48,10 +48,14 @@ La rama apilada `audit/seo2-parasites-behavior-weight-2026-11-12` añade **seis 
 ## Pruebas de aceptación para declarar terminado (todavía no superadas)
 
 - Confirmar palabra clave y SERP para cada intención, sin canibalización y sin reclamar métricas no consultadas.
-- Revisar **afirmación por afirmación** cada una de las 46 páginas con solo censo de forma; registrar cita exacta en registro de fuentes.
+- Revisar **afirmación por afirmación** cada una de las 22 páginas aún sin revisión individual focalizada documentada; registrar cita exacta en registro de fuentes.
 - Resolver las **23 imágenes** ausentes y las 4 externas de nutrición con validación de propiedad/relevancia.
 - Ejecutar `npm run build` en un checkout de la rama, revisar 56 rutas, `robots.txt`, `sitemap.xml`, JSON-LD, hreflang recíproco, consola del navegador y presentación móvil.
 - Verificar que Cloudflare Pages sirve el commit esperado. Comparar 404, CWV, GSC (indexación, consultas, impresiones y CTR), sin afirmar subida de tráfico previa a datos reales.
 - Fusionar los PR en orden **solo** si se autoriza y la compilación pasa. `main` y el sitio público no se han modificado en esta fase.
 
 Este documento cierra **el censo técnico y la normalización de metadatos**, no la auditoría médica y visual integral. La tabla de 56 filas y el script `scripts/audit-en-56.mjs` permiten continuar sin repetir el trabajo ya efectuado.
+
+## Cuarta tanda: seis revisiones de neurología, calor, respiración, merle y compra responsable (2026-11-12)
+
+La rama `audit/seo4-six-clinical-breed-guides-2026-11-12`, apilada sobre SEO3 PR #36, revisa seis guías aún pendientes con 30 correcciones de precisión y seguridad; se documentan en `docs/AUDITORIA_SEO4_EN_SEIS_GUIAS_CLINICAS_2026-11-12.md`. Progreso acumulado **34/56** con revisión individual focalizada; **22/56** pendientes. Registro de fuentes permanece en **256**; ninguna aprobación clínica ni de publicación implícita.
