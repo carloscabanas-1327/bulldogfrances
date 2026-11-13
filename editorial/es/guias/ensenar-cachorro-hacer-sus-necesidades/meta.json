@@ -1,6 +1,6 @@
 {
   "title": "Cómo enseñar a un cachorro a hacer sus necesidades (en casa o afuera)",
-  "seoTitle": "Cómo enseñar a un cachorro a hacer sus necesidades",
+  "seoTitle": "Enseñar al cachorro a hacer pis",
   "description": "Horarios, uso del empapador, paso a la calle, noches y accidentes: cómo enseñar a tu cachorro de bulldog francés a hacer sus necesidades sin regaños.",
   "category": "puppies",
   "primaryKeyword": "cómo enseñar a un cachorro a hacer sus necesidades",
@@ -11,7 +11,7 @@
     "cómo enseñar a un perro a hacer sus necesidades"
   ],
   "keywordEn": "how to potty train a french bulldog",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "como-educar-bulldog-frances",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "¿Cómo enseñar a un cachorro a hacer sus necesidades en un solo lugar?",
-      "a": "Llévalo siempre al mismo sitio en los momentos clave (al despertar, tras comer y tras jugar), usa una palabra cuando empieza y prémialo al instante en ese lugar."
+      "a": "Llévalo con frecuencia a la zona elegida, refuerza los aciertos y evita regaños. La regla de una hora por mes de edad no garantiza control vesical."
     },
     {
       "q": "¿Cada cuánto hay que sacar a un cachorro?",
@@ -39,5 +39,6 @@
       "a": "Depende del perro: desde unas semanas hasta 4 a 6 meses para que sea totalmente fiable. La constancia y los premios lo aceleran; los regaños lo retrasan."
     }
   ],
-  "enUrl": "/en/puppies/how-to-potty-train-a-french-bulldog/"
+  "enUrl": "/en/puppies/how-to-potty-train-a-french-bulldog/",
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

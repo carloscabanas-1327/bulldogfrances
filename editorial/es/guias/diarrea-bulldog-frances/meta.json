@@ -1,6 +1,6 @@
 {
   "title": "Bulldog francés con diarrea: qué hacer y cuándo ir al veterinario",
-  "seoTitle": "Bulldog francés con diarrea: qué hacer y cuándo ir",
+  "seoTitle": "Diarrea en bulldog francés",
   "description": "Bulldog francés con diarrea: causas, qué hacer en casa, qué no darle, cuándo es urgencia (sangre, vómitos, cachorros) y cómo prevenirla.",
   "category": "nutrition",
   "primaryKeyword": "bulldog francés con diarrea",
@@ -13,7 +13,7 @@
     "mi perro tiene diarrea pero come bien"
   ],
   "keywordEn": "french bulldog diarrhea",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "bulldog-frances-vomita",
@@ -25,7 +25,7 @@
   "faq": [
     {
       "q": "¿Qué hago si mi bulldog francés tiene diarrea?",
-      "a": "Si es un adulto animado que come y bebe, ofrécele agua fresca, quita los premios y pregunta a tu veterinario por un ayuno corto o una dieta digestiva. Si dura más de dos días, hay sangre o está decaído, llévalo a consulta."
+      "a": "Si el perro está alerta y sin otras señales, el veterinario puede orientar cuidados breves. Sangre, vómitos, decaimiento o un cachorro requieren consulta pronta."
     },
     {
       "q": "¿Qué le puedo dar a mi perro para la diarrea?",
@@ -43,5 +43,6 @@
       "q": "¿Es peligrosa la diarrea en un cachorro de bulldog francés?",
       "a": "Los cachorros se deshidratan antes que los adultos, y en uno sin vacunar la diarrea con vómitos puede ser parvovirus. Llama al veterinario el mismo día."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

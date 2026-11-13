@@ -1,6 +1,6 @@
 {
   "title": "Cuidados de un cachorro de bulldog francés: guía de los primeros meses",
-  "seoTitle": "Cuidados de un cachorro de bulldog francés",
+  "seoTitle": "Cuidados del cachorro bulldog",
   "description": "Vacunas, desparasitación, comidas por edad, casa segura y cuidados propios de la raza: todo lo que necesita un cachorro de bulldog francés.",
   "category": "puppies",
   "primaryKeyword": "cuidados de un bulldog francés cachorro",
@@ -11,7 +11,7 @@
     "cuidados bulldog francés en verano"
   ],
   "keywordEn": "french bulldog puppy care",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "socializacion-del-cachorro",
@@ -26,7 +26,7 @@
   "faq": [
     {
       "q": "¿Qué cuidados necesita un cachorro de bulldog francés de 2 meses?",
-      "a": "Visitas al veterinario cada 3 a 4 semanas, vacunas y desparasitaciones al día, 4 comidas al día de alimento para cachorros, una casa segura y empezar con la socialización y la educación."
+      "a": "A los dos meses necesita vacunas, control de parásitos, alimentación completa y socialización segura, con un calendario adaptado a su región y salud."
     },
     {
       "q": "¿Cuántas veces al día debe comer un cachorro de bulldog francés?",
@@ -42,5 +42,6 @@
     }
   ],
   "enUrl": "/en/puppies/french-bulldog-puppy-care/",
-  "image": "/images/photos/fawn-and-black-puppies.webp"
+  "image": "/images/photos/fawn-and-black-puppies.webp",
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

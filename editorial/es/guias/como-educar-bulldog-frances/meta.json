@@ -1,6 +1,6 @@
 {
   "title": "Cómo educar a un bulldog francés: método con premios y errores a evitar",
-  "seoTitle": "Cómo educar a un bulldog francés (con refuerzo positivo)",
+  "seoTitle": "Cómo educar un bulldog francés",
   "description": "Cómo educar a un bulldog francés con refuerzo positivo: qué dice la evidencia, cómo empezar con un cachorro, cómo evitar que muerda y qué errores evitar.",
   "category": "training",
   "primaryKeyword": "cómo educar a un bulldog francés",
@@ -11,7 +11,7 @@
     "cómo enseñar a un bulldog francés a no morder"
   ],
   "keywordEn": "how to train a french bulldog",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "ensenar-cachorro-hacer-sus-necesidades",
@@ -26,7 +26,7 @@
   "faq": [
     {
       "q": "¿Los bulldog francés son fáciles de educar?",
-      "a": "Son listos y muy apegados a su familia, pero el AKC advierte que pueden ser tercos y necesitar más entrenamiento que otras razas. Funcionan mejor con sesiones cortas y premios."
+      "a": "La dificultad de aprendizaje varía por individuo. Usa refuerzo positivo, sesiones breves y evita castigos; pide ayuda si aparecen mordidas o ansiedad."
     },
     {
       "q": "¿A qué edad se empieza a educar a un bulldog francés?",
@@ -42,5 +42,6 @@
     }
   ],
   "enUrl": "/en/training/how-to-train-a-french-bulldog/",
-  "image": "/images/photos/pied-puppy-portrait.webp"
+  "image": "/images/photos/pied-puppy-portrait.webp",
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

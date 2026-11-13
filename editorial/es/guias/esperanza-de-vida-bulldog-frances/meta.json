@@ -1,6 +1,6 @@
 {
   "title": "Esperanza de vida del bulldog francés: cuántos años vive y por qué",
-  "seoTitle": "Cuánto vive un bulldog francés: esperanza de vida",
+  "seoTitle": "Cuánto vive un bulldog francés",
   "description": "Esperanza de vida del bulldog francés según los mayores estudios: 9,8 años de mediana, de dónde sale la cifra de 4,5 años, de qué mueren y cómo ayudarle.",
   "category": "breed-characteristics",
   "primaryKeyword": "esperanza de vida del bulldog francés",
@@ -23,7 +23,7 @@
   "faq": [
     {
       "q": "¿Cuántos años vive un bulldog francés?",
-      "a": "El estudio británico de 2024 estimó una mediana de supervivencia de 9,8 años para el bulldog francés. Es una estimación estadística y no predice cuánto vivirá un perro individual."
+      "a": "La mediana de supervivencia estimada en el estudio británico de 2024 fue de 9,8 años; no predice la vida individual ni representa necesariamente otros países."
     },
     {
       "q": "¿Es verdad que los bulldog francés viven solo 4 o 5 años?",
@@ -41,5 +41,6 @@
       "q": "¿Cómo puedo alargar la vida de mi bulldog francés?",
       "a": "Mantenlo en su peso, haz revisar los problemas respiratorios, evita el calor, protege su columna y llévalo a revisiones periódicas."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }
