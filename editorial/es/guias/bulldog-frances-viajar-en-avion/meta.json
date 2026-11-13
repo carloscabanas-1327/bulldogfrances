@@ -1,7 +1,7 @@
 {
   "title": "¿Puede un bulldog francés viajar en avión? Aerolíneas, cabina y riesgos",
-  "seoTitle": "Bulldog francés en avión: aerolíneas, cabina y riesgos",
-  "description": "Qué aerolíneas aceptan bulldogs franceses, por qué no en bodega, límites de peso en cabina, requisitos para entrar a EE. UU. y cómo preparar el vuelo.",
+  "seoTitle": "Bulldog francés: viajar en avión",
+  "description": "Bulldog francés y viajes en avión: restricciones de cada aerolínea, riesgos respiratorios y requisitos actuales del CDC para ingresar a Estados Unidos.",
   "category": "daily-care",
   "primaryKeyword": "bulldog francés viajar en avión",
   "secondaryKeywords": [
@@ -12,7 +12,7 @@
     "aerolíneas que aceptan bulldog francés"
   ],
   "keywordEn": "flying with a french bulldog",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "caracter-bulldog-frances",
@@ -24,19 +24,19 @@
   "faq": [
     {
       "q": "¿Puede un bulldog francés viajar en avión?",
-      "a": "Sí, pero casi siempre solo en cabina. A noviembre de 2026, American, Alaska, Iberia, Lufthansa, KLM, Air Europa, LATAM y Avianca no aceptan razas de hocico corto en bodega como equipaje. En cabina, el límite suele ser de 8 a 10 kg con el transportín, que muchos adultos superan."
+      "a": "Depende de la aerolínea, ruta, tipo de aeronave, tamaño del transportín y salud del perro. No hay una lista universal de compañías que garantice aceptación; confirma antes de reservar."
     },
     {
       "q": "¿Por qué las aerolíneas no aceptan bulldogs franceses en bodega?",
-      "a": "Las razas braquicéfalas tienen más riesgo de golpe de calor y problemas respiratorios con el estrés y el calor. Según datos del Departamento de Transporte de EE. UU. publicados en 2010, cerca de la mitad de las muertes de perros en vuelos en cinco años fueron de razas de hocico corto."
+      "a": "Muchas restringen razas braquicéfalas por riesgos respiratorios y de temperatura. Estadísticas aéreas antiguas no permiten calcular el riesgo actual para tu perro."
     },
     {
       "q": "¿Puedo sedar a mi bulldog francés para el vuelo?",
-      "a": "La AVMA desaconseja los tranquilizantes en vuelos, y en razas de hocico corto pueden empeorar la respiración. Habla con tu veterinario antes de dar cualquier medicamento."
+      "a": "No le administres sedantes o tranquilizantes por tu cuenta. El veterinario debe evaluar su respiración y cualquier medicamento; comprueba además las reglas de la aerolínea."
     },
     {
       "q": "¿Qué necesita un perro para entrar a Estados Unidos?",
-      "a": "Desde el 1 de agosto de 2024, el CDC exige que el perro se vea sano, tenga al menos 6 meses, microchip y el recibo del formulario CDC Dog Import Form. Puede haber requisitos extra según el país de origen."
+      "a": "Los CDC exigen que esté sano a la llegada, tenga al menos seis meses, microchip legible y recibo del CDC Dog Import Form. Según países visitados en los seis meses previos y vacunación, pueden exigir más documentos."
     }
   ],
   "enUrl": "/en/daily-care/flying-with-a-french-bulldog/"
