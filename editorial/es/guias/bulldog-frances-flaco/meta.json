@@ -1,6 +1,6 @@
 {
   "title": "Bulldog francés flaco: por qué no sube de peso y qué hacer",
-  "seoTitle": "Bulldog francés flaco: por qué no sube de peso",
+  "seoTitle": "Bulldog francés demasiado flaco",
   "description": "Cómo saber si tu bulldog francés está demasiado flaco, por qué no sube de peso (lombrices, digestión, vómitos) y cómo ayudarlo a engordar sano.",
   "category": "nutrition",
   "primaryKeyword": "bulldog francés flaco",
@@ -12,7 +12,7 @@
     "mi bulldog francés no quiere comer"
   ],
   "keywordEn": "french bulldog too skinny",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "cuidados-cachorro-bulldog-frances",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "¿Cómo saber si mi bulldog francés está demasiado flaco?",
-      "a": "Si sus costillas, columna y huesos de la cadera se ven a simple vista y tiene poca masa muscular, está delgado. En el peso ideal, las costillas se palpan con facilidad pero no se marcan, y se ve la cintura."
+      "a": "Valora costillas, cintura y masa muscular con un veterinario; perder peso pese a comer o crecer poco requiere investigar causas y no solo aumentar las raciones."
     },
     {
       "q": "¿Por qué mi perro no sube de peso si come bien?",
@@ -39,5 +39,6 @@
       "a": "El estándar de la FCI indica entre 8 y 14 kg según el sexo, pero importa más la condición corporal que una cifra exacta."
     }
   ],
-  "enUrl": "/en/nutrition/french-bulldog-too-skinny/"
+  "enUrl": "/en/nutrition/french-bulldog-too-skinny/",
+  "seoAuditKeywordEvidenceES": "Keyword Planner: volumen y competencia por país aún sin comprobar en esta auditoría"
 }
