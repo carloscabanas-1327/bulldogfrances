@@ -1,7 +1,7 @@
 {
   "title": "Moquillo canino: síntomas, contagio, tratamiento y vacuna",
-  "seoTitle": "Moquillo canino: síntomas, etapas y vacuna",
-  "description": "Qué es el moquillo en perros (distemper), cómo se contagia, sus síntomas por etapas, si tiene cura y el calendario de vacunas que protege a tu cachorro.",
+  "seoTitle": "Moquillo canino: síntomas",
+  "description": "Moquillo canino: signos respiratorios, digestivos y neurológicos, transmisión, cuidados veterinarios y vacunas esenciales según WSAVA.",
   "category": "health",
   "primaryKeyword": "moquillo canino",
   "secondaryKeywords": [
@@ -12,7 +12,7 @@
     "distemper canino"
   ],
   "keywordEn": "distemper in dogs",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "tos-de-las-perreras",
@@ -25,7 +25,7 @@
   "faq": [
     {
       "q": "¿El moquillo canino tiene cura?",
-      "a": "No existe un medicamento que mate el virus. El tratamiento es de sostén y algunos perros se recuperan, pero muchos mueren o quedan con secuelas neurológicas. Por eso la vacunación es tan importante."
+      "a": "No hay un antiviral específico con eficacia universal probada; el tratamiento es de soporte. El pronóstico es variable y los signos neurológicos pueden ser graves o persistir."
     },
     {
       "q": "¿Cómo se contagia el moquillo?",
@@ -37,11 +37,11 @@
     },
     {
       "q": "¿Cuáles son las etapas del moquillo?",
-      "a": "Suele empezar con lagañas, fiebre y mocos; sigue con tos, vómitos o diarrea; puede engrosar las almohadillas; y en algunos perros aparecen tics, convulsiones o parálisis semanas después."
+      "a": "No hay una secuencia obligatoria. Puede causar fiebre, secreciones, tos, trastornos digestivos o signos neurológicos, a veces tardíos o sin fase respiratoria evidente."
     },
     {
       "q": "¿Puede un perro vacunado tener moquillo?",
-      "a": "Es poco frecuente si completó bien la serie de cachorro y los refuerzos. El riesgo está sobre todo en cachorros que todavía no terminaron sus vacunas."
+      "a": "La vacunación completa reduce mucho el riesgo, pero la protección depende del calendario, la respuesta individual y la exposición. WSAVA recomienda dosis del cachorro hasta al menos 16 semanas y revisión posterior."
     }
   ],
   "enUrl": "/en/health/distemper-in-dogs/"
