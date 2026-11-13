@@ -1,6 +1,20 @@
 # BULLDOGFRANCES.COM — AUDITORÍA TÉCNICA Y SEO PREPUBLICACIÓN
 **Fecha:** 13 de noviembre de 2026. **Base:** `audit/seo-es3-remaining-forty-2026-11-12` (PR #44). **Rama:** `audit/technical-seo-prepublish-2026-11-13`.
 
+## Ejecución registrada de CI — 13 de noviembre de 2026
+
+- **GitHub Actions:** [corrida #43363755797](https://github.com/carloscabanas-1327/bulldogfrances/actions/runs/43363755797), job #131683155433, conclusión **success**.
+- Instalación `npm ci`: correcta; compilación `npm run build`: correcta.
+- Rutas HTML esperadas y generadas: **151/151**. Se incluyen dos rutas de búsqueda con `noindex,nofollow`; las otras **149** declaran `index,follow,max-image-preview:large`.
+- Pares de artículos `hreflang`: **56**, sin errores detectados por el validador.
+- Bloques JSON-LD parseados: **114**.
+- Referencias de imágenes locales: **100**, faltantes **0**.
+- Redirecciones: **133**, sintaxis incorrecta **0**.
+- Saldo del auditor: **0 errores**, **1 advertencia** sobre 3 redirecciones de contenidos Blogger no identificados hacia `/es/`.
+- Los avisos de obsolescencia de dependencias del runner de GitHub son independientes del contenido SEO y no detuvieron la compilación.
+
+**Alcance:** pruebas sobre el HTML estático generado en CI; no incluyen mediciones Lighthouse, inspección visual móvil, HTTP/DNS de producción, licencias externas, verificación documental de todas las fuentes ni resultados de Google Search Console.
+
 ## Semántica de resultados
 
 - **Verificado en código:** inspeccionado directamente en la rama; no equivale a HTTP, renderizado o despliegue comprobado.
@@ -12,17 +26,17 @@
 
 | Área | Evidencia verificada en archivos | Resultado |
 |---|---|---|
-| Framework y despliegue | Astro ^5, `output: 'static'`, `trailingSlash: 'always'`, `site: https://www.bulldogfrances.com` | Configuración coherente, **build aún no ejecutado** |
+| Framework y despliegue | Astro ^5, `output: 'static'`, `trailingSlash: 'always'`, `site: https://www.bulldogfrances.com` | Configuración coherente. **Build Astro ejecutado correctamente en GitHub Actions**, corrida #43363755797 (13-11-2026). |
 | Contenido | 24 artículos EN importados + 28 guías EN adicionales + 4 nutricionales EN; 52 guías ES + 4 nutricionales ES | **56 EN + 56 ES en archivos**; publicación efectiva pendiente de build/crawl |
-| Rutas | Raíz bilingüe, dos portadas, categorías, páginas auxiliares, artículos y búsquedas | Se esperan **151 rutas HTML** (incluye 2 páginas de búsqueda noindex), sin contar 404; confirmar tras build |
-| Canonical | `src/components/Seo.astro` deriva la URL absoluta a partir de `SITE + path` | Arquitectura correcta; falta verificar su salida HTML real |
-| Idiomas | `Seo.astro` usa `en-US` y `es`, condicionado a alternates; sitemap construye pares | Diseño recíproco previsto; **no se ha validado recíprocamente cada par renderizado** |
-| Sitemap | `src/pages/sitemap.xml.js` construye rutas por idioma y pares; búsquedas excluidas | Se esperan **149 URL canónicas**; comprobar XML y ausencia de huérfanas tras build |
+| Rutas | Raíz bilingüe, dos portadas, categorías, páginas auxiliares, artículos y búsquedas | **151/151 rutas HTML construidas y comprobadas por el auditor CI**, incluidos dos buscadores noindex, sin contar 404. |
+| Canonical | `src/components/Seo.astro` deriva la URL absoluta a partir de `SITE + path` | **151 canonicals autorreferentes comprobados** contra el dominio canónico en HTML generado. |
+| Idiomas | `Seo.astro` usa `en-US` y `es`, condicionado a alternates; sitemap construye pares | **56 pares EN/ES declarados**: comprobación de enlaces alternativos contra el HTML generado **sin errores**. El resultado HTTP en producción sigue pendiente. |
+| Sitemap | `src/pages/sitemap.xml.js` construye rutas por idioma y pares; búsquedas excluidas | **149 URL canónicas previstas** y cotejadas contra el sitemap construido por el auditor; sin URL huérfanas ni ausentes. La comprobación HTTP del XML público sigue pendiente. |
 | Robots e indexación | `src/pages/robots.txt.js` anuncia el sitemap; `INDEXABLE = true` en `src/data/site.js` | **Alerta de lanzamiento**: contenido indexable mientras quedan bloqueos |
 | Pruebas pages.dev | `public/_headers` declara `X-Robots-Tag: noindex` por host exacto y preview | Sintaxis compatible con Cloudflare; falta verificar encabezados HTTP recibidos |
-| SEO social | `Seo.astro` genera Open Graph y Twitter; `public/og-default.jpg`, `apple-touch-icon.png`, héroes y banderas existen en repo | Presencia de archivos verificada; calidad, peso y derechos pendientes |
-| Datos estructurados | `Article`, `BreadcrumbList`, y otras piezas JSON-LD generadas por páginas | Revisar parseo y URL mediante salida renderizada, sin prometer rich results |
-| Migración Blogger | **133 reglas** en `public/_redirects`: ninguna sin destino o código incorrecto al analizar su estructura, sin fuentes duplicadas | Sintaxis **sin incidencia**; validez semántica de cada destino pendiente |
+| SEO social | `Seo.astro` genera Open Graph y Twitter; `public/og-default.jpg`, `apple-touch-icon.png`, héroes y banderas existen en repo | Archivos base presentes; **100 referencias a imágenes locales comprobadas** en HTML generado, **0 faltantes**. Calidad, peso, recursos externos y derechos pendientes. |
+| Datos estructurados | `Article`, `BreadcrumbList`, y otras piezas JSON-LD generadas por páginas | **114 bloques JSON-LD parseados sin error de sintaxis**. Tipos y elegibilidad/rich results requieren validación adicional. |
+| Migración Blogger | **133 reglas** en `public/_redirects`: ninguna sin destino o código incorrecto al analizar su estructura, sin fuentes duplicadas | **133 reglas sin error de sintaxis** en CI. Tres redirecciones genéricas a /es/ requieren evaluación editorial de pertinencia. |
 | Fuentes bibliográficas | Registro editorial con 266 fuentes y controles previos de referencias | Cobertura documental **no** equivale a nueva comprobación completa de destinos y afirmaciones |
 
 ## Hallazgos con riesgo de lanzamiento
@@ -31,7 +45,7 @@
 
 1. `INDEXABLE = true` aunque las páginas `/en/about/`, `/es/about/`, políticas de privacidad y términos consignan que faltan identidad legal del responsable, un correo de contacto verificado y/o datos regulatorios. Se necesita información real y validación legal según jurisdicciones; **no inventar nombres, domicilios ni datos de contacto**. Las páginas están escritas como provisionales. **No se cambió INDEXABLE** para no afectar la estrategia del sitio sin decisión del propietario.
 2. No se ha certificado el servidor público `https://www.bulldogfrances.com`, su redirección no-www → www, ni que las páginas tengan código HTTP 200 en Cloudflare. El acceso de inspección al dominio público no aportó una respuesta verificable en esta sesión.
-3. No se pudo efectuar `npm ci` ni `npm run build` en el entorno actual porque el repositorio accesible mediante el conector no se pudo montar completo con dependencias. No se simulan resultados.
+3. El entorno del chat no pudo ejecutar directamente la compilación, pero **GitHub Actions sí ejecutó** `npm ci`, `npm run build` y `node scripts/audit-technical-seo.mjs` en la rama auditada: **job concluido con éxito**, 0 problemas, 1 advertencia (redirecciones genéricas). Ejecución #43363755797, job #131683155433. No se realizó despliegue.
 
 **P1 — Problemas editoriales y enlaces**
 
@@ -57,7 +71,7 @@
 
 ## Pruebas por ejecutar y condiciones para liberar
 
-1. GitHub Actions debe ejecutar **build y auditoría** sobre el PR y conservar logs. Si falla: corregir la causa, no ocultar el bloqueo rebajando las pruebas.
+1. **Cumplido:** GitHub Actions ejecutó build y auditoría post-build y conservó logs; se mantiene el control como puerta para futuras revisiones de PR. No equivale a QA del sitio público.
 2. Revisar una muestra representativa en navegador móvil y escritorio: portada raíz bilingüe, portada EN, portada ES, artículo clínico en cada idioma, nutrición, paginación y búsqueda. Obtener Lighthouse/Core Web Vitals y capturas de recortes.
 3. Confirmar con respuestas HTTP reales: HTTP → HTTPS, no-www → www, 301 históricos de Blogger, errores 404, encabezado `X-Robots-Tag` en pages.dev, `robots.txt`, `sitemap.xml`, canonicals y noindex de búsquedas.
 4. Exportar el reporte de auditoría de enlaces internos y verificar manualmente los **destinos documentales exactos** que respaldan afirmaciones de seguridad clínica. No confundir enlace HTTP 200 con pertinencia documental.
@@ -66,7 +80,7 @@
 7. Analizar Keyword Planner por mercado español, GSC y estrategia EN-US; las modificaciones editoriales no son garantías de ranking.
 8. Solo después de corregir fallas, obtener autorización expresa para fusionar cadena de PR y publicar.
 
-**Resultado actual:** se han realizado correcciones seguras en rama, y se ha incorporado un mecanismo para pruebas reales, pero **la auditoría técnica renderizada y el sitio público no están certificados**. Mantener PR en borrador y sin fusión.
+**Resultado actual:** se han realizado correcciones seguras en rama; **compilación Astro y auditoría estática del HTML generado aprobadas** (151/151 rutas, 56 pares, 114 bloques JSON-LD, 100 imágenes locales). **El sitio público, las licencias de imágenes, el rendimiento móvil y la validación clínica/legal aún NO están certificados.** Mantener PR en borrador y sin fusión.
 
 ## Documentación de referencia
 
