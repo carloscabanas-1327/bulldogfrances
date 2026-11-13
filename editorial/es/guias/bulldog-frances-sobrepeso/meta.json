@@ -1,6 +1,6 @@
 {
   "title": "Bulldog francés con sobrepeso: peso ideal, riesgos y cómo adelgazarlo",
-  "seoTitle": "Bulldog francés sobrepeso: peso ideal y cómo adelgazar",
+  "seoTitle": "Bulldog francés con sobrepeso",
   "description": "Cuál es el peso ideal del bulldog francés, cómo saber si está gordo, por qué el sobrepeso empeora su respiración y columna, y cómo adelgazarlo con seguridad.",
   "category": "health",
   "primaryKeyword": "bulldog francés sobrepeso",
@@ -13,7 +13,7 @@
     "cachorro bulldog francés gordo"
   ],
   "keywordEn": "overweight french bulldog",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "bulldog-frances-ronca-respira-mal",
@@ -25,7 +25,7 @@
   "faq": [
     {
       "q": "¿Cuánto debe pesar un bulldog francés adulto?",
-      "a": "El estándar FCI indica de 9 a 14 kg en machos y de 8 a 13 kg en hembras. Más que el número, importa la condición corporal: costillas fáciles de palpar y cintura visible."
+      "a": "El peso de exposición no define el peso saludable. El veterinario debe valorar condición corporal, músculo y dieta, no solo una cifra en kilos."
     },
     {
       "q": "¿Cómo sé si mi bulldog francés está gordo?",
@@ -43,5 +43,6 @@
       "q": "¿Es normal que un cachorro de bulldog francés esté gordito?",
       "a": "Debe verse robusto, no redondo. Los cachorros necesitan controles de condición corporal más frecuentes, así que mide su comida y pide al veterinario que lo valore en cada visita."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

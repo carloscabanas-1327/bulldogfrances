@@ -1,6 +1,6 @@
 {
   "title": "Bulldog francés con ojos rojos: causas, ojo de cereza y urgencias",
-  "seoTitle": "Bulldog francés con ojos rojos: causas y qué hacer",
+  "seoTitle": "Bulldog francés con ojos rojos",
   "description": "Por qué tu bulldog francés tiene los ojos rojos: conjuntivitis, úlcera corneal, ojo seco u ojo de cereza. Señales de urgencia y qué no ponerle en los ojos.",
   "category": "health",
   "primaryKeyword": "bulldog francés ojos rojos",
@@ -12,7 +12,7 @@
     "ojo de cereza bulldog francés"
   ],
   "keywordEn": "french bulldog red eyes",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "ceguera-en-perros",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "¿Por qué mi bulldog francés tiene los ojos rojos?",
-      "a": "Las causas más comunes son la conjuntivitis, una úlcera en la córnea, el ojo seco, pelos o párpados que rozan el ojo, las alergias y el ojo de cereza. Sus ojos grandes y saltones lo hacen más propenso a las úlceras."
+      "a": "Un ojo rojo puede deberse a una úlcera o glaucoma. Dolor, opacidad, ojo cerrado o visión alterada requieren examen veterinario urgente."
     },
     {
       "q": "¿Qué hago si mi perro tiene los ojos rojos y llorosos?",
@@ -42,5 +42,6 @@
       "q": "¿Cuánto tarda en curarse una úlcera en el ojo de un perro?",
       "a": "Según VCA, las úlceras superficiales suelen curarse en 3 a 5 días con tratamiento. Las profundas o las que no cicatrizan necesitan más tiempo y controles, y pueden poner en riesgo el ojo."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }
