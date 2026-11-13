@@ -25,7 +25,7 @@
   "faq": [
     {
       "q": "¿A qué edad es viejo un bulldog francés?",
-      "a": "No hay una edad universal para considerarlo anciano: se valora salud y función. Cambios de sueño, movilidad o apetito merecen evaluación y no deben atribuirse a edad sin más."
+      "a": "No hay edad fija para considerarlo anciano. El dolor o los cambios bruscos de conducta requieren evaluación y no deben atribuirse solo a la edad."
     },
     {
       "q": "¿Es normal que mi perro anciano duerma mucho?",
@@ -44,5 +44,5 @@
       "a": "Puede ser artrosis, una hernia discal o mielopatía degenerativa. Si de repente arrastra las patas o no se levanta, es una urgencia."
     }
   ],
-  "seoAuditKeywordEvidenceES": "Keyword Planner: volumen y competencia por país aún sin comprobar en esta auditoría"
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; no se atribuyen métricas."
 }
