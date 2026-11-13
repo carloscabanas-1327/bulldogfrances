@@ -1,6 +1,6 @@
 {
   "title": "Pruebas de salud del bulldog francés: qué pedir al criador",
-  "seoTitle": "Pruebas de salud del bulldog francés",
+  "seoTitle": "Pruebas de salud del bulldog",
   "description": "Qué pruebas de salud pedir al criador de bulldog francés: caderas, ojos, rótulas, corazón y respiración, cómo comprobarlas y señales de alarma del criadero.",
   "category": "genetics",
   "primaryKeyword": "pruebas de salud del bulldog francés",
@@ -12,7 +12,7 @@
     "enfermedades genéticas bulldog francés"
   ],
   "keywordEn": "french bulldog breeder health tests",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "papeles-cachorro-bulldog-frances",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "¿Qué pruebas de salud debe tener un bulldog francés?",
-      "a": "Los padres deberían tener evaluadas caderas, ojos (por un oftalmólogo veterinario), rótulas y corazón, que son las cuatro pruebas que pide el club de la raza en EE. UU. Muy recomendable también: evaluación respiratoria y ADN de cataratas juveniles (HSF4)."
+      "a": "Pide resultados verificables de caderas, ojos, rótulas, corazón y respiración. CHIC no significa que todos los resultados sean normales."
     },
     {
       "q": "¿Cómo saber si un criador de bulldog francés es bueno?",
@@ -43,5 +43,6 @@
       "a": "No. Un resultado de color no dice nada de caderas, corazón o respiración, aunque sí ayuda a evitar cruces de riesgo como merle con merle."
     }
   ],
-  "image": "/images/articles/pruebas-de-salud-criador-bulldog-frances/cuatro-pruebas-chic.webp"
+  "image": "/images/articles/pruebas-de-salud-criador-bulldog-frances/cuatro-pruebas-chic.webp",
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

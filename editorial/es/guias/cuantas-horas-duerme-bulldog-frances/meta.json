@@ -1,6 +1,6 @@
 {
   "title": "¿Cuántas horas duerme un bulldog francés? Sueño normal y señales de alerta",
-  "seoTitle": "Cuántas horas duerme un bulldog francés (y cachorros)",
+  "seoTitle": "Cuánto duerme un bulldog francés",
   "description": "Cuántas horas duerme un bulldog francés adulto y cachorro según los estudios, por qué duerme tanto y cuándo los ronquidos indican un problema.",
   "category": "daily-care",
   "primaryKeyword": "cuántas horas duerme un bulldog francés",
@@ -12,7 +12,7 @@
     "bulldog francés ronca"
   ],
   "keywordEn": "how much do french bulldogs sleep",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "cuidados-cachorro-bulldog-frances",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "¿Cuántas horas duerme un bulldog francés al día?",
-      "a": "No hay estudios específicos de la raza, pero los perros adultos duermen en promedio entre 10 y 13 horas al día sumando la noche y las siestas."
+      "a": "No hay un promedio de horas validado específicamente para toda la raza. Ronquidos intensos, apnea o cansancio nuevo necesitan evaluación veterinaria."
     },
     {
       "q": "¿Cuántas horas duerme un cachorro de bulldog francés?",
@@ -40,5 +40,6 @@
     }
   ],
   "enUrl": "/en/daily-care/how-much-do-french-bulldogs-sleep/",
-  "image": "/images/photos/pied-puppy-resting.webp"
+  "image": "/images/photos/pied-puppy-resting.webp",
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

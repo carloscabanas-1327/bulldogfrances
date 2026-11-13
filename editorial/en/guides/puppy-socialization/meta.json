@@ -1,6 +1,6 @@
 {
   "title": "Puppy Socialization: The Window, Classes and a Checklist That Works",
-  "seoTitle": "Puppy Socialization: Window, Classes and Checklist",
+  "seoTitle": "Puppy Socialization: A Safe Guide",
   "description": "Puppy socialization made simple: when the window closes, how to socialize before vaccinations, what to look for in classes, plus a ready-to-use checklist.",
   "category": "puppies",
   "primaryKeyword": "puppy socialization",
@@ -12,7 +12,7 @@
     "how to socialize puppy before vaccinations"
   ],
   "keywordEs": "cómo socializar a un cachorro",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "french-bulldog-puppy-care",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "When does the puppy socialization window close?",
-      "a": "The Merck and MSD Veterinary Manuals place the main socialization period at about 3 to 12 weeks of age. Keep offering positive new experiences after that, but this is when it matters most."
+      "a": "The first three months are especially important, but there is no switch that ends learning at 12 weeks. Continue safe positive exposure without overwhelming the dog."
     },
     {
       "q": "Can I socialize my puppy before vaccinations are finished?",
@@ -36,12 +36,13 @@
     },
     {
       "q": "Are puppy classes a parvo risk?",
-      "a": "A US study of 279 vaccinated puppies that attended socialization classes found no cases of parvovirus. Choose classes that check vaccine records and turn away sick puppies."
+      "a": "One selected US study observed no parvovirus diagnoses in 279 vaccinated puppy-class attendees, but no study proves zero infection risk. Choose well-managed classes and follow local veterinary advice."
     },
     {
       "q": "Is it too late to socialize an older dog?",
       "a": "No, but it takes longer. Use gradual exposure at a distance where your dog stays relaxed, with treats, and see a veterinary behaviorist if there is strong fear or snapping."
     }
   ],
-  "image": "/images/photos/puppies-together.webp"
+  "image": "/images/photos/puppies-together.webp",
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }

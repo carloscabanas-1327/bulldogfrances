@@ -1,6 +1,6 @@
 {
   "title": "Bulldog francés de hocico largo: ¿respira mejor? Qué dice la ciencia",
-  "seoTitle": "Bulldog francés de hocico largo: ¿respira mejor?",
+  "seoTitle": "Bulldog francés: hocico largo",
   "description": "¿Un bulldog francés de hocico largo respira mejor? Qué dicen los estudios sobre hocico, narinas y BOAS, qué pide el estándar FCI y cómo elegir cachorro.",
   "category": "breed-characteristics",
   "primaryKeyword": "bulldog francés de hocico largo",
@@ -12,7 +12,7 @@
     "por qué los bulldog franceses respiran mal"
   ],
   "keywordEn": "french bulldog with longer snout",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "bulldog-frances-ronca-respira-mal",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "¿Los bulldog franceses de hocico largo respiran mejor?",
-      "a": "En general tienen mejores probabilidades: un estudio con 700 perros vio que el riesgo de BOAS sube de forma brusca cuanto más corto es el hocico. Aun así, las narinas, el cuello y el peso también influyen, así que no es una garantía."
+      "a": "Un hocico menos corto puede asociarse con mejor respiración, pero no garantiza ausencia de BOAS. Solicita evaluación funcional de los padres."
     },
     {
       "q": "¿Un bulldog francés de nariz larga es de raza pura?",
@@ -42,5 +42,6 @@
       "q": "¿Es normal que mi bulldog francés ronque?",
       "a": "No del todo: según la Universidad de Cambridge, ronquidos y resoplidos indican obstrucción de la vía aérea. Coméntalo con tu veterinario, y si ves encías azuladas o desmayos, acude de urgencia."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

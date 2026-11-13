@@ -1,12 +1,17 @@
 {
   "en": {
     "title": "Best Food for French Bulldogs: How to Choose",
-    "description": "What \"complete and balanced\" means, the WSAVA questions to ask pet food companies, and what to know about grain-free diets."
+    "description": "Best food for French Bulldogs: check AAFCO nutritional adequacy, manufacturer quality evidence, life-stage needs and current FDA diet-related DCM cautions.",
+    "seoTitle": "Best Food for French Bulldogs",
+    "primaryKeyword": "best food for french bulldogs",
+    "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume unverified"
   },
   "es": {
-    "title": "Cómo elegir alimento para un bulldog francés",
-    "description": "Qué significa \"completo y equilibrado\", las preguntas de la WSAVA para los fabricantes y qué saber de los alimentos sin cereales."
+    "title": "Cómo elegir alimento para bulldog francés",
+    "description": "Cómo elegir alimento para bulldog francés: adecuación nutricional, controles del fabricante y dietas sin cereales. No existe una marca universalmente mejor.",
+    "seoAuditKeywordEvidence": "KP no consultado para mercados hispanos",
+    "seoAuditScope": "Revisión focalizada, sin validación veterinaria profesional ni renderizado Astro"
   },
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED"
 }

@@ -1,6 +1,6 @@
 {
   "title": "Bulldog francés mini: qué significa \"mini toy\" y qué riesgos tiene",
-  "seoTitle": "Bulldog francés mini: ¿existe? Peso, salud y riesgos",
+  "seoTitle": "Bulldog francés mini",
   "description": "¿Existe el bulldog francés mini o mini toy? Cuánto pesa un bulldog francés según el estándar FCI, cómo se crían los mini y qué preguntar antes de comprar.",
   "category": "breed-characteristics",
   "primaryKeyword": "bulldog francés mini",
@@ -12,7 +12,7 @@
     "bulldog francés mini merle"
   ],
   "keywordEn": "mini french bulldog",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "pruebas-de-salud-criador-bulldog-frances",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "¿Existe el bulldog francés mini?",
-      "a": "No como raza ni como variedad oficial. Ni la FCI ni el AKC reconocen un bulldog francés mini, toy o micro; es un término comercial para perros más pequeños que la media."
+      "a": "Mini o toy no son variedades oficiales. El tamaño de los padres orienta, pero no garantiza el peso adulto ni demuestra filiación o salud."
     },
     {
       "q": "¿Cuánto pesa un bulldog francés adulto?",
@@ -42,5 +42,6 @@
       "q": "¿Cómo sé si un cachorro será pequeño de adulto?",
       "a": "El mejor indicador es el peso adulto de sus padres. Desconfía de cualquier vendedor que garantice un peso adulto concreto."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

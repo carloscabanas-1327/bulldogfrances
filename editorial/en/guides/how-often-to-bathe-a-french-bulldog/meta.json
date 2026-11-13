@@ -1,7 +1,7 @@
 {
   "title": "How Often to Bathe a French Bulldog (Plus Puppies and Wrinkles)",
-  "seoTitle": "How Often to Bathe a French Bulldog: Vet Guidance",
-  "description": "How often to bathe a French Bulldog, what to do for puppies and dogs with allergies, a step-by-step bath routine and how to clean Frenchie face wrinkles.",
+  "seoTitle": "How Often to Bathe a French Bulldog",
+  "description": "How often to bathe a French Bulldog depends on skin health and hygiene. Get gentle bathing, puppy care and skin-fold cleaning precautions.",
   "category": "daily-care",
   "primaryKeyword": "how often to bathe a french bulldog",
   "secondaryKeywords": [
@@ -12,7 +12,7 @@
     "how often to groom a french bulldog"
   ],
   "keywordEs": "cada cuánto se baña un bulldog francés",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "french-bulldog-tail-pocket",
@@ -24,11 +24,11 @@
   "faq": [
     {
       "q": "How often should you bathe a French Bulldog?",
-      "a": "Sources range from only when needed to about once a month; the ASPCA suggests at least every three months. For most healthy Frenchies, a bath every one to three months plus regular wrinkle cleaning is enough."
+      "a": "No single frequency suits every dog. Bathe when needed for dirt or odor, use dog-safe products and ask your veterinarian for a schedule if skin disease is present."
     },
     {
       "q": "How often should I bathe my French Bulldog puppy?",
-      "a": "No more often than an adult, and only when needed. No veterinary source sets a minimum age for the first bath, so ask your vet at the first visit and spot-clean with a warm, damp cloth until then."
+      "a": "Bathe only when hygiene requires it, keeping the puppy warm and avoiding water near the face and ears. Ask your veterinarian if the puppy is very young or unwell."
     },
     {
       "q": "Can I bathe my French Bulldog every week?",
@@ -40,8 +40,9 @@
     },
     {
       "q": "How do I clean my French Bulldog's wrinkles?",
-      "a": "Wipe inside the folds with a damp cotton pad or gauze, then dry them thoroughly. The Royal Kennel Club recommends daily fold care and keeping wrinkles dry after drinking too. See your vet if a fold smells, stays red or is painful."
+      "a": "Inspect folds regularly; wipe gently and dry thoroughly if cleaning is needed. Some dogs need daily care, while others need less. Seek veterinary advice for persistent redness, odor, discharge or pain."
     }
   ],
-  "image": "/images/photos/white-puppy-blue-collar.webp"
+  "image": "/images/photos/white-puppy-blue-collar.webp",
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }

@@ -1,6 +1,6 @@
 {
   "title": "Bulldog francés azul y caída de pelo: alopecia por dilución de color",
-  "seoTitle": "Bulldog francés azul: caída de pelo y alopecia",
+  "seoTitle": "Bulldog francés azul: alopecia",
   "description": "¿A tu bulldog francés azul se le cae el pelo? Qué es la alopecia por dilución de color, sus síntomas, otras causas de caída de pelo y su tratamiento.",
   "category": "genetics",
   "primaryKeyword": "bulldog francés azul y caída de pelo",
@@ -12,7 +12,7 @@
     "bulldog francés blue"
   ],
   "keywordEn": "blue french bulldog hair loss",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "bulldog-frances-fluffy",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "¿Por qué a mi bulldog francés se le cae el pelo?",
-      "a": "Las causas más habituales en la raza son alergias, ácaros como el demodex, pulgas, infecciones de piel y de los pliegues. En perros azules también puede ser alopecia por dilución de color. El veterinario debe hacer el diagnóstico."
+      "a": "El pelaje azul no basta para diagnosticar alopecia por dilución. Alergias, ácaros e infecciones también causan calvas y requieren pruebas distintas."
     },
     {
       "q": "¿Qué es la alopecia por dilución de color?",
@@ -43,5 +43,6 @@
       "a": "El color no dice por sí solo si un perro es de raza pura, pero el estándar FCI considera descalificantes todas las diluciones del negro, incluido el azul. El estándar vigente del AKC (2018) también lo descalifica."
     }
   ],
-  "image": "/images/photos/blue-puppy-sitting.webp"
+  "image": "/images/photos/blue-puppy-sitting.webp",
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; no se atribuyen métricas."
 }

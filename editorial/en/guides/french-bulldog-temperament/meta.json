@@ -1,6 +1,6 @@
 {
   "title": "French Bulldog Temperament: Personality, Kids and Other Pets",
-  "seoTitle": "French Bulldog Temperament: Personality and Kids",
+  "seoTitle": "French Bulldog Temperament Guide",
   "description": "French Bulldog temperament explained: affectionate, quiet, a bit stubborn and rarely aggressive. How Frenchies do with kids, cats and other dogs.",
   "category": "breed-characteristics",
   "primaryKeyword": "french bulldog temperament",
@@ -13,7 +13,7 @@
     "are french bulldogs good guard dogs"
   ],
   "keywordEs": "carácter del bulldog francés",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "can-french-bulldogs-be-left-alone",
@@ -25,7 +25,7 @@
   "faq": [
     {
       "q": "Are French Bulldogs good with kids?",
-      "a": "Generally yes. The AKC says they are good around young children thanks to their size and lack of aggression, and the breed club adds that early socialization matters. As with any dog, young children should never be left alone with them."
+      "a": "Some do very well with children, but behavior varies by individual and supervision matters. Never leave a baby or young child unsupervised with any dog."
     },
     {
       "q": "Are French Bulldogs good family dogs?",
@@ -33,16 +33,17 @@
     },
     {
       "q": "Are French Bulldogs aggressive?",
-      "a": "Usually not. In a UK study of 2,781 French Bulldogs, the breed had lower odds of recorded aggression than other dogs. Some are possessive about food or toys, which can be managed with training."
+      "a": "A UK veterinary-record study found lower adjusted odds of recorded aggression in French Bulldogs, but that does not predict the safety of an individual dog. Growling, guarding or bites warrant proper evaluation."
     },
     {
       "q": "Are French Bulldogs good with cats?",
-      "a": "A well-socialized Frenchie usually gets along with cats, especially if they are introduced early. Go slowly with introductions and feed pets separately."
+      "a": "Some live peacefully with cats after careful introductions, but there is no guarantee based on breed alone. Give cats safe escape routes and supervise introductions."
     },
     {
       "q": "Are French Bulldogs good guard dogs?",
       "a": "Not really. The AKC says they are not a particularly vocal breed, and their small size and friendly nature make them companions rather than guard dogs."
     }
   ],
-  "image": "/images/photos/kids-and-frenchie-ai.webp"
+  "image": "/images/photos/kids-and-frenchie-ai.webp",
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }

@@ -1,6 +1,6 @@
 {
   "title": "Bulldog francés anciano: cuidados, salud y señales de alarma",
-  "seoTitle": "Bulldog francés anciano: cuidados y salud",
+  "seoTitle": "Bulldog francés anciano",
   "description": "Bulldog francés anciano: a qué edad es viejo, cambios normales y señales de alarma, problemas frecuentes, revisiones, alimentación y cómo adaptar la casa.",
   "category": "daily-care",
   "primaryKeyword": "bulldog francés anciano",
@@ -13,7 +13,7 @@
     "perro anciano no quiere comer"
   ],
   "keywordEn": "senior french bulldog",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "bulldog-frances-hernia-discal",
@@ -25,7 +25,7 @@
   "faq": [
     {
       "q": "¿A qué edad es viejo un bulldog francés?",
-      "a": "No hay una edad fija: depende de su salud, su peso y su respiración. Pregunta a tu veterinario cuándo empezar con revisiones de perro senior y fíjate en señales como hocico canoso, más sueño y rigidez."
+      "a": "No hay edad fija para considerarlo anciano. El dolor o los cambios bruscos de conducta requieren evaluación y no deben atribuirse solo a la edad."
     },
     {
       "q": "¿Es normal que mi perro anciano duerma mucho?",
@@ -43,5 +43,6 @@
       "q": "¿Por qué mi bulldog francés viejo no puede caminar bien?",
       "a": "Puede ser artrosis, una hernia discal o mielopatía degenerativa. Si de repente arrastra las patas o no se levanta, es una urgencia."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; no se atribuyen métricas."
 }

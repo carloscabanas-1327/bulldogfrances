@@ -1,6 +1,6 @@
 {
   "title": "Fleas on Dogs: How to Check, Treat Your Dog and Clear Your House",
-  "seoTitle": "Fleas on Dogs: How to Check, Treat and Prevent",
+  "seoTitle": "Fleas on Dogs: Signs & Treatment",
   "description": "Fleas on dogs: what they look like, the wet paper towel test, a 3-step treatment plan for your dog and house, and why home remedies fall short.",
   "category": "health",
   "primaryKeyword": "fleas on dogs",
@@ -13,7 +13,7 @@
     "fleas on dogs symptoms"
   ],
   "keywordEs": "pulgas en perros",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "ear-mites-in-dogs",
@@ -32,7 +32,7 @@
     },
     {
       "q": "How do I get rid of fleas in my house?",
-      "a": "Treat every pet with a vet-recommended product, wash bedding in hot water and vacuum carpets, furniture and cracks often. Heavy infestations may need a household spray with an insect growth regulator, and pets should stay on flea control for 3 to 6 months."
+      "a": "Use a species-appropriate veterinary flea product for every pet, wash bedding and vacuum the home repeatedly. Heavy infestations may require professional treatment; follow pesticide labels and avoid fixed spray schedules."
     },
     {
       "q": "Do home remedies for fleas on dogs work?",
@@ -40,7 +40,9 @@
     },
     {
       "q": "Why does my dog still have fleas after treatment?",
-      "a": "Usually because pupae in the home keep hatching for weeks, another pet wasn't treated, or the product wasn't applied correctly. VCA says there is no evidence that fleas have become resistant to insecticides."
+      "a": "Fleas may continue emerging from pupae in the home, another pet may be untreated, or doses may be missed. Ask your veterinarian before switching products or increasing doses."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
+  "seoAuditNote": "2026-11-12 targeted source/claim review; not professional veterinary approval or live-site verification"
 }

@@ -1,6 +1,6 @@
 {
   "title": "Bulldog francés ojos azules: causas, salud y cambio de color",
-  "seoTitle": "Bulldog francés ojos azules: causas y riesgos",
+  "seoTitle": "Bulldog francés de ojos azules",
   "description": "Por qué un bulldog francés tiene ojos azules (merle, blanco, cachorro), su relación con la sordera y qué hacer si un ojo se vuelve azulado o turbio.",
   "category": "genetics",
   "primaryKeyword": "bulldog francés ojos azules",
@@ -13,7 +13,7 @@
     "bulldog francés ojos azules precio"
   ],
   "keywordEn": "blue eyed french bulldog",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "bulldog-frances-merle",
@@ -25,7 +25,7 @@
   "faq": [
     {
       "q": "¿El bulldog francés cachorro mantiene los ojos azules?",
-      "a": "Normalmente no. Muchos cachorros abren los ojos con un tono azulado que se oscurece a marrón a medida que se desarrolla el pigmento. Si un adulto sigue con ojos claramente azules, suele haber una causa genética como el merle."
+      "a": "El color del iris no demuestra merle ni sordera. Un ojo que cambia de color o se vuelve opaco necesita revisión veterinaria urgente."
     },
     {
       "q": "¿Los bulldogs franceses de ojos azules son sordos?",
@@ -43,5 +43,6 @@
       "q": "¿El estándar acepta bulldogs franceses de ojos azules?",
       "a": "No. La FCI pide ojos oscuros, considera falta grave los ojos claros y descalifica los ojos de distinto color. El Royal Kennel Club y el AKC también piden ojos oscuros, y el AKC descalifica los ojos azules o verdes."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

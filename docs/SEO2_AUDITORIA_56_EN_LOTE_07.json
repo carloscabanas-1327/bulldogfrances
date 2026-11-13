@@ -1,0 +1,278 @@
+{
+  "date": "2026-11-12",
+  "scope": "Last 8 English pages including four nutrition HTML source files. Dynamic template checked separately.",
+  "items": [
+    {
+      "slug": "mini-french-bulldog-health",
+      "type": "imported",
+      "title": "Mini French Bulldog: Health Risks",
+      "seoTitleLength": 54,
+      "descriptionLength": 128,
+      "primaryKeyword": "mini french bulldog",
+      "leadSentence": "\"Mini,\" \"micro\" and \"teacup\" French Bulldogs are marketing terms, not a separate breed.",
+      "leadLength": 87,
+      "headings": [
+        "Is a mini French Bulldog a real breed?",
+        "How sellers produce smaller Frenchies",
+        "Health risks that do not shrink",
+        "Extra concerns with very small dogs",
+        "How to judge a \"mini\" puppy",
+        "If you already have a small Frenchie",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 5,
+      "referenceLinks": [
+        "https://images.akc.org/pdf/breeds/standards/FrenchBulldog.pdf",
+        "https://doi.org/10.1186/s40575-021-00112-3",
+        "https://frenchbulldogrescue.org/health-safty/fad-colors/",
+        "https://www.akc.org/breeder-programs/dna/dna-resource-center/akc-dna-health/breed-specific-dna-testing-recommendations/french-bulldog-dna-tests/",
+        "https://frenchbulldogclub.org/health/testingregistries/"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "KEYWORD_NOT_EXACT_IN_LEAD",
+        "NO_FAQ",
+        "CLINICAL_OR_NUTRITION_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "pregnant-french-bulldog-care",
+      "type": "imported",
+      "title": "Pregnant French Bulldog: Care",
+      "seoTitleLength": 50,
+      "descriptionLength": 141,
+      "primaryKeyword": "pregnant french bulldog",
+      "leadSentence": "Caring for a pregnant French Bulldog takes extra planning.",
+      "leadLength": 58,
+      "headings": [
+        "Confirming the pregnancy",
+        "Week-by-week care",
+        "Why Frenchie births are high-risk",
+        "Planning the delivery",
+        "Emergency signs",
+        "After the puppies arrive",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 3,
+      "referenceLinks": [
+        "https://www.merckvetmanual.com/dog-owners/reproductive-disorders-of-dogs/management-of-reproduction-in-dogs",
+        "https://doi.org/10.1186/s40575-021-00112-3",
+        "https://www.vet.cam.ac.uk/boas/about-boas/recognition-diagnosis"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "NO_FAQ",
+        "CLINICAL_OR_NUTRITION_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "senior-french-bulldog-care",
+      "type": "imported",
+      "title": "Senior French Bulldog Care",
+      "seoTitleLength": 47,
+      "descriptionLength": 141,
+      "primaryKeyword": "senior french bulldog care",
+      "leadSentence": "Caring for an older French Bulldog means watching breathing, spine, weight and comfort more closely.",
+      "leadLength": 100,
+      "headings": [
+        "When is a French Bulldog a senior?",
+        "Vet visits and screening",
+        "Common problems in older Frenchies",
+        "Diet and weight",
+        "Making your home senior-friendly",
+        "Quality of life",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 5,
+      "referenceLinks": [
+        "https://www.aaha.org/resources/life-stage-canine-2019/life-stage-checklist/",
+        "https://www.vet.cam.ac.uk/boas/about-boas/recognition-diagnosis",
+        "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/intervertebral-disc-disease",
+        "https://www.akc.org/breeder-programs/dna/dna-resource-center/akc-dna-health/breed-specific-dna-testing-recommendations/french-bulldog-dna-tests/",
+        "https://doi.org/10.1186/s40575-021-00112-3"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "KEYWORD_NOT_EXACT_IN_LEAD",
+        "NO_FAQ",
+        "CLINICAL_OR_NUTRITION_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "white-french-bulldog-deafness",
+      "type": "imported",
+      "title": "White French Bulldog Deafness",
+      "seoTitleLength": 50,
+      "descriptionLength": 143,
+      "primaryKeyword": "white french bulldog deafness",
+      "leadSentence": "Are white French Bulldogs more likely to be deaf?",
+      "leadLength": 49,
+      "headings": [
+        "Why white coats and deafness are linked",
+        "White, piebald or double merle?",
+        "Signs your puppy may not hear",
+        "The BAER hearing test",
+        "Raising a deaf Frenchie",
+        "Questions to ask a breeder",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 4,
+      "referenceLinks": [
+        "https://www.merckvetmanual.com/ear-disorders/deafness/deafness-in-animals",
+        "https://images.akc.org/pdf/breeds/standards/FrenchBulldog.pdf",
+        "https://vgl.ucdavis.edu/test/merle",
+        "https://doi.org/10.1111/j.1939-1676.2008.0257.x"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "KEYWORD_NOT_EXACT_IN_LEAD",
+        "NO_FAQ",
+        "CLINICAL_OR_NUTRITION_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "how-much-should-a-french-bulldog-eat",
+      "type": "nutrition",
+      "title": "French Bulldog: How Much to Feed?",
+      "seoTitleLength": 54,
+      "descriptionLength": 148,
+      "primaryKeyword": "how much should a french bulldog eat",
+      "leadSentence": "How much should a French Bulldog eat?",
+      "leadLength": 37,
+      "headings": [
+        "Why there is no universal portion",
+        "How to judge body condition",
+        "Why weight matters more in French Bulldogs",
+        "A practical feeding routine",
+        "Puppies, seniors and special cases",
+        "When to call your vet",
+        "Sources and references"
+      ],
+      "referenceCount": 5,
+      "referenceLinks": [
+        "https://wsava.org/wp-content/uploads/2025/06/WSAVA_BCSCat_BCSDog_Nutrition_250612.pdf",
+        "https://doi.org/10.1371/journal.pone.0137496",
+        "https://images.akc.org/pdf/breeds/standards/FrenchBulldog.pdf",
+        "https://wsava.org/wp-content/uploads/2021/04/Selecting-a-pet-food-for-your-pet-updated-2021_WSAVA-Global-Nutrition-Toolkit.pdf",
+        "https://www.aafco.org/consumers/understanding-pet-food/reading-labels/"
+      ],
+      "image": "template_unsplash_external",
+      "flags": [
+        "EXTERNAL_UNSPLASH_HOTLINK_REQUIRES_RIGHTS_AND_RELEVANCE_QA",
+        "NO_FAQ",
+        "CLINICAL_OR_NUTRITION_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "best-food-for-french-bulldogs",
+      "type": "nutrition",
+      "title": "Best Food for French Bulldogs",
+      "seoTitleLength": 50,
+      "descriptionLength": 148,
+      "primaryKeyword": "best food for french bulldogs",
+      "leadSentence": "What is the best food for a French Bulldog?",
+      "leadLength": 43,
+      "headings": [
+        "Start with \"complete and balanced\"",
+        "The WSAVA questions to ask a pet food company",
+        "What about grain-free food?",
+        "Frenchie-specific things to consider",
+        "Home-cooked and raw diets",
+        "Switching foods",
+        "Sources and references"
+      ],
+      "referenceCount": 4,
+      "referenceLinks": [
+        "https://www.aafco.org/consumers/understanding-pet-food/reading-labels/",
+        "https://wsava.org/wp-content/uploads/2021/04/Selecting-a-pet-food-for-your-pet-updated-2021_WSAVA-Global-Nutrition-Toolkit.pdf",
+        "https://www.fda.gov/animal-veterinary/outbreaks-and-advisories/fda-investigation-potential-link-between-certain-diets-and-canine-dilated-cardiomyopathy",
+        "https://doi.org/10.1186/s40575-021-00112-3"
+      ],
+      "image": "template_unsplash_external",
+      "flags": [
+        "EXTERNAL_UNSPLASH_HOTLINK_REQUIRES_RIGHTS_AND_RELEVANCE_QA",
+        "KEYWORD_NOT_EXACT_IN_LEAD",
+        "NO_FAQ",
+        "CLINICAL_OR_NUTRITION_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-food-allergies",
+      "type": "nutrition",
+      "title": "French Bulldog Food Allergies",
+      "seoTitleLength": 50,
+      "descriptionLength": 153,
+      "primaryKeyword": "french bulldog food allergies",
+      "leadSentence": "Does your French Bulldog itch, lick its paws or get ear infections?",
+      "leadLength": 67,
+      "headings": [
+        "Signs of food allergy",
+        "Not every itch is a food allergy",
+        "How food allergy is diagnosed",
+        "Why blood, saliva and hair tests do not work",
+        "Tips for a successful food trial",
+        "Living with a food-allergic Frenchie",
+        "Sources and references"
+      ],
+      "referenceCount": 2,
+      "referenceLinks": [
+        "https://doi.org/10.1186/s40575-021-00112-3",
+        "https://www.merckvetmanual.com/dog-owners/skin-disorders-of-dogs/allergies-in-dogs"
+      ],
+      "image": "template_unsplash_external",
+      "flags": [
+        "EXTERNAL_UNSPLASH_HOTLINK_REQUIRES_RIGHTS_AND_RELEVANCE_QA",
+        "KEYWORD_NOT_EXACT_IN_LEAD",
+        "NO_FAQ",
+        "CLINICAL_OR_NUTRITION_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "safe-treats-for-french-bulldogs",
+      "type": "nutrition",
+      "title": "French Bulldog Safe Treats",
+      "seoTitleLength": 47,
+      "descriptionLength": 155,
+      "primaryKeyword": "safe treats for french bulldogs",
+      "leadSentence": "Which treats are safe for French Bulldogs, and which human foods are dangerous?",
+      "leadLength": 79,
+      "headings": [
+        "Foods your Frenchie should never eat",
+        "How many treats?",
+        "Safer treat ideas",
+        "Chews and choking safety",
+        "If your dog eats something toxic",
+        "Sources and references"
+      ],
+      "referenceCount": 3,
+      "referenceLinks": [
+        "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets",
+        "https://www.aafco.org/consumers/understanding-pet-food/reading-labels/",
+        "https://doi.org/10.1371/journal.pone.0137496"
+      ],
+      "image": "template_unsplash_external",
+      "flags": [
+        "EXTERNAL_UNSPLASH_HOTLINK_REQUIRES_RIGHTS_AND_RELEVANCE_QA",
+        "KEYWORD_NOT_EXACT_IN_LEAD",
+        "NO_FAQ",
+        "CLINICAL_OR_NUTRITION_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "title": "French Bulldog Stairs: Are They Safe for Your Frenchie's Back?",
-  "seoTitle": "French Bulldog Stairs: Safe or Risky for the Spine?",
-  "description": "French Bulldog stairs: what the evidence says about stairs and IVDD, puppies on stairs, going down safely, and when a ramp or pet stairs make sense.",
+  "seoTitle": "French Bulldog Stairs: Safe or Not?",
+  "description": "French Bulldog stairs: can healthy adults climb them? Review evidence about IVDD, puppy precautions, safe footing, ramps and spinal emergency signs.",
   "category": "daily-care",
   "primaryKeyword": "french bulldog stairs",
   "secondaryKeywords": [
@@ -13,7 +13,7 @@
     "french bulldog falls down stairs"
   ],
   "keywordEs": "bulldog francés escaleras",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "french-bulldog-back-pain-weak-legs",
@@ -24,24 +24,33 @@
   "esUrl": "/es/daily-care/bulldog-frances-escaleras/",
   "faq": [
     {
-      "q": "Can French Bulldogs go up and down stairs?",
-      "a": "A healthy adult French Bulldog can usually use stairs calmly and in moderation. Limit stairs for puppies, seniors and dogs that have had back problems, and avoid letting any Frenchie race down or jump off steps."
+      "q": "Can a French Bulldog climb stairs?",
+      "a": "A comfortable healthy adult may be able to climb stairs slowly with secure footing. Routine stair use has not been established as a cause of IVDD, but falling or climbing while painful can be dangerous."
     },
     {
-      "q": "Are stairs bad for French Bulldogs?",
-      "a": "There is no proof that stairs cause disc disease. The breed's disc problems mainly come from early, genetically driven disc degeneration. Jumping down from heights and extra weight are the things most worth reducing."
+      "q": "Are stairs bad for a French Bulldog's back?",
+      "a": "Routine stairs have not been proven to cause IVDD in French Bulldogs. A dog with back pain, weakness or previous spinal surgery needs individualized veterinary advice."
     },
     {
-      "q": "When can a French Bulldog puppy go up and down stairs?",
-      "a": "There is no breed-specific age. To be cautious, carry your puppy on stairs for the first few months; in a study of large-breed puppies, stair use before 3 months was linked to more hip dysplasia."
+      "q": "Can French Bulldog puppies climb stairs?",
+      "a": "Supervise young puppies, prevent falls and block unsupervised access. A large-breed puppy study concerned hip dysplasia, not IVDD in French Bulldogs."
     },
     {
-      "q": "Should I get dog stairs or a ramp for my French Bulldog's bed?",
-      "a": "Yes, pet stairs or a gentle ramp reduce jumping down, which is the biggest impact on the spine. They are especially useful for senior Frenchies and dogs that have had a disc problem."
+      "q": "Are ramps better than dog stairs for a Frenchie?",
+      "a": "A stable ramp or suitable pet steps may reduce furniture jumps in a comfortable dog, but no evidence proves either prevents disc disease. Do not train a painful or weak dog to use stairs or ramps."
     },
     {
-      "q": "My French Bulldog fell down the stairs. What should I do?",
-      "a": "Keep your dog calm and watch closely. Crying when touched, wobbly walking, dragging back legs or loss of bladder control mean a same-day or emergency vet visit."
+      "q": "What if my French Bulldog suddenly cannot use the stairs?",
+      "a": "Sudden back-leg weakness, dragging legs or bladder-control loss is an emergency. Restrict movement and seek immediate veterinary care."
     }
-  ]
+  ],
+  "image": "/images/hero/french-bulldog-stairs-editorial-ai.webp",
+  "imageAlt": "AI-generated editorial image of a fawn French Bulldog wearing a harness standing beside indoor stairs with nonslip treads and a safety gate",
+  "imageWidth": 1200,
+  "imageHeight": 675,
+  "imageType": "image/webp",
+  "socialImage": "/images/social/french-bulldog-stairs-editorial-ai-social.jpg",
+  "socialImageWidth": 1200,
+  "socialImageHeight": 630,
+  "socialImageType": "image/jpeg"
 }

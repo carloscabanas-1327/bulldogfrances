@@ -1,6 +1,6 @@
 {
   "title": "Bulldog francés merle: qué es, problemas de salud y riesgos",
-  "seoTitle": "Bulldog francés merle: qué es y problemas de salud",
+  "seoTitle": "Bulldog francés merle",
   "description": "Qué es un bulldog francés merle, si es de raza pura, qué dicen los estudios sobre sordera y ojos, el merle críptico y qué pedir antes de comprar.",
   "category": "genetics",
   "primaryKeyword": "bulldog francés merle",
@@ -12,7 +12,7 @@
     "bulldog francés merle ojos azules"
   ],
   "keywordEn": "merle french bulldog",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "bulldog-frances-doble-merle",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "¿Qué es un bulldog francés merle?",
-      "a": "Es un bulldog francés con un patrón de manchas claras irregulares sobre un color oscuro, causado por una variante del gen PMEL (SILV). Con una copia es merle simple y con dos, doble merle."
+      "a": "Las cifras de sordera de estudios multirraciales no indican riesgo específico del bulldog francés. Solicita prueba genética y evaluación auditiva y ocular."
     },
     {
       "q": "¿El bulldog francés merle es de raza pura?",
@@ -43,5 +43,6 @@
       "a": "No es recomendable: el cruce puede producir cachorros doble merle, con mucho más riesgo de sordera y problemas de ojos. UC Davis desaconseja cruzar dos perros merle."
     }
   ],
-  "image": "/images/photos/merle-puppy.webp"
+  "image": "/images/photos/merle-puppy.webp",
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

@@ -1,6 +1,6 @@
 {
   "title": "How to Potty Train a French Bulldog: Schedule, Crate and Accidents",
-  "seoTitle": "How to Potty Train a French Bulldog Puppy",
+  "seoTitle": "How to Potty Train a French Bulldog",
   "description": "How to potty train a French Bulldog: a potty schedule by age, crate tips, nighttime breaks, how to clean accidents and how long house training takes.",
   "category": "puppies",
   "primaryKeyword": "how to potty train a french bulldog",
@@ -12,7 +12,7 @@
     "how often should a puppy go out to pee"
   ],
   "keywordEs": "cómo enseñar a un cachorro a hacer sus necesidades",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "how-to-train-a-french-bulldog",
@@ -28,11 +28,11 @@
     },
     {
       "q": "How often should I take my French Bulldog puppy out to pee?",
-      "a": "At least every hour or two, plus right after waking, eating and playing. As a rough guide, a puppy can hold it for about one hour per month of age."
+      "a": "Offer frequent breaks, often every one to two hours or more for young puppies, and always after waking, meals or play. Age-based bladder rules are only rough estimates."
     },
     {
       "q": "Are French Bulldogs hard to potty train?",
-      "a": "They can be. The AKC says the breed can be stubborn and may need more training than others. A strict schedule, instant rewards and no punishment make the biggest difference."
+      "a": "Puppies vary. Regular opportunities to eliminate, immediate rewards, close supervision and checking for medical causes when progress stalls are more helpful than calling a dog stubborn."
     },
     {
       "q": "Should I use pee pads for my French Bulldog puppy?",
@@ -40,7 +40,8 @@
     },
     {
       "q": "What should I clean dog pee with?",
-      "a": "An enzymatic cleaner that breaks down the odor. Avoid ammonia, bleach, vinegar and steam cleaners, which can leave a smell that draws your puppy back."
+      "a": "Use an enzymatic pet-urine cleaner according to the label. Never mix cleaning chemicals; bleach is not an ammonia-based cleaner."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }

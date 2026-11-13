@@ -1,12 +1,18 @@
 {
   "en": {
     "title": "French Bulldog Food Allergies: Signs, Diagnosis and Diet Trials",
-    "description": "How to spot food allergy in a French Bulldog, how an elimination diet trial works, and why blood tests are not reliable."
+    "description": "French Bulldog food allergies: why itching is not always food-related, how elimination and food challenges work, and which tests cannot confirm the diagnosis.",
+    "seoTitle": "French Bulldog Food Allergies",
+    "primaryKeyword": "french bulldog food allergies",
+    "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume unverified",
+    "seoAuditNote": "Source audit 2026-11-12; not individually examined by a veterinary specialist"
   },
   "es": {
-    "title": "Alergias alimentarias en el bulldog francés: señales y diagnóstico",
-    "description": "Cómo reconocer una alergia alimentaria, cómo funciona la dieta de eliminación y por qué los análisis de sangre no son fiables."
+    "title": "Alergias alimentarias del bulldog francés",
+    "description": "Alergia alimentaria en bulldog francés: otras causas de picor, dieta de eliminación y provocación veterinaria, y límites de los tests caseros.",
+    "seoAuditKeywordEvidence": "KP no consultado para mercados hispanos",
+    "seoAuditScope": "Revisión focalizada, sin validación veterinaria profesional ni renderizado Astro"
   },
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED"
 }

@@ -1,6 +1,6 @@
 {
   "title": "Bulldog francés solo en casa: cuánto tiempo y cómo evitar la ansiedad",
-  "seoTitle": "Bulldog francés solo en casa y ansiedad por separación",
+  "seoTitle": "Bulldog francés solo en casa",
   "description": "Cuánto tiempo puede quedarse solo un bulldog francés, síntomas de ansiedad por separación, cómo enseñarle a quedarse tranquilo y qué errores lo empeoran.",
   "category": "training",
   "primaryKeyword": "bulldog francés solo en casa",
@@ -12,7 +12,7 @@
     "es malo dejar a mi perro solo en casa"
   ],
   "keywordEn": "can french bulldogs be left alone",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "como-educar-bulldog-frances",
@@ -26,7 +26,7 @@
   "faq": [
     {
       "q": "¿Cuánto tiempo puede estar solo un bulldog francés?",
-      "a": "La RSPCA, la PDSA y Dogs Trust coinciden en un máximo de unas 4 horas de forma habitual para un adulto, y bastante menos para un cachorro."
+      "a": "Cuatro horas es una orientación general de bienestar, no un límite tolerable para todos. Si hay angustia, el plan debe individualizarse."
     },
     {
       "q": "¿Puedo dejar a mi bulldog francés solo 8 horas?",
@@ -42,5 +42,6 @@
     }
   ],
   "enUrl": "/en/training/can-french-bulldogs-be-left-alone/",
-  "image": "/images/photos/pied-puppy-cushion.webp"
+  "image": "/images/photos/pied-puppy-cushion.webp",
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

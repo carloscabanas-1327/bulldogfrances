@@ -1,7 +1,7 @@
 {
   "title": "Bulldog francés pied: colores, genética y riesgo de sordera",
-  "seoTitle": "Bulldog francés pied: colores, genética y sordera",
-  "description": "Qué es el bulldog francés pied (blanco con manchas), qué colores acepta el estándar, en qué se diferencia del merle y por qué pedir la prueba BAER.",
+  "seoTitle": "Bulldog francés pied: sordera",
+  "description": "Qué significa pied en el bulldog francés, cómo se diferencia del merle y por qué las manchas blancas no permiten saber si oye bien.",
   "category": "genetics",
   "primaryKeyword": "bulldog francés pied",
   "secondaryKeywords": [
@@ -13,7 +13,7 @@
     "bulldog francés manchado cómo se llama"
   ],
   "keywordEn": "pied french bulldog",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "bulldog-frances-blanco-sordera",
@@ -29,11 +29,11 @@
     },
     {
       "q": "¿El bulldog francés pied es sordo?",
-      "a": "La mayoría oye bien, pero la sordera congénita en perros se asocia al pigmento blanco y es más frecuente con los genes piebald y merle. La prueba BAER es la única forma de revisar cada oído."
+      "a": "No se dispone de una tasa representativa de sordera específica para los bulldogs franceses pied. El pelaje no permite diagnosticar su audición; BAER evalúa cada oído."
     },
     {
       "q": "¿Qué diferencia hay entre bulldog francés pied y merle?",
-      "a": "El pied es blanco en manchas (locus S). El merle es otro gen que aclara el pigmento en parches y aumenta el riesgo de problemas de oído y vista, sobre todo si el perro tiene dos copias."
+      "a": "Pied se asocia a variantes del gen MITF y merle al gen PMEL. Son patrones distintos que pueden coexistir, y su apariencia no sustituye al examen veterinario ni al análisis genético."
     },
     {
       "q": "¿El bulldog francés pied blue está aceptado?",

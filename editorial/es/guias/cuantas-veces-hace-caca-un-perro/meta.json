@@ -1,6 +1,6 @@
 {
   "title": "¿Cuántas veces hace caca un perro al día? Lo normal y cuándo preocuparse",
-  "seoTitle": "Cuántas veces hace caca un perro al día",
+  "seoTitle": "Cuántas veces hace caca un perro",
   "description": "Cuántas veces al día hace caca (o popó) un perro adulto y un cachorro, cómo deben ser las heces y cuándo preocuparse por el estreñimiento.",
   "category": "daily-care",
   "primaryKeyword": "cuántas veces hace caca un perro al día",
@@ -11,7 +11,7 @@
     "estreñimiento en perros"
   ],
   "keywordEn": "how many times a day should a dog poop",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "ensenar-cachorro-hacer-sus-necesidades",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "¿Cuántas veces al día hace caca un perro adulto?",
-      "a": "Normalmente una o dos veces al día, y hasta unas tres con dietas ricas en fibra, según el AKC."
+      "a": "La frecuencia depende de edad, dieta y salud. Esfuerzos sin resultado, vómitos o dolor abdominal no deben esperar a un número fijo de horas."
     },
     {
       "q": "¿Cuántas veces hace popó un cachorro?",
@@ -40,5 +40,6 @@
     }
   ],
   "enUrl": "/en/daily-care/how-often-should-a-dog-poop/",
-  "image": "/images/photos/merle-puppy-pink-collar.webp"
+  "image": "/images/photos/merle-puppy-pink-collar.webp",
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

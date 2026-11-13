@@ -1,0 +1,292 @@
+{
+  "date": "2026-11-12",
+  "scope": "Full per-page structured audit, scientific review not certified",
+  "items": [
+    {
+      "slug": "food-aggression-in-dogs",
+      "title": "Food Aggression in Dogs: Help",
+      "seoTitleLength": 50,
+      "descriptionLength": 147,
+      "primaryKeyword": "food aggression in dogs",
+      "leadSentence": "Food aggression in dogs means growling, freezing or snapping when someone comes near the food bowl, a bone or a stolen snack.",
+      "leadLength": 125,
+      "headings": [
+        "Why does my dog growl when eating?",
+        "Signs of food aggression",
+        "What never to do",
+        "Food aggression in dogs: how to stop it",
+        "Food aggression towards humans and children",
+        "Food aggression with other dogs and cats",
+        "Outlook and professional help",
+        "Sources and references"
+      ],
+      "referenceCount": 7,
+      "referenceLinks": [
+        "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/food-guarding",
+        "https://www.msdvetmanual.com/behavior/behavior-of-dogs/behavior-problems-of-dogs",
+        "https://doi.org/10.3389/fvets.2018.00115",
+        "https://www.fci.be/Nomenclature/Standards/101g09-en.pdf",
+        "https://doi.org/10.1016/j.applanim.2016.12.012",
+        "https://www.avma.org/news/press-releases/national-dog-bite-prevention-week-april-12-18-avma-emphasizes-protecting",
+        "https://doi.org/10.3390/ani9110982"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "CLINICAL_OR_BEHAVIOR_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-farts",
+      "title": "French Bulldog Farts: Causes",
+      "seoTitleLength": 49,
+      "descriptionLength": 153,
+      "primaryKeyword": "french bulldog farts",
+      "leadSentence": "French Bulldog farts are a running joke among owners, but there is a real reason behind them.",
+      "leadLength": 93,
+      "headings": [
+        "Why do French Bulldogs fart so much?",
+        "Why French Bulldog farts smell so bad",
+        "Foods that make a French Bulldog gassy",
+        "French Bulldog gas remedies that actually help",
+        "When gas is a sign of a health problem",
+        "Emergency signs",
+        "Sources and references"
+      ],
+      "referenceCount": 5,
+      "referenceLinks": [
+        "https://vcacanada.com/know-your-pet/flatulence-in-dogs",
+        "https://doi.org/10.1111/j.1748-5827.2005.tb00320.x",
+        "https://doi.org/10.1111/j.1748-5827.2005.tb00320.x",
+        "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/disorders-of-the-stomach-and-intestines-in-dogs",
+        "https://www.aaha.org/resources/weight-management/"
+      ],
+      "image": "/images/photos/black-puppy-teddy.webp",
+      "flags": [],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-going-blind",
+      "title": "French Bulldog Going Blind: Signs",
+      "seoTitleLength": 54,
+      "descriptionLength": 145,
+      "primaryKeyword": "french bulldog going blind",
+      "leadSentence": "Is your French Bulldog going blind, or is it just a red or cloudy eye?",
+      "leadLength": 70,
+      "headings": [
+        "Do French Bulldogs go blind?",
+        "French Bulldog blindness: myths vs facts",
+        "French Bulldog eye problems that can affect vision",
+        "French Bulldog going blind: early signs",
+        "French Bulldog sudden blindness and blind in one eye",
+        "Living with a blind Frenchie",
+        "Sources and references"
+      ],
+      "referenceCount": 14,
+      "referenceLinks": [
+        "https://doi.org/10.1186/s40575-021-00112-3",
+        "https://vcahospitals.com/know-your-pet/corneal-ulcers-in-dogs",
+        "https://vgl.vetmed.ucdavis.edu/test/juvenile-hereditary-cataract",
+        "https://www.merckvetmanual.com/dog-owners/eye-disorders-of-dogs/disorders-of-the-nasal-cavity-and-tear-ducts-in-dogs",
+        "https://acvo.org/tips-treatments-tricks/tips-on-adjusting-to-your-pets-blindness",
+        "https://doi.org/10.1186/s40575-018-0057-9",
+        "https://www.merckvetmanual.com/dog-owners/eye-disorders-of-dogs/disorders-of-the-lens-in-dogs",
+        "https://vcahospitals.com/resources/conditions-dog/eyes-ears-nose/signs-of-vision-loss-in-pets",
+        "https://vgl.ucdavis.edu/test/merle",
+        "https://frenchbulldogclub.org/health/testingregistries/",
+        "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/health-topics/canine-health-information/keratoconjunctivitis-sicca-kcs-dogs",
+        "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/proptosis-in-small-animals",
+        "https://doi.org/10.5326/0420207",
+        "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/acute-vision-loss-in-small-animals"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "CLINICAL_OR_BEHAVIOR_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-lifespan",
+      "title": "French Bulldog Lifespan: How Long?",
+      "seoTitleLength": 55,
+      "descriptionLength": 145,
+      "primaryKeyword": "french bulldog lifespan",
+      "leadSentence": "A 2024 UK study found a median French Bulldog lifespan of 9.8 years , compared with 12.5 years for dogs overall in its dataset.",
+      "leadLength": 127,
+      "headings": [
+        "How long do French Bulldogs live?",
+        "The \"4.5 years\" French Bulldog lifespan figure",
+        "French Bulldog lifespan: male vs female",
+        "What do French Bulldogs die from? Limited UK data",
+        "Why flat-faced breeds live shorter lives",
+        "How to help your Frenchie live longer",
+        "Sources and references"
+      ],
+      "referenceCount": 6,
+      "referenceLinks": [
+        "https://doi.org/10.1038/s41598-023-50458-w",
+        "https://doi.org/10.1038/s41598-022-10341-6",
+        "https://doi.org/10.1186/s40575-018-0057-9",
+        "https://doi.org/10.1111/jvim.15367",
+        "https://doi.org/10.1038/s41598-020-66015-8",
+        "https://doi.org/10.1186/s40575-021-00112-3"
+      ],
+      "image": "/images/hero/french-bulldog-lifespan-mature-ai.webp",
+      "flags": [
+        "CLINICAL_OR_BEHAVIOR_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-puppy-care",
+      "title": "French Bulldog Puppy Care Guide",
+      "seoTitleLength": 52,
+      "descriptionLength": 149,
+      "primaryKeyword": "french bulldog puppy care",
+      "leadSentence": "French Bulldog puppy care means planned veterinary visits, puppy-safe feeding and socialization, and attention to heat and breathing.",
+      "leadLength": 133,
+      "headings": [
+        "Before your puppy comes home",
+        "Vet visits, vaccines and deworming",
+        "French Bulldog puppy feeding schedule",
+        "Puppy-proofing your home",
+        "French Bulldog puppy care: breed-specific needs",
+        "Training and socialization",
+        "Sources and references"
+      ],
+      "referenceCount": 16,
+      "referenceLinks": [
+        "https://www.merckvetmanual.com/dog-owners/routine-care-of-dogs/routine-health-care-of-dogs",
+        "https://wsava.org/wp-content/uploads/2024/05/2024-Guidelines-for-the-Vaccination-of-Dogs-and-Cats.pdf",
+        "https://capcvet.org/guidelines/ascarid/",
+        "https://www.merckvetmanual.com/dog-owners/routine-care-of-dogs/puppy-care",
+        "https://doi.org/10.1038/s41598-020-66015-8",
+        "https://www.vet.cam.ac.uk/boas/about-boas/recognition-diagnosis",
+        "https://www.royalkennelclub.com/your-dog/getting-a-dog/caring-for-a-new-pup/your-puppys-first-few-weeks-at-home/",
+        "https://www.cdc.gov/rabies/hcp/veterinarians/index.html",
+        "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-small-animals/roundworms-in-small-animals",
+        "https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals/feeding-practices-in-small-animals",
+        "https://www.royalkennelclub.com/your-dog/getting-a-dog/caring-for-a-new-pup/the-best-environment-for-your-puppy/",
+        "https://www.aspca.org/news/top-10-toxins-2025",
+        "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets",
+        "https://www.royalkennelclub.com/health-and-dog-care/health-dog-care/health/health-and-care/a-z-of-health-and-care-issues/dog-grooming/",
+        "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/all-pets/grooming-pets",
+        "https://www.merckvetmanual.com/behavior/behavior-of-dogs/social-behavior-of-dogs"
+      ],
+      "image": "/images/photos/fawn-and-black-puppies.webp",
+      "flags": [
+        "CLINICAL_OR_BEHAVIOR_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-shedding",
+      "title": "French Bulldog Shedding Guide",
+      "seoTitleLength": 50,
+      "descriptionLength": 157,
+      "primaryKeyword": "french bulldog shedding",
+      "leadSentence": "Do French Bulldogs shed?",
+      "leadLength": 24,
+      "headings": [
+        "Do French Bulldogs shed a lot?",
+        "French Bulldog shedding season",
+        "Best brush and routine for French Bulldog shedding",
+        "Living with a shedding Frenchie",
+        "French Bulldog shedding excessively: common causes",
+        "Bald patches that are not shedding",
+        "When to see a vet",
+        "Sources and references"
+      ],
+      "referenceCount": 10,
+      "referenceLinks": [
+        "https://www.royalkennelclub.com/search/breeds-a-to-z/breeds/utility/french-bulldog/",
+        "https://www.fci.be/Nomenclature/Standards/101g09-en.pdf",
+        "https://www.msdvetmanual.com/dog-owners/skin-disorders-of-dogs/structure-of-the-skin-in-dogs",
+        "https://www.merckvetmanual.com/dog-owners/skin-disorders-of-dogs/hair-loss-alopecia-in-dogs",
+        "https://images.akc.org/pdf/breeds/standards/FrenchBulldog.pdf",
+        "https://www.aaaai.org/conditions-treatments/allergies/pet-allergy",
+        "https://doi.org/10.1186/s40575-021-00112-3",
+        "https://doi.org/10.1111/jsap.13067",
+        "https://vcahospitals.com/know-your-pet/seasonal-flank-alopecia",
+        "https://www.merckvetmanual.com/integumentary-system/congenital-and-inherited-anomalies-of-the-integumentary-system/hereditary-alopecia-and-hypotrichosis-in-animals"
+      ],
+      "image": "/images/photos/pied-blue-puppy-plush.webp",
+      "flags": [],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-stairs",
+      "title": "French Bulldog Stairs: Safe or Not?",
+      "seoTitleLength": 56,
+      "descriptionLength": 148,
+      "primaryKeyword": "french bulldog stairs",
+      "leadSentence": "French Bulldog stairs may be manageable for healthy adults when climbed calmly, with nonslip footing and supervision.",
+      "leadLength": 117,
+      "headings": [
+        "Why French Bulldog stairs are a question at all",
+        "Do stairs cause IVDD? What the evidence says",
+        "French Bulldog puppies and stairs",
+        "Going down stairs, jumping and falls",
+        "Dog stairs or a ramp for the bed and couch",
+        "Back pain warning signs",
+        "Sources and references"
+      ],
+      "referenceCount": 9,
+      "referenceLinks": [
+        "https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord/degenerative-diseases-of-the-spinal-column-and-cord-in-animals",
+        "https://doi.org/10.1186/s12917-017-1132-2",
+        "https://vcahospitals.com/know-your-pet/cervical-intervertebral-disk-disease-in-dogs",
+        "https://www.dachshund-ivdd.uk/lifestyle-advice/jumping-stairs/",
+        "https://doi.org/10.1186/s13028-023-00667-0",
+        "https://doi.org/10.1186/s40575-016-0039-8",
+        "https://doi.org/10.2460/ajvr.73.6.838",
+        "https://www.royalkennelclub.com/your-dog/getting-a-dog/caring-for-a-new-pup/the-best-environment-for-your-puppy/",
+        "https://doi.org/10.5326/0420207"
+      ],
+      "image": "/images/hero/french-bulldog-stairs-editorial-ai.webp",
+      "flags": [
+        "CLINICAL_OR_BEHAVIOR_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-tail-spine",
+      "title": "French Bulldog Hemivertebrae: Signs",
+      "seoTitleLength": 56,
+      "descriptionLength": 154,
+      "primaryKeyword": "french bulldog hemivertebrae",
+      "leadSentence": "French Bulldog hemivertebrae are abnormally formed vertebrae associated with the breed's naturally short or twisted tail.",
+      "leadLength": 121,
+      "headings": [
+        "Do French Bulldogs have tails?",
+        "What are hemivertebrae?",
+        "How common are French Bulldog hemivertebrae?",
+        "Hemivertebrae symptoms in French Bulldogs",
+        "Diagnosis: hemivertebrae on X-ray, CT and MRI",
+        "Hemivertebrae treatment and surgery",
+        "Other French Bulldog tail problems",
+        "Sources and references"
+      ],
+      "referenceCount": 9,
+      "referenceLinks": [
+        "https://doi.org/10.1371/journal.pgen.1007850",
+        "https://doi.org/10.1016/j.tvjl.2017.01.018",
+        "https://www.rvc.ac.uk/research/focus/brachycephaly/health-issues/neurology",
+        "https://images.akc.org/pdf/breeds/standards/FrenchBulldog.pdf",
+        "https://www.merckvetmanual.com/dog-owners/brain-spinal-cord-and-nerve-disorders-of-dogs/congenital-and-inherited-disorders-of-the-nervous-system-in-dogs",
+        "https://doi.org/10.1002/vetr.509",
+        "https://www.rvc.ac.uk/clinical-connections/rvc-offers-new-treatment-for-congenital-vertebral-malformations",
+        "https://doi.org/10.1186/s12917-017-1132-2",
+        "https://todaysveterinarypractice.com/orthopedics/juvenile-orthopedic-disease-in-dogs-catspart-2-congenital-neonatal-orthopedic-diseases/"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "CLINICAL_OR_BEHAVIOR_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    }
+  ]
+}

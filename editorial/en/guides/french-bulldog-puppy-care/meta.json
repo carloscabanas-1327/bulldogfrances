@@ -1,6 +1,6 @@
 {
   "title": "French Bulldog Puppy Care: Vet Schedule, Feeding and Safety Guide",
-  "seoTitle": "French Bulldog Puppy Care Guide: The First Months",
+  "seoTitle": "French Bulldog Puppy Care Guide",
   "description": "French Bulldog puppy care guide: vet visits, vaccine and deworming schedule, a feeding schedule by age, puppy-proofing and the breed's special needs.",
   "category": "puppies",
   "primaryKeyword": "french bulldog puppy care",
@@ -12,7 +12,7 @@
     "how often should a puppy be dewormed"
   ],
   "keywordEs": "cuidados de un bulldog francés cachorro",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "puppy-socialization",
@@ -24,15 +24,15 @@
   "faq": [
     {
       "q": "How many times a day should a French Bulldog puppy eat?",
-      "a": "The Merck Veterinary Manual suggests 4 meals a day from 6 to 12 weeks, 3 from 3 to 6 months, and 2 from 6 to 12 months."
+      "a": "Merck offers age-based meal-frequency examples, but a veterinarian should tailor feeding to growth, body condition and health needs."
     },
     {
       "q": "How many shots does a French Bulldog puppy need?",
-      "a": "Several doses of the core vaccines, given every 2 to 4 weeks with the last one at 16 weeks or older, then a booster. Rabies is given separately according to state and local law, usually not before 12 weeks."
+      "a": "WSAVA recommends core puppy vaccines at two- to four-week intervals through at least 16 weeks; higher-risk settings may need a later final dose. Follow veterinary advice on a 26-week booster or antibody testing and local rabies law."
     },
     {
       "q": "How often should a French Bulldog puppy go to the vet?",
-      "a": "About every 3 to 4 weeks until around 4 months of age, to keep vaccines and deworming on schedule."
+      "a": "Many puppies attend appointments every three to four weeks during initial vaccination, but visit timing depends on veterinary guidance and health needs."
     },
     {
       "q": "What do I need before bringing a French Bulldog puppy home?",
@@ -43,5 +43,6 @@
       "a": "Walk in the cool parts of the day, keep shade and water available, and never leave your puppy in a car. French Bulldogs are at higher risk of heatstroke than many breeds."
     }
   ],
-  "image": "/images/photos/fawn-and-black-puppies.webp"
+  "image": "/images/photos/fawn-and-black-puppies.webp",
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }

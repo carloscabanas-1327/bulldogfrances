@@ -1,20 +1,46 @@
 {
   "title": "Frenchton: el cruce entre bulldog francés y boston terrier",
-  "seoTitle": "Frenchton: cruce de bulldog francés y boston terrier",
+  "seoTitle": "Frenchton: salud y origen",
   "description": "Qué es un frenchton, en qué se diferencian el bulldog francés y el boston terrier, qué problemas de salud hereda el cruce y qué no se sabe aún.",
   "category": "breed-characteristics",
   "primaryKeyword": "frenchton",
-  "secondaryKeywords": ["cruce entre bulldog francés y boston terrier", "diferencia entre bulldog francés y boston terrier", "bulldog frenchton", "frenchton precio", "frenchton merle"],
+  "secondaryKeywords": [
+    "cruce entre bulldog francés y boston terrier",
+    "diferencia entre bulldog francés y boston terrier",
+    "bulldog frenchton",
+    "frenchton precio",
+    "frenchton merle"
+  ],
   "keywordEn": "frenchton",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
-  "related": ["esperanza-de-vida-bulldog-frances", "bulldog-frances-cola-columna", "pruebas-de-salud-criador-bulldog-frances"],
+  "related": [
+    "esperanza-de-vida-bulldog-frances",
+    "bulldog-frances-cola-columna",
+    "pruebas-de-salud-criador-bulldog-frances"
+  ],
   "enUrl": "/en/breed-characteristics/frenchton/",
   "faq": [
-    {"q": "¿El frenchton es una raza?", "a": "No. Es un cruce entre bulldog francés y boston terrier, sin estándar ni club de raza. El AKC trata a los mestizos con un programa de inscripción, no con un registro de raza."},
-    {"q": "¿Qué diferencia hay entre un bulldog francés y un boston terrier?", "a": "Las dos razas tienen la cara chata y la cola corta, pero el boston terrier suele ser más ligero (su estándar llega a 11,4 kg) y en un estudio de 2024 mostró problemas respiratorios más leves que el bulldog francés."},
-    {"q": "¿El frenchton es más sano que el bulldog francés?", "a": "No se puede dar por hecho. Las dos razas comparten la cara chata y la variante genética de la cola en tirabuzón, y en otros cruces de moda el riesgo de enfermedad fue igual al de las razas de origen en la mayoría de los casos."},
-    {"q": "¿Cuántos años vive un frenchton?", "a": "No hay estudios publicados sobre la longevidad del frenchton. Del bulldog francés sí hay datos, y está entre las razas que menos viven en los estudios británicos."},
-    {"q": "¿Qué pruebas de salud debo pedir al comprar un frenchton?", "a": "Para los dos padres: evaluación respiratoria, examen de ojos por un oftalmólogo veterinario, prueba de ADN HSF4 de cataratas juveniles y controles de cadera, rótulas y corazón."}
-  ]
+    {
+      "q": "¿El frenchton es una raza?",
+      "a": "Es un cruce de bulldog francés y boston terrier. No hay datos representativos que demuestren que sea más sano o que viva más que sus razas parentales."
+    },
+    {
+      "q": "¿Qué diferencia hay entre un bulldog francés y un boston terrier?",
+      "a": "Las dos razas tienen la cara chata y la cola corta, pero el boston terrier suele ser más ligero (su estándar llega a 11,4 kg) y en un estudio de 2024 mostró problemas respiratorios más leves que el bulldog francés."
+    },
+    {
+      "q": "¿El frenchton es más sano que el bulldog francés?",
+      "a": "No se puede dar por hecho. Las dos razas comparten la cara chata y la variante genética de la cola en tirabuzón, y en otros cruces de moda el riesgo de enfermedad fue igual al de las razas de origen en la mayoría de los casos."
+    },
+    {
+      "q": "¿Cuántos años vive un frenchton?",
+      "a": "No hay estudios publicados sobre la longevidad del frenchton. Del bulldog francés sí hay datos, y está entre las razas que menos viven en los estudios británicos."
+    },
+    {
+      "q": "¿Qué pruebas de salud debo pedir al comprar un frenchton?",
+      "a": "Para los dos padres: evaluación respiratoria, examen de ojos por un oftalmólogo veterinario, prueba de ADN HSF4 de cataratas juveniles y controles de cadera, rótulas y corazón."
+    }
+  ],
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

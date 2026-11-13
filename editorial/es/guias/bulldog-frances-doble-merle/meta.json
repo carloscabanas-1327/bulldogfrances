@@ -1,6 +1,6 @@
 {
   "title": "Bulldog francés doble merle: riesgos de sordera, ojos y cuidados",
-  "seoTitle": "Bulldog francés doble merle: riesgos y cuidados",
+  "seoTitle": "Bulldog francés doble merle",
   "description": "Qué es un bulldog francés doble merle, cómo se produce, cómo reconocerlo, su riesgo de sordera y problemas de ojos con cifras, y cómo convivir con él.",
   "category": "genetics",
   "primaryKeyword": "bulldog francés doble merle",
@@ -12,7 +12,7 @@
     "bulldog francés merle"
   ],
   "keywordEn": "double merle french bulldog",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "bulldog-frances-merle",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "¿Qué es un perro doble merle?",
-      "a": "Es un perro con dos copias del gen merle, una de cada padre. Nace al cruzar dos perros merle, aunque uno de ellos parezca de color sólido (merle críptico)."
+      "a": "El aspecto no confirma el genotipo ni un problema sensorial. Un test de merle, evaluación BAER y examen ocular ayudan a conocer riesgos individuales."
     },
     {
       "q": "¿Los perros doble merle son sordos?",
@@ -42,5 +42,6 @@
       "q": "¿Un bulldog francés doble merle puede tener buena calidad de vida?",
       "a": "Sí, con una prueba de audición, una revisión de ojos y un adiestramiento adaptado con señales de mano, correa y rutinas estables."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; no se atribuyen métricas."
 }

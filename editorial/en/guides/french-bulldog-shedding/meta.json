@@ -1,6 +1,6 @@
 {
   "title": "French Bulldog Shedding: How Much They Shed and When to Worry",
-  "seoTitle": "French Bulldog Shedding: Season, Brushing, Hair Loss",
+  "seoTitle": "French Bulldog Shedding Guide",
   "description": "Do French Bulldogs shed a lot? French Bulldog shedding explained: seasonal shedding, the best brush and routine, and hair loss that points to a skin problem.",
   "category": "daily-care",
   "primaryKeyword": "french bulldog shedding",
@@ -13,7 +13,7 @@
     "french bulldog shedding in winter"
   ],
   "keywordEs": "bulldog francés muda de pelo",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "how-often-to-bathe-a-french-bulldog",
@@ -29,7 +29,7 @@
     },
     {
       "q": "When do French Bulldogs shed the most?",
-      "a": "Dogs normally shed more in early spring and early fall, and changes in temperature or daylight also trigger shedding. Indoor dogs may shed more evenly through the year."
+      "a": "Dogs may shed more at some times of year, but the sources do not establish a fixed French Bulldog shedding season. Sudden bald patches, redness or itching need veterinary assessment."
     },
     {
       "q": "What is the best brush for a French Bulldog?",
@@ -37,12 +37,13 @@
     },
     {
       "q": "Why is my French Bulldog shedding so much?",
-      "a": "A seasonal change, recent illness, pregnancy or poor nutrition can cause a heavy shed. Itchy skin from allergies or fleas is common in Frenchies and needs a vet if your dog scratches or licks a lot."
+      "a": "Seasonal or routine shedding is possible, but scratching, hair loss in patches or skin irritation can reflect parasites, allergy, infection or other illness. A veterinary exam helps distinguish them."
     },
     {
       "q": "Are French Bulldogs hypoallergenic because they have short hair?",
       "a": "No. Allergy specialists say no breed is truly hypoallergenic, and allergens come from dander, saliva and urine rather than hair length."
     }
   ],
-  "image": "/images/photos/pied-blue-puppy-plush.webp"
+  "image": "/images/photos/pied-blue-puppy-plush.webp",
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }

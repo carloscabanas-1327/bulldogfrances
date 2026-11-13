@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 (revisión puntual EN tail-pocket y vomiting; fuentes enlazadas revisadas, F240 acceso directo bloqueado; no sustituye auditoría global previa)",
- "total_fuentes": 240,
+ "ultima_auditoria": "2026-11-12 — SEO ES2: ocho artículos españoles clínicos, F265 FDA isoxazolinas en español y F266 RECOVER 2026; auditoría editorial focalizada, sin aprobación clínica ni técnica de publicación.",
+ "total_fuentes": 266,
  "fuentes": [
   {
    "id": "F001",
@@ -29,15 +29,6 @@
    "contenido_dinamico": false,
    "seccion_relevante": null,
    "usos": [
-    {
-     "articulo": "editorial/en/guides/blindness-in-dogs/ARTICLE.html",
-     "numero_referencia": 7,
-     "afirmaciones": [
-      "in one study, half had cataracts within 170 days of diagnosis.",
-      "Usually gradual; can be fast in diabetic dogs.",
-      "In a study of 200 diabetic dogs, 50% had cataracts within 170 days of diagnosis, 75% within 370 days and 80% within 470 days."
-     ]
-    },
     {
      "articulo": "editorial/es/guias/ceguera-en-perros/ARTICLE.html",
      "numero_referencia": 10,
@@ -418,7 +409,7 @@
    "tipo_fuente": "pagina_web",
    "es_fuente_primaria": true,
    "revista": null,
-   "sitio": "aa.com",
+   "sitio": "American Airlines",
    "fecha_publicacion": null,
    "fecha_actualizacion": null,
    "copyright": null,
@@ -427,8 +418,10 @@
    "paginas": null,
    "doi": null,
    "pmid": null,
-   "url_canonica": "https://www.aa.com/i18n/travel-info/special-assistance/pets.jsp",
-   "urls_anteriores": [],
+   "url_canonica": "https://www.aa.com/web/i18n/travel-info/special-assistance/pets.html",
+   "urls_anteriores": [
+    "https://www.aa.com/i18n/travel-info/special-assistance/pets.jsp"
+   ],
    "idioma_original": "en",
    "acceso": "abierto",
    "contenido_dinamico": true,
@@ -462,14 +455,14 @@
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
-   "verificado_via": "https://www.aa.com/i18n/travel-info/special-assistance/pets.jsp",
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.aa.com/web/i18n/travel-info/special-assistance/pets.html",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "partial": 3,
     "supported": 5
    },
-   "observaciones_editoriales": "Página de normas dinámica: requiere fecha de consulta. Título corregido (\"Travel with pets\" → \"Traveling with pets\").",
+   "observaciones_editoriales": "Direct airline policy/cargo page checked 2026-11-12. Conditions and fees change; verify again before departure. No universal carrier size asserted.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S002"
@@ -647,7 +640,7 @@
     },
     {
      "articulo": "editorial/en/guides/kennel-cough-in-dogs/ARTICLE.html",
-     "numero_referencia": 6,
+     "numero_referencia": 5,
      "afirmaciones": [
       "The intranasal or oral version is a single dose with yearly boosters; the injectable needs 2 doses 2 to 4 weeks apart, then yearly boosters.",
       "Canine influenza vaccines are also noncore."
@@ -757,8 +750,10 @@
    "paginas": null,
    "doi": null,
    "pmid": null,
-   "url_canonica": "https://acvo.org/tips-treatments-tricks/tips-on-adjusting-to-your-pets-blindness",
-   "urls_anteriores": [],
+   "url_canonica": "https://www.acvo.org/tips-treatments-tricks/tips-on-adjusting-to-your-pets-blindness",
+   "urls_anteriores": [
+    "https://acvo.org/tips-treatments-tricks/tips-on-adjusting-to-your-pets-blindness"
+   ],
    "idioma_original": "en",
    "acceso": "abierto",
    "contenido_dinamico": false,
@@ -798,8 +793,8 @@
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
-   "verificado_via": "https://acvo.org/tips-treatments-tricks/tips-on-adjusting-to-your-pets-blindness",
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.acvo.org/tips-treatments-tricks/tips-on-adjusting-to-your-pets-blindness",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "supported": 3,
@@ -969,14 +964,14 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 11,
+     "numero_referencia": 10,
      "afirmaciones": [
       "El AKC recomienda las mismas cuatro evaluaciones para los reproductores y aclara que la ecocardiografía se recomienda pero no es obligatoria."
      ]
     },
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-back-pain-weak-legs/ARTICLE.html",
-     "numero_referencia": 3,
+     "numero_referencia": 5,
      "afirmaciones": [
       "A DNA test for the CDDY gene shows whether a dog carries a known disc disease risk factor.",
       "Both appear on the AKC's DNA health panel for the breed.",
@@ -985,7 +980,7 @@
     },
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
-     "numero_referencia": 11,
+     "numero_referencia": 10,
      "afirmaciones": [
       "The American Kennel Club lists the same four evaluations as the recommended health tests for French Bulldog breeding stock, noting that an echocardiogram is \"recommended but not required.\""
      ]
@@ -999,7 +994,7 @@
     },
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/mini-french-bulldog-health/ARTICLE.html",
-     "numero_referencia": 4,
+     "numero_referencia": 3,
      "afirmaciones": [
       "The AKC's French Bulldog DNA panel includes a risk factor for intervertebral disc disease (CDDY) and chondrodysplasia, the genes behind short legs and early disc degeneration."
      ]
@@ -1737,7 +1732,7 @@
     },
     {
      "articulo": "editorial/es/guias/perro-agresivo-con-la-comida/ARTICLE.html",
-     "numero_referencia": 7,
+     "numero_referencia": 6,
      "afirmaciones": [
       "Mientras tanto, dale de comer en un espacio separado, con una reja o puerta cerrada, y enseña a los niños a no acercarse a un perro que come o duerme."
      ]
@@ -2160,13 +2155,6 @@
    "contenido_dinamico": false,
    "seccion_relevante": null,
    "usos": [
-    {
-     "articulo": "editorial/es/guias/papeles-cachorro-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 8,
-     "afirmaciones": [
-      "Desde 2013, quien vende cachorros sin que el comprador los vea en persona (por ejemplo, por internet con envío) necesita en general una licencia del USDA, salvo que tenga cuatro hembras reproductoras o menos y venda solo cachorros nacidos y criados en sus instalaciones."
-     ]
-    },
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-puppy-paperwork/ARTICLE.html",
      "numero_referencia": 3,
@@ -3800,14 +3788,6 @@
    "seccion_relevante": null,
    "usos": [
     {
-     "articulo": "editorial/en/guides/french-bulldog-tail-spine/ARTICLE.html",
-     "numero_referencia": 6,
-     "afirmaciones": [
-      "Another study of the same issue found that, in French Bulldogs, the more severe the screw tail, the more severe the hemivertebrae in the chest tend to be.",
-      "Researchers have also suggested breeding away from severe screw tails because of their link to spinal malformations."
-     ]
-    },
-    {
      "articulo": "editorial/es/guias/bulldog-frances-cola-columna/ARTICLE.html",
      "numero_referencia": 6,
      "afirmaciones": [
@@ -3970,13 +3950,6 @@
    "seccion_relevante": null,
    "usos": [
     {
-     "articulo": "editorial/en/guides/flying-with-a-french-bulldog/ARTICLE.html",
-     "numero_referencia": 18,
-     "afirmaciones": [
-      "Since August 1, 2024, every dog entering the US, including your own returning dog, must look healthy, be at least 6 months old, be microchipped and have a CDC Dog Import Form receipt."
-     ]
-    },
-    {
      "articulo": "editorial/es/guias/bulldog-frances-viajar-en-avion/ARTICLE.html",
      "numero_referencia": 19,
      "afirmaciones": [
@@ -4077,15 +4050,7 @@
    "acceso": "abierto",
    "contenido_dinamico": true,
    "seccion_relevante": null,
-   "usos": [
-    {
-     "articulo": "editorial/es/guias/bulldog-frances-viajar-en-avion/ARTICLE.html",
-     "numero_referencia": 20,
-     "afirmaciones": [
-      "Para perros que vienen de países sin rabia o de bajo riesgo (como España), el recibo vale 6 meses."
-     ]
-    }
-   ],
+   "usos": [],
    "fecha_verificacion": "2026-11-03",
    "verificado_via": "https://www.cdc.gov/importation/dogs/rabies-free-low-risk-countries.html",
    "estado_enlace": "ok",
@@ -5273,12 +5238,12 @@
    "id": "F080",
    "autor_u_organismo": "Delta Air Lines",
    "autores": null,
-   "organizacion": "Delta Air Lines",
-   "titulo_exacto": "Shipping Your Pet",
+   "organizacion": "Delta Cargo",
+   "titulo_exacto": "Products: Pet Shipment",
    "tipo_fuente": "pagina_web",
    "es_fuente_primaria": true,
    "revista": null,
-   "sitio": "delta.com",
+   "sitio": "Delta Cargo",
    "fecha_publicacion": null,
    "fecha_actualizacion": null,
    "copyright": null,
@@ -5287,8 +5252,10 @@
    "paginas": null,
    "doi": null,
    "pmid": null,
-   "url_canonica": "https://www.delta.com/us/en/pet-travel/shipping-your-pet",
-   "urls_anteriores": [],
+   "url_canonica": "https://www.deltacargo.com/Cargo/catalog/products/pet-shipment",
+   "urls_anteriores": [
+    "https://www.delta.com/us/en/pet-travel/shipping-your-pet"
+   ],
    "idioma_original": "en",
    "acceso": "abierto",
    "contenido_dinamico": true,
@@ -5310,14 +5277,14 @@
      ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
-   "verificado_via": "https://www.delta.com/us/en/pet-travel/shipping-your-pet",
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.deltacargo.com/Cargo/catalog/products/pet-shipment",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "partial": 1,
     "supported": 2
    },
-   "observaciones_editoriales": "Delta Cargo solo transporta mascotas de personal militar en activo o del Servicio Exterior con traslado (PCS).",
+   "observaciones_editoriales": "Direct airline policy/cargo page checked 2026-11-12. Conditions and fees change; verify again before departure. No universal carrier size asserted.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": [
     "S071"
@@ -5467,13 +5434,6 @@
    "contenido_dinamico": false,
    "seccion_relevante": null,
    "usos": [
-    {
-     "articulo": "editorial/en/guides/french-bulldog-stairs/ARTICLE.html",
-     "numero_referencia": 6,
-     "afirmaciones": [
-      "The later study's authors think this is at least partly because owners changed habits after a diagnosis."
-     ]
-    },
     {
      "articulo": "editorial/es/guias/bulldog-frances-escaleras/ARTICLE.html",
      "numero_referencia": 7,
@@ -6033,7 +5993,7 @@
     },
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/mini-french-bulldog-health/ARTICLE.html",
-     "numero_referencia": 5,
+     "numero_referencia": 4,
      "afirmaciones": [
       "Kneecap problems (patellar luxation), which the breed club already screens for",
       "Ask for the standard health tests (hips, eyes, patellas, heart) and a breathing grade for both parents."
@@ -6184,25 +6144,11 @@
      ]
     },
     {
-     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-back-pain-weak-legs/ARTICLE.html",
-     "numero_referencia": 4,
-     "afirmaciones": [
-      "The French Bulldog Rescue Network also lists malformed vertebrae (hemivertebrae) among the breed's known problems."
-     ]
-    },
-    {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/merle-french-bulldog-health-risks/ARTICLE.html",
      "numero_referencia": 4,
      "afirmaciones": [
       "Rescue groups argue merle entered the breed through crossbreeding.",
       "The French Bulldog Rescue Network states that the purebred gene pool did not carry merle and that merle Frenchies were produced by introducing another breed, usually a Chihuahua."
-     ]
-    },
-    {
-     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/mini-french-bulldog-health/ARTICLE.html",
-     "numero_referencia": 3,
-     "afirmaciones": [
-      "Rescue groups say this is how merle was introduced into \"French Bulldogs,\" often using Chihuahuas."
      ]
     }
    ],
@@ -6549,7 +6495,7 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 14,
+     "numero_referencia": 13,
      "afirmaciones": [
       "El estándar FCI, por su parte, considera faltas descalificantes la dificultad respiratoria y la sordera."
      ]
@@ -9029,13 +8975,6 @@
      "afirmaciones": [
       "Only the most severe guarders were returned more often."
      ]
-    },
-    {
-     "articulo": "editorial/es/guias/perro-agresivo-con-la-comida/ARTICLE.html",
-     "numero_referencia": 6,
-     "afirmaciones": [
-      "UU., los perros que protegían recursos fueron devueltos tras la adopción con una frecuencia similar a la de otros perros; solo los casos más graves se devolvieron más a menudo."
-     ]
     }
    ],
    "fecha_verificacion": "2026-11-03",
@@ -9470,14 +9409,6 @@
    "contenido_dinamico": false,
    "seccion_relevante": null,
    "usos": [
-    {
-     "articulo": "editorial/en/guides/kennel-cough-in-dogs/ARTICLE.html",
-     "numero_referencia": 5,
-     "afirmaciones": [
-      "An AVMA expert panel advised prompt veterinary care for brachycephalic dogs.",
-      "No single new germ was confirmed behind that outbreak, and the AVMA said respiratory outbreaks like it happen regularly."
-     ]
-    },
     {
      "articulo": "editorial/es/guias/tos-de-las-perreras/ARTICLE.html",
      "numero_referencia": 5,
@@ -13130,14 +13061,14 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 12,
+     "numero_referencia": 11,
      "afirmaciones": [
       "Se puede evaluar a partir de los 12 meses, y los reproductores deberían repetirla cada dos años."
      ]
     },
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
-     "numero_referencia": 12,
+     "numero_referencia": 11,
      "afirmaciones": [
       "Dogs can be graded from 12 months of age, and breeding dogs should be re-graded every two years."
      ]
@@ -14010,6 +13941,14 @@
      "numero_referencia": 9,
      "afirmaciones": [
       "El color gris o \"blue\" viene de un gen recesivo de dilución que aclara el pigmento negro; en el bulldog francés, el marrón diluido se conoce como \"isabella\" o lila."
+     ]
+    },
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/blue-french-bulldog-hair-loss/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "UC Davis lists three identified MLPH dilute variants d1,d2,d3, and two dilution alleles including some compound-heterozygote combinations can produce a dilute coat.",
+      "Dilution DNA results do not diagnose color dilution alopecia."
      ]
     }
    ],
@@ -15856,7 +15795,7 @@
     },
     {
      "articulo": "editorial/en/guides/kennel-cough-in-dogs/ARTICLE.html",
-     "numero_referencia": 7,
+     "numero_referencia": 6,
      "afirmaciones": [
       "WSAVA calls respiratory vaccines non-core for pet dogs in typical homes but important in shelters."
      ]
@@ -15998,14 +15937,16 @@
      "afirmaciones": [
       "CAER purpose: give breeders eye-disease information for informed breeding decisions.",
       "CAER exams by board-certified (ACVO) veterinary ophthalmologists.",
-      "Certification valid 12 months; annual re-exam recommended."
+      "Certification valid 12 months; annual re-exam recommended.",
+      "CAER certifications are performed by board-certified (ACVO) veterinary ophthalmologists (moved from former ACVO homepage reference, verified 2026-11-13)."
      ]
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
      "numero_referencia": 7,
      "afirmaciones": [
-      "Misma afirmación en la edición en español."
+      "Misma afirmación en la edición en español.",
+      "CAER certifications are performed by board-certified (ACVO) veterinary ophthalmologists (moved from former ACVO homepage reference, verified 2026-11-13)."
      ]
     }
    ],
@@ -16043,29 +15984,14 @@
    "acceso": "abierto",
    "contenido_dinamico": false,
    "seccion_relevante": null,
-   "usos": [
-    {
-     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
-     "numero_referencia": 8,
-     "afirmaciones": [
-      "Only ACVO Diplomates are authorized to provide ACVO CAER screening exams to breeders."
-     ]
-    },
-    {
-     "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 8,
-     "afirmaciones": [
-      "Misma afirmación en la edición en español."
-     ]
-    }
-   ],
+   "usos": [],
    "fecha_verificacion": "2026-11-03",
    "verificado_via": "https://www.acvo.org/",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "supported": 1
    },
-   "observaciones_editoriales": "Homepage; no formal DACVO definition, the expansion is used in a news item on the page.",
+   "observaciones_editoriales": "Homepage; no formal DACVO definition, the expansion is used in a news item on the page. 2026-11-13: no longer cited; homepage replaced by OFA Eye Certification page (ref 7), which states CAER exams are performed by board-certified ACVO ophthalmologists.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   },
@@ -16096,7 +16022,7 @@
    "usos": [
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
-     "numero_referencia": 9,
+     "numero_referencia": 8,
      "afirmaciones": [
       "Kneecap pops out of place, medial or lateral.",
       "Dog examined awake.",
@@ -16105,7 +16031,7 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 9,
+     "numero_referencia": 8,
      "afirmaciones": [
       "Misma afirmación en la edición en español."
      ]
@@ -16148,7 +16074,7 @@
    "usos": [
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
-     "numero_referencia": 10,
+     "numero_referencia": 9,
      "afirmaciones": [
       "Basic exam based on auscultation.",
       "Advanced exam by a veterinary cardiologist; echo always required.",
@@ -16157,7 +16083,7 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 10,
+     "numero_referencia": 9,
      "afirmaciones": [
       "Misma afirmación en la edición en español."
      ]
@@ -16200,7 +16126,7 @@
    "usos": [
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
-     "numero_referencia": 13,
+     "numero_referencia": 12,
      "afirmaciones": [
       "PennGen is a group of genetic testing laboratories (CGAT section).",
       "Offers DNA tests for specific variants in specific breeds; can test cystine in urine."
@@ -16208,7 +16134,7 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 13,
+     "numero_referencia": 12,
      "afirmaciones": [
       "Misma afirmación en la edición en español."
      ]
@@ -16455,6 +16381,1200 @@
     "supported": 2
    },
    "observaciones_editoriales": "El buscador recuperó un extracto específico del manual; al abrir la URL el acceso devolvió 403. Verificación indirecta; repetir comprobación directa antes de afirmar auditoría integral.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F241",
+   "autor_u_organismo": "University of California, Davis, Veterinary Genetics Laboratory",
+   "autores": null,
+   "organizacion": "University of California, Davis, Veterinary Genetics Laboratory",
+   "titulo_exacto": "Chondrodystrophy (CDDY and IVDD) and Chondrodysplasia (CDPA)",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "University of California, Davis, Veterinary Genetics Laboratory",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://vgl.ucdavis.edu/test/cddy-cdpa",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Test overview; genotype interpretation; breed frequency",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-back-pain-weak-legs/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "The CDDY variant is associated with IVDD risk, but genotype does not diagnose a specific symptomatic dog.",
+      "Breeding decisions can consider genetic testing while clinical examination is still needed."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://vgl.ucdavis.edu/test/cddy-cdpa",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Página específica examinada el 12 de noviembre de 2026; no implica evaluación veterinaria del artículo.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F242",
+   "autor_u_organismo": "Merck Veterinary Manual",
+   "autores": null,
+   "organizacion": "Merck Veterinary Manual",
+   "titulo_exacto": "Congenital and Inherited Spinal Cord Disorders in Dogs and Cats",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Merck Veterinary Manual",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": "2026-07",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system-in-small-animals/congenital-and-inherited-spinal-cord-disorders-in-dogs-and-cats",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Congenital Vertebral Malformations in Dogs",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-back-pain-weak-legs/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "Hemivertebrae and other congenital vertebral malformations occur in screw-tailed breeds and are not necessarily symptomatic."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system-in-small-animals/congenital-and-inherited-spinal-cord-disorders-in-dogs-and-cats",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 1
+   },
+   "observaciones_editoriales": "Página específica examinada el 12 de noviembre de 2026; no implica evaluación veterinaria del artículo.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F243",
+   "autor_u_organismo": "Cornell University College of Veterinary Medicine",
+   "autores": null,
+   "organizacion": "Cornell University College of Veterinary Medicine",
+   "titulo_exacto": "Diarrhea",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Cornell University College of Veterinary Medicine",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": "2024-03",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/diarrhea",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "When to see a veterinarian; medications; stool samples",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-diarrhea/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "Bloody or tarry stool, vomiting, and loss of appetite warrant veterinary assessment.",
+      "Use of human OTC anti-diarrheal medication should be avoided without a veterinarian's direction.",
+      "A fresh fecal sample can assist diagnosis; water and a veterinary-approved diet are priorities."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/diarrhea",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Documento específico abierto y contenido relevante contrastado durante auditoría SEO2. No equivale a revisión veterinaria profesional.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F244",
+   "autor_u_organismo": "VCA Animal Hospitals Urgent Care",
+   "autores": null,
+   "organizacion": "VCA Animal Hospitals Urgent Care",
+   "titulo_exacto": "Diarrhea or Vomiting",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "VCA Animal Hospitals Urgent Care",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://vcahospitals.com/urgent-care/health-concerns/diarrhea-or-vomiting",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "When to visit urgent care; When to seek emergency care",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-diarrhea/ARTICLE.html",
+     "numero_referencia": 6,
+     "afirmaciones": [
+      "Multiple episodes, blood, low appetite or lethargy need urgent evaluation.",
+      "Severe illness or inability to stand indicates need for an emergency hospital."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://vcahospitals.com/urgent-care/health-concerns/diarrhea-or-vomiting",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Documento específico abierto y contenido relevante contrastado durante auditoría SEO2. No equivale a revisión veterinaria profesional.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F245",
+   "autor_u_organismo": "Merck Veterinary Manual",
+   "autores": "Thomasy SM",
+   "organizacion": "Merck Veterinary Manual",
+   "titulo_exacto": "Overview of Ophthalmic Emergencies in Small Animals",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Merck Veterinary Manual",
+   "fecha_publicacion": "2024-07",
+   "fecha_actualizacion": "2024-07",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/overview-of-ophthalmic-emergencies-in-small-animals",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Overview; listed ophthalmic emergencies",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-red-eyes/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "Sudden vision loss, proptosis, significant corneal trauma, and acute glaucoma are veterinary emergencies.",
+      "Rapid examination and treatment may be needed to preserve vision."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/overview-of-ophthalmic-emergencies-in-small-animals",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Documento específico abierto y contenido relevante contrastado durante auditoría SEO2. No equivale a revisión veterinaria profesional.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F246",
+   "autor_u_organismo": "Merck Veterinary Manual",
+   "autores": null,
+   "organizacion": "Merck Veterinary Manual",
+   "titulo_exacto": "Anti-inflammatory Agents in Animals",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Merck Veterinary Manual",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/anti-inflammatory-agents-in-animals",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Topical Corticosteroids",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-red-eyes/ARTICLE.html",
+     "numero_referencia": 6,
+     "afirmaciones": [
+      "Corticosteroids are contraindicated when a corneal ulcer is present.",
+      "A veterinarian should rule out corneal ulceration before using topical steroids."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/anti-inflammatory-agents-in-animals",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Documento específico abierto y contenido relevante contrastado durante auditoría SEO2. No equivale a revisión veterinaria profesional.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F247",
+   "autor_u_organismo": "Packer RMA et al.",
+   "autores": "Packer RMA, Seath IJ, O'Neill DG, De Decker S, Volk HA",
+   "organizacion": null,
+   "titulo_exacto": "DachsLife 2015: an investigation of lifestyle associations with the risk of intervertebral disc disease in Dachshunds",
+   "tipo_fuente": "articulo_cientifico",
+   "es_fuente_primaria": true,
+   "revista": "Canine Genetics and Epidemiology",
+   "sitio": null,
+   "fecha_publicacion": "2016",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": "3",
+   "numero": null,
+   "paginas": "8",
+   "doi": "10.1186/s40575-016-0039-8",
+   "pmid": null,
+   "url_canonica": "https://doi.org/10.1186/s40575-016-0039-8",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": "Abstract; Methods; Results; Discussion",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/french-bulldog-stairs/ARTICLE.html",
+     "numero_referencia": 6,
+     "afirmaciones": [
+      "Owner questionnaire reported associations between activity restrictions and recorded IVDD in Dachshunds.",
+      "Reverse causation makes causal claims about stair use and furniture jumping inappropriate; not French Bulldog-specific data."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://doi.org/10.1186/s40575-016-0039-8",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Estudio original: no extrapolar sus datos a riesgos individuales o poblaciones no estudiadas. Verificado con texto en PMC y/o ficha original de la revista el 12 nov 2026.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F248",
+   "autor_u_organismo": "Lackmann F et al.",
+   "autores": "Lackmann F, Forterre F, Brunnberg L, Loderstedt S",
+   "organizacion": null,
+   "titulo_exacto": "Epidemiological study of congenital malformations of the vertebral column in French bulldogs, English bulldogs and pugs",
+   "tipo_fuente": "articulo_cientifico",
+   "es_fuente_primaria": true,
+   "revista": "Veterinary Record",
+   "sitio": null,
+   "fecha_publicacion": "2022",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": "190",
+   "numero": "1",
+   "paginas": "e509",
+   "doi": "10.1002/vetr.509",
+   "pmid": "34021609",
+   "url_canonica": "https://doi.org/10.1002/vetr.509",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": "Abstract; Methods; Results; Discussion",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/french-bulldog-tail-spine/ARTICLE.html",
+     "numero_referencia": 6,
+     "afirmaciones": [
+      "Prospective German study assessed 265 dogs including 199 French Bulldogs.",
+      "Severe tail malformation was associated with vertebral malformations elsewhere in the spine, not a stand-alone clinical diagnosis."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://doi.org/10.1002/vetr.509",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Estudio original: no extrapolar sus datos a riesgos individuales o poblaciones no estudiadas. Verificado con texto en PMC y/o ficha original de la revista el 12 nov 2026.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F249",
+   "autor_u_organismo": "Centers for Disease Control and Prevention",
+   "autores": null,
+   "organizacion": "Centers for Disease Control and Prevention",
+   "titulo_exacto": "Frequently Asked Questions on Dog Importations",
+   "tipo_fuente": "nota_prensa",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "CDC",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": "2026-08-27",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.cdc.gov/importation/dogs/faqs.html",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/flying-with-a-french-bulldog/ARTICLE.html",
+     "numero_referencia": 18,
+     "afirmaciones": [
+      "As of November 2026, dogs entering the United States need a CDC Dog Import Form receipt, a microchip, apparent good health and a minimum age of six months; high-risk rabies country history triggers additional requirements."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/bulldog-frances-viajar-en-avion/ARTICLE.html",
+     "numero_referencia": 20,
+     "afirmaciones": [
+      "Los perros que ingresan o regresan a EE. UU. requieren edad mínima de seis meses, microchip detectable, apariencia saludable y recibo CDC Dog Import Form.",
+      "Los requisitos adicionales se basan en países visitados en los seis meses anteriores y situación de vacunación."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.cdc.gov/importation/dogs/faqs.html",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 1
+   },
+   "observaciones_editoriales": "Updated CDC FAQ dated Aug 27 2026; source does not replace requirements of individual airlines.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [
+    "S060"
+   ]
+  },
+  {
+   "id": "F250",
+   "autor_u_organismo": "American Veterinary Medical Association",
+   "autores": null,
+   "organizacion": "American Veterinary Medical Association",
+   "titulo_exacto": "Canine infectious respiratory disease complex (kennel cough)",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "AVMA",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.avma.org/resources-tools/pet-owners/petcare/canine-infectious-respiratory-disease-complex-kennel-cough",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "What are the signs?; How is CIRDC spread?; How is CIRDC treated?",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/kennel-cough-in-dogs/ARTICLE.html",
+     "numero_referencia": 7,
+     "afirmaciones": [
+      "Kennel cough comprises several pathogens and ranges from mild cough to severe respiratory disease.",
+      "Rapid or labored breathing, fever, lethargy and productive cough warrant veterinary assessment.",
+      "Most mild cases recover with supportive care; antibiotics are not routinely necessary unless pneumonia is suspected."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.avma.org/resources-tools/pet-owners/petcare/canine-infectious-respiratory-disease-complex-kennel-cough",
+   "estado_enlace": "contenido_indexado_no_accesible_directamente",
+   "resultado_verificacion_afirmaciones": {
+    "supported_by_search_index": 3
+   },
+   "observaciones_editoriales": "AVMA page was located in the search index with relevant text. Direct interactive page view showed iframe only; do not claim full on-page verification. Text also cross-checked with Cornell and Merck direct pages.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F251",
+   "autor_u_organismo": "Beam S, Correa MT, Davidson MG",
+   "autores": "Beam S, Correa MT, Davidson MG",
+   "organizacion": "North Carolina State University",
+   "titulo_exacto": "A retrospective-cohort study on the development of cataracts in dogs with diabetes mellitus: 200 cases",
+   "tipo_fuente": "articulo_cientifico",
+   "es_fuente_primaria": true,
+   "revista": "Veterinary Ophthalmology",
+   "sitio": "Wiley",
+   "fecha_publicacion": "1999",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": "2",
+   "numero": "3",
+   "paginas": "169–172",
+   "doi": "10.1046/j.1463-5224.1999.00073.x",
+   "pmid": "11397260",
+   "url_canonica": "https://doi.org/10.1046/j.1463-5224.1999.00073.x",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "resumen_abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": "Abstract; retrospective cohort 200 referred dogs; survival analysis",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/blindness-in-dogs/ARTICLE.html",
+     "numero_referencia": 7,
+     "afirmaciones": [
+      "Study examined a selected referral sample of 200 diabetic dogs, not a representative population of all dogs.",
+      "In this cohort, estimated cataract development was 50% by 170 days, 75% by 370 days and 80% by 470 days after diabetes diagnosis."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://onlinelibrary.wiley.com/doi/10.1046/j.1463-5224.1999.00073.x",
+   "estado_enlace": "resumen_consultado_texto_completo_no_verificado",
+   "resultado_verificacion_afirmaciones": {
+    "supported_by_abstract": 2
+   },
+   "observaciones_editoriales": "Verified against the original publisher's abstract; full article not independently read. Replaces a secondary Veterinary Practice citation for English version only; Spanish citation remains on F001 pending separate review.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F252",
+   "autor_u_organismo": "Pucheu-Haston CM",
+   "autores": "Pucheu-Haston CM",
+   "organizacion": "Merck Veterinary Manual",
+   "titulo_exacto": "Cutaneous Food Allergy in Animals (Adverse Food Reactions)",
+   "tipo_fuente": "manual_veterinario",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Merck Veterinary Manual — Professional",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": "2025-08",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.merckvetmanual.com/integumentary-system/food-allergy/cutaneous-food-allergy-in-animals",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Dietary elimination; rechallenge to diagnose cutaneous food allergy",
+   "usos": [
+    {
+     "articulo": "editorial/nutrition/french-bulldog-food-allergies/ARTICLE.en.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "Food allergy requires improvement on elimination diet plus symptom recurrence on controlled challenge for confirmation.",
+      "Relapse after oral challenge may take hours to 10-14 days; timing needs veterinary oversight.",
+      "Skin signs are not specific to food allergy; coexistent environmental or flea allergy is possible."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.merckvetmanual.com/integumentary-system/food-allergy/cutaneous-food-allergy-in-animals",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Professional Merck section directly examined November 12, 2026; no standalone clinical diagnosis or test of this site's readers.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F253",
+   "autor_u_organismo": "Merck Veterinary Manual",
+   "autores": null,
+   "organizacion": "Merck Veterinary Manual",
+   "titulo_exacto": "Dystocia in Small Animals",
+   "tipo_fuente": "manual_veterinario",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Merck Veterinary Manual",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.merckvetmanual.com/reproductive-system/reproductive-diseases-of-the-female-small-animal/dystocia-in-small-animals",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Signs of dystocia; indications for cesarean section",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/pregnant-french-bulldog-care/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "Intense contractions without a puppy, green/black discharge before delivery, and long intervals between pups may indicate obstructed labor and need urgent veterinary care.",
+      "Dystocia has multiple possible causes; anatomy and fetal size cannot be determined from breed alone."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.merckvetmanual.com/reproductive-system/reproductive-diseases-of-the-female-small-animal/dystocia-in-small-animals",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Exact Merck page/section verified 2026-11-12. Editorial review only, no case-specific veterinary opinion.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F254",
+   "autor_u_organismo": "Merck Veterinary Manual",
+   "autores": null,
+   "organizacion": "Merck Veterinary Manual",
+   "titulo_exacto": "Reproductive Disorders of Female Dogs",
+   "tipo_fuente": "manual_veterinario",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Merck Veterinary Manual",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.merckvetmanual.com/dog-owners/reproductive-disorders-of-dogs/reproductive-disorders-of-female-dogs",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Pyometra",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-first-heat-care/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "Pyometra may present with lethargy, vomiting, increased drinking and urination, abdominal enlargement or vaginal discharge.",
+      "Closed-cervix pyometra may have no visible discharge and can progress rapidly to shock."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.merckvetmanual.com/dog-owners/reproductive-disorders-of-dogs/reproductive-disorders-of-female-dogs",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Exact Merck page/section verified 2026-11-12. Editorial review only, no case-specific veterinary opinion.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F255",
+   "autor_u_organismo": "United States Food and Drug Administration",
+   "autores": null,
+   "organizacion": "U.S. Food and Drug Administration",
+   "titulo_exacto": "Fact Sheet for Pet Owners and Veterinarians about Potential Adverse Events Associated with Isoxazoline Flea and Tick Products",
+   "tipo_fuente": "documento_oficial",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "FDA Animal & Veterinary",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.fda.gov/animal-veterinary/animal-health-literacy/fact-sheet-pet-owners-and-veterinarians-about-potential-adverse-events-associated-isoxazoline-flea",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Fast Facts; What should I know?; risk of neurologic adverse events",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/demodectic-mange-in-dogs/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "Most dogs and cats use isoxazoline flea and tick products safely, but neurological adverse reactions including tremors, ataxia and seizures have been reported."
+     ]
+    },
+    {
+     "articulo": "editorial/en/guides/ear-mites-in-dogs/ARTICLE.html",
+     "numero_referencia": 7,
+     "afirmaciones": [
+      "FDA reports infrequent neurologic reactions to isoxazoline products, including in animals without seizure history."
+     ]
+    },
+    {
+     "articulo": "editorial/en/guides/fleas-on-dogs/ARTICLE.html",
+     "numero_referencia": 9,
+     "afirmaciones": [
+      "Veterinarians should consider medical history before choosing flea and tick drugs in the isoxazoline class."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.fda.gov/animal-veterinary/animal-health-literacy/fact-sheet-pet-owners-and-veterinarians-about-potential-adverse-events-associated-isoxazoline-flea",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Verified direct FDA fact sheet Nov 12 2026. This is an adverse-event safety statement, not prevalence/incidence of events, or indication for treating demodicosis. Merck handles extra-label treatment claim separately.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F256",
+   "autor_u_organismo": "American Animal Hospital Association",
+   "autores": null,
+   "organizacion": "AAHA",
+   "titulo_exacto": "Changing Behaviors — 2015 AAHA Canine and Feline Behavior Management Guidelines",
+   "tipo_fuente": "guia_profesional",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "AAHA",
+   "fecha_publicacion": "2015",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.aaha.org/resources/2015-aaha-canine-and-feline-behavior-management-guidelines/changing-behaviors/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Aversive techniques; reward-based training",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/food-aggression-in-dogs/ARTICLE.html",
+     "numero_referencia": 8,
+     "afirmaciones": [
+      "Aversive techniques may increase fear and aggression or suppress warnings, making bites more dangerous.",
+      "AAHA recommends rewarding desired behaviors and using nonaversive behavior modification."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.aaha.org/resources/2015-aaha-canine-and-feline-behavior-management-guidelines/changing-behaviors/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Direct official AAHA behavior guideline, and ASPCA Food Guarding precautions independently reviewed; behavior modification in dogs with existing aggression requires qualified professional help.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F257",
+   "autor_u_organismo": "UC Davis Veterinary Genetics Laboratory",
+   "autores": null,
+   "organizacion": "University of California, Davis",
+   "titulo_exacto": "Intensity Dilution",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "UC Davis Veterinary Genetics Laboratory",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://vgl.ucdavis.edu/test/intensity-dog",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Quick Summary; Additional Details; breeds appropriate for testing",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/white-french-bulldog-deafness/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "UC Davis identifies intensity dilution of phaeomelanin to cream or white as one pigment mechanism reported in French Bulldogs; this is not a merle genotype test and does not diagnose deafness."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://vgl.ucdavis.edu/test/intensity-dog",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 1
+   },
+   "observaciones_editoriales": "Official laboratory test description. Supports a genetic cause of cream/white appearance, NOT a breed-specific deafness prevalence or health prognosis. Source not to be used as proof that white French Bulldogs hear normally.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F258",
+   "autor_u_organismo": "ASPCA",
+   "autores": null,
+   "organizacion": "ASPCA",
+   "titulo_exacto": "Separation Anxiety",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "ASPCA",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/separation-anxiety",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Symptoms; Differential diagnosis; Treatment and prevention",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/can-french-bulldogs-be-left-alone/ARTICLE.html",
+     "numero_referencia": 13,
+     "afirmaciones": [
+      "Recorded absence behavior may help distinguish separation-related distress from bored or stimulus-driven behavior; severe anxiety requires individualized treatment."
+     ]
+    },
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-crying-whining/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "Distress while left alone can resemble other behavior problems; severe cases need supervised desensitization and may need veterinary medication."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/separation-anxiety",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Official owner-facing animal welfare resource. Neither crying nor chewing alone proves a separation-anxiety diagnosis.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F259",
+   "autor_u_organismo": "American Humane Society",
+   "autores": null,
+   "organizacion": "American Humane Society",
+   "titulo_exacto": "Housetraining Puppies & Dogs",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "American Humane Society",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": "2026-05",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.americanhumane.org/public-education/housetraining-puppies-dogs/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Symptoms; Differential diagnosis; Treatment and prevention",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/how-to-potty-train-a-french-bulldog/ARTICLE.html",
+     "numero_referencia": 12,
+     "afirmaciones": [
+      "Frequent predictable toilet opportunities and prompt reward-based reinforcement are appropriate; punishment of accidents is counterproductive."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.americanhumane.org/public-education/housetraining-puppies-dogs/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 1
+   },
+   "observaciones_editoriales": "Official animal welfare guidance. Age and bladder-capacity rules are rough planning aids, not clinical limits. Does not support withholding water.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F260",
+   "autor_u_organismo": "American Animal Hospital Association",
+   "autores": null,
+   "organizacion": "American Animal Hospital Association",
+   "titulo_exacto": "2023 AAHA Senior Care Guidelines for Dogs and Cats",
+   "tipo_fuente": "guia_profesional",
+   "es_fuente_primaria": true,
+   "revista": "Journal of the American Animal Hospital Association",
+   "sitio": "AAHA",
+   "fecha_publicacion": "2022-12-12",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": "59",
+   "numero": null,
+   "paginas": null,
+   "doi": "10.5326/JAAHA-MS-7343",
+   "pmid": null,
+   "url_canonica": "https://www.aaha.org/resources/2023-aaha-senior-care-guidelines-for-dogs-and-cats/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Abstract; approach to senior screening, quality of life, comorbidities and environmental modifications",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/senior-french-bulldog-care/ARTICLE.html",
+     "numero_referencia": 6,
+     "afirmaciones": [
+      "Senior care is individualized and should not equate chronological age with diagnosis.",
+      "AAHA provides evidence-guided assessment, screening and quality-of-life management recommendations for older dogs and cats.",
+      "Palliative care decisions require a full veterinary assessment and client collaboration."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.aaha.org/resources/2023-aaha-senior-care-guidelines-for-dogs-and-cats/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Exact 2023 AAHA Senior Care Guidelines webpage and abstract verified. Screening frequency and test selection depend on clinical need; this source does not prove a specific French Bulldog becomes senior at age eight.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F261",
+   "autor_u_organismo": "Office of the Federal Register",
+   "autores": null,
+   "organizacion": "Office of the Federal Register",
+   "titulo_exacto": "9 CFR § 2.1 — Requirements and application",
+   "tipo_fuente": "norma",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "Office of the Federal Register",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.ecfr.gov/current/title-9/chapter-I/subchapter-A/part-2/subpart-A/section-2.1",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "§ 2.1(a)(3)(i) and § 2.1(a)(3)(iii)",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-puppy-paperwork/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "9 CFR § 2.1(a)(3)(iii) includes a conditional exemption for four or fewer breeding females and their offspring born and raised on premises, subject to household and other restrictions.",
+      "Licensing assessment cannot be based exclusively on being advertised online."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/papeles-cachorro-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 8,
+     "afirmaciones": [
+      "9 CFR §2.1(a)(3)(iii) contempla exención condicionada por cuatro o menos hembras reproductoras y crías nacidas y criadas en el establecimiento.",
+      "La exención se ve restringida por límites a actividades coordinadas y múltiples animales en un mismo hogar o predio."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.ecfr.gov/current/title-9/chapter-I/subchapter-A/part-2/subpart-A/section-2.1",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "eCFR stated current up to 2026-11-10; binding federal regulation. This source alone does not address state or local laws.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F262",
+   "autor_u_organismo": "U.S. Food and Drug Administration",
+   "autores": null,
+   "organizacion": "U.S. Food and Drug Administration",
+   "titulo_exacto": "Questions & Answers: FDA’s Work on Potential Causes of Non-Hereditary DCM in Dogs",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "U.S. Food and Drug Administration",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.fda.gov/animal-veterinary/animal-health-literacy/questions-answers-fdas-work-potential-causes-non-hereditary-dcm-dogs",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Q&A questions 7–9",
+   "usos": [
+    {
+     "articulo": "editorial/nutrition/best-food-for-french-bulldogs/ARTICLE.en.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "FDA has reports of potential non-hereditary DCM associated with both grain-free and grain-containing diets; the science has not established that all grain-free diets are inherently unsafe.",
+      "The agency states there is no definitive information demonstrating specific reported diets are inherently unsafe and has not required recalls on that basis."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.fda.gov/animal-veterinary/animal-health-literacy/questions-answers-fdas-work-potential-causes-non-hereditary-dcm-dogs",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "A report signal is not evidence of an individual product's causal role; no brand safety endorsement or ranking.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F263",
+   "autor_u_organismo": "American Animal Hospital Association",
+   "autores": null,
+   "organizacion": "American Animal Hospital Association",
+   "titulo_exacto": "Nutritional Risk Factors",
+   "tipo_fuente": "guia_profesional",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "American Animal Hospital Association",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.aaha.org/resources/2021-aaha-nutrition-and-weight-management-guidelines/nutritional-risk-factors/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Table 4 — Nutritional Screening: Risk Factors",
+   "usos": [
+    {
+     "articulo": "editorial/nutrition/safe-treats-for-french-bulldogs/ARTICLE.en.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "Table 4 identifies calories from noncomplete and balanced foods greater than 10% of daily energy as a nutritional risk factor.",
+      "Treat calories must be considered within the dog's whole diet and health, not as a recommendation to feed exactly 10% treats."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.aaha.org/resources/2021-aaha-nutrition-and-weight-management-guidelines/nutritional-risk-factors/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "AAHA risk-screening threshold is not a dog-specific optimal treat allocation.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F264",
+   "autor_u_organismo": "American Veterinary Society of Animal Behavior",
+   "autores": null,
+   "organizacion": "AVSAB",
+   "titulo_exacto": "Preventing Food Guarding",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "AVSAB",
+   "fecha_publicacion": "2015",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://avsab.org/preventing-food-guarding/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Final caution about already aggressive dogs, preventive steps intended for nonaggressive dogs",
+   "usos": [
+    {
+     "articulo": "editorial/es/guias/perro-agresivo-con-la-comida/ARTICLE.html",
+     "numero_referencia": 7,
+     "afirmaciones": [
+      "El ejercicio preventivo descrito por AVSAB se dirige a perros que no presentan agresividad al comer.",
+      "La asociación advierte que si el perro ya presenta agresividad junto al plato el procedimiento puede ser inseguro y no debe realizarse sin apoyo y supervisión profesional."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://avsab.org/preventing-food-guarding/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Documento educativo de prevención; no un protocolo de tratamiento autónomo para perros que gruñen o muerden. Datos registrados durante SEO ES1.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F265",
+   "autor_u_organismo": "U.S. Food and Drug Administration",
+   "autores": null,
+   "organizacion": "U.S. Food and Drug Administration",
+   "titulo_exacto": "Hoja informativa para dueños de mascotas y veterinarios acerca de los posibles eventos adversos asociados con los productos que contienen isoxazolina contra pulgas y garrapatas",
+   "tipo_fuente": "ficha_oficial",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "U.S. Food and Drug Administration",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.fda.gov/animal-veterinary/animal-health-literacy/hoja-informativa-para-duenos-de-mascotas-y-veterinarios-acerca-de-los-posibles-eventos-adversos",
+   "urls_anteriores": [],
+   "idioma_original": "es",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "¿Qué debo saber? Reacciones neurológicas adversas; antecedentes y selección",
+   "usos": [
+    {
+     "articulo": "editorial/es/guias/acaros-en-los-oidos-perros/ARTICLE.html",
+     "numero_referencia": 7,
+     "afirmaciones": [
+      "La FDA advierte de temblores musculares, ataxia y convulsiones con algunos medicamentos de la clase de isoxazolinas, incluso en animales sin antecedentes."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/pulgas-en-perros/ARTICLE.html",
+     "numero_referencia": 9,
+     "afirmaciones": [
+      "La FDA recomienda revisar historial médico y balance beneficio-riesgo antes de indicar isoxazolinas; la mayoría de perros y gatos las toleran."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/sarna-demodecica-perros/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "Las isoxazolinas pueden asociarse a eventos neurológicos; la elección para demodicosis requiere atención profesional, y las indicaciones aprobadas dependen del país y medicamento."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.fda.gov/animal-veterinary/animal-health-literacy/hoja-informativa-para-duenos-de-mascotas-y-veterinarios-acerca-de-los-posibles-eventos-adversos",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Enlace oficial FDA en español. Señal de farmacovigilancia, no tasa de eventos adversos ni contraindicación universal.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F266",
+   "autor_u_organismo": "RECOVER Initiative",
+   "autores": null,
+   "organizacion": "RECOVER Initiative",
+   "titulo_exacto": "RECOVER Guidelines: First Aid for Dogs and Cats. Clinical Guidelines",
+   "tipo_fuente": "guia_clinica",
+   "es_fuente_primaria": true,
+   "revista": "Journal of Veterinary Emergency and Critical Care",
+   "sitio": "RECOVER Initiative",
+   "fecha_publicacion": "2026",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": "10.1111/vec.70138",
+   "pmid": null,
+   "url_canonica": "https://doi.org/10.1111/vec.70138",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": "Heat-related illness; cooling recommendations",
+   "usos": [
+    {
+     "articulo": "editorial/es/guias/bulldog-frances-calor-golpe-de-calor/ARTICLE.html",
+     "numero_referencia": 8,
+     "afirmaciones": [
+      "En perros con enfermedad por calor, las recomendaciones incluyen sacar de la fuente de calor, enfriar activamente de inmediato cuando sea seguro y transportar a atención veterinaria sin demora.",
+      "Sugieren enfriamiento por agua fresca corriente sobre el cuerpo por detrás del cuello, evitando cabeza y vías respiratorias."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://doi.org/10.1111/vec.70138",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Guía de primeros auxilios clínicos RECOVER 2026, no un ensayo de raza específica. Mantener atención veterinaria urgente.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }

@@ -1,7 +1,7 @@
 {
   "title": "Bulldog francés blanco y sordera: riesgos, señales y prueba BAER",
-  "seoTitle": "Bulldog francés blanco y sordera: prueba BAER",
-  "description": "¿El bulldog francés blanco es sordo más a menudo? Por qué hay sordera en perros blancos, cómo saber si un cachorro no oye y cómo funciona la prueba BAER.",
+  "seoTitle": "Bulldog francés blanco: sordera",
+  "description": "Bulldog francés blanco y sordera: qué riesgos de pigmentación están documentados, qué no sabemos para la raza y cómo funciona la prueba BAER.",
   "category": "genetics",
   "primaryKeyword": "bulldog francés blanco y sordera",
   "secondaryKeywords": [
@@ -13,7 +13,7 @@
     "perro sordo de nacimiento"
   ],
   "keywordEn": "white french bulldog deafness",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "bulldog-frances-merle",
@@ -25,7 +25,7 @@
   "faq": [
     {
       "q": "¿Los perros blancos son sordos?",
-      "a": "No todos, pero la sordera congénita está asociada a la pigmentación blanca, sobre todo en perros con genes piebald o merle. La mayoría de los bulldogs franceses blancos oyen con normalidad."
+      "a": "No necesariamente. Algunas variantes de pigmentación están asociadas con sordera congénita, pero no hay aquí una tasa representativa para bulldogs franceses blancos. BAER puede evaluar ambos oídos."
     },
     {
       "q": "¿Cómo saber si mi bulldog francés es sordo?",
@@ -37,7 +37,7 @@
     },
     {
       "q": "¿La sordera congénita en perros tiene cura?",
-      "a": "No. El oído afectado queda totalmente sordo, aunque la sordera no duele ni empeora. Con señales de mano y algunas precauciones, un perro sordo puede llevar una vida plena."
+      "a": "La forma hereditaria neurosensorial que describe Merck generalmente no tiene tratamiento para recuperar la audición afectada. Otras causas de pérdida auditiva requieren diagnóstico diferencial veterinario."
     },
     {
       "q": "¿El bulldog francés blanco es aceptado por la FCI?",

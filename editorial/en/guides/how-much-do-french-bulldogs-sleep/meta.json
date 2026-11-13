@@ -1,7 +1,7 @@
 {
   "title": "How Much Do French Bulldogs Sleep? Normal Hours and Warning Signs",
-  "seoTitle": "How Much Do French Bulldogs Sleep? Adults and Puppies",
-  "description": "How much do French Bulldogs sleep? Normal hours for adults and puppies, why your Frenchie sleeps so much, and when snoring means a breathing problem.",
+  "seoTitle": "How Much Do French Bulldogs Sleep?",
+  "description": "How much do French Bulldogs sleep? Compare research on dog sleep with breed-specific breathing concerns and learn when to see your veterinarian.",
   "category": "daily-care",
   "primaryKeyword": "how much do french bulldogs sleep",
   "secondaryKeywords": [
@@ -12,7 +12,7 @@
     "french bulldog snoring"
   ],
   "keywordEs": "cuántas horas duerme un bulldog francés",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "french-bulldog-noisy-breathing",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "How many hours a day do French Bulldogs sleep?",
-      "a": "There are no breed-specific studies, but adult dogs in general sleep roughly 10 to 13 hours a day, counting night sleep and naps. A healthy adult Frenchie in that range is normal."
+      "a": "There is no validated French Bulldog-specific daily range. Studies of other dogs provide approximate averages, but a change in your dog's usual sleep or alertness matters more than a fixed number."
     },
     {
       "q": "How much do French Bulldog puppies sleep?",
@@ -32,7 +32,7 @@
     },
     {
       "q": "Why does my French Bulldog sleep all day?",
-      "a": "It can be normal for a laid-back companion breed, especially when bored or hot. But if your dog also snores, tires quickly or struggles in the heat, poor breathing at night may be leaving them sleepy during the day, so talk to your vet."
+      "a": "Sleep patterns vary. New daytime sleepiness, disrupted sleep or heavy breathing can indicate medical problems, so seek a veterinary evaluation rather than assuming the dog is simply lazy."
     },
     {
       "q": "Is it normal for French Bulldogs to snore?",
@@ -40,8 +40,9 @@
     },
     {
       "q": "Why does my French Bulldog sleep with his eyes open?",
-      "a": "Frenchies have large, prominent eyes that the lids may not fully cover during sleep. Usually it is harmless, but see your vet if the eyes look red, have discharge or your dog squints."
+      "a": "Incomplete eyelid closure can expose the cornea. Seek veterinary care for persistent exposure, redness, cloudiness, discharge or squinting; appearance alone cannot prove the eye is healthy."
     }
   ],
-  "image": "/images/photos/pied-puppy-resting.webp"
+  "image": "/images/photos/pied-puppy-resting.webp",
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch"
 }

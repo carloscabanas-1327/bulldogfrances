@@ -1,7 +1,7 @@
 {
   "title": "Ácaros en los oídos de perros: síntomas, contagio y tratamiento",
-  "seoTitle": "Ácaros en los oídos de perros: síntomas y tratamiento",
-  "description": "Cómo reconocer los ácaros en los oídos de tu perro, en qué se diferencian de una otitis, qué tratamientos funcionan y por qué tratar a todos en casa.",
+  "seoTitle": "Ácaros del oído en perros",
+  "description": "Ácaros del oído en perros: cómo distinguirlos de una otitis, qué tratamientos valora el veterinario y precauciones para animales en contacto.",
   "category": "health",
   "primaryKeyword": "ácaros en los oídos de perros",
   "secondaryKeywords": [
@@ -11,7 +11,7 @@
     "otitis en perros"
   ],
   "keywordEn": "ear mites in dogs",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "sarna-demodecica-perros",
@@ -27,15 +27,15 @@
     },
     {
       "q": "¿Cómo diferenciar ácaros de una otitis?",
-      "a": "A simple vista no se puede: una secreción oscura también aparece con levaduras o bacterias. El veterinario lo confirma mirando el oído con otoscopio o la cera al microscopio."
+      "a": "No se puede saber solo por la cera oscura. La otoscopia y el examen microscópico pueden identificar ácaros, levaduras o bacterias; consulta antes de usar gotas."
     },
     {
       "q": "¿Sirven los remedios caseros para los ácaros del oído?",
-      "a": "No se recomiendan. El Manual Merck desaconseja mezclas irritantes como el vinagre porque pueden empeorar la inflamación. Los tratamientos eficaces son antiparasitarios recetados por el veterinario."
+      "a": "Evita vinagre, aceites y limpiadores sin indicación. Si el tímpano está lesionado, ciertos líquidos pueden causar daños; el veterinario elegirá el antiparasitario y la limpieza apropiados."
     },
     {
       "q": "¿Los ácaros del oído se contagian a otros animales o a personas?",
-      "a": "Se contagian con facilidad entre perros y gatos por contacto directo, por eso hay que tratar a todos los animales de la casa. En personas es raro y como mucho causa una picazón pasajera."
+      "a": "Pasan fácilmente por contacto entre perros y gatos. El veterinario decidirá qué mascotas expuestas necesitan tratarse. La afectación humana es infrecuente y debe evaluarse si hay síntomas."
     }
   ],
   "enUrl": "/en/health/ear-mites-in-dogs/"

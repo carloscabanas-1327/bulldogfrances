@@ -1,7 +1,7 @@
 {
   "title": "Blue Eyed French Bulldog: Causes, Health Risks and Puppy Eye Color",
-  "seoTitle": "Blue Eyed French Bulldog: Causes and Health Risks",
-  "description": "Why a blue eyed French Bulldog has blue eyes (merle, white, puppy pigment), the links to deafness and eye defects, and when blue or cloudy eyes need a vet.",
+  "seoTitle": "Blue-Eyed French Bulldog: Risks",
+  "description": "Blue-eyed French Bulldogs: pigment traits versus disease, merle genetics, hearing checks, and eye changes that need urgent veterinary care.",
   "category": "genetics",
   "primaryKeyword": "blue eyed french bulldog",
   "secondaryKeywords": [
@@ -13,7 +13,7 @@
     "grey blue eyed french bulldog"
   ],
   "keywordEs": "bulldog francés ojos azules",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "merle-french-bulldog-health-risks",
@@ -33,7 +33,7 @@
     },
     {
       "q": "Are blue eyed French Bulldogs deaf?",
-      "a": "Not all, but blue-eyed dogs are statistically more likely to be deaf because pigment-related deafness often comes with blue eyes and white coats. Only a BAER test checks each ear."
+      "a": "Blue eyes alone do not diagnose deafness. Certain merle and white-spotting variants are associated with higher hearing risk, but a BAER test is needed to check hearing in each ear."
     },
     {
       "q": "Can a French Bulldog have one blue eye?",
@@ -41,7 +41,9 @@
     },
     {
       "q": "Why is my French Bulldog's eye turning blue or cloudy?",
-      "a": "In an adult, a new blue or cloudy look usually comes from the cornea, a cataract or glaucoma, not the iris. See a vet the same day, especially if the eye is red, painful or bulging."
+      "a": "New cloudiness or blue-gray haze in an adult dog's eye can reflect an ophthalmic problem. Sudden pain, redness, a dilated pupil, vision change or bulging requires immediate veterinary care."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
+  "seoAuditNote": "Edited 2026-11-12: genetic associations and inference limitations reviewed; no Frenchton prospective outcomes inferred."
 }

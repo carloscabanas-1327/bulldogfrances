@@ -1,6 +1,6 @@
 {
   "title": "Overweight French Bulldog: Risks, Body Condition and Weight Loss",
-  "seoTitle": "Overweight French Bulldog: Signs, Risks, Weight Loss",
+  "seoTitle": "Overweight French Bulldog: Signs",
   "description": "How to tell if you have an overweight French Bulldog, how extra weight worsens BOAS and spine problems, and how to plan safe weight loss with your vet.",
   "category": "health",
   "primaryKeyword": "overweight french bulldog",
@@ -12,7 +12,7 @@
     "french bulldog weight loss"
   ],
   "keywordEs": "bulldog francés sobrepeso",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "how-much-should-a-french-bulldog-eat",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "q": "How much should a French Bulldog weigh?",
-      "a": "The AKC standard sets a maximum of 28 lb, and the FCI range is about 20 to 31 lb for males and 18 to 29 lb for females. Body condition matters more than the number: you should feel the ribs easily and see a waist."
+      "a": "Breed standards describe show conformation, not a universal healthy weight. A veterinarian should assess body and muscle condition to determine an individual target."
     },
     {
       "q": "How do I know if my French Bulldog is overweight?",
@@ -36,11 +36,13 @@
     },
     {
       "q": "How can I help my French Bulldog lose weight safely?",
-      "a": "Work with your vet on a calorie target based on ideal weight, use a weight-loss diet rather than just cutting regular food, weigh portions, keep treats under 10% of calories and add gentle, cool walks."
+      "a": "Ask your veterinarian to estimate target weight and calories using body and muscle condition, then adjust complete-and-balanced food, portions and activity to the dog's age and health. Avoid rapid restriction."
     },
     {
       "q": "Can a French Bulldog puppy be overweight?",
       "a": "Yes. Puppies should look sturdy, not round, and growing dogs need more frequent body condition checks. Measure food and ask your vet to score your puppy at each visit."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
+  "seoAuditNote": "2026-11-12 targeted source/claim review; not professional veterinary approval or live-site verification"
 }

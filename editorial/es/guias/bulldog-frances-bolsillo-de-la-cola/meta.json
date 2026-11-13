@@ -1,6 +1,6 @@
 {
   "title": "Bolsillo de la cola del bulldog francés: limpieza e infección",
-  "seoTitle": "Bolsillo de la cola del bulldog francés: cómo limpiarlo",
+  "seoTitle": "Pliegue de cola del bulldog",
   "description": "Qué es el bolsillo de la cola del bulldog francés, cómo limpiarlo paso a paso, qué no usar, señales de infección y cuándo ir al veterinario.",
   "category": "daily-care",
   "primaryKeyword": "bolsillo de la cola del bulldog francés",
@@ -23,7 +23,7 @@
   "faq": [
     {
       "q": "¿Cómo se limpia la cola de un bulldog francés?",
-      "a": "Revisa con suavidad el pliegue, limpia solo con productos recomendados por tu veterinario y sécalo bien. Si está dolorido o no puedes acceder sin forzarlo, consulta antes de intentar limpiarlo."
+      "a": "Inspecciona el pliegue sin forzarlo y limpia según indicación veterinaria. Dolor, mal olor o secreción requieren consulta; no todos necesitan cirugía."
     },
     {
       "q": "¿Cómo sé si la cola de mi bulldog francés está infectada?",
@@ -41,5 +41,6 @@
       "q": "¿Puedo ponerle talco o crema en el pliegue de la cola?",
       "a": "Mejor no. El talco se apelmaza y retiene humedad, y las cremas para personas pueden irritar o ser lamidas. Usa solo los productos que te indique tu veterinario."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; no se atribuyen métricas."
 }

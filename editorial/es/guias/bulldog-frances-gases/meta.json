@@ -1,7 +1,7 @@
 {
   "title": "Bulldog francés con gases: causas, qué hacer y cuándo preocuparse",
-  "seoTitle": "Bulldog francés con gases: causas y qué hacer",
-  "description": "Por qué tu bulldog francés tiene muchos gases, qué alimentos los provocan, qué hacer en casa y qué señales (diarrea, barriga hinchada) piden ir al veterinario.",
+  "seoTitle": "Bulldog francés con gases",
+  "description": "Por qué tu bulldog francés tiene muchos gases, qué alimentos los provocan, qué hacer en casa y qué señales (diarrea, barriga hinchada) piden ir al.",
   "category": "nutrition",
   "primaryKeyword": "bulldog francés gases",
   "secondaryKeywords": [
@@ -13,7 +13,7 @@
     "por qué mi perro tiene muchos gases"
   ],
   "keywordEn": "french bulldog farts",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "diarrea-bulldog-frances",
@@ -25,7 +25,7 @@
   "faq": [
     {
       "q": "¿Es normal que mi bulldog francés tenga muchos gases?",
-      "a": "Es frecuente en la raza porque traga más aire al respirar y muchos comen rápido. Lo que no es normal es que los gases vayan con diarrea, vómitos, pérdida de peso o barriga hinchada."
+      "a": "El aire ingerido, la dieta y las enfermedades digestivas pueden contribuir a los gases. No puede atribuirse siempre al hocico corto."
     },
     {
       "q": "¿Qué le puedo dar a mi perro para los gases?",
@@ -44,5 +44,6 @@
       "a": "Cuando la barriga se hincha y endurece, el perro tiene arcadas sin poder vomitar, está inquieto o respira rápido. Puede ser una dilatación-torsión gástrica: ve al veterinario de inmediato."
     }
   ],
-  "image": "/images/photos/black-puppy-teddy.webp"
+  "image": "/images/photos/black-puppy-teddy.webp",
+  "seoAuditKeywordEvidenceES": "Keyword Planner por mercado pendiente; sin métricas verificadas."
 }

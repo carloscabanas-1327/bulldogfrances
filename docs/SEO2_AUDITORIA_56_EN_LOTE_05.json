@@ -1,0 +1,269 @@
+{
+  "date": "2026-11-12",
+  "scope": "Eight imported articles source file inspection; clinical signoff pending",
+  "items": [
+    {
+      "slug": "french-bulldog-back-pain-weak-legs",
+      "title": "French Bulldog Back Pain & IVDD",
+      "seoTitleLength": 52,
+      "descriptionLength": 140,
+      "primaryKeyword": "french bulldog back pain",
+      "leadSentence": "French Bulldog back pain or sudden weakness in the hind legs can signal a spinal problem, including intervertebral disc disease (IVDD).",
+      "leadLength": 135,
+      "headings": [
+        "French Bulldog Back Pain: IVDD and Other Causes",
+        "Signs of back pain",
+        "Emergency signs",
+        "How IVDD is treated",
+        "Other causes of weak back legs",
+        "Protecting your Frenchie's back",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 5,
+      "referenceLinks": [
+        "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/intervertebral-disc-disease",
+        "https://doi.org/10.1186/s40575-021-00112-3",
+        "https://vgl.ucdavis.edu/test/cddy-cdpa",
+        "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system-in-small-animals/congenital-and-inherited-spinal-cord-disorders-in-dogs-and-cats",
+        "https://www.akc.org/breeder-programs/dna/dna-resource-center/akc-dna-health/breed-specific-dna-testing-recommendations/french-bulldog-dna-tests/"
+      ],
+      "image": "/images/hero/french-bulldog-ivdd-vet-editorial-ai.webp",
+      "flags": [
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-breeder-health-tests",
+      "title": "French Bulldog Breeder Health Tests",
+      "seoTitleLength": 56,
+      "descriptionLength": 158,
+      "primaryKeyword": "french bulldog health tests",
+      "leadSentence": "French Bulldogs are expensive, wildly popular and prone to inherited disease.",
+      "leadLength": 77,
+      "headings": [
+        "Why French Bulldog health testing matters so much",
+        "The 4 required tests: hips, eyes, patellas and heart",
+        "Recommended extras: BOAS breathing grade, HSF4 cataracts, cystinuria",
+        "What a CHIC number does and does not prove",
+        "How to verify a breeder's health claims on OFA",
+        "Red flags of a backyard breeder",
+        "Questions to ask a French Bulldog breeder, word for word",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 13,
+      "referenceLinks": [
+        "https://frenchbulldogclub.org/health/testingregistries/",
+        "https://ofa.org/chic-programs/",
+        "https://www.vet.cam.ac.uk/boas/about-boas/recognition-diagnosis",
+        "https://www.akc.org/most-popular-breeds/",
+        "https://doi.org/10.1186/s40575-021-00112-3",
+        "https://ofa.org/diseases/hip-dysplasia/",
+        "https://ofa.org/diseases/eye-certification/",
+        "https://www.acvo.org/",
+        "https://ofa.org/diseases/patellar-luxation/",
+        "https://ofa.org/diseases/cardiac-disease/",
+        "https://www.akc.org/breeder-programs/dna/dna-resource-center/akc-dna-health/breed-specific-dna-testing-recommendations/french-bulldog-dna-tests/",
+        "https://www.royalkennelclub.com/health-and-dog-care/health-dog-care/health/getting-started-with-health-testing-and-screening/respiratory-function-grading-scheme/",
+        "https://www.vet.upenn.edu/research/research-laboratories/penngenn-laboratories"
+      ],
+      "image": "/images/articles/french-bulldog-breeder-health-tests/chic-four-tests.webp",
+      "flags": [
+        "KEYWORD_NOT_EXACT_IN_LEAD",
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-crying-whining",
+      "title": "French Bulldog Crying: Why?",
+      "seoTitleLength": 48,
+      "descriptionLength": 157,
+      "primaryKeyword": "french bulldog crying",
+      "leadSentence": "Why does my French Bulldog cry so much?",
+      "leadLength": 39,
+      "headings": [
+        "Common reasons Frenchies whine",
+        "Crying that may mean pain",
+        "Is it crying or a breathing sound?",
+        "Puppy crying at night",
+        "Crying when left alone",
+        "How to reduce attention whining",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 3,
+      "referenceLinks": [
+        "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/intervertebral-disc-disease",
+        "https://www.vet.cam.ac.uk/boas/about-boas/recognition-diagnosis",
+        "https://avsab.org/resources/position-statements/"
+      ],
+      "image": "/images/photos/puppy-in-hands.webp",
+      "flags": [
+        "KEYWORD_NOT_EXACT_IN_LEAD",
+        "NO_FAQ"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-diarrhea",
+      "title": "French Bulldog Diarrhea: What to Do",
+      "seoTitleLength": 56,
+      "descriptionLength": 146,
+      "primaryKeyword": "french bulldog diarrhea",
+      "leadSentence": "French Bulldog diarrhea may be mild, but blood, repeated vomiting, severe weakness or illness in a puppy needs prompt veterinary advice.",
+      "leadLength": 136,
+      "headings": [
+        "French Bulldog Diarrhea: Is the Breed More Prone?",
+        "Common causes",
+        "When to see a vet",
+        "Emergency Signs: When to Go Now",
+        "Home care for mild cases",
+        "Preventing it",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 6,
+      "referenceLinks": [
+        "https://doi.org/10.1186/s40575-021-00112-3",
+        "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/disorders-of-the-stomach-and-intestines-in-dogs",
+        "https://vcahospitals.com/know-your-pet/diarrhea-in-dogs",
+        "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/vomiting-in-dogs",
+        "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/diarrhea",
+        "https://vcahospitals.com/urgent-care/health-concerns/diarrhea-or-vomiting"
+      ],
+      "image": "/images/hero/french-bulldog-diarrhea-vet-preparation-ai.webp",
+      "flags": [
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-dry-nose",
+      "title": "French Bulldog Dry Nose: Causes",
+      "seoTitleLength": 52,
+      "descriptionLength": 136,
+      "primaryKeyword": "french bulldog dry nose",
+      "leadSentence": "A dry French Bulldog nose is usually harmless, but a thick, crusty or cracked nose may be nasal hyperkeratosis.",
+      "leadLength": 111,
+      "headings": [
+        "Is a dry nose a sign of illness?",
+        "Nasal hyperkeratosis in French Bulldogs",
+        "Other causes of a dry or cracked nose",
+        "Safe home care",
+        "When to see a vet",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 2,
+      "referenceLinks": [
+        "https://doi.org/10.3390/vetsci12090792",
+        "https://doi.org/10.1186/s40575-021-00112-3"
+      ],
+      "image": "/images/photos/white-puppy-black-ears.webp",
+      "flags": [
+        "KEYWORD_NOT_EXACT_IN_LEAD",
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-first-heat-care",
+      "title": "French Bulldog First Heat: Guide",
+      "seoTitleLength": 53,
+      "descriptionLength": 144,
+      "primaryKeyword": "french bulldog first heat",
+      "leadSentence": "Is your Frenchie in heat for the first time?",
+      "leadLength": 44,
+      "headings": [
+        "When will my Frenchie have her first heat?",
+        "The stages of a heat cycle",
+        "Signs she is in heat",
+        "Caring for her during heat",
+        "Warning signs after heat",
+        "Spaying: questions to ask your vet",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 2,
+      "referenceLinks": [
+        "https://www.merckvetmanual.com/dog-owners/reproductive-disorders-of-dogs/management-of-reproduction-in-dogs",
+        "https://doi.org/10.1186/s40575-021-00112-3"
+      ],
+      "image": null,
+      "flags": [
+        "HERO_MISSING",
+        "KEYWORD_NOT_EXACT_IN_LEAD",
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-heat-safety",
+      "title": "French Bulldog Heatstroke: Signs",
+      "seoTitleLength": 53,
+      "descriptionLength": 145,
+      "primaryKeyword": "french bulldog heatstroke",
+      "leadSentence": "French Bulldog heatstroke is a veterinary emergency.",
+      "leadLength": 52,
+      "headings": [
+        "Why Frenchies struggle in the heat",
+        "What the research shows",
+        "French Bulldog Heatstroke: Warning Signs",
+        "What to do right now if you suspect heatstroke",
+        "Everyday heat safety habits",
+        "Common myths",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 4,
+      "referenceLinks": [
+        "https://doi.org/10.1038/s41598-020-66015-8",
+        "https://www.vet.cam.ac.uk/boas/about-boas/recognition-diagnosis",
+        "https://www.rvc.ac.uk/vetcompass/news/the-rvc-urges-owners-of-hot-dogs-to-cool-first-transport-second",
+        "https://rvc.ac.uk/Media/Default/VetCompass/HOW%20TO%20COOL%20HOT%20DOGS%20(1).pdf"
+      ],
+      "image": "/images/hero/french-bulldog-heat-safety-editorial-ai.webp",
+      "flags": [
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    },
+    {
+      "slug": "french-bulldog-human-allergies",
+      "title": "French Bulldogs & Human Allergies",
+      "seoTitleLength": 54,
+      "descriptionLength": 129,
+      "primaryKeyword": "are french bulldogs hypoallergenic",
+      "leadSentence": "Are French Bulldogs hypoallergenic?",
+      "leadLength": 35,
+      "headings": [
+        "Are French Bulldogs hypoallergenic?",
+        "What actually causes dog allergies",
+        "Frenchie traits that matter for allergies",
+        "How to test before you commit",
+        "Living with a Frenchie when you have allergies",
+        "Related French Bulldog guides",
+        "Sources and references"
+      ],
+      "referenceCount": 1,
+      "referenceLinks": [
+        "https://www.aaaai.org/conditions-treatments/allergies/pet-allergy"
+      ],
+      "image": "/images/photos/black-puppy-blue-collar.webp",
+      "flags": [
+        "NO_FAQ",
+        "CLINICAL_OR_GENETIC_SOURCE_RECHECK"
+      ],
+      "signoff": "SOURCE_AND_VISUAL_QA_PENDING"
+    }
+  ]
+}
