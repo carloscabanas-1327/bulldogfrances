@@ -1,7 +1,7 @@
 {
   "title": "¿Puede un bulldog francés subir escaleras? Columna, saltos y prevención",
-  "seoTitle": "Bulldog francés y escaleras: riesgos para la columna",
-  "description": "Qué dice la evidencia sobre el bulldog francés y las escaleras, por qué la raza tiene tantas hernias de disco, qué hacer con cachorros y cuándo usar rampas.",
+  "seoTitle": "Bulldog francés y escaleras",
+  "description": "¿Puede un bulldog francés subir escaleras? Qué indican los estudios sobre hernia discal, cuándo evitar movimientos y cuándo acudir a urgencias.",
   "category": "daily-care",
   "primaryKeyword": "bulldog francés escaleras",
   "secondaryKeywords": [
@@ -11,7 +11,7 @@
     "hernia discal bulldog francés"
   ],
   "keywordEn": "french bulldog stairs",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "cuidados-cachorro-bulldog-frances",
@@ -23,7 +23,7 @@
   "faq": [
     {
       "q": "¿Puede un bulldog francés subir escaleras?",
-      "a": "Un adulto sano puede subir escaleras con calma y moderación. Conviene limitarlas en cachorros, perros mayores y perros con problemas de columna previos."
+      "a": "Un adulto cómodo y sano puede hacerlo despacio con buena tracción. El dolor, la debilidad o una lesión discal requieren restricciones individualizadas por su veterinario."
     },
     {
       "q": "¿Las escaleras causan hernias en el bulldog francés?",
@@ -31,11 +31,11 @@
     },
     {
       "q": "¿A qué edad puede un cachorro subir escaleras?",
-      "a": "No hay una edad establecida para la raza. Por prudencia, cárgalo en las escaleras durante sus primeros meses: en razas grandes, usar escaleras antes de los 3 meses se asoció a más displasia de cadera."
+      "a": "No existe una edad mínima universal demostrada para el bulldog francés. Evita caídas, supervisa los desniveles y consulta si presenta dolor o problemas de movilidad."
     },
     {
       "q": "¿Conviene una rampa para el sofá o la cama?",
-      "a": "Sí, reduce los saltos, que son el impacto más brusco para su columna. Es especialmente útil en perros mayores o que ya tuvieron una hernia."
+      "a": "Una rampa firme puede ayudar a algunos perros a evitar saltos, pero no está demostrado que prevenga hernias discales. No enseñes a usarla durante dolor agudo o debilidad."
     }
   ],
   "enUrl": "/en/daily-care/french-bulldog-stairs/"
