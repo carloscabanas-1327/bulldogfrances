@@ -233,8 +233,7 @@
    "height": 1024,
    "articulos": [
     "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-puppy-paperwork",
-    "editorial/es/guias/papeles-cachorro-bulldog-frances",
-    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-red-eyes"
+    "editorial/es/guias/papeles-cachorro-bulldog-frances"
    ],
    "review_status": "aprobada por Carlos (\"sube las fotos que haya\", 2026-11-03)",
    "created_at": "2026-11-04"
@@ -1595,6 +1594,177 @@
    "height": 1350,
    "articulos": [
     "editorial/es/guias/bulldog-frances-ojos-rojos"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "french-bulldog-red-eyes-infographic",
+   "web_file": "/images/infographics/french-bulldog-red-eyes/french-bulldog-red-eyes-16x9.webp",
+   "video_files": [
+    "/images/infographics/french-bulldog-red-eyes/french-bulldog-red-eyes-9x16.jpg",
+    "/images/infographics/french-bulldog-red-eyes/french-bulldog-red-eyes-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-2.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "idioma": "en",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-red-eyes"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "how-much-should-a-french-bulldog-eat-infographic",
+   "web_file": "/images/infographics/how-much-should-a-french-bulldog-eat/how-much-should-a-french-bulldog-eat-16x9.webp",
+   "video_files": [
+    "/images/infographics/how-much-should-a-french-bulldog-eat/how-much-should-a-french-bulldog-eat-9x16.jpg",
+    "/images/infographics/how-much-should-a-french-bulldog-eat/how-much-should-a-french-bulldog-eat-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-2.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "idioma": "en",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/nutrition/how-much-should-a-french-bulldog-eat"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "cuanto-debe-comer-un-bulldog-frances-infographic",
+   "web_file": "/images/infographics/cuanto-debe-comer-un-bulldog-frances/cuanto-debe-comer-un-bulldog-frances-16x9.webp",
+   "video_files": [
+    "/images/infographics/cuanto-debe-comer-un-bulldog-frances/cuanto-debe-comer-un-bulldog-frances-9x16.jpg",
+    "/images/infographics/cuanto-debe-comer-un-bulldog-frances/cuanto-debe-comer-un-bulldog-frances-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-2.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "idioma": "es",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/nutrition/how-much-should-a-french-bulldog-eat"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "best-food-for-french-bulldogs-infographic",
+   "web_file": "/images/infographics/best-food-for-french-bulldogs/best-food-for-french-bulldogs-16x9.webp",
+   "video_files": [
+    "/images/infographics/best-food-for-french-bulldogs/best-food-for-french-bulldogs-9x16.jpg",
+    "/images/infographics/best-food-for-french-bulldogs/best-food-for-french-bulldogs-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-2.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "idioma": "en",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/nutrition/best-food-for-french-bulldogs"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "mejor-alimento-bulldog-frances-infographic",
+   "web_file": "/images/infographics/mejor-alimento-bulldog-frances/mejor-alimento-bulldog-frances-16x9.webp",
+   "video_files": [
+    "/images/infographics/mejor-alimento-bulldog-frances/mejor-alimento-bulldog-frances-9x16.jpg",
+    "/images/infographics/mejor-alimento-bulldog-frances/mejor-alimento-bulldog-frances-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-2.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "idioma": "es",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/nutrition/best-food-for-french-bulldogs"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "french-bulldog-food-allergies-infographic",
+   "web_file": "/images/infographics/french-bulldog-food-allergies/french-bulldog-food-allergies-16x9.webp",
+   "video_files": [
+    "/images/infographics/french-bulldog-food-allergies/french-bulldog-food-allergies-9x16.jpg",
+    "/images/infographics/french-bulldog-food-allergies/french-bulldog-food-allergies-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-2.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "idioma": "en",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/nutrition/french-bulldog-food-allergies"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "alergias-alimentarias-bulldog-frances-infographic",
+   "web_file": "/images/infographics/alergias-alimentarias-bulldog-frances/alergias-alimentarias-bulldog-frances-16x9.webp",
+   "video_files": [
+    "/images/infographics/alergias-alimentarias-bulldog-frances/alergias-alimentarias-bulldog-frances-9x16.jpg",
+    "/images/infographics/alergias-alimentarias-bulldog-frances/alergias-alimentarias-bulldog-frances-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-2.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "idioma": "es",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/nutrition/french-bulldog-food-allergies"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "safe-treats-for-french-bulldogs-infographic",
+   "web_file": "/images/infographics/safe-treats-for-french-bulldogs/safe-treats-for-french-bulldogs-16x9.webp",
+   "video_files": [
+    "/images/infographics/safe-treats-for-french-bulldogs/safe-treats-for-french-bulldogs-9x16.jpg",
+    "/images/infographics/safe-treats-for-french-bulldogs/safe-treats-for-french-bulldogs-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-2.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "idioma": "en",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/nutrition/safe-treats-for-french-bulldogs"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "premios-seguros-bulldog-frances-infographic",
+   "web_file": "/images/infographics/premios-seguros-bulldog-frances/premios-seguros-bulldog-frances-16x9.webp",
+   "video_files": [
+    "/images/infographics/premios-seguros-bulldog-frances/premios-seguros-bulldog-frances-9x16.jpg",
+    "/images/infographics/premios-seguros-bulldog-frances/premios-seguros-bulldog-frances-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-2.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "idioma": "es",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/nutrition/safe-treats-for-french-bulldogs"
    ],
    "created_at": "2026-11-13",
    "subject": "Puntos clave citados del artículo."
