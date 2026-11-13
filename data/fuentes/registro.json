@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 — SEO8: 10 remaining English guides individually reviewed for targeted medical, genetic, legal and nutrition claims. F261 current eCFR, F262 FDA DCM Q&A, F263 AAHA nutritional risk factors. Source registry is not final professional sign-off.",
- "total_fuentes": 263,
+ "ultima_auditoria": "2026-11-12 — SEO ES1: ocho guías españolas revisadas de forma focalizada; F264 nueva, F249 y F261 reutilizadas en ES. Sin aprobación veterinaria integral, SEO técnico ni publicación.",
+ "total_fuentes": 264,
  "fuentes": [
   {
    "id": "F001",
@@ -16817,6 +16817,14 @@
      "afirmaciones": [
       "As of November 2026, dogs entering the United States need a CDC Dog Import Form receipt, a microchip, apparent good health and a minimum age of six months; high-risk rabies country history triggers additional requirements."
      ]
+    },
+    {
+     "articulo": "editorial/es/guias/bulldog-frances-viajar-en-avion/ARTICLE.html",
+     "numero_referencia": 21,
+     "afirmaciones": [
+      "Los perros que ingresan o regresan a EE. UU. requieren edad mínima de seis meses, microchip detectable, apariencia saludable y recibo CDC Dog Import Form.",
+      "Los requisitos adicionales se basan en países visitados en los seis meses anteriores y situación de vacunación."
+     ]
     }
    ],
    "fecha_verificacion": "2026-11-12",
@@ -17367,6 +17375,14 @@
       "9 CFR § 2.1(a)(3)(iii) includes a conditional exemption for four or fewer breeding females and their offspring born and raised on premises, subject to household and other restrictions.",
       "Licensing assessment cannot be based exclusively on being advertised online."
      ]
+    },
+    {
+     "articulo": "editorial/es/guias/papeles-cachorro-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 9,
+     "afirmaciones": [
+      "9 CFR §2.1(a)(3)(iii) contempla exención condicionada por cuatro o menos hembras reproductoras y crías nacidas y criadas en el establecimiento.",
+      "La exención se ve restringida por límites a actividades coordinadas y múltiples animales en un mismo hogar o predio."
+     ]
     }
    ],
    "fecha_verificacion": "2026-11-12",
@@ -17464,6 +17480,50 @@
     "supported": 2
    },
    "observaciones_editoriales": "AAHA risk-screening threshold is not a dog-specific optimal treat allocation.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F264",
+   "autor_u_organismo": "American Veterinary Society of Animal Behavior",
+   "autores": null,
+   "organizacion": "AVSAB",
+   "titulo_exacto": "Preventing Food Guarding",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "AVSAB",
+   "fecha_publicacion": "2015",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://avsab.org/preventing-food-guarding/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Final caution about already aggressive dogs, preventive steps intended for nonaggressive dogs",
+   "usos": [
+    {
+     "articulo": "editorial/es/guias/perro-agresivo-con-la-comida/ARTICLE.html",
+     "numero_referencia": 8,
+     "afirmaciones": [
+      "El ejercicio preventivo descrito por AVSAB se dirige a perros que no presentan agresividad al comer.",
+      "La asociación advierte que si el perro ya presenta agresividad junto al plato el procedimiento puede ser inseguro y no debe realizarse sin apoyo y supervisión profesional."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://avsab.org/preventing-food-guarding/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Documento educativo de prevención; no un protocolo de tratamiento autónomo para perros que gruñen o muerden. Datos registrados durante SEO ES1.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }
