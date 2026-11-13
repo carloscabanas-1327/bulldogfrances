@@ -1,7 +1,7 @@
 {
   "title": "Pulgas en perros: cómo quitarlas y evitar que vuelvan",
-  "seoTitle": "Pulgas en perros: cómo quitarlas y evitar que vuelvan",
-  "description": "Cómo saber si tu perro tiene pulgas, por qué vuelven aunque lo trates, cómo eliminarlas del perro y de la casa, y qué antipulgas son peligrosos para gatos.",
+  "seoTitle": "Pulgas en perros: qué hacer",
+  "description": "Cómo detectar pulgas en perros y controlar la infestación sin pesticidas mal utilizados. Precauciones para cachorros, gatos y antiparasitarios.",
   "category": "health",
   "primaryKeyword": "pulgas en perros",
   "secondaryKeywords": [
@@ -12,7 +12,7 @@
     "pulgas en perros remedios caseros"
   ],
   "keywordEn": "fleas on dogs",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "acaros-en-los-oidos-perros",
@@ -28,7 +28,7 @@
     },
     {
       "q": "¿Por qué mi perro tiene pulgas si no sale de casa?",
-      "a": "Las pulgas pueden entrar con otra mascota, en la ropa o quedar como pupas de una infestación anterior. Las pupas pueden esperar meses antes de nacer."
+      "a": "Las pulgas pueden llegar con animales o desde pupas que persisten en casa. La ausencia de paseos no descarta infestación; revisa y trata el ambiente según indicaciones profesionales."
     },
     {
       "q": "¿Las pulgas de perro se pegan a los humanos?",
@@ -36,11 +36,11 @@
     },
     {
       "q": "¿Funcionan los remedios caseros contra las pulgas?",
-      "a": "No rompen el ciclo de la pulga. Lo eficaz es un antipulgas veterinario para todas las mascotas de la casa más limpieza del ambiente. El ajo, además, es tóxico para los perros."
+      "a": "No sustituyen el control antiparasitario y ambiental. Consulta qué productos sirven para cada mascota; no utilices mezclas ni plaguicidas domésticos fuera de la etiqueta."
     },
     {
       "q": "¿Cómo quitar las pulgas a un cachorro de 2 meses?",
-      "a": "Usa solo un producto cuya etiqueta autorice esa edad y ese peso, indicado por el veterinario, y limpia a fondo la cama y la casa."
+      "a": "Consulta al veterinario y usa solo productos autorizados para su especie, edad y peso. Algunos antiparasitarios tienen riesgos neurológicos y la permetrina de productos caninos puede intoxicar a los gatos."
     }
   ],
   "enUrl": "/en/health/fleas-on-dogs/"
