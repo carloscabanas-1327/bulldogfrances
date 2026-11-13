@@ -44,5 +44,10 @@
     }
   ],
   "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
-  "seoAuditNote": "Clinical-source editorial check (2026-11-12); not professional veterinary approval or live publication verification."
+  "seoAuditNote": "Clinical-source editorial check (2026-11-12); not professional veterinary approval or live publication verification.",
+  "image": "/images/infographics/kennel-cough-in-dogs/kennel-cough-in-dogs-16x9.webp",
+  "imageAlt": "Infographic: kennel cough in French Bulldogs, typical signs, how long it lasts, and when to call the vet",
+  "imageWidth": 2400,
+  "imageHeight": 1350,
+  "imageType": "image/webp"
 }

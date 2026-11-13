@@ -415,7 +415,8 @@
    "quality": 88,
    "web_bytes": 233884,
    "articulos": [
-    "editorial/en/guides/french-bulldog-lifespan"
+    "editorial/en/guides/french-bulldog-lifespan",
+    "editorial/es/guias/esperanza-de-vida-bulldog-frances"
    ],
    "created_at": "2026-11-12",
    "subject": "mature French Bulldog resting outdoors; illustration does not establish medical age or prognosis"
@@ -438,7 +439,8 @@
    "quality": 88,
    "web_bytes": 198936,
    "articulos": [
-    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-tail-pocket"
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-tail-pocket",
+    "editorial/es/guias/bulldog-frances-bolsillo-de-la-cola"
    ],
    "created_at": "2026-11-12",
    "social_file": "/images/social/french-bulldog-tail-pocket-vet-ai-social.jpg",
@@ -535,7 +537,7 @@
    "rights_status": "Original generated for this site; no third-party photograph used. AI illustration, not documentary evidence.",
    "review_status": "Initial visual review: plausible editorial scene; owner approval and live layout QA still pending.",
    "alt_en": "AI-generated editorial image of a brindle French Bulldog standing during a veterinary examination with its owner nearby",
-   "alt_es": null,
+   "alt_es": "Bulldog francés atigrado de pie durante un examen veterinario, con su dueño cerca; imagen generada con IA",
    "width": 1200,
    "height": 675,
    "master_file": "Original ChatGPT generated PNG, conversation file_000000009fd0820eaac89c555f143264 (not public in repo)",
@@ -548,7 +550,8 @@
    "social_format": "JPEG",
    "social_bytes": 99664,
    "articulos": [
-    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-back-pain-weak-legs"
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-back-pain-weak-legs",
+    "editorial/es/guias/bulldog-frances-hernia-discal"
    ],
    "created_at": "2026-11-12"
   },
@@ -616,7 +619,7 @@
    "rights_status": "Original created by OpenAI image generation for this editorial update; no third-party photo used.",
    "review_status": "Preliminary anatomical and contextual review passed; final human owner approval and live mobile check pending.",
    "alt_en": "AI-generated editorial image of a fawn French Bulldog wearing a harness standing beside indoor stairs with nonslip treads and a safety gate",
-   "alt_es": null,
+   "alt_es": "Bulldog francés leonado con arnés junto a una escalera interior con peldaños antideslizantes y una puerta de seguridad; imagen generada con IA",
    "width": 1200,
    "height": 675,
    "format": "WebP",
@@ -630,9 +633,50 @@
    "social_format": "JPEG",
    "social_bytes": 182186,
    "articulos": [
-    "editorial/en/guides/french-bulldog-stairs"
+    "editorial/en/guides/french-bulldog-stairs",
+    "editorial/es/guias/bulldog-frances-escaleras"
    ],
    "created_at": "2026-11-12"
+  },
+  {
+   "image_id": "kennel-cough-in-dogs-infographic",
+   "web_file": "/images/infographics/kennel-cough-in-dogs/kennel-cough-in-dogs-16x9.webp",
+   "video_files": [
+    "/images/infographics/kennel-cough-in-dogs/kennel-cough-in-dogs-9x16.jpg",
+    "/images/infographics/kennel-cough-in-dogs/kennel-cough-in-dogs-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/kennel-cough.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: kennel cough in French Bulldogs, typical signs, how long it lasts, and when to call the vet",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/kennel-cough-in-dogs"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Datos citados en el artículo (Merck Veterinary Manual, Cornell Riney Canine Health Center, AVMA)."
+  },
+  {
+   "image_id": "tos-de-las-perreras-infographic",
+   "web_file": "/images/infographics/tos-de-las-perreras/tos-de-las-perreras-16x9.webp",
+   "video_files": [
+    "/images/infographics/tos-de-las-perreras/tos-de-las-perreras-9x16.jpg",
+    "/images/infographics/tos-de-las-perreras/tos-de-las-perreras-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/kennel-cough.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: tos de las perreras en el bulldog francés, señales típicas, cuánto dura y cuándo ir al veterinario",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/tos-de-las-perreras"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Datos citados en el artículo (Merck Veterinary Manual, Cornell Riney Canine Health Center, AVMA)."
   }
  ]
 }

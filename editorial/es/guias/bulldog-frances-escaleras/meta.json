@@ -38,5 +38,10 @@
       "a": "Una rampa firme puede ayudar a algunos perros a evitar saltos, pero no está demostrado que prevenga hernias discales. No enseñes a usarla durante dolor agudo o debilidad."
     }
   ],
-  "enUrl": "/en/daily-care/french-bulldog-stairs/"
+  "enUrl": "/en/daily-care/french-bulldog-stairs/",
+  "image": "/images/hero/french-bulldog-stairs-editorial-ai.webp",
+  "imageAlt": "Bulldog francés leonado con arnés junto a una escalera interior con peldaños antideslizantes y una puerta de seguridad; imagen generada con IA",
+  "imageWidth": 1200,
+  "imageHeight": 675,
+  "imageType": "image/webp"
 }
