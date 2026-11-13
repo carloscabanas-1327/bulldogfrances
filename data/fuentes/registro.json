@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 — SEO5: six English genetics, coat, conformation guides; targeted claim corrections; F257 new, F204 new use; no professional veterinary sign-off.",
- "total_fuentes": 257,
+ "ultima_auditoria": "2026-11-12 — SEO6: eight English behavior, housetraining, socialization and puppy-care guides; sources F258 ASPCA and F259 American Humane added; full veterinary and rendered-site QA remain pending.",
+ "total_fuentes": 259,
  "fuentes": [
   {
    "id": "F001",
@@ -17194,6 +17194,99 @@
     "supported": 1
    },
    "observaciones_editoriales": "Official laboratory test description. Supports a genetic cause of cream/white appearance, NOT a breed-specific deafness prevalence or health prognosis. Source not to be used as proof that white French Bulldogs hear normally.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F258",
+   "autor_u_organismo": "ASPCA",
+   "autores": null,
+   "organizacion": "ASPCA",
+   "titulo_exacto": "Separation Anxiety",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "ASPCA",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/separation-anxiety",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Symptoms; Differential diagnosis; Treatment and prevention",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/can-french-bulldogs-be-left-alone/ARTICLE.html",
+     "numero_referencia": 13,
+     "afirmaciones": [
+      "Recorded absence behavior may help distinguish separation-related distress from bored or stimulus-driven behavior; severe anxiety requires individualized treatment."
+     ]
+    },
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-crying-whining/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "Distress while left alone can resemble other behavior problems; severe cases need supervised desensitization and may need veterinary medication."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/separation-anxiety",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Official owner-facing animal welfare resource. Neither crying nor chewing alone proves a separation-anxiety diagnosis.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F259",
+   "autor_u_organismo": "American Humane Society",
+   "autores": null,
+   "organizacion": "American Humane Society",
+   "titulo_exacto": "Housetraining Puppies & Dogs",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "American Humane Society",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": "2026-05",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.americanhumane.org/public-education/housetraining-puppies-dogs/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Symptoms; Differential diagnosis; Treatment and prevention",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/how-to-potty-train-a-french-bulldog/ARTICLE.html",
+     "numero_referencia": 12,
+     "afirmaciones": [
+      "Frequent predictable toilet opportunities and prompt reward-based reinforcement are appropriate; punishment of accidents is counterproductive."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.americanhumane.org/public-education/housetraining-puppies-dogs/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 1
+   },
+   "observaciones_editoriales": "Official animal welfare guidance. Age and bladder-capacity rules are rough planning aids, not clinical limits. Does not support withholding water.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }
