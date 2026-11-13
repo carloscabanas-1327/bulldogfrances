@@ -1,7 +1,7 @@
 {
   "title": "Bulldog francés respira mal o ronca mucho: cuándo preocuparse",
-  "seoTitle": "Bulldog francés respira mal o ronca: cuándo preocuparse",
-  "description": "Por qué tu bulldog francés respira mal o ronca mucho, señales del síndrome braquicefálico, cuándo es urgencia, cómo se evalúa y qué hace la operación.",
+  "seoTitle": "Bulldog francés: respiración",
+  "description": "Bulldog francés que ronca o respira mal: señales de BOAS, cuándo acudir a urgencias y cómo se evalúa su respiración sin provocar esfuerzos.",
   "category": "health",
   "primaryKeyword": "bulldog francés respira mal",
   "secondaryKeywords": [
@@ -32,15 +32,15 @@
     },
     {
       "q": "¿Cuántas respiraciones por minuto es normal en un bulldog francés dormido?",
-      "a": "Texas A&M indica que muchos perros en reposo respiran entre 15 y 30 veces por minuto. Si la frecuencia supera de forma persistente unas 30 respiraciones por minuto, consulta a tu veterinario. Un número aislado no diagnostica síndrome braquicefálico."
+      "a": "El recuento en reposo ayuda a observar cambios, pero no diagnostica BOAS. La frecuencia debe interpretarse con esfuerzo respiratorio, temperatura y otras señales; consulta si persiste elevada."
     },
     {
       "q": "¿Cuándo operar a un bulldog francés de la respiración?",
-      "a": "Los perros con BOAS de grado II o III necesitan valoración y tratamiento veterinario, que puede incluir cirugía según los hallazgos. El momento adecuado y los riesgos deben evaluarse de forma individual."
+      "a": "Los grados II y III de BOAS requieren evaluación y un plan veterinario individualizado; la cirugía puede indicarse según anatomía y gravedad, pero no se prescribe automáticamente por el grado."
     },
     {
       "q": "¿Qué hago si mi bulldog francés no respira bien?",
-      "a": "Si tiene encías azuladas o grises, se desmaya o se ahoga con calor, ve a urgencias de inmediato y mantenlo fresco y tranquilo. Si los signos son leves pero constantes, pide cita y lleva un vídeo de su respiración."
+      "a": "Si hay encías azuladas, colapso o esfuerzo marcado para respirar, acude a urgencias sin esperar mediciones. Mantén al perro tranquilo y fresco durante el traslado."
     }
   ],
   "image": "/images/hero/french-bulldog-breathing-vet-ai.webp",
