@@ -640,7 +640,7 @@
     },
     {
      "articulo": "editorial/en/guides/kennel-cough-in-dogs/ARTICLE.html",
-     "numero_referencia": 6,
+     "numero_referencia": 5,
      "afirmaciones": [
       "The intranasal or oral version is a single dose with yearly boosters; the injectable needs 2 doses 2 to 4 weeks apart, then yearly boosters.",
       "Canine influenza vaccines are also noncore."
@@ -964,7 +964,7 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 11,
+     "numero_referencia": 10,
      "afirmaciones": [
       "El AKC recomienda las mismas cuatro evaluaciones para los reproductores y aclara que la ecocardiografía se recomienda pero no es obligatoria."
      ]
@@ -980,7 +980,7 @@
     },
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
-     "numero_referencia": 11,
+     "numero_referencia": 10,
      "afirmaciones": [
       "The American Kennel Club lists the same four evaluations as the recommended health tests for French Bulldog breeding stock, noting that an echocardiogram is \"recommended but not required.\""
      ]
@@ -994,7 +994,7 @@
     },
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/mini-french-bulldog-health/ARTICLE.html",
-     "numero_referencia": 4,
+     "numero_referencia": 3,
      "afirmaciones": [
       "The AKC's French Bulldog DNA panel includes a risk factor for intervertebral disc disease (CDDY) and chondrodysplasia, the genes behind short legs and early disc degeneration."
      ]
@@ -1732,7 +1732,7 @@
     },
     {
      "articulo": "editorial/es/guias/perro-agresivo-con-la-comida/ARTICLE.html",
-     "numero_referencia": 7,
+     "numero_referencia": 6,
      "afirmaciones": [
       "Mientras tanto, dale de comer en un espacio separado, con una reja o puerta cerrada, y enseña a los niños a no acercarse a un perro que come o duerme."
      ]
@@ -2155,13 +2155,6 @@
    "contenido_dinamico": false,
    "seccion_relevante": null,
    "usos": [
-    {
-     "articulo": "editorial/es/guias/papeles-cachorro-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 8,
-     "afirmaciones": [
-      "Desde 2013, quien vende cachorros sin que el comprador los vea en persona (por ejemplo, por internet con envío) necesita en general una licencia del USDA, salvo que tenga cuatro hembras reproductoras o menos y venda solo cachorros nacidos y criados en sus instalaciones."
-     ]
-    },
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-puppy-paperwork/ARTICLE.html",
      "numero_referencia": 3,
@@ -4057,15 +4050,7 @@
    "acceso": "abierto",
    "contenido_dinamico": true,
    "seccion_relevante": null,
-   "usos": [
-    {
-     "articulo": "editorial/es/guias/bulldog-frances-viajar-en-avion/ARTICLE.html",
-     "numero_referencia": 20,
-     "afirmaciones": [
-      "Para perros que vienen de países sin rabia o de bajo riesgo (como España), el recibo vale 6 meses."
-     ]
-    }
-   ],
+   "usos": [],
    "fecha_verificacion": "2026-11-03",
    "verificado_via": "https://www.cdc.gov/importation/dogs/rabies-free-low-risk-countries.html",
    "estado_enlace": "ok",
@@ -6008,7 +5993,7 @@
     },
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/mini-french-bulldog-health/ARTICLE.html",
-     "numero_referencia": 5,
+     "numero_referencia": 4,
      "afirmaciones": [
       "Kneecap problems (patellar luxation), which the breed club already screens for",
       "Ask for the standard health tests (hips, eyes, patellas, heart) and a breathing grade for both parents."
@@ -6164,13 +6149,6 @@
      "afirmaciones": [
       "Rescue groups argue merle entered the breed through crossbreeding.",
       "The French Bulldog Rescue Network states that the purebred gene pool did not carry merle and that merle Frenchies were produced by introducing another breed, usually a Chihuahua."
-     ]
-    },
-    {
-     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/mini-french-bulldog-health/ARTICLE.html",
-     "numero_referencia": 3,
-     "afirmaciones": [
-      "Rescue groups say this is how merle was introduced into \"French Bulldogs,\" often using Chihuahuas."
      ]
     }
    ],
@@ -6517,7 +6495,7 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 14,
+     "numero_referencia": 13,
      "afirmaciones": [
       "El estándar FCI, por su parte, considera faltas descalificantes la dificultad respiratoria y la sordera."
      ]
@@ -8997,13 +8975,6 @@
      "afirmaciones": [
       "Only the most severe guarders were returned more often."
      ]
-    },
-    {
-     "articulo": "editorial/es/guias/perro-agresivo-con-la-comida/ARTICLE.html",
-     "numero_referencia": 6,
-     "afirmaciones": [
-      "UU., los perros que protegían recursos fueron devueltos tras la adopción con una frecuencia similar a la de otros perros; solo los casos más graves se devolvieron más a menudo."
-     ]
     }
    ],
    "fecha_verificacion": "2026-11-03",
@@ -9438,14 +9409,6 @@
    "contenido_dinamico": false,
    "seccion_relevante": null,
    "usos": [
-    {
-     "articulo": "editorial/en/guides/kennel-cough-in-dogs/ARTICLE.html",
-     "numero_referencia": 5,
-     "afirmaciones": [
-      "An AVMA expert panel advised prompt veterinary care for brachycephalic dogs.",
-      "No single new germ was confirmed behind that outbreak, and the AVMA said respiratory outbreaks like it happen regularly."
-     ]
-    },
     {
      "articulo": "editorial/es/guias/tos-de-las-perreras/ARTICLE.html",
      "numero_referencia": 5,
@@ -13098,14 +13061,14 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 12,
+     "numero_referencia": 11,
      "afirmaciones": [
       "Se puede evaluar a partir de los 12 meses, y los reproductores deberían repetirla cada dos años."
      ]
     },
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
-     "numero_referencia": 12,
+     "numero_referencia": 11,
      "afirmaciones": [
       "Dogs can be graded from 12 months of age, and breeding dogs should be re-graded every two years."
      ]
@@ -15832,7 +15795,7 @@
     },
     {
      "articulo": "editorial/en/guides/kennel-cough-in-dogs/ARTICLE.html",
-     "numero_referencia": 7,
+     "numero_referencia": 6,
      "afirmaciones": [
       "WSAVA calls respiratory vaccines non-core for pet dogs in typical homes but important in shelters."
      ]
@@ -15974,14 +15937,16 @@
      "afirmaciones": [
       "CAER purpose: give breeders eye-disease information for informed breeding decisions.",
       "CAER exams by board-certified (ACVO) veterinary ophthalmologists.",
-      "Certification valid 12 months; annual re-exam recommended."
+      "Certification valid 12 months; annual re-exam recommended.",
+      "CAER certifications are performed by board-certified (ACVO) veterinary ophthalmologists (moved from former ACVO homepage reference, verified 2026-11-13)."
      ]
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
      "numero_referencia": 7,
      "afirmaciones": [
-      "Misma afirmación en la edición en español."
+      "Misma afirmación en la edición en español.",
+      "CAER certifications are performed by board-certified (ACVO) veterinary ophthalmologists (moved from former ACVO homepage reference, verified 2026-11-13)."
      ]
     }
    ],
@@ -16019,29 +15984,14 @@
    "acceso": "abierto",
    "contenido_dinamico": false,
    "seccion_relevante": null,
-   "usos": [
-    {
-     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
-     "numero_referencia": 8,
-     "afirmaciones": [
-      "Only ACVO Diplomates are authorized to provide ACVO CAER screening exams to breeders."
-     ]
-    },
-    {
-     "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 8,
-     "afirmaciones": [
-      "Misma afirmación en la edición en español."
-     ]
-    }
-   ],
+   "usos": [],
    "fecha_verificacion": "2026-11-03",
    "verificado_via": "https://www.acvo.org/",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
     "supported": 1
    },
-   "observaciones_editoriales": "Homepage; no formal DACVO definition, the expansion is used in a news item on the page.",
+   "observaciones_editoriales": "Homepage; no formal DACVO definition, the expansion is used in a news item on the page. 2026-11-13: no longer cited; homepage replaced by OFA Eye Certification page (ref 7), which states CAER exams are performed by board-certified ACVO ophthalmologists.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   },
@@ -16072,7 +16022,7 @@
    "usos": [
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
-     "numero_referencia": 9,
+     "numero_referencia": 8,
      "afirmaciones": [
       "Kneecap pops out of place, medial or lateral.",
       "Dog examined awake.",
@@ -16081,7 +16031,7 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 9,
+     "numero_referencia": 8,
      "afirmaciones": [
       "Misma afirmación en la edición en español."
      ]
@@ -16124,7 +16074,7 @@
    "usos": [
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
-     "numero_referencia": 10,
+     "numero_referencia": 9,
      "afirmaciones": [
       "Basic exam based on auscultation.",
       "Advanced exam by a veterinary cardiologist; echo always required.",
@@ -16133,7 +16083,7 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 10,
+     "numero_referencia": 9,
      "afirmaciones": [
       "Misma afirmación en la edición en español."
      ]
@@ -16176,7 +16126,7 @@
    "usos": [
     {
      "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-breeder-health-tests/ARTICLE.html",
-     "numero_referencia": 13,
+     "numero_referencia": 12,
      "afirmaciones": [
       "PennGen is a group of genetic testing laboratories (CGAT section).",
       "Offers DNA tests for specific variants in specific breeds; can test cystine in urine."
@@ -16184,7 +16134,7 @@
     },
     {
      "articulo": "editorial/es/guias/pruebas-de-salud-criador-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 13,
+     "numero_referencia": 12,
      "afirmaciones": [
       "Misma afirmación en la edición en español."
      ]
@@ -16820,7 +16770,7 @@
     },
     {
      "articulo": "editorial/es/guias/bulldog-frances-viajar-en-avion/ARTICLE.html",
-     "numero_referencia": 21,
+     "numero_referencia": 20,
      "afirmaciones": [
       "Los perros que ingresan o regresan a EE. UU. requieren edad mínima de seis meses, microchip detectable, apariencia saludable y recibo CDC Dog Import Form.",
       "Los requisitos adicionales se basan en países visitados en los seis meses anteriores y situación de vacunación."
@@ -16866,7 +16816,7 @@
    "usos": [
     {
      "articulo": "editorial/en/guides/kennel-cough-in-dogs/ARTICLE.html",
-     "numero_referencia": 8,
+     "numero_referencia": 7,
      "afirmaciones": [
       "Kennel cough comprises several pathogens and ranges from mild cough to severe respiratory disease.",
       "Rapid or labored breathing, fever, lethargy and productive cough warrant veterinary assessment.",
@@ -17378,7 +17328,7 @@
     },
     {
      "articulo": "editorial/es/guias/papeles-cachorro-bulldog-frances/ARTICLE.html",
-     "numero_referencia": 9,
+     "numero_referencia": 8,
      "afirmaciones": [
       "9 CFR §2.1(a)(3)(iii) contempla exención condicionada por cuatro o menos hembras reproductoras y crías nacidas y criadas en el establecimiento.",
       "La exención se ve restringida por límites a actividades coordinadas y múltiples animales en un mismo hogar o predio."
@@ -17510,7 +17460,7 @@
    "usos": [
     {
      "articulo": "editorial/es/guias/perro-agresivo-con-la-comida/ARTICLE.html",
-     "numero_referencia": 8,
+     "numero_referencia": 7,
      "afirmaciones": [
       "El ejercicio preventivo descrito por AVSAB se dirige a perros que no presentan agresividad al comer.",
       "La asociación advierte que si el perro ya presenta agresividad junto al plato el procedimiento puede ser inseguro y no debe realizarse sin apoyo y supervisión profesional."
