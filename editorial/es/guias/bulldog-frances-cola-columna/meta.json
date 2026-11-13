@@ -1,6 +1,6 @@
 {
   "title": "Problemas de columna del bulldog francés: cola torcida y hemivértebras",
-  "seoTitle": "Problemas de columna del bulldog francés y hemivértebras",
+  "seoTitle": "Cola y columna del bulldog",
   "description": "Problemas de columna del bulldog francés: por qué su cola torcida se relaciona con las hemivértebras, qué síntomas importan, diagnóstico y tratamiento.",
   "category": "health",
   "primaryKeyword": "problemas de columna del bulldog francés",
@@ -12,7 +12,7 @@
     "bulldog francés problemas de columna"
   ],
   "keywordEn": "french bulldog hemivertebrae",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "bulldog-frances-hernia-discal",
@@ -23,7 +23,7 @@
   "faq": [
     {
       "q": "¿Al bulldog francés le cortan la cola?",
-      "a": "No. Nace con la cola corta, recta o en tirabuzón. La cola torcida se asocia a una variante del gen DVL2 que llevan todos los bulldogs franceses."
+      "a": "Las hemivértebras son frecuentes en algunas muestras, pero una imagen anormal no predice por sí sola dolor o lesión; la debilidad aguda requiere urgencias."
     },
     {
       "q": "¿Qué es una hemivértebra en el bulldog francés?",
@@ -41,5 +41,6 @@
       "q": "¿Por qué mi bulldog francés arrastra las patas traseras?",
       "a": "Puede deberse a una hernia discal, a una malformación vertebral u otros problemas de columna. Si aparece de repente o no puede levantarse, es una urgencia veterinaria."
     }
-  ]
+  ],
+  "seoAuditKeywordEvidenceES": "Keyword Planner: volumen y competencia por país aún sin comprobar en esta auditoría"
 }
