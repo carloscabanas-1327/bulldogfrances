@@ -52,7 +52,7 @@
 - `src/pages/en/[category]/[slug].astro`: equivalente inglés.
 - `src/pages/[lang]/nutrition/[article]/index.astro`: aviso documental honesto, rótulo «guía de alimentación» y dimensiones explícitas del hero.
 - `src/pages/[lang]/[slug]/index.astro`: rótulo de categoría nutricional sin «artículos de muestra».
-- `scripts/audit-technical-seo.mjs`: lector **solo lectura** del `dist/` producido por Astro; valida rutas, duplicados, canonical autorreferente, `hreflang`, JSON-LD parseable, sitemap, páginas 404 implícitas, robots, imágenes internas, reglas de redirección y enlaces internos sujetos a revisión. Los avisos no son aprobación automática de enlaces externos.
+- `scripts/audit-technical-seo.mjs`: lector **solo lectura** del `dist/` producido por Astro; valida rutas, duplicados, canonical autorreferente, `hreflang`, JSON-LD parseable, sitemap, robots, imágenes internas, reglas de redirección y enlaces internos sujetos a revisión. Las respuestas HTTP 404 reales requieren una prueba separada contra Cloudflare. Los avisos no son aprobación automática de enlaces externos.
 - `.github/workflows/technical-seo-audit.yml`: CI de PR con Node 22, `npm ci`, `npm run build`, script de auditoría. **No contiene pasos de despliegue, publicación ni merge.**
 
 ## Pruebas por ejecutar y condiciones para liberar
