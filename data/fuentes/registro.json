@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 — SEO6: eight English behavior, housetraining, socialization and puppy-care guides; sources F258 ASPCA and F259 American Humane added; full veterinary and rendered-site QA remain pending.",
- "total_fuentes": 259,
+ "ultima_auditoria": "2026-11-12 — SEO7 eight English travel, GI, lifespan, sleep, elimination, bathing, breeder screening and senior care reviews; AAHA F260 added; full clinical and deployment QA pending.",
+ "total_fuentes": 260,
  "fuentes": [
   {
    "id": "F001",
@@ -17287,6 +17287,51 @@
     "supported": 1
    },
    "observaciones_editoriales": "Official animal welfare guidance. Age and bladder-capacity rules are rough planning aids, not clinical limits. Does not support withholding water.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F260",
+   "autor_u_organismo": "American Animal Hospital Association",
+   "autores": null,
+   "organizacion": "American Animal Hospital Association",
+   "titulo_exacto": "2023 AAHA Senior Care Guidelines for Dogs and Cats",
+   "tipo_fuente": "guia_profesional",
+   "es_fuente_primaria": true,
+   "revista": "Journal of the American Animal Hospital Association",
+   "sitio": "AAHA",
+   "fecha_publicacion": "2022-12-12",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": "59",
+   "numero": null,
+   "paginas": null,
+   "doi": "10.5326/JAAHA-MS-7343",
+   "pmid": null,
+   "url_canonica": "https://www.aaha.org/resources/2023-aaha-senior-care-guidelines-for-dogs-and-cats/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Abstract; approach to senior screening, quality of life, comorbidities and environmental modifications",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/senior-french-bulldog-care/ARTICLE.html",
+     "numero_referencia": 6,
+     "afirmaciones": [
+      "Senior care is individualized and should not equate chronological age with diagnosis.",
+      "AAHA provides evidence-guided assessment, screening and quality-of-life management recommendations for older dogs and cats.",
+      "Palliative care decisions require a full veterinary assessment and client collaboration."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.aaha.org/resources/2023-aaha-senior-care-guidelines-for-dogs-and-cats/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Exact 2023 AAHA Senior Care Guidelines webpage and abstract verified. Screening frequency and test selection depend on clinical need; this source does not prove a specific French Bulldog becomes senior at age eight.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }
