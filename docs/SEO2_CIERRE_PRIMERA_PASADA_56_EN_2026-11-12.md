@@ -48,7 +48,7 @@ La rama apilada `audit/seo2-parasites-behavior-weight-2026-11-12` añade **seis 
 ## Pruebas de aceptación para declarar terminado (todavía no superadas)
 
 - Confirmar palabra clave y SERP para cada intención, sin canibalización y sin reclamar métricas no consultadas.
-- Revisar **afirmación por afirmación** las 10 filas aún marcadas como `anchor_integrity_only`; conciliar 10 revisiones históricas no identificadas por ese campo antes de determinar el saldo real; registrar cita exacta en registro de fuentes.
+- La marca operativa `anchor_integrity_only` ya no queda en ninguna de las 56 filas tras SEO8. Mantener revisión clínica, técnica y de imágenes como puertas pendientes; el historial de la diferencia previa de 10 revisiones debe conservarse como incidencia de trazabilidad, no contabilizarse dos veces; registrar cita exacta en registro de fuentes.
 - Resolver las **23 imágenes** ausentes y las 4 externas de nutrición con validación de propiedad/relevancia.
 - Ejecutar `npm run build` en un checkout de la rama, revisar 56 rutas, `robots.txt`, `sitemap.xml`, JSON-LD, hreflang recíproco, consola del navegador y presentación móvil.
 - Verificar que Cloudflare Pages sirve el commit esperado. Comparar 404, CWV, GSC (indexación, consultas, impresiones y CTR), sin afirmar subida de tráfico previa a datos reales.
@@ -77,3 +77,15 @@ Progreso histórico declarado **48/56** (8 nominalmente pendientes) no equivale 
 Rama `audit/seo7-eight-travel-health-care-2026-11-12`, apilada sobre #39. **64 cambios de HTML** en ocho artículos: viajar en avión, gases, esperanza de vida, sueño, deposiciones, baños, documentación sanitaria del criador y cuidado sénior. Actualizadas **13 FAQ** y 8 fichas de metadatos; añadido **F260 AAHA Senior Care 2023** al registro total (**260 fuentes**). Detalles verificables en `docs/AUDITORIA_SEO7_EN_OCHO_VIAJE_SALUD_CUIDADOS_2026-11-12.md`.
 
 **Seguimiento operativo: 46/56** con `targeted_claims_checked` y **10/56** con `anchor_integrity_only`. La suma histórica previa de 48 + 8 = 56 no concuerda con la marca individual ni prueba que la auditoría esté terminada. Faltan tres heroes de esta tanda y controles clínicos, imágenes, Astro, móvil, links, Cloudflare, GSC y SEO técnico. Prohibido fusionar o publicar hasta completar controles y obtener autorización.
+
+## Octava tanda: las diez últimas guías EN de la matriz (2026-11-12)
+
+Rama `audit/seo8-final-ten-2026-11-12`, sobre SEO7 PR #40. **76 correcciones HTML** distribuidas en shedding (7), stairs (6), pied (6), dry nose (7), human allergies (8), puppy paperwork (10), tail pocket (5), feeding portions (8), best food (9) y safe treats (10). Se revisaron **7 respuestas FAQ**, **10 metadatos** y se añadieron **F261 eCFR**, **F262 FDA DCM Q&A**, **F263 AAHA nutritional risk factors** al registro total (**263**). Informe: `docs/AUDITORIA_SEO8_EN_DIEZ_FINALES_2026-11-12.md`.
+
+### Estado editorial al cierre de la serie
+
+- **56/56** registros de la matriz tienen ahora marca `targeted_claims_checked_2026_11_12`; **0/56** conservan `anchor_integrity_only`. Son **revisiones editoriales focalizadas**, no auditoría médica exhaustiva línea a línea ni certificación SEO operativa.
+- La discrepancia histórica del contador previo (10 artículos) deja de crear filas pendientes, pero debe preservarse y conciliarse si se reconstruye el detalle de auditorías precedentes.
+- **Imágenes principales ausentes** en los tres artículos de nutrición EN de esta tanda y en otras guías señaladas en SEO7, sin remplazos autorizados.
+- El código Astro no fue compilado ni desplegado; falta comprobar datos estructurados, canonicals, hreflang, responsive, derechos de activos, links publicados y Google Search Console. Las métricas de Google Ads Keyword Planner no se recopilaron para estas diez páginas.
+- **Publicación y fusión bloqueadas** hasta QA y autorización expresa.
