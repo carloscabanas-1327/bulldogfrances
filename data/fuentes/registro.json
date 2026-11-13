@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 — SEO7 eight English travel, GI, lifespan, sleep, elimination, bathing, breeder screening and senior care reviews; AAHA F260 added; full clinical and deployment QA pending.",
- "total_fuentes": 260,
+ "ultima_auditoria": "2026-11-12 — SEO8: 10 remaining English guides individually reviewed for targeted medical, genetic, legal and nutrition claims. F261 current eCFR, F262 FDA DCM Q&A, F263 AAHA nutritional risk factors. Source registry is not final professional sign-off.",
+ "total_fuentes": 263,
  "fuentes": [
   {
    "id": "F001",
@@ -17332,6 +17332,138 @@
     "supported": 3
    },
    "observaciones_editoriales": "Exact 2023 AAHA Senior Care Guidelines webpage and abstract verified. Screening frequency and test selection depend on clinical need; this source does not prove a specific French Bulldog becomes senior at age eight.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F261",
+   "autor_u_organismo": "Office of the Federal Register",
+   "autores": null,
+   "organizacion": "Office of the Federal Register",
+   "titulo_exacto": "9 CFR § 2.1 — Requirements and application",
+   "tipo_fuente": "norma",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "Office of the Federal Register",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.ecfr.gov/current/title-9/chapter-I/subchapter-A/part-2/subpart-A/section-2.1",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "§ 2.1(a)(3)(i) and § 2.1(a)(3)(iii)",
+   "usos": [
+    {
+     "articulo": "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-puppy-paperwork/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "9 CFR § 2.1(a)(3)(iii) includes a conditional exemption for four or fewer breeding females and their offspring born and raised on premises, subject to household and other restrictions.",
+      "Licensing assessment cannot be based exclusively on being advertised online."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.ecfr.gov/current/title-9/chapter-I/subchapter-A/part-2/subpart-A/section-2.1",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "eCFR stated current up to 2026-11-10; binding federal regulation. This source alone does not address state or local laws.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F262",
+   "autor_u_organismo": "U.S. Food and Drug Administration",
+   "autores": null,
+   "organizacion": "U.S. Food and Drug Administration",
+   "titulo_exacto": "Questions & Answers: FDA’s Work on Potential Causes of Non-Hereditary DCM in Dogs",
+   "tipo_fuente": "pagina_web",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "U.S. Food and Drug Administration",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.fda.gov/animal-veterinary/animal-health-literacy/questions-answers-fdas-work-potential-causes-non-hereditary-dcm-dogs",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Q&A questions 7–9",
+   "usos": [
+    {
+     "articulo": "editorial/nutrition/best-food-for-french-bulldogs/ARTICLE.en.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "FDA has reports of potential non-hereditary DCM associated with both grain-free and grain-containing diets; the science has not established that all grain-free diets are inherently unsafe.",
+      "The agency states there is no definitive information demonstrating specific reported diets are inherently unsafe and has not required recalls on that basis."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.fda.gov/animal-veterinary/animal-health-literacy/questions-answers-fdas-work-potential-causes-non-hereditary-dcm-dogs",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "A report signal is not evidence of an individual product's causal role; no brand safety endorsement or ranking.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F263",
+   "autor_u_organismo": "American Animal Hospital Association",
+   "autores": null,
+   "organizacion": "American Animal Hospital Association",
+   "titulo_exacto": "Nutritional Risk Factors",
+   "tipo_fuente": "guia_profesional",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "American Animal Hospital Association",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.aaha.org/resources/2021-aaha-nutrition-and-weight-management-guidelines/nutritional-risk-factors/",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "Table 4 — Nutritional Screening: Risk Factors",
+   "usos": [
+    {
+     "articulo": "editorial/nutrition/safe-treats-for-french-bulldogs/ARTICLE.en.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "Table 4 identifies calories from noncomplete and balanced foods greater than 10% of daily energy as a nutritional risk factor.",
+      "Treat calories must be considered within the dog's whole diet and health, not as a recommendation to feed exactly 10% treats."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.aaha.org/resources/2021-aaha-nutrition-and-weight-management-guidelines/nutritional-risk-factors/",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "AAHA risk-screening threshold is not a dog-specific optimal treat allocation.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }
