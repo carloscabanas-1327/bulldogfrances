@@ -2,7 +2,7 @@
 import {readFileSync} from 'node:fs';
 import {join} from 'node:path';
 import Seo from '../../../components/Seo.astro';
-import {SITE} from '../../../data/site.js';
+import {SITE,DEFAULT_OG_IMAGE,LAUNCH_DATE} from '../../../data/site.js';
 import {guides,categories,guideTitle,guideUrl,guideSummary,guideHtmlPath,guideMeta} from '../../../data/frenchBulldogGuides.js';
 import {enGuides,enGuideUrl,enGuideHtml} from '../../../data/englishGuides.js';
 import {esUrlForEn} from '../../../data/spanishGuides.js';
@@ -45,8 +45,9 @@ const articleJsonld = {
   inLanguage: 'en-US',
   url: SITE + path,
   mainEntityOfPage: {'@type':'WebPage','@id':SITE + path},
-  ...(meta.image ? {image:[meta.image.startsWith('http') ? meta.image : SITE + meta.image]} : {}),
+  image:[(meta.image||DEFAULT_OG_IMAGE).startsWith('http') ? (meta.image||DEFAULT_OG_IMAGE) : SITE + (meta.image||DEFAULT_OG_IMAGE)],
   ...(meta.primaryKeyword ? {keywords:[meta.primaryKeyword,...(meta.secondaryKeywords||[])].join(', ')} : {}),
+  datePublished:meta.datePublished||LAUNCH_DATE,
   ...(modified ? {dateModified:modified} : {}),
   author: {'@type':'Organization',name:'BulldogFrances.com',url:SITE + '/'},
   publisher: {'@type':'Organization',name:'BulldogFrances.com',url:SITE + '/'}
