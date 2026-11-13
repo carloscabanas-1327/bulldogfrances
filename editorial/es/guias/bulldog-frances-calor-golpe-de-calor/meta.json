@@ -1,7 +1,7 @@
 {
   "title": "Bulldog francés y golpe de calor: síntomas, qué hacer y prevención",
-  "seoTitle": "Bulldog francés y golpe de calor: síntomas y qué hacer",
-  "description": "Golpe de calor en el bulldog francés: síntomas, primeros auxilios (enfriar primero), por qué nunca dejarlo en el auto y cómo cuidarlo en verano.",
+  "seoTitle": "Bulldog francés: golpe de calor",
+  "description": "Golpe de calor en bulldogs franceses: reconocer una urgencia, iniciar enfriamiento activo seguro y trasladar al veterinario sin demoras.",
   "category": "daily-care",
   "primaryKeyword": "bulldog francés golpe de calor",
   "secondaryKeywords": [
@@ -30,7 +30,7 @@
     },
     {
       "q": "¿Qué hago si mi perro tiene un golpe de calor?",
-      "a": "Sácalo del calor y enfríalo de inmediato con agua más fresca que el perro sobre el cuerpo, sin mojarle la cara, y un ventilador si hay. Contacta urgencias veterinarias y no retrases el traslado. No sumerjas a un perro inconsciente."
+      "a": "Retíralo del calor, inicia de inmediato enfriamiento con agua fresca corriente sobre el cuerpo detrás del cuello y aire en movimiento, y coordina traslado veterinario urgente. No viertas agua en la cara."
     },
     {
       "q": "¿Cuánto tiempo puede estar un perro encerrado en un auto?",
@@ -38,11 +38,11 @@
     },
     {
       "q": "¿Por qué el bulldog francés sufre tanto el calor?",
-      "a": "El hocico corto y las obstrucciones respiratorias limitan el enfriamiento mediante el jadeo. Un estudio británico encontró una OR ajustada de 6,49 para enfermedad por calor frente al labrador; no es una probabilidad absoluta multiplicada por 6,49."
+      "a": "La anatomía braquicéfala puede reducir el enfriamiento mediante el jadeo. Las estadísticas indican mayor riesgo poblacional, pero no existe una temperatura única segura ni un pronóstico individual."
     },
     {
       "q": "¿Un perro se recupera solo de un golpe de calor?",
-      "a": "Aunque parezca recuperado, debe revisarlo un veterinario, porque el golpe de calor puede dañar órganos sin que se note al principio. Cuanto antes se enfríe y se trate, mejor es el pronóstico."
+      "a": "Aunque parezca recuperado tras enfriarse, necesita valoración veterinaria porque puede haber complicaciones internas no evidentes al principio."
     }
   ],
   "image": "/images/photos/comic-coche-calor-ai.webp"
