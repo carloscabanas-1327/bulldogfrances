@@ -45,5 +45,10 @@
       "a": "Depende del microorganismo. Cornell indica que algunos perros con Bordetella pueden contagiar durante ocho semanas o más, incluso tras desaparecer la tos; consulta el aislamiento según cada caso."
     }
   ],
-  "enUrl": "/en/health/kennel-cough-in-dogs/"
+  "enUrl": "/en/health/kennel-cough-in-dogs/",
+  "image": "/images/infographics/tos-de-las-perreras/tos-de-las-perreras-16x9.webp",
+  "imageAlt": "Infografía: tos de las perreras en el bulldog francés, señales típicas, cuánto dura y cuándo ir al veterinario",
+  "imageWidth": 2400,
+  "imageHeight": 1350,
+  "imageType": "image/webp"
 }

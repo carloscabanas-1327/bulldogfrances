@@ -45,5 +45,10 @@
     }
   ],
   "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
-  "seoAuditNote": "Edited 2026-11-12: genetic associations and inference limitations reviewed; no Frenchton prospective outcomes inferred."
+  "seoAuditNote": "Edited 2026-11-12: genetic associations and inference limitations reviewed; no Frenchton prospective outcomes inferred.",
+  "image": "/images/infographics/blue-eyed-french-bulldog/blue-eyed-french-bulldog-16x9.webp",
+  "imageAlt": "Infographic: Blue eyes in French Bulldogs. Key points from this guide",
+  "imageWidth": 2400,
+  "imageHeight": 1350,
+  "imageType": "image/webp"
 }

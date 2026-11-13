@@ -39,5 +39,10 @@
       "a": "Si ya gruñe, se pone rígido o intenta morder, no te acerques al plato ni pruebes intercambios por tu cuenta. Separa a niños y otras mascotas y consulta a un veterinario y especialista en conducta."
     }
   ],
-  "enUrl": "/en/training/food-aggression-in-dogs/"
+  "enUrl": "/en/training/food-aggression-in-dogs/",
+  "image": "/images/infographics/perro-agresivo-con-la-comida/perro-agresivo-con-la-comida-16x9.webp",
+  "imageAlt": "Infografía: Perro agresivo con la comida. Puntos clave de esta guía",
+  "imageWidth": 2400,
+  "imageHeight": 1350,
+  "imageType": "image/webp"
 }

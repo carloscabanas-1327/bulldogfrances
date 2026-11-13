@@ -44,5 +44,10 @@
       "a": "La vacunación completa reduce mucho el riesgo, pero la protección depende del calendario, la respuesta individual y la exposición. WSAVA recomienda dosis del cachorro hasta al menos 16 semanas y revisión posterior."
     }
   ],
-  "enUrl": "/en/health/distemper-in-dogs/"
+  "enUrl": "/en/health/distemper-in-dogs/",
+  "image": "/images/infographics/moquillo-canino/moquillo-canino-16x9.webp",
+  "imageAlt": "Infografía: Moquillo canino. Puntos clave de esta guía",
+  "imageWidth": 2400,
+  "imageHeight": 1350,
+  "imageType": "image/webp"
 }

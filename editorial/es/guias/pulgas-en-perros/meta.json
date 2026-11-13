@@ -43,5 +43,10 @@
       "a": "Consulta al veterinario y usa solo productos autorizados para su especie, edad y peso. Algunos antiparasitarios tienen riesgos neurológicos y la permetrina de productos caninos puede intoxicar a los gatos."
     }
   ],
-  "enUrl": "/en/health/fleas-on-dogs/"
+  "enUrl": "/en/health/fleas-on-dogs/",
+  "image": "/images/infographics/pulgas-en-perros/pulgas-en-perros-16x9.webp",
+  "imageAlt": "Infografía: Pulgas en perros. Puntos clave de esta guía",
+  "imageWidth": 2400,
+  "imageHeight": 1350,
+  "imageType": "image/webp"
 }
