@@ -48,7 +48,7 @@ La rama apilada `audit/seo2-parasites-behavior-weight-2026-11-12` añade **seis 
 ## Pruebas de aceptación para declarar terminado (todavía no superadas)
 
 - Confirmar palabra clave y SERP para cada intención, sin canibalización y sin reclamar métricas no consultadas.
-- Revisar **afirmación por afirmación** las 18 filas aún marcadas como `anchor_integrity_only`; conciliar 10 revisiones históricas no identificadas por ese campo antes de determinar el saldo real; registrar cita exacta en registro de fuentes.
+- Revisar **afirmación por afirmación** las 10 filas aún marcadas como `anchor_integrity_only`; conciliar 10 revisiones históricas no identificadas por ese campo antes de determinar el saldo real; registrar cita exacta en registro de fuentes.
 - Resolver las **23 imágenes** ausentes y las 4 externas de nutrición con validación de propiedad/relevancia.
 - Ejecutar `npm run build` en un checkout de la rama, revisar 56 rutas, `robots.txt`, `sitemap.xml`, JSON-LD, hreflang recíproco, consola del navegador y presentación móvil.
 - Verificar que Cloudflare Pages sirve el commit esperado. Comparar 404, CWV, GSC (indexación, consultas, impresiones y CTR), sin afirmar subida de tráfico previa a datos reales.
@@ -71,3 +71,9 @@ La rama `audit/seo5-genetics-coats-conformation-six-2026-11-12`, apilada sobre P
 La rama `audit/seo6-behavior-puppies-eight-2026-11-12`, apilada sobre SEO5 PR #38, incorpora **75 correcciones HTML focalizadas** en ocho artículos (separación, temperamento, potty training, adiestramiento, socialización, cuidados de cachorros, agresividad y llanto), **17 FAQ** actualizadas y fechas `lastReviewed` en ocho metadatos. Dos fuentes nuevas exactas, **F258 ASPCA Separation Anxiety** y **F259 American Humane Housetraining**, elevan el registro a **259**. Informe: `docs/AUDITORIA_SEO6_EN_CONDUCTA_CACHORROS_OCHO_2026-11-12.md`.
 
 Progreso histórico declarado **48/56** (8 nominalmente pendientes) no equivale a suma del campo operativo: la matriz identifica ahora **38/56** `targeted_claims_checked` y **18/56** `anchor_integrity_only`. Persisten diez revisiones históricas por conciliar documentalmente. Sin build Astro, GSC, QA visual, revisión veterinaria profesional ni fusión/publicación.
+
+## Séptima tanda: ocho revisiones de viaje, salud y cuidados (2026-11-12)
+
+Rama `audit/seo7-eight-travel-health-care-2026-11-12`, apilada sobre #39. **64 cambios de HTML** en ocho artículos: viajar en avión, gases, esperanza de vida, sueño, deposiciones, baños, documentación sanitaria del criador y cuidado sénior. Actualizadas **13 FAQ** y 8 fichas de metadatos; añadido **F260 AAHA Senior Care 2023** al registro total (**260 fuentes**). Detalles verificables en `docs/AUDITORIA_SEO7_EN_OCHO_VIAJE_SALUD_CUIDADOS_2026-11-12.md`.
+
+**Seguimiento operativo: 46/56** con `targeted_claims_checked` y **10/56** con `anchor_integrity_only`. La suma histórica previa de 48 + 8 = 56 no concuerda con la marca individual ni prueba que la auditoría esté terminada. Faltan tres heroes de esta tanda y controles clínicos, imágenes, Astro, móvil, links, Cloudflare, GSC y SEO técnico. Prohibido fusionar o publicar hasta completar controles y obtener autorización.
