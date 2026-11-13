@@ -1,0 +1,37 @@
+name: Technical SEO audit (no deployment)
+
+on:
+  pull_request:
+    paths:
+      - "src/**"
+      - "editorial/**"
+      - "public/**"
+      - "scripts/audit-technical-seo.mjs"
+      - "package.json"
+      - "package-lock.json"
+      - "astro.config.mjs"
+      - ".github/workflows/technical-seo-audit.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-audit:
+    name: Astro build and SEO integrity
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout audit branch
+        uses: actions/checkout@v4
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Build static site
+        run: npm run build
+      - name: Audit rendered pages and SEO routes
+        run: node scripts/audit-technical-seo.mjs
