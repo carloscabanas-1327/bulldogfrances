@@ -1,7 +1,7 @@
 ---
 // Spanish-edition guide page. Content: editorial/es/guias/<slug>/.
 import Seo from '../../../components/Seo.astro';
-import {SITE} from '../../../data/site.js';
+import {SITE,DEFAULT_OG_IMAGE,LAUNCH_DATE} from '../../../data/site.js';
 import {esGuides,esGuideUrl,esGuideHtml,esCategoryLabels} from '../../../data/spanishGuides.js';
 import {nutritionArticles} from '../../../data/frenchBulldogGuides.js';
 export function getStaticPaths(){return esGuides.map(g=>({params:{category:g.category,slug:g.slug},props:{guide:g}}))}
@@ -26,8 +26,9 @@ const articleJsonld = {
   inLanguage: 'es',
   url: SITE + path,
   mainEntityOfPage: {'@type':'WebPage','@id':SITE + path},
-  ...(guide.image ? {image:[guide.image.startsWith('http') ? guide.image : SITE + guide.image]} : {}),
+  image:[(guide.image||DEFAULT_OG_IMAGE).startsWith('http') ? (guide.image||DEFAULT_OG_IMAGE) : SITE + (guide.image||DEFAULT_OG_IMAGE)],
   ...(guide.primaryKeyword ? {keywords:[guide.primaryKeyword,...(guide.secondaryKeywords||[])].join(', ')} : {}),
+  datePublished:guide.datePublished||LAUNCH_DATE,
   ...(reviewed ? {dateModified:reviewed} : {}),
   author: {'@type':'Organization',name:'BulldogFrances.com',url:SITE + '/'},
   publisher: {'@type':'Organization',name:'BulldogFrances.com',url:SITE + '/'}
