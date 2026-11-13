@@ -1,7 +1,7 @@
 {
   "title": "Sarna demodécica en perros: síntomas, contagio y tratamiento",
-  "seoTitle": "Sarna demodécica en perros: síntomas y tratamiento",
-  "description": "Qué es la sarna demodécica (demodicosis), cómo se ve, por qué es frecuente en el bulldog francés, si es contagiosa y cómo se trata hoy.",
+  "seoTitle": "Sarna demodécica en perros",
+  "description": "Sarna demodécica en perros: síntomas, límites de los estudios sobre bulldog francés, tratamiento supervisado y posibles causas en adultos.",
   "category": "health",
   "primaryKeyword": "sarna demodécica en perros",
   "secondaryKeywords": [
@@ -12,7 +12,7 @@
     "sarna en perros adultos"
   ],
   "keywordEn": "demodectic mange in dogs",
-  "lastReviewed": "2026-11-03",
+  "lastReviewed": "2026-11-12",
   "status": "REVISED_DRAFT_SOURCED",
   "related": [
     "acaros-en-los-oidos-perros",
@@ -29,15 +29,15 @@
     },
     {
       "q": "¿La sarna demodécica tiene cura?",
-      "a": "Sí, en la gran mayoría de los casos. Muchos casos localizados se resuelven solos en 6 a 8 semanas y los generalizados responden bien a las isoxazolinas. Se considera curada cuando no recae en los 12 meses siguientes al tratamiento."
+      "a": "Muchos casos localizados remiten, pero la forma generalizada requiere tratamiento y seguimiento veterinario, a menudo durante meses. Puede haber recaídas; no hay una fecha de curación garantizada."
     },
     {
       "q": "¿Cómo empieza la sarna demodécica?",
-      "a": "Suele empezar con pequeñas zonas sin pelo, enrojecidas y con escamas alrededor de los ojos, los labios o en las patas delanteras, casi siempre sin picazón."
+      "a": "Puede causar alopecia focal, descamación o enrojecimiento. Las lesiones no permiten confirmarla sin pruebas veterinarias, habitualmente raspados cutáneos."
     },
     {
       "q": "¿Por qué aparece la sarna demodécica en un perro adulto?",
-      "a": "Cuando aparece por primera vez después de los 4 años suele haber una enfermedad de fondo que debilita las defensas, como hipotiroidismo, síndrome de Cushing, diabetes o un tumor. El veterinario debe buscarla."
+      "a": "Un veterinario debe investigar enfermedades o fármacos que reduzcan las defensas, aunque a veces no se encuentra una causa. No es exclusivo de perros mayores de cuatro años."
     }
   ],
   "enUrl": "/en/health/demodectic-mange-in-dogs/"
