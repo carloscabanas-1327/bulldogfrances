@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 — SEO ES1: ocho guías españolas revisadas de forma focalizada; F264 nueva, F249 y F261 reutilizadas en ES. Sin aprobación veterinaria integral, SEO técnico ni publicación.",
- "total_fuentes": 264,
+ "ultima_auditoria": "2026-11-12 — SEO ES2: ocho artículos españoles clínicos, F265 FDA isoxazolinas en español y F266 RECOVER 2026; auditoría editorial focalizada, sin aprobación clínica ni técnica de publicación.",
+ "total_fuentes": 266,
  "fuentes": [
   {
    "id": "F001",
@@ -17524,6 +17524,107 @@
     "supported": 2
    },
    "observaciones_editoriales": "Documento educativo de prevención; no un protocolo de tratamiento autónomo para perros que gruñen o muerden. Datos registrados durante SEO ES1.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F265",
+   "autor_u_organismo": "U.S. Food and Drug Administration",
+   "autores": null,
+   "organizacion": "U.S. Food and Drug Administration",
+   "titulo_exacto": "Hoja informativa para dueños de mascotas y veterinarios acerca de los posibles eventos adversos asociados con los productos que contienen isoxazolina contra pulgas y garrapatas",
+   "tipo_fuente": "ficha_oficial",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "U.S. Food and Drug Administration",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.fda.gov/animal-veterinary/animal-health-literacy/hoja-informativa-para-duenos-de-mascotas-y-veterinarios-acerca-de-los-posibles-eventos-adversos",
+   "urls_anteriores": [],
+   "idioma_original": "es",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": "¿Qué debo saber? Reacciones neurológicas adversas; antecedentes y selección",
+   "usos": [
+    {
+     "articulo": "editorial/es/guias/acaros-en-los-oidos-perros/ARTICLE.html",
+     "numero_referencia": 7,
+     "afirmaciones": [
+      "La FDA advierte de temblores musculares, ataxia y convulsiones con algunos medicamentos de la clase de isoxazolinas, incluso en animales sin antecedentes."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/pulgas-en-perros/ARTICLE.html",
+     "numero_referencia": 9,
+     "afirmaciones": [
+      "La FDA recomienda revisar historial médico y balance beneficio-riesgo antes de indicar isoxazolinas; la mayoría de perros y gatos las toleran."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/sarna-demodecica-perros/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "Las isoxazolinas pueden asociarse a eventos neurológicos; la elección para demodicosis requiere atención profesional, y las indicaciones aprobadas dependen del país y medicamento."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://www.fda.gov/animal-veterinary/animal-health-literacy/hoja-informativa-para-duenos-de-mascotas-y-veterinarios-acerca-de-los-posibles-eventos-adversos",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Enlace oficial FDA en español. Señal de farmacovigilancia, no tasa de eventos adversos ni contraindicación universal.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F266",
+   "autor_u_organismo": "RECOVER Initiative",
+   "autores": null,
+   "organizacion": "RECOVER Initiative",
+   "titulo_exacto": "RECOVER Guidelines: First Aid for Dogs and Cats. Clinical Guidelines",
+   "tipo_fuente": "guia_clinica",
+   "es_fuente_primaria": true,
+   "revista": "Journal of Veterinary Emergency and Critical Care",
+   "sitio": "RECOVER Initiative",
+   "fecha_publicacion": "2026",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": "10.1111/vec.70138",
+   "pmid": null,
+   "url_canonica": "https://doi.org/10.1111/vec.70138",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": "Heat-related illness; cooling recommendations",
+   "usos": [
+    {
+     "articulo": "editorial/es/guias/bulldog-frances-calor-golpe-de-calor/ARTICLE.html",
+     "numero_referencia": 8,
+     "afirmaciones": [
+      "En perros con enfermedad por calor, las recomendaciones incluyen sacar de la fuente de calor, enfriar activamente de inmediato cuando sea seguro y transportar a atención veterinaria sin demora.",
+      "Sugieren enfriamiento por agua fresca corriente sobre el cuerpo por detrás del cuello, evitando cabeza y vías respiratorias."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-12",
+   "verificado_via": "https://doi.org/10.1111/vec.70138",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Guía de primeros auxilios clínicos RECOVER 2026, no un ensayo de raza específica. Mantener atención veterinaria urgente.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }
