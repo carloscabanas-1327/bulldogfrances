@@ -577,7 +577,7 @@
    "rights_status": "Original generated for BulldogFrances.com; not derived from third-party photographs. Synthetic illustrative scene, not veterinary evidence.",
    "review_status": "Provisional editorial use; image anatomy appears plausible, final owner approval and live display QA pending.",
    "alt_en": "AI-generated editorial scene of a French Bulldog with its owner holding a clean sample bag before a veterinary visit",
-   "alt_es": null,
+   "alt_es": "Bulldog francés con su dueña, que sostiene una bolsa limpia para una muestra antes de la visita al veterinario; imagen generada con IA",
    "width": 1200,
    "height": 675,
    "web_file": "/images/hero/french-bulldog-diarrhea-vet-preparation-ai.webp",
@@ -591,7 +591,8 @@
    "social_bytes": 166437,
    "master_file": "Original 1672x941 PNG (ChatGPT generation, conversation file_000000008600820e873c5f515980f467); original not uploaded publicly",
    "articulos": [
-    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-diarrhea"
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-diarrhea",
+    "editorial/es/guias/diarrea-bulldog-frances"
    ],
    "created_at": "2026-11-12"
   },
@@ -677,6 +678,926 @@
    ],
    "created_at": "2026-11-13",
    "subject": "Datos citados en el artículo (Merck Veterinary Manual, Cornell Riney Canine Health Center, AVMA)."
+  },
+  {
+   "image_id": "french-bulldog-with-longer-snout-infographic",
+   "web_file": "/images/infographics/french-bulldog-with-longer-snout/french-bulldog-with-longer-snout-16x9.webp",
+   "video_files": [
+    "/images/infographics/french-bulldog-with-longer-snout/french-bulldog-with-longer-snout-9x16.jpg",
+    "/images/infographics/french-bulldog-with-longer-snout/french-bulldog-with-longer-snout-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Longer snout: what it does and does not tell you. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-with-longer-snout"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-hocico-largo-infographic",
+   "web_file": "/images/infographics/bulldog-frances-hocico-largo/bulldog-frances-hocico-largo-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-hocico-largo/bulldog-frances-hocico-largo-9x16.jpg",
+    "/images/infographics/bulldog-frances-hocico-largo/bulldog-frances-hocico-largo-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Hocico más largo: qué indica y qué no. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-hocico-largo"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "frenchton-infographic",
+   "web_file": "/images/infographics/frenchton/frenchton-16x9.webp",
+   "video_files": [
+    "/images/infographics/frenchton/frenchton-9x16.jpg",
+    "/images/infographics/frenchton/frenchton-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Frenchton: what a cross does not guarantee. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/frenchton"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "frenchton-infographic",
+   "web_file": "/images/infographics/frenchton/frenchton-16x9.webp",
+   "video_files": [
+    "/images/infographics/frenchton/frenchton-9x16.jpg",
+    "/images/infographics/frenchton/frenchton-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Frenchton: lo que un cruce no garantiza. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/frenchton"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "mini-french-bulldog-health-infographic",
+   "web_file": "/images/infographics/mini-french-bulldog-health/mini-french-bulldog-health-16x9.webp",
+   "video_files": [
+    "/images/infographics/mini-french-bulldog-health/mini-french-bulldog-health-9x16.jpg",
+    "/images/infographics/mini-french-bulldog-health/mini-french-bulldog-health-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: \"Mini\" French Bulldogs: what to check. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/mini-french-bulldog-health"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-mini-infographic",
+   "web_file": "/images/infographics/bulldog-frances-mini/bulldog-frances-mini-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-mini/bulldog-frances-mini-9x16.jpg",
+    "/images/infographics/bulldog-frances-mini/bulldog-frances-mini-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Bulldog francés «mini»: qué revisar. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-mini"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "flying-with-a-french-bulldog-infographic",
+   "web_file": "/images/infographics/flying-with-a-french-bulldog/flying-with-a-french-bulldog-16x9.webp",
+   "video_files": [
+    "/images/infographics/flying-with-a-french-bulldog/flying-with-a-french-bulldog-9x16.jpg",
+    "/images/infographics/flying-with-a-french-bulldog/flying-with-a-french-bulldog-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Flying with a French Bulldog. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/flying-with-a-french-bulldog"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-viajar-en-avion-infographic",
+   "web_file": "/images/infographics/bulldog-frances-viajar-en-avion/bulldog-frances-viajar-en-avion-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-viajar-en-avion/bulldog-frances-viajar-en-avion-9x16.jpg",
+    "/images/infographics/bulldog-frances-viajar-en-avion/bulldog-frances-viajar-en-avion-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Viajar en avión con un bulldog francés. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-viajar-en-avion"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "senior-french-bulldog-care-infographic",
+   "web_file": "/images/infographics/senior-french-bulldog-care/senior-french-bulldog-care-16x9.webp",
+   "video_files": [
+    "/images/infographics/senior-french-bulldog-care/senior-french-bulldog-care-9x16.jpg",
+    "/images/infographics/senior-french-bulldog-care/senior-french-bulldog-care-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Caring for a senior French Bulldog. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/senior-french-bulldog-care"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-anciano-infographic",
+   "web_file": "/images/infographics/bulldog-frances-anciano/bulldog-frances-anciano-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-anciano/bulldog-frances-anciano-9x16.jpg",
+    "/images/infographics/bulldog-frances-anciano/bulldog-frances-anciano-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Cuidar a un bulldog francés mayor. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-anciano"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "blue-eyed-french-bulldog-infographic",
+   "web_file": "/images/infographics/blue-eyed-french-bulldog/blue-eyed-french-bulldog-16x9.webp",
+   "video_files": [
+    "/images/infographics/blue-eyed-french-bulldog/blue-eyed-french-bulldog-9x16.jpg",
+    "/images/infographics/blue-eyed-french-bulldog/blue-eyed-french-bulldog-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Blue eyes in French Bulldogs. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/blue-eyed-french-bulldog"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-ojos-azules-infographic",
+   "web_file": "/images/infographics/bulldog-frances-ojos-azules/bulldog-frances-ojos-azules-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-ojos-azules/bulldog-frances-ojos-azules-9x16.jpg",
+    "/images/infographics/bulldog-frances-ojos-azules/bulldog-frances-ojos-azules-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Ojos azules en el bulldog francés. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-ojos-azules"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "double-merle-french-bulldog-infographic",
+   "web_file": "/images/infographics/double-merle-french-bulldog/double-merle-french-bulldog-16x9.webp",
+   "video_files": [
+    "/images/infographics/double-merle-french-bulldog/double-merle-french-bulldog-9x16.jpg",
+    "/images/infographics/double-merle-french-bulldog/double-merle-french-bulldog-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Double merle French Bulldogs. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/double-merle-french-bulldog"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-doble-merle-infographic",
+   "web_file": "/images/infographics/bulldog-frances-doble-merle/bulldog-frances-doble-merle-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-doble-merle/bulldog-frances-doble-merle-9x16.jpg",
+    "/images/infographics/bulldog-frances-doble-merle/bulldog-frances-doble-merle-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Bulldog francés doble merle. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-doble-merle"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "fluffy-french-bulldog-health-infographic",
+   "web_file": "/images/infographics/fluffy-french-bulldog-health/fluffy-french-bulldog-health-16x9.webp",
+   "video_files": [
+    "/images/infographics/fluffy-french-bulldog-health/fluffy-french-bulldog-health-9x16.jpg",
+    "/images/infographics/fluffy-french-bulldog-health/fluffy-french-bulldog-health-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Fluffy French Bulldogs: the facts. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/fluffy-french-bulldog-health"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-fluffy-infographic",
+   "web_file": "/images/infographics/bulldog-frances-fluffy/bulldog-frances-fluffy-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-fluffy/bulldog-frances-fluffy-9x16.jpg",
+    "/images/infographics/bulldog-frances-fluffy/bulldog-frances-fluffy-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Bulldog francés fluffy: lo que hay que saber. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-fluffy"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "pregnant-french-bulldog-care-infographic",
+   "web_file": "/images/infographics/pregnant-french-bulldog-care/pregnant-french-bulldog-care-16x9.webp",
+   "video_files": [
+    "/images/infographics/pregnant-french-bulldog-care/pregnant-french-bulldog-care-9x16.jpg",
+    "/images/infographics/pregnant-french-bulldog-care/pregnant-french-bulldog-care-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Pregnancy in French Bulldogs. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/pregnant-french-bulldog-care"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-embarazada-infographic",
+   "web_file": "/images/infographics/bulldog-frances-embarazada/bulldog-frances-embarazada-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-embarazada/bulldog-frances-embarazada-9x16.jpg",
+    "/images/infographics/bulldog-frances-embarazada/bulldog-frances-embarazada-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Bulldog francesa embarazada. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-embarazada"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "white-french-bulldog-deafness-infographic",
+   "web_file": "/images/infographics/white-french-bulldog-deafness/white-french-bulldog-deafness-16x9.webp",
+   "video_files": [
+    "/images/infographics/white-french-bulldog-deafness/white-french-bulldog-deafness-9x16.jpg",
+    "/images/infographics/white-french-bulldog-deafness/white-french-bulldog-deafness-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: White French Bulldogs and deafness. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/white-french-bulldog-deafness"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-blanco-sordera-infographic",
+   "web_file": "/images/infographics/bulldog-frances-blanco-sordera/bulldog-frances-blanco-sordera-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-blanco-sordera/bulldog-frances-blanco-sordera-9x16.jpg",
+    "/images/infographics/bulldog-frances-blanco-sordera/bulldog-frances-blanco-sordera-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Bulldog francés blanco y sordera. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-blanco-sordera"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "blindness-in-dogs-infographic",
+   "web_file": "/images/infographics/blindness-in-dogs/blindness-in-dogs-16x9.webp",
+   "video_files": [
+    "/images/infographics/blindness-in-dogs/blindness-in-dogs-9x16.jpg",
+    "/images/infographics/blindness-in-dogs/blindness-in-dogs-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Blindness in dogs: causes and red flags. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/blindness-in-dogs"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "ceguera-en-perros-infographic",
+   "web_file": "/images/infographics/ceguera-en-perros/ceguera-en-perros-16x9.webp",
+   "video_files": [
+    "/images/infographics/ceguera-en-perros/ceguera-en-perros-9x16.jpg",
+    "/images/infographics/ceguera-en-perros/ceguera-en-perros-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Ceguera en perros: causas y señales de alarma. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/ceguera-en-perros"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "demodectic-mange-in-dogs-infographic",
+   "web_file": "/images/infographics/demodectic-mange-in-dogs/demodectic-mange-in-dogs-16x9.webp",
+   "video_files": [
+    "/images/infographics/demodectic-mange-in-dogs/demodectic-mange-in-dogs-9x16.jpg",
+    "/images/infographics/demodectic-mange-in-dogs/demodectic-mange-in-dogs-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Demodectic mange in dogs. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/demodectic-mange-in-dogs"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "sarna-demodecica-perros-infographic",
+   "web_file": "/images/infographics/sarna-demodecica-perros/sarna-demodecica-perros-16x9.webp",
+   "video_files": [
+    "/images/infographics/sarna-demodecica-perros/sarna-demodecica-perros-9x16.jpg",
+    "/images/infographics/sarna-demodecica-perros/sarna-demodecica-perros-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Sarna demodécica en perros. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/sarna-demodecica-perros"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "distemper-in-dogs-infographic",
+   "web_file": "/images/infographics/distemper-in-dogs/distemper-in-dogs-16x9.webp",
+   "video_files": [
+    "/images/infographics/distemper-in-dogs/distemper-in-dogs-9x16.jpg",
+    "/images/infographics/distemper-in-dogs/distemper-in-dogs-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Canine distemper. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/distemper-in-dogs"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "moquillo-canino-infographic",
+   "web_file": "/images/infographics/moquillo-canino/moquillo-canino-16x9.webp",
+   "video_files": [
+    "/images/infographics/moquillo-canino/moquillo-canino-9x16.jpg",
+    "/images/infographics/moquillo-canino/moquillo-canino-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Moquillo canino. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/moquillo-canino"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "ear-mites-in-dogs-infographic",
+   "web_file": "/images/infographics/ear-mites-in-dogs/ear-mites-in-dogs-16x9.webp",
+   "video_files": [
+    "/images/infographics/ear-mites-in-dogs/ear-mites-in-dogs-9x16.jpg",
+    "/images/infographics/ear-mites-in-dogs/ear-mites-in-dogs-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Ear mites in dogs. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/ear-mites-in-dogs"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "acaros-en-los-oidos-perros-infographic",
+   "web_file": "/images/infographics/acaros-en-los-oidos-perros/acaros-en-los-oidos-perros-16x9.webp",
+   "video_files": [
+    "/images/infographics/acaros-en-los-oidos-perros/acaros-en-los-oidos-perros-9x16.jpg",
+    "/images/infographics/acaros-en-los-oidos-perros/acaros-en-los-oidos-perros-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Ácaros en los oídos del perro. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/acaros-en-los-oidos-perros"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "fleas-on-dogs-infographic",
+   "web_file": "/images/infographics/fleas-on-dogs/fleas-on-dogs-16x9.webp",
+   "video_files": [
+    "/images/infographics/fleas-on-dogs/fleas-on-dogs-9x16.jpg",
+    "/images/infographics/fleas-on-dogs/fleas-on-dogs-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Fleas on dogs. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/fleas-on-dogs"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "pulgas-en-perros-infographic",
+   "web_file": "/images/infographics/pulgas-en-perros/pulgas-en-perros-16x9.webp",
+   "video_files": [
+    "/images/infographics/pulgas-en-perros/pulgas-en-perros-9x16.jpg",
+    "/images/infographics/pulgas-en-perros/pulgas-en-perros-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Pulgas en perros. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/pulgas-en-perros"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "french-bulldog-first-heat-care-infographic",
+   "web_file": "/images/infographics/french-bulldog-first-heat-care/french-bulldog-first-heat-care-16x9.webp",
+   "video_files": [
+    "/images/infographics/french-bulldog-first-heat-care/french-bulldog-first-heat-care-9x16.jpg",
+    "/images/infographics/french-bulldog-first-heat-care/french-bulldog-first-heat-care-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Your French Bulldog's first heat. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-first-heat-care"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "primer-celo-bulldog-frances-infographic",
+   "web_file": "/images/infographics/primer-celo-bulldog-frances/primer-celo-bulldog-frances-16x9.webp",
+   "video_files": [
+    "/images/infographics/primer-celo-bulldog-frances/primer-celo-bulldog-frances-9x16.jpg",
+    "/images/infographics/primer-celo-bulldog-frances/primer-celo-bulldog-frances-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: El primer celo de tu bulldog francesa. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/primer-celo-bulldog-frances"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "french-bulldog-going-blind-infographic",
+   "web_file": "/images/infographics/french-bulldog-going-blind/french-bulldog-going-blind-16x9.webp",
+   "video_files": [
+    "/images/infographics/french-bulldog-going-blind/french-bulldog-going-blind-9x16.jpg",
+    "/images/infographics/french-bulldog-going-blind/french-bulldog-going-blind-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Is my French Bulldog going blind?. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/french-bulldog-going-blind"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-se-queda-ciego-infographic",
+   "web_file": "/images/infographics/bulldog-frances-se-queda-ciego/bulldog-frances-se-queda-ciego-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-se-queda-ciego/bulldog-frances-se-queda-ciego-9x16.jpg",
+    "/images/infographics/bulldog-frances-se-queda-ciego/bulldog-frances-se-queda-ciego-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: ¿Mi bulldog francés se está quedando ciego?. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-se-queda-ciego"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "french-bulldog-tail-spine-infographic",
+   "web_file": "/images/infographics/french-bulldog-tail-spine/french-bulldog-tail-spine-16x9.webp",
+   "video_files": [
+    "/images/infographics/french-bulldog-tail-spine/french-bulldog-tail-spine-9x16.jpg",
+    "/images/infographics/french-bulldog-tail-spine/french-bulldog-tail-spine-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: French Bulldog tail and spine. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/french-bulldog-tail-spine"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-cola-columna-infographic",
+   "web_file": "/images/infographics/bulldog-frances-cola-columna/bulldog-frances-cola-columna-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-cola-columna/bulldog-frances-cola-columna-9x16.jpg",
+    "/images/infographics/bulldog-frances-cola-columna/bulldog-frances-cola-columna-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Cola y columna del bulldog francés. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-cola-columna"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "overweight-french-bulldog-infographic",
+   "web_file": "/images/infographics/overweight-french-bulldog/overweight-french-bulldog-16x9.webp",
+   "video_files": [
+    "/images/infographics/overweight-french-bulldog/overweight-french-bulldog-9x16.jpg",
+    "/images/infographics/overweight-french-bulldog/overweight-french-bulldog-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Is my French Bulldog overweight?. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/overweight-french-bulldog"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-sobrepeso-infographic",
+   "web_file": "/images/infographics/bulldog-frances-sobrepeso/bulldog-frances-sobrepeso-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-sobrepeso/bulldog-frances-sobrepeso-9x16.jpg",
+    "/images/infographics/bulldog-frances-sobrepeso/bulldog-frances-sobrepeso-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: ¿Mi bulldog francés tiene sobrepeso?. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-sobrepeso"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "french-bulldog-too-skinny-infographic",
+   "web_file": "/images/infographics/french-bulldog-too-skinny/french-bulldog-too-skinny-16x9.webp",
+   "video_files": [
+    "/images/infographics/french-bulldog-too-skinny/french-bulldog-too-skinny-9x16.jpg",
+    "/images/infographics/french-bulldog-too-skinny/french-bulldog-too-skinny-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Is my French Bulldog too skinny?. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/french-bulldog-too-skinny"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-flaco-infographic",
+   "web_file": "/images/infographics/bulldog-frances-flaco/bulldog-frances-flaco-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-flaco/bulldog-frances-flaco-9x16.jpg",
+    "/images/infographics/bulldog-frances-flaco/bulldog-frances-flaco-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: ¿Mi bulldog francés está muy flaco?. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-flaco"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "how-to-potty-train-a-french-bulldog-infographic",
+   "web_file": "/images/infographics/how-to-potty-train-a-french-bulldog/how-to-potty-train-a-french-bulldog-16x9.webp",
+   "video_files": [
+    "/images/infographics/how-to-potty-train-a-french-bulldog/how-to-potty-train-a-french-bulldog-9x16.jpg",
+    "/images/infographics/how-to-potty-train-a-french-bulldog/how-to-potty-train-a-french-bulldog-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Potty training a French Bulldog puppy. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/how-to-potty-train-a-french-bulldog"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "ensenar-cachorro-hacer-sus-necesidades-infographic",
+   "web_file": "/images/infographics/ensenar-cachorro-hacer-sus-necesidades/ensenar-cachorro-hacer-sus-necesidades-16x9.webp",
+   "video_files": [
+    "/images/infographics/ensenar-cachorro-hacer-sus-necesidades/ensenar-cachorro-hacer-sus-necesidades-9x16.jpg",
+    "/images/infographics/ensenar-cachorro-hacer-sus-necesidades/ensenar-cachorro-hacer-sus-necesidades-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Enseñar al cachorro a hacer sus necesidades. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/ensenar-cachorro-hacer-sus-necesidades"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "food-aggression-in-dogs-infographic",
+   "web_file": "/images/infographics/food-aggression-in-dogs/food-aggression-in-dogs-16x9.webp",
+   "video_files": [
+    "/images/infographics/food-aggression-in-dogs/food-aggression-in-dogs-9x16.jpg",
+    "/images/infographics/food-aggression-in-dogs/food-aggression-in-dogs-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": "Infographic: Food aggression in dogs. Key points from this guide",
+   "alt_es": null,
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/food-aggression-in-dogs"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "perro-agresivo-con-la-comida-infographic",
+   "web_file": "/images/infographics/perro-agresivo-con-la-comida/perro-agresivo-con-la-comida-16x9.webp",
+   "video_files": [
+    "/images/infographics/perro-agresivo-con-la-comida/perro-agresivo-con-la-comida-9x16.jpg",
+    "/images/infographics/perro-agresivo-con-la-comida/perro-agresivo-con-la-comida-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Perro agresivo con la comida. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/perro-agresivo-con-la-comida"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-vomita-infographic",
+   "web_file": "/images/infographics/bulldog-frances-vomita/bulldog-frances-vomita-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-vomita/bulldog-frances-vomita-9x16.jpg",
+    "/images/infographics/bulldog-frances-vomita/bulldog-frances-vomita-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Vómito o regurgitación en el bulldog francés. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-vomita"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "bulldog-frances-ojos-rojos-infographic",
+   "web_file": "/images/infographics/bulldog-frances-ojos-rojos/bulldog-frances-ojos-rojos-16x9.webp",
+   "video_files": [
+    "/images/infographics/bulldog-frances-ojos-rojos/bulldog-frances-ojos-rojos-9x16.jpg",
+    "/images/infographics/bulldog-frances-ojos-rojos/bulldog-frances-ojos-rojos-1x1.jpg"
+   ],
+   "master_file": "scripts/infographics/topics/batch-1.mjs (rendered by scripts/infographics/render.mjs)",
+   "source_type": "infografía original",
+   "rights_status": "Original del sitio; sin material de terceros.",
+   "alt_en": null,
+   "alt_es": "Infografía: Ojos rojos en el bulldog francés. Puntos clave de esta guía",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/es/guias/bulldog-frances-ojos-rojos"
+   ],
+   "created_at": "2026-11-13",
+   "subject": "Puntos clave citados del artículo."
   }
  ]
 }

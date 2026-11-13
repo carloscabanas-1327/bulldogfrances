@@ -43,5 +43,10 @@
       "q": "¿El bulldog francés blanco es aceptado por la FCI?",
       "a": "Sí, siempre que el borde de los párpados y la nariz sean negros. El estándar aclara que no se cría a propósito por el riesgo de sordera, y la sordera es falta descalificante."
     }
-  ]
+  ],
+  "image": "/images/infographics/bulldog-frances-blanco-sordera/bulldog-frances-blanco-sordera-16x9.webp",
+  "imageAlt": "Infografía: Bulldog francés blanco y sordera. Puntos clave de esta guía",
+  "imageWidth": 2400,
+  "imageHeight": 1350,
+  "imageType": "image/webp"
 }

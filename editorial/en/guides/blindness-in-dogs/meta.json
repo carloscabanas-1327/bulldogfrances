@@ -45,5 +45,10 @@
     }
   ],
   "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
-  "seoAuditNote": "2026-11-12: claim-level source audit and triage rewrite; not professionally reviewed by a veterinarian."
+  "seoAuditNote": "2026-11-12: claim-level source audit and triage rewrite; not professionally reviewed by a veterinarian.",
+  "image": "/images/infographics/blindness-in-dogs/blindness-in-dogs-16x9.webp",
+  "imageAlt": "Infographic: Blindness in dogs: causes and red flags. Key points from this guide",
+  "imageWidth": 2400,
+  "imageHeight": 1350,
+  "imageType": "image/webp"
 }

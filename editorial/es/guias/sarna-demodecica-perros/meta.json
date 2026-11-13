@@ -40,5 +40,10 @@
       "a": "Un veterinario debe investigar enfermedades o fármacos que reduzcan las defensas, aunque a veces no se encuentra una causa. No es exclusivo de perros mayores de cuatro años."
     }
   ],
-  "enUrl": "/en/health/demodectic-mange-in-dogs/"
+  "enUrl": "/en/health/demodectic-mange-in-dogs/",
+  "image": "/images/infographics/sarna-demodecica-perros/sarna-demodecica-perros-16x9.webp",
+  "imageAlt": "Infografía: Sarna demodécica en perros. Puntos clave de esta guía",
+  "imageWidth": 2400,
+  "imageHeight": 1350,
+  "imageType": "image/webp"
 }

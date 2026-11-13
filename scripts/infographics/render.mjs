@@ -8,7 +8,8 @@ import {execFileSync} from 'node:child_process';
 const require=createRequire(import.meta.url);
 let pw;try{pw=require('playwright')}catch{pw=require(require('node:child_process').execSync('npm root -g').toString().trim()+'/playwright')}
 const topic=process.argv[2];
-const {data}=await import(`./topics/${topic}.mjs`);
+const mod=await import(`./topics/${topic}.mjs`);
+const sets=mod.topics?mod.topics:[mod.data];
 const FORMATS={'16x9':[1200,675],'9x16':[540,960],'1x1':[540,540]};
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
 function html(d,fmt){
@@ -23,13 +24,14 @@ ul{list-style:none;padding:0;display:grid;grid-template-columns:${wide?'1fr 1fr'
 li{display:flex;gap:12px;align-items:flex-start;background:#fff;border-radius:12px;padding:${wide?'11px 14px':tall?'11px 14px':'7px 10px'};box-shadow:0 1px 3px rgba(0,0,0,.08)}
 .ic{font-size:${wide?24:tall?30:17}px;line-height:1}
 li b{display:block;font-size:${wide?17:tall?20:13}px;margin-bottom:2px}li span{font-size:${wide?14:tall?17:11}px;line-height:1.35;color:#3d4b59}
+.urgent.info{background:#1f4e79}
 .urgent{margin-top:${wide?12:tall?18:8}px;background:#b3261e;color:#fff;border-radius:12px;padding:${wide?'11px 16px':tall?'16px 18px':'8px 12px'};font-size:${wide?16:tall?18:12}px;font-weight:700;line-height:1.3}
 .foot{margin-top:${wide?10:tall?16:7}px;display:flex;justify-content:space-between;gap:12px;font-size:${wide?11:tall?12:9}px;color:#5b6773}
 .brand{font-weight:700;color:#1d2b3a;white-space:nowrap}
-</style><div class="wrap"><div class="kicker">${esc(d.kicker)}</div><h1>${esc(d.title)}</h1><ul>${items}</ul><div class="urgent">${esc(d.urgent)}</div><div class="foot"><span>${esc(d.sources)}</span><span class="brand">BulldogFrances.com</span></div></div>`;
+</style><div class="wrap"><div class="kicker">${esc(d.kicker)}</div><h1>${esc(d.title)}</h1><ul>${items}</ul><div class="urgent${d.tone==='info'?' info':''}">${esc(d.urgent)}</div><div class="foot"><span>${esc(d.sources)}</span><span class="brand">BulldogFrances.com</span></div></div>`;
 }
 const browser=await pw.chromium.launch();
-for(const [lang,d] of Object.entries(data)){
+for(const data of sets)for(const [lang,d] of Object.entries(data)){
   const out=`public/images/infographics/${d.slug}`;mkdirSync(out,{recursive:true});
   for(const fmt of Object.keys(FORMATS)){
     const [w,h]=FORMATS[fmt];

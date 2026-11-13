@@ -18,6 +18,6 @@ export const data={
    {icon:'🦮',title:'Arnés, no collar',text:'La presión sobre la tráquea puede provocar la tos.'},
    {icon:'🌡️',title:'Veterinario el mismo día',text:'Fiebre, decaimiento, no come, mocos espesos amarillos o verdes, o tos húmeda.'},
    {icon:'🐶',title:'Vigila más a tu bulldog',text:'Los perros con problemas respiratorios pueden empeorar más si les cuesta respirar.'}],
-  urgent:'Respiración con esfuerzo o tos que le hace vomitar: al veterinario el mismo día.',
+  urgent:'Si respira con esfuerzo o le falta el aire: ve ya a una urgencia veterinaria.',
   sources:'Fuentes: Merck Veterinary Manual; Cornell Riney Canine Health Center; AVMA. No reemplaza la consulta veterinaria.'}
 };

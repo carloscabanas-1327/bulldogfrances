@@ -41,5 +41,10 @@
       "q": "¿Es normal que mi bulldog francés vomite amarillo?",
       "a": "El color amarillo puede deberse a bilis, pero no permite diagnosticar una causa ni garantiza que sea por tener el estómago vacío. Consulta si se repite o hay otros signos."
     }
-  ]
+  ],
+  "image": "/images/infographics/bulldog-frances-vomita/bulldog-frances-vomita-16x9.webp",
+  "imageAlt": "Infografía: Vómito o regurgitación en el bulldog francés. Puntos clave de esta guía",
+  "imageWidth": 2400,
+  "imageHeight": 1350,
+  "imageType": "image/webp"
 }

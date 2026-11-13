@@ -43,5 +43,10 @@
     }
   ],
   "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
-  "seoAuditNote": "2026-11-12: claim-level source audit and triage rewrite; not professionally reviewed by a veterinarian."
+  "seoAuditNote": "2026-11-12: claim-level source audit and triage rewrite; not professionally reviewed by a veterinarian.",
+  "image": "/images/infographics/french-bulldog-going-blind/french-bulldog-going-blind-16x9.webp",
+  "imageAlt": "Infographic: Is my French Bulldog going blind?. Key points from this guide",
+  "imageWidth": 2400,
+  "imageHeight": 1350,
+  "imageType": "image/webp"
 }

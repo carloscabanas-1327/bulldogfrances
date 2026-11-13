@@ -44,5 +44,10 @@
     }
   ],
   "seoAuditKeywordEvidence": "editorial phrase; Google Ads KP volume not independently rechecked in this batch",
-  "seoAuditNote": "Clinical-source editorial check (2026-11-12); not professional veterinary approval or live publication verification."
+  "seoAuditNote": "Clinical-source editorial check (2026-11-12); not professional veterinary approval or live publication verification.",
+  "image": "/images/infographics/distemper-in-dogs/distemper-in-dogs-16x9.webp",
+  "imageAlt": "Infographic: Canine distemper. Key points from this guide",
+  "imageWidth": 2400,
+  "imageHeight": 1350,
+  "imageType": "image/webp"
 }

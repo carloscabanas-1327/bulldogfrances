@@ -38,5 +38,10 @@
       "a": "Pasan fácilmente por contacto entre perros y gatos. El veterinario decidirá qué mascotas expuestas necesitan tratarse. La afectación humana es infrecuente y debe evaluarse si hay síntomas."
     }
   ],
-  "enUrl": "/en/health/ear-mites-in-dogs/"
+  "enUrl": "/en/health/ear-mites-in-dogs/",
+  "image": "/images/infographics/acaros-en-los-oidos-perros/acaros-en-los-oidos-perros-16x9.webp",
+  "imageAlt": "Infografía: Ácaros en los oídos del perro. Puntos clave de esta guía",
+  "imageWidth": 2400,
+  "imageHeight": 1350,
+  "imageType": "image/webp"
 }
