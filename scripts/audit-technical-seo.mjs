@@ -78,6 +78,7 @@ for(const url of routes){
  const robots=tags(html,'meta').find(x=>getAttr(x,'name')==='robots');
  const rob=getAttr(robots||'','content')||'missing';
  metaRobots[rob]=(metaRobots[rob]||0)+1;
+ if(url.endsWith('/search/')&&!rob.includes('noindex'))note(problems,'search-not-noindex',url);
  if(!tags(html,'title').length&&!/<title>/.test(html))note(problems,'missing-title',url);
  const alternate=tags(html,'link').filter(x=>getAttr(x,'rel')==='alternate'&&getAttr(x,'hreflang'));
  const expected=url==='/en/'||url==='/es/'||url==='/'?{en:'/en/',es:'/es/'}:
@@ -111,7 +112,7 @@ else{
  const locs=[...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
  const unique=new Set(locs);
  if(locs.length!==unique.size)note(problems,'duplicate-sitemap-loc','duplicates='+String(locs.length-unique.size));
- for(const url of routes)if(!unique.has(SITE+url))note(problems,'missing-sitemap-url',url);
+ for(const url of routes)if(!url.endsWith('/search/')&&!unique.has(SITE+url))note(problems,'missing-sitemap-url',url);
  for(const item of locs)if(!routes.has(item.replace(SITE,'')))note(problems,'orphan-sitemap-url',item);
 }
 const redirects=read('public/_redirects').split(/\r?\n/).map(x=>x.trim()).filter(x=>x&&!x.startsWith('#'));
