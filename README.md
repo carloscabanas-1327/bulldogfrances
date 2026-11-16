@@ -87,3 +87,8 @@ BulldogFrances.com es una unidad editorial independiente, que podrá aprovechar 
 ## Derechos
 
 El contenido y las imágenes conservarán sus derechos y licencias correspondientes. **Este repositorio no concede una licencia general de reutilización.** No incorporar material de terceros sin verificar permisos y atribuciones.
+
+
+## Anunciantes y enlaces `/go/`
+
+Los enlaces de afiliados de este sitio se manejan en el proyecto ANUNCIANTES. Antes de tocar enlaces, revisores de enlaces o cualquier cosa bajo `/go/`, leer la orden de Carlos: [docs/AVISO-ANUNCIANTES-GO.md](docs/AVISO-ANUNCIANTES-GO.md).
