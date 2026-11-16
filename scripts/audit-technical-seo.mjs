@@ -101,6 +101,8 @@ for(const url of routes){
   const href=getAttr(tag,'href');
   if(!href||!href.startsWith('/')||href.startsWith('//'))continue;
   const target=href.split(/[?#]/)[0];if(!target||target==='/')continue;
+  // /go/* belongs to the ANUNCIANTES Worker (docs/AVISO-ANUNCIANTES-GO.md): never check or flag it.
+  if(target==='/go'||target.startsWith('/go/'))continue;
   if(routes.has(target)||isFile('public'+target))continue;
   internalBad.add(url+' -> '+target);
  }
