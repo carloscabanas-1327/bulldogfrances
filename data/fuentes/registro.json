@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-12 — SEO ES2: ocho artículos españoles clínicos, F265 FDA isoxazolinas en español y F266 RECOVER 2026; auditoría editorial focalizada, sin aprobación clínica ni técnica de publicación.",
- "total_fuentes": 266,
+ "ultima_auditoria": "2026-11-18 — toxoplasmosis y ojos de perros (EN+ES): F267–F272 nuevas; Acute Vision Loss (Merck) reutilizada de ceguera en perros.",
+ "total_fuentes": 272,
  "fuentes": [
   {
    "id": "F001",
@@ -17575,6 +17575,324 @@
     "supported": 2
    },
    "observaciones_editoriales": "Guía de primeros auxilios clínicos RECOVER 2026, no un ensayo de raza específica. Mantener atención veterinaria urgente.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F267",
+   "autor_u_organismo": "Soueid Y et al.",
+   "autores": "Soueid Y, Ofri R, Sebbag L, Aroch I, Pe'er O",
+   "organizacion": "Hebrew University of Jerusalem",
+   "titulo_exacto": "More than a feline disease: ocular manifestations in five dogs infected with Toxoplasma gondii",
+   "tipo_fuente": "articulo_revisado_por_pares",
+   "es_fuente_primaria": true,
+   "revista": "Veterinary Parasitology: Regional Studies and Reports",
+   "sitio": null,
+   "fecha_publicacion": "2026-09-21",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": "75",
+   "numero": null,
+   "paginas": "101590",
+   "doi": "10.1016/j.vprsr.2026.101590",
+   "pmid": null,
+   "url_canonica": "https://doi.org/10.1016/j.vprsr.2026.101590",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "suscripcion",
+   "contenido_dinamico": false,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/toxoplasmosis-in-dogs-eyes/ARTICLE.html",
+     "numero_referencia": 1,
+     "afirmaciones": [
+      "Existence, title, journal and date of the five-dog case series."
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/toxoplasmosis-ojos-perros/ARTICLE.html",
+     "numero_referencia": 1,
+     "afirmaciones": [
+      "Existence, title, journal and date of the five-dog case series."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-18",
+   "verificado_via": "https://doi.org/10.1016/j.vprsr.2026.101590",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 1
+   },
+   "observaciones_editoriales": "ScienceDirect bloqueó el acceso automático: resumen no leído directamente. Datos bibliográficos tomados de dvm360 (referencias) y del comunicado en EurekAlert. Hechos clínicos citados a [2] y [3].",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F268",
+   "autor_u_organismo": "The Hebrew University of Jerusalem",
+   "autores": null,
+   "organizacion": "The Hebrew University of Jerusalem",
+   "titulo_exacto": "A parasite linked to cats may also threaten dogs' eyesight, researchers find",
+   "tipo_fuente": "comunicado_de_prensa",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "EurekAlert!",
+   "fecha_publicacion": "2026-11-08",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.eurekalert.org/news-releases/1151003",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/toxoplasmosis-in-dogs-eyes/ARTICLE.html",
+     "numero_referencia": 2,
+     "afirmaciones": [
+      "5 dogs, 2023-2025, positive antibodies, 3 with fourfold rise",
+      "6-year-old dog: glaucoma, eye removed; 8-year-old Weimaraner blepharitis, possibly first report",
+      "all improved initially on clindamycin + ocular anti-inflammatory treatment; 2 relapsed with high titers",
+      "small series cannot establish risk factors; antibodies alone do not prove cause"
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/toxoplasmosis-ojos-perros/ARTICLE.html",
+     "numero_referencia": 2,
+     "afirmaciones": [
+      "5 dogs, 2023-2025, positive antibodies, 3 with fourfold rise",
+      "6-year-old dog: glaucoma, eye removed; 8-year-old Weimaraner blepharitis, possibly first report",
+      "all improved initially on clindamycin + ocular anti-inflammatory treatment; 2 relapsed with high titers",
+      "small series cannot establish risk factors; antibodies alone do not prove cause"
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-18",
+   "verificado_via": "https://www.eurekalert.org/news-releases/1151003",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 4
+   },
+   "observaciones_editoriales": "Comunicado oficial de la universidad.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F269",
+   "autor_u_organismo": "McCafferty C",
+   "autores": "McCafferty C",
+   "organizacion": "dvm360",
+   "titulo_exacto": "Toxoplasmosis may be an underrecognized cause of ocular inflammation in dogs",
+   "tipo_fuente": "noticia_profesional",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "dvm360",
+   "fecha_publicacion": "2026-11-11",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.dvm360.com/view/toxoplasmosis-may-be-an-underrecognized-cause-of-ocular-inflammation-in-dogs",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/toxoplasmosis-in-dogs-eyes/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "inclusion criteria; ages 3.5-8; 4 mixed breed + 1 Weimaraner",
+      "2 bilateral anterior uveitis, 2 unilateral panuveitis with RD and blindness, 1 bilateral panuveitis with acute blindness; 1 enucleation",
+      "comorbidities incl. prednisone for IMT, leishmaniasis, oclacitinib",
+      "alternative drugs stopped for adverse effects; IgM not available locally; suggested intraocular/tear PCR"
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/toxoplasmosis-ojos-perros/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "inclusion criteria; ages 3.5-8; 4 mixed breed + 1 Weimaraner",
+      "2 bilateral anterior uveitis, 2 unilateral panuveitis with RD and blindness, 1 bilateral panuveitis with acute blindness; 1 enucleation",
+      "comorbidities incl. prednisone for IMT, leishmaniasis, oclacitinib",
+      "alternative drugs stopped for adverse effects; IgM not available locally; suggested intraocular/tear PCR"
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-18",
+   "verificado_via": "https://www.dvm360.com/view/toxoplasmosis-may-be-an-underrecognized-cause-of-ocular-inflammation-in-dogs",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 4
+   },
+   "observaciones_editoriales": "Resumen profesional detallado del artículo; se usa para las cifras de casos.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F270",
+   "autor_u_organismo": "Roman N",
+   "autores": "Roman N",
+   "organizacion": "Merck & Co.",
+   "titulo_exacto": "Toxoplasmosis in Dogs",
+   "tipo_fuente": "manual_veterinario",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Merck Veterinary Manual (Dog Owners version)",
+   "fecha_publicacion": "2026-06",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.merckvetmanual.com/dog-owners/disorders-affecting-multiple-body-systems-of-dogs/toxoplasmosis-in-dogs",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/toxoplasmosis-in-dogs-eyes/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "cats only hosts completing the cycle; main source of infection",
+      "healthy adults usually no signs; puppies and immunocompromised at high risk",
+      "prevention: hygiene after raw meat, cook to 152.6 °F (67 °C); cat food cooked/commercial, litter daily"
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/toxoplasmosis-ojos-perros/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "cats only hosts completing the cycle; main source of infection",
+      "healthy adults usually no signs; puppies and immunocompromised at high risk",
+      "prevention: hygiene after raw meat, cook to 152.6 °F (67 °C); cat food cooked/commercial, litter daily"
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-18",
+   "verificado_via": "https://www.merckvetmanual.com/dog-owners/disorders-affecting-multiple-body-systems-of-dogs/toxoplasmosis-in-dogs",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Versión para propietarios.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F271",
+   "autor_u_organismo": "Moré GA",
+   "autores": "Moré GA",
+   "organizacion": "Merck & Co.",
+   "titulo_exacto": "Toxoplasmosis in Animals",
+   "tipo_fuente": "manual_veterinario",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "Merck Veterinary Manual",
+   "fecha_publicacion": "2026-05",
+   "fecha_actualizacion": "2026-09",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.merckvetmanual.com/infectious-diseases/toxoplasmosis/toxoplasmosis-in-animals",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/toxoplasmosis-in-dogs-eyes/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "felids only definitive hosts, oocysts in feces",
+      "infection via undercooked meat with tissue cysts or food/water with oocysts"
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/toxoplasmosis-ojos-perros/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "felids only definitive hosts, oocysts in feces",
+      "infection via undercooked meat with tissue cysts or food/water with oocysts"
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-18",
+   "verificado_via": "https://www.merckvetmanual.com/infectious-diseases/toxoplasmosis/toxoplasmosis-in-animals",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Versión profesional.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F272",
+   "autor_u_organismo": "Centers for Disease Control and Prevention",
+   "autores": null,
+   "organizacion": "CDC",
+   "titulo_exacto": "About Toxoplasmosis",
+   "tipo_fuente": "pagina_institucional",
+   "es_fuente_primaria": false,
+   "revista": null,
+   "sitio": "CDC",
+   "fecha_publicacion": "2025-03-11",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.cdc.gov/toxoplasmosis/about/index.html",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/toxoplasmosis-in-dogs-eyes/ARTICLE.html",
+     "numero_referencia": 6,
+     "afirmaciones": [
+      "freezing meat several days at 0 °F before cooking greatly reduces infection risk"
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/toxoplasmosis-ojos-perros/ARTICLE.html",
+     "numero_referencia": 6,
+     "afirmaciones": [
+      "freezing meat several days at 0 °F before cooking greatly reduces infection risk"
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-18",
+   "verificado_via": "https://www.cdc.gov/toxoplasmosis/about/index.html",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 1
+   },
+   "observaciones_editoriales": "Página orientada a personas.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }

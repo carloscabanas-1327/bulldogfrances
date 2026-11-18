@@ -1768,6 +1768,23 @@
    ],
    "created_at": "2026-11-13",
    "subject": "Puntos clave citados del artículo."
+  },
+  {
+   "image_id": "pied-puppy-odd-eyes",
+   "web_file": "/images/photos/pied-puppy-odd-eyes.webp",
+   "master_file": "Takeout/Blogger (otros álbumes de Carlos) / 056_WhatsApp_Image_2021-08-30_at_22.01.01.jpeg (duplicate: 082_)",
+   "source_type": "propia",
+   "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
+   "alt_en": "Brindle and white French Bulldog puppy resting its chin on a plush toy, looking at the camera with one blue eye and one brown eye",
+   "alt_es": "Cachorro de bulldog francés atigrado y blanco apoyado en un peluche, mirando a la cámara con un ojo azul y otro marrón",
+   "width": 939,
+   "height": 1024,
+   "articulos": [
+    "editorial/en/guides/toxoplasmosis-in-dogs-eyes",
+    "editorial/es/guias/toxoplasmosis-ojos-perros"
+   ],
+   "review_status": "pedido de Carlos: foto de cachorro mostrando sus ojitos (2026-11-18); no usada antes en el sitio (comparación de hash con public/images)",
+   "created_at": "2026-11-18"
   }
  ]
 }
