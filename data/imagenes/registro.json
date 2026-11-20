@@ -1785,6 +1785,22 @@
    ],
    "review_status": "Carlos 2026-11-18: no usar sus fotos en noticias; reemplaza la foto propia pied-puppy-odd-eyes (retirada).",
    "created_at": "2026-11-18"
+  },
+  {
+   "image_id": "french-bulldog-vaccine-record-illustration",
+   "web_file": "/images/hero/french-bulldog-vaccine-record-illustration.webp",
+   "master_file": "scripts/illustrations/french-bulldog-vaccine-record.html (SVG drawn by Claude, rendered with Playwright to 2400x1350 WebP)",
+   "source_type": "generada_con_ia",
+   "rights_status": "Original del sitio, creada con IA (Claude); sin material de terceros.",
+   "alt_en": "Illustration of a black-and-white pied French Bulldog sitting beside a clipboard with a vaccine checklist and a green check mark",
+   "alt_es": "Ilustración de un bulldog francés blanco y negro (pied) sentado junto a un portapapeles con una lista de vacunas y una marca verde",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/distemper-outbreak-oklahoma-city-shelter"
+   ],
+   "review_status": "Noticia (ficha reparto/bulldog-en/2026-11-20-okc-shelter-distemper-outbreak.md): regla de Carlos 2026-11-18, solo imágenes IA en noticias; imagen nueva, no usada antes en /en/.",
+   "created_at": "2026-11-20"
   }
  ]
 }
