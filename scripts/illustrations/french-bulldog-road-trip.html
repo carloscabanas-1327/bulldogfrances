@@ -1,0 +1,53 @@
+<!doctype html><html><head><style>html,body{margin:0;padding:0;background:#fff}svg{display:block}</style></head><body>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1350" viewBox="0 0 2400 1350">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d4f86"/><stop offset=".45" stop-color="#e98b6d"/><stop offset=".75" stop-color="#f7c97a"/></linearGradient>
+<linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d79a63"/><stop offset="1" stop-color="#a8683d"/></linearGradient>
+<linearGradient id="car" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f8a8c"/><stop offset="1" stop-color="#245b5d"/></linearGradient>
+<radialGradient id="fur" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#ebcb9f"/><stop offset="1" stop-color="#c9975f"/></radialGradient>
+<radialGradient id="earIn" cx="50%" cy="60%" r="60%"><stop offset="0" stop-color="#f2b5a8"/><stop offset="1" stop-color="#d98d7e"/></radialGradient>
+<radialGradient id="mask" cx="50%" cy="40%" r="60%"><stop offset="0" stop-color="#6b4a33"/><stop offset="1" stop-color="#3a2618"/></radialGradient>
+<radialGradient id="sun" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff3c4"/><stop offset=".6" stop-color="#ffd27a"/><stop offset="1" stop-color="#ffd27a" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="2400" height="1350" fill="url(#sky)"/>
+<circle cx="1850" cy="640" r="330" fill="url(#sun)"/>
+<circle cx="1850" cy="640" r="140" fill="#ffe7a3"/>
+<!-- mesas -->
+<path d="M0 760 L120 700 L380 700 L460 760 L700 760 L760 690 L1050 690 L1120 760 L1500 760 L1560 720 L1700 720 L1760 760 L2400 760 L2400 900 L0 900Z" fill="#9c4f3c" opacity=".85"/>
+<rect y="760" width="2400" height="590" fill="url(#ground)"/>
+<!-- road -->
+<path d="M0 1080 L2400 1000 L2400 1350 L0 1350Z" fill="#4a4a52"/>
+<g fill="#f6d36b"><rect x="80" y="1180" width="180" height="16" rx="8" transform="rotate(-1.9 170 1188)"/><rect x="520" y="1165" width="180" height="16" rx="8" transform="rotate(-1.9 610 1173)"/><rect x="1900" y="1118" width="180" height="16" rx="8" transform="rotate(-1.9 1990 1126)"/></g>
+<!-- cacti -->
+<g fill="#4f7a4a"><rect x="210" y="820" width="46" height="230" rx="23"/><rect x="160" y="880" width="36" height="110" rx="18"/><rect x="160" y="960" width="70" height="32" rx="16"/><rect x="270" y="860" width="36" height="100" rx="18"/><rect x="236" y="930" width="66" height="30" rx="15"/>
+<rect x="2160" y="830" width="40" height="190" rx="20"/><rect x="2110" y="870" width="32" height="90" rx="16"/><rect x="2110" y="935" width="64" height="28" rx="14"/></g>
+<!-- car body -->
+<path d="M560 1150 L560 900 C560 860 590 830 630 820 L860 600 C890 572 930 560 970 560 L1560 560 C1610 560 1650 580 1680 615 L1880 830 C1950 845 2000 880 2000 940 L2000 1150Z" fill="url(#car)"/>
+<!-- windows -->
+<path d="M720 830 L930 625 C945 612 960 606 980 606 L1200 606 L1200 830Z" fill="#cfe4ea"/>
+<path d="M1250 606 L1540 606 C1575 606 1600 620 1620 642 L1790 830 L1250 830Z" fill="#cfe4ea"/>
+<rect x="1200" y="606" width="50" height="230" fill="#245b5d"/>
+<!-- suitcase in back window -->
+<rect x="1420" y="700" width="260" height="140" rx="18" fill="#e0703f"/><rect x="1500" y="672" width="100" height="40" rx="12" fill="none" stroke="#a74c25" stroke-width="14"/><rect x="1430" y="760" width="240" height="14" fill="#a74c25" opacity=".6"/>
+<!-- wheels -->
+<circle cx="840" cy="1150" r="130" fill="#222"/><circle cx="840" cy="1150" r="60" fill="#9aa3ad"/>
+<circle cx="1700" cy="1150" r="130" fill="#222"/><circle cx="1700" cy="1150" r="60" fill="#9aa3ad"/>
+<rect x="1960" y="960" width="50" height="40" rx="10" fill="#ffe7a3"/>
+<!-- dog head out of front window -->
+<g transform="translate(980 640) scale(0.62)">
+<path d="M-260 -40 C-360 -220 -360 -440 -260 -500 C-160 -550 0 -380 30 -190Z" fill="url(#fur)"/>
+<path d="M-230 -100 C-300 -240 -295 -400 -230 -440 C-160 -475 -50 -340 -30 -200Z" fill="url(#earIn)"/>
+<path d="M540 -40 C640 -220 640 -440 540 -500 C440 -550 280 -380 250 -190Z" fill="url(#fur)"/>
+<path d="M510 -100 C580 -240 575 -400 510 -440 C440 -475 330 -340 310 -200Z" fill="url(#earIn)"/>
+<path d="M140 -310 C420 -310 580 -170 590 60 C600 290 420 460 140 460 C-140 460 -320 290 -310 60 C-300 -170 -140 -310 140 -310Z" fill="url(#fur)"/>
+<ellipse cx="140" cy="240" rx="250" ry="185" fill="url(#mask)"/>
+<circle cx="-50" cy="40" r="80" fill="#2a1a10"/><circle cx="-50" cy="42" r="62" fill="#5a3418"/><circle cx="-70" cy="15" r="20" fill="#fff"/>
+<circle cx="330" cy="40" r="80" fill="#2a1a10"/><circle cx="330" cy="42" r="62" fill="#5a3418"/><circle cx="310" cy="15" r="20" fill="#fff"/>
+<path d="M140 130 C230 130 260 170 250 200 C240 235 190 250 140 250 C90 250 40 235 30 200 C20 170 50 130 140 130Z" fill="#141010"/>
+<path d="M140 250 L140 300 M140 300 C110 345 50 345 25 315 M140 300 C170 345 230 345 255 315" stroke="#1a0f08" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M150 320 C150 420 230 430 240 330Z" fill="#e7837a"/>
+</g>
+<!-- door line -->
+<path d="M1225 840 L1225 1080" stroke="#1d4a4c" stroke-width="6"/>
+<rect x="1300" y="880" width="80" height="18" rx="9" fill="#1d4a4c"/>
+</svg></body></html>
