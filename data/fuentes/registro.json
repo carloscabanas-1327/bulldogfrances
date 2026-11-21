@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-20 — secciones Historia y Dónde comprar (EN+ES): F018, F019, F089, F090, F091, F093, F094 reverificadas y con nuevos usos. · 2026-11-19 — noticia gusano barrenador y viajes de Acción de Gracias (EN): F273–F277 nuevas. · 2026-11-20 — noticia brote de moquillo en el refugio de Oklahoma City (EN): F278–F280 nuevas (F273–F277 reservadas por el PR de la noticia del 2026-11-19). · 2026-11-21 — noticia bulldog francés baleado en Nueva Jersey (EN): F281–F282 nuevas (F273–F280 reservadas por los PR de noticias del 19 y 20/11).",
- "total_fuentes": 282,
+ "ultima_auditoria": "2026-11-20 — secciones Historia y Dónde comprar (EN+ES): F018, F019, F089, F090, F091, F093, F094 reverificadas y con nuevos usos. · 2026-11-19 — noticia gusano barrenador y viajes de Acción de Gracias (EN): F273–F277 nuevas. · 2026-11-20 — noticia brote de moquillo en el refugio de Oklahoma City (EN): F278–F280 nuevas (F273–F277 reservadas por el PR de la noticia del 2026-11-19). · 2026-11-21 — noticia bulldog francés baleado en Nueva Jersey (EN): F281–F282 nuevas (F273–F280 reservadas por los PR de noticias del 19 y 20/11). · 2026-11-21 — noticia hidrogel de miel y pioderma (ES): F283–F286 nuevas, F157 reutilizada (F273–F282 reservadas por los PR de noticias del 19 al 21/11).",
+ "total_fuentes": 286,
  "fuentes": [
   {
    "id": "F001",
@@ -10992,9 +10992,20 @@
       "La PDSA describe la dermatitis de los pliegues con mal olor, enrojecimiento, secreción y dolor al tocar la zona.",
       "limpia los pliegues con un algodón o gasa húmedos (la PDSA sugiere agua con sal) y después sécalos bien."
      ]
+    },
+    {
+     "articulo": "editorial/es/guias/miel-pioderma-perros-estudio/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "bulldog francés entre las razas propensas a dermatitis de pliegues, con bulldog inglés y pug",
+      "pliegues cálidos y húmedos favorecen bacterias y levaduras",
+      "signos: olor, enrojecimiento, secreción, rascado/lamido, dolor",
+      "tratamiento: limpieza, antiinflamatorios, a veces antibióticos o antifúngicos; mejora rápido",
+      "no limpiar con nada que no indique el veterinario"
+     ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-21",
    "verificado_via": "https://www.pdsa.org.uk/media/9645/phh_dog_c_skin-fold-dermatitis.pdf",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
@@ -18507,6 +18518,198 @@
    },
    "observaciones_editoriales": "Ficha news-mypetsfamily reparto/bulldog-en/2026-11-20-nj-french-bulldog-shooting-guilty-plea.md (F2 de la ficha). NY Post (F3 de la ficha) bloqueado: no usado.",
    "verificado_via": "https://local12.com/news/nation-world/man-pleads-guilty-to-shooting-and-killing-stepdaughters-1-year-old-french-bulldog-ocean-county-prosecutors-office-57-year-old-jeffrey-lentz"
+  },
+  {
+   "autores": "Universidad de O'Higgins",
+   "revista": null,
+   "fecha_actualizacion": "2026-11-09",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "urls_anteriores": [],
+   "idioma_original": "es",
+   "acceso": "abierto",
+   "seccion_relevante": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-21",
+   "tipo_fuente": "comunicado_institucional",
+   "es_fuente_primaria": true,
+   "contenido_dinamico": true,
+   "id": "F283",
+   "autor_u_organismo": "Universidad de O'Higgins",
+   "organizacion": "Universidad de O'Higgins (UOH)",
+   "sitio": "uoh.cl",
+   "titulo_exacto": "Académica ICA3 presentó investigación sobre hidrogeles en Congreso Mundial de Medicina Veterinaria de Pequeños Animales",
+   "fecha_publicacion": "2026-11-06",
+   "url_canonica": "https://www.uoh.cl/academica-ica3-presento-investigacion-sobre-hidrogeles-en-congreso-mundial-de-medicina-veterinaria-de-pequenos-animales/",
+   "usos": [
+    {
+     "articulo": "editorial/es/guias/miel-pioderma-perros-estudio/ARTICLE.html",
+     "numero_referencia": 1,
+     "afirmaciones": [
+      "UOH desarrolló hidrogeles de miel",
+      "presentado en el congreso mundial WSAVA en Varsovia",
+      "Müller pide estudios clínicos propios de cada territorio"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Ficha news-mypetsfamily reparto/bulldog-es/2026-11-21-hidrogel-miel-pioderma-perros.md (F1).",
+   "verificado_via": "https://www.uoh.cl/academica-ica3-presento-investigacion-sobre-hidrogeles-en-congreso-mundial-de-medicina-veterinaria-de-pequenos-animales/"
+  },
+  {
+   "autores": "Valentina Lagos",
+   "revista": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "urls_anteriores": [],
+   "idioma_original": "es",
+   "acceso": "abierto",
+   "seccion_relevante": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-21",
+   "tipo_fuente": "nota_periodistica",
+   "es_fuente_primaria": false,
+   "contenido_dinamico": true,
+   "id": "F284",
+   "autor_u_organismo": "Lagos V",
+   "organizacion": "Reporte Agrícola",
+   "sitio": "Reporte Agrícola",
+   "titulo_exacto": "Miel chilena abre nuevas posibilidades para tratar infecciones cutáneas en perros",
+   "fecha_publicacion": "2026-11-18",
+   "url_canonica": "https://www.reporteagricola.cl/noticia/noticias/2026/11/miel-chilena-hidrogeles-infecciones-perros-estudio-uoh",
+   "usos": [
+    {
+     "articulo": "editorial/es/guias/miel-pioderma-perros-estudio/ARTICLE.html",
+     "numero_referencia": 2,
+     "afirmaciones": [
+      "hidrogel de miel chilena, gelatina y quitosano",
+      "S. pseudintermedius causa la pioderma canina, tratada con antibióticos",
+      "halo 10,98 mm miel pura vs 16,19 mm hidrogel",
+      "antibióticos más potentes; resultados más homogéneos",
+      "mieles de mejor calidad fisicoquímica no necesariamente más antibacterianas",
+      "Müller, ICA3, directora APIUOH",
+      "FILAPI Mar del Plata, Sociedad Española de Farmacología Madrid, WSAVA Varsovia",
+      "faltan estudios clínicos en animales"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 8
+   },
+   "observaciones_editoriales": "Ficha (F2).",
+   "verificado_via": "https://www.reporteagricola.cl/noticia/noticias/2026/11/miel-chilena-hidrogeles-infecciones-perros-estudio-uoh"
+  },
+  {
+   "autores": "Sebastián Miranda",
+   "revista": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "urls_anteriores": [],
+   "idioma_original": "es",
+   "acceso": "abierto",
+   "seccion_relevante": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-21",
+   "tipo_fuente": "nota_periodistica",
+   "es_fuente_primaria": false,
+   "contenido_dinamico": true,
+   "id": "F285",
+   "autor_u_organismo": "Miranda S",
+   "organizacion": "Cooperativa",
+   "sitio": "Cooperativa Ciencia",
+   "titulo_exacto": "De la colmena a la veterinaria: desarrollan hidrogeles con miel chilena para sanar infecciones perrunas",
+   "fecha_publicacion": "2026-11-19",
+   "url_canonica": "https://www.cooperativaciencia.cl/ciencia/2026/11/19/de-la-colmena-a-la-veterinaria-desarrollan-hidrogeles-con-miel-chilena-para-sanar-infecciones-perrunas/",
+   "usos": [
+    {
+     "articulo": "editorial/es/guias/miel-pioderma-perros-estudio/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "ensayos con aislados bacterianos de perros",
+      "Müller médica veterinaria y doctora en Farmacología",
+      "resultados experimentales, no permiten recomendar como tratamiento",
+      "estudiar propiedades de cada miel",
+      "faltan estudios clínicos"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 5
+   },
+   "observaciones_editoriales": "Ficha (F3). Enlaza el artículo de Frontiers (F286).",
+   "verificado_via": "https://www.cooperativaciencia.cl/ciencia/2026/11/19/de-la-colmena-a-la-veterinaria-desarrollan-hidrogeles-con-miel-chilena-para-sanar-infecciones-perrunas/"
+  },
+  {
+   "autores": "Müller-Sepúlveda AJ, Monsalve L, Campos-Estrada C, Guevara-Torrejón V, Ceriani R, Foerster C",
+   "revista": "Frontiers in Pharmacology",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": "17",
+   "numero": null,
+   "paginas": "1923388",
+   "doi": "10.3389/fphar.2026.1923388",
+   "pmid": null,
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "seccion_relevante": "Abstract",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-21",
+   "tipo_fuente": "articulo_cientifico",
+   "es_fuente_primaria": true,
+   "contenido_dinamico": false,
+   "id": "F286",
+   "autor_u_organismo": "Müller-Sepúlveda AJ et al.",
+   "organizacion": "Universidad de O'Higgins",
+   "sitio": "Frontiers in Pharmacology",
+   "titulo_exacto": "In vitro pharmacological evaluation of the safety and antibacterial efficacy of a Chilean honey hydrogel for veterinary wound applications",
+   "fecha_publicacion": "2026-09-16",
+   "url_canonica": "https://doi.org/10.3389/fphar.2026.1923388",
+   "verificado_via": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1923388/full",
+   "usos": [
+    {
+     "articulo": "editorial/es/guias/miel-pioderma-perros-estudio/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "8 mieles chilenas con aporte de quillay; hidrogel de miel, quitosano y gelatina",
+      "fibroblastos murinos: sin reducción de actividad metabólica",
+      "halo 10,98 vs 16,19 mm, más homogéneo",
+      "CIM mediana 16,92 a 4,16 mg/mL",
+      "amoxicilina-clavulánico y cefadroxilo con CIM menor",
+      "evaluación preliminar, no prueba de eficacia en heridas",
+      "faltan estudios en células de piel canina, mecanismos e in vivo",
+      "publicado sept 2026"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 8
+   },
+   "observaciones_editoriales": "Leídos resumen y metadatos; cuerpo truncado."
   }
  ]
 }
