@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-20 — secciones Historia y Dónde comprar (EN+ES): F018, F019, F089, F090, F091, F093, F094 reverificadas y con nuevos usos. · 2026-11-19 — noticia gusano barrenador y viajes de Acción de Gracias (EN): F273–F277 nuevas. · 2026-11-20 — noticia brote de moquillo en el refugio de Oklahoma City (EN): F278–F280 nuevas (F273–F277 reservadas por el PR de la noticia del 2026-11-19).",
- "total_fuentes": 280,
+ "ultima_auditoria": "2026-11-20 — secciones Historia y Dónde comprar (EN+ES): F018, F019, F089, F090, F091, F093, F094 reverificadas y con nuevos usos. · 2026-11-19 — noticia gusano barrenador y viajes de Acción de Gracias (EN): F273–F277 nuevas. · 2026-11-20 — noticia brote de moquillo en el refugio de Oklahoma City (EN): F278–F280 nuevas (F273–F277 reservadas por el PR de la noticia del 2026-11-19). · 2026-11-21 — noticia bulldog francés baleado en Nueva Jersey (EN): F281–F282 nuevas (F273–F280 reservadas por los PR de noticias del 19 y 20/11).",
+ "total_fuentes": 282,
  "fuentes": [
   {
    "id": "F001",
@@ -18412,6 +18412,101 @@
    },
    "observaciones_editoriales": "Versión profesional. La etiqueta canonical de la página apunta a /infectious-diseases/canine-distemper/canine-distemper. No da esquemas de vacunación en el artículo (regla de la ficha).",
    "verificado_via": "https://www.merckvetmanual.com/generalized-conditions/canine-distemper/canine-distemper"
+  },
+  {
+   "autores": "Sruly (Lakewood Alerts)",
+   "revista": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "seccion_relevante": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-21",
+   "tipo_fuente": "nota_periodistica",
+   "es_fuente_primaria": false,
+   "contenido_dinamico": true,
+   "id": "F281",
+   "autor_u_organismo": "Lakewood Alerts",
+   "organizacion": "Lakewood Alerts",
+   "sitio": "Lakewood Alerts",
+   "titulo_exacto": "Toms River Man Pleads Guilty To Fatally Shooting French Bulldog In Berkeley Township",
+   "fecha_publicacion": "2026-11-17",
+   "url_canonica": "https://lakewoodalerts.com/toms-river-man-pleads-guilty-to-fatally-shooting-french-bulldog-in-berkeley-township/",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/nj-french-bulldog-shooting-guilty-plea/ARTICLE.html",
+     "numero_referencia": 1,
+     "afirmaciones": [
+      "Jeffrey Lentz, 57, of Toms River, pleaded guilty 16 Nov 2026 before Judge Kimarie Rahill to weapon possession for unlawful purpose and animal cruelty",
+      "3 Oct 2025 ~9:05 p.m., Berkeley Township police, report of injured animal",
+      "owner left the French bulldog in his care and was told it was injured and died",
+      "necropsy at NJ Animal Health Diagnostic Laboratory, Trenton: gunshot wound to face; X-ray bullet in jawbone",
+      "arrested 3 Nov 2025, Ocean County Jail, released under bail reform",
+      "sentencing 22 Jan 2027; state seeks 5 years with 1 year parole ineligibility, concurrent 3 years cruelty, lifetime animal-ownership ban",
+      "Prosecutor Bradley D. Billhimer announced; Assistant Prosecutor Eleni Demestihas"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 7
+   },
+   "observaciones_editoriales": "Basada en el anuncio de la Fiscalía del condado de Ocean. Ficha news-mypetsfamily reparto/bulldog-en/2026-11-20-nj-french-bulldog-shooting-guilty-plea.md (F1 de la ficha).",
+   "verificado_via": "https://lakewoodalerts.com/toms-river-man-pleads-guilty-to-fatally-shooting-french-bulldog-in-berkeley-township/"
+  },
+  {
+   "autores": "WKRC",
+   "revista": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "seccion_relevante": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-21",
+   "tipo_fuente": "nota_periodistica",
+   "es_fuente_primaria": false,
+   "contenido_dinamico": true,
+   "id": "F282",
+   "autor_u_organismo": "WKRC",
+   "organizacion": "Local 12 WKRC (Sinclair)",
+   "sitio": "Local 12",
+   "titulo_exacto": "Man pleads guilty to shooting and killing stepdaughter's 1-year-old French bulldog",
+   "fecha_publicacion": "2026-11-17",
+   "url_canonica": "https://local12.com/news/nation-world/man-pleads-guilty-to-shooting-and-killing-stepdaughters-1-year-old-french-bulldog-ocean-county-prosecutors-office-57-year-old-jeffrey-lentz",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/nj-french-bulldog-shooting-guilty-plea/ARTICLE.html",
+     "numero_referencia": 2,
+     "afirmaciones": [
+      "dog named Ruby, 1-year-old French bulldog, owned by Lentz's stepdaughter and left in his care",
+      "guilty plea 16 Nov to animal cruelty and weapon possession",
+      "necropsy: gunshot wound to face, bullet in jawbone on X-ray",
+      "sentencing 22 Jan 2027; prosecutors will request five years"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 4
+   },
+   "observaciones_editoriales": "Ficha news-mypetsfamily reparto/bulldog-en/2026-11-20-nj-french-bulldog-shooting-guilty-plea.md (F2 de la ficha). NY Post (F3 de la ficha) bloqueado: no usado.",
+   "verificado_via": "https://local12.com/news/nation-world/man-pleads-guilty-to-shooting-and-killing-stepdaughters-1-year-old-french-bulldog-ocean-county-prosecutors-office-57-year-old-jeffrey-lentz"
   }
  ]
 }

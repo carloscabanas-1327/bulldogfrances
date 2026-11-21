@@ -1866,6 +1866,22 @@
    ],
    "review_status": "Foto real con licencia libre para noticia (regla de Carlos 2026-11-19: noticias con foto real, libre o con crédito; nunca fotos propias ni IA).",
    "created_at": "2026-11-21"
+  },
+  {
+   "image_id": "pied-french-bulldog-on-leash-commons",
+   "web_file": "/images/hero/pied-french-bulldog-on-leash-commons.webp",
+   "master_file": "https://commons.wikimedia.org/wiki/File:Franz%C3%B6sische_Bulldogge.jpg (2048x1360; descargada la miniatura oficial de 1920 px; convertida a WebP calidad 82)",
+   "source_type": "libre_con_credito",
+   "rights_status": "Dominio público (liberada por el autor). Autor: Ronschke. Fuente: Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Franz%C3%B6sische_Bulldogge.jpg). Crédito visible en el pie de foto.",
+   "alt_en": "Black-and-white pied French Bulldog in a harness and leash standing on a sidewalk next to a person in jeans",
+   "alt_es": "Bulldog francés blanco y negro con arnés y correa, parado en la vereda junto a una persona de jeans",
+   "width": 1920,
+   "height": 1275,
+   "articulos": [
+    "editorial/en/guides/nj-french-bulldog-shooting-guilty-plea"
+   ],
+   "review_status": "Foto real con licencia libre para noticia (regla de Carlos 2026-11-19: noticias con foto real, libre o con crédito; nunca fotos propias ni IA).",
+   "created_at": "2026-11-21"
   }
  ]
 }
