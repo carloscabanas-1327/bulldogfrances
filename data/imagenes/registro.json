@@ -1802,6 +1802,72 @@
    "created_at": "2026-11-18"
   },
   {
+   "image_id": "french-bulldog-paris-history-illustration",
+   "web_file": "/images/hero/french-bulldog-paris-history-illustration.webp",
+   "master_file": "scripts/illustrations/french-bulldog-paris-history.html (SVG drawn by Claude, rendered with Playwright to 2400x1350 WebP)",
+   "source_type": "generada_con_ia",
+   "rights_status": "Original del sitio, creada con IA (Claude); sin material de terceros.",
+   "alt_en": "Illustration of a fawn French Bulldog with bat ears sitting on a Paris street at dusk, with old Parisian rooftops and a street lamp behind it",
+   "alt_es": "Ilustración de un bulldog francés leonado con orejas de murciélago sentado en una calle de París al atardecer, con tejados parisinos y un farol detrás",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/french-bulldog-history",
+    "editorial/es/guias/historia-bulldog-frances"
+   ],
+   "review_status": "Artículo no noticioso (regla de imágenes 2026-11-13: propias o IA). Una vez por idioma, sin repetir.",
+   "created_at": "2026-11-20"
+  },
+  {
+   "image_id": "french-bulldog-puppy-checklist-illustration",
+   "web_file": "/images/hero/french-bulldog-puppy-checklist-illustration.webp",
+   "master_file": "scripts/illustrations/french-bulldog-puppy-checklist.html (SVG drawn by Claude, rendered with Playwright to 2400x1350 WebP)",
+   "source_type": "generada_con_ia",
+   "rights_status": "Original del sitio, creada con IA (Claude); sin material de terceros.",
+   "alt_en": "Illustration of a black-and-white pied French Bulldog puppy sitting beside a clipboard with a checklist and a green check mark",
+   "alt_es": "Ilustración de un cachorro de bulldog francés blanco y negro sentado junto a un portapapeles con una lista y una marca verde",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/where-to-buy-a-french-bulldog",
+    "editorial/es/guias/donde-comprar-bulldog-frances"
+   ],
+   "review_status": "Artículo no noticioso (regla de imágenes 2026-11-13: propias o IA). Una vez por idioma, sin repetir.",
+   "created_at": "2026-11-20"
+  },
+  {
+   "image_id": "screwworm-fly-cochliomyia-hominivorax-commons",
+   "web_file": "/images/hero/screwworm-fly-cochliomyia-hominivorax-commons.webp",
+   "master_file": "https://commons.wikimedia.org/wiki/File:Screwworm_-_Cochliomyia_hominivorax,_Key_Deer_National_Refuge,_Big_Pine_Key,_Florida_(24909739517).jpg (5184x3456; descargada la miniatura oficial de 1920 px; convertida a WebP calidad 82)",
+   "source_type": "libre_con_credito",
+   "rights_status": "CC BY 2.0. Autor: Judy Gallagher. Fuente: Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Screwworm_-_Cochliomyia_hominivorax,_Key_Deer_National_Refuge,_Big_Pine_Key,_Florida_(24909739517).jpg). Licencia: https://creativecommons.org/licenses/by/2.0/. Crédito visible en el pie de foto.",
+   "alt_en": "Adult New World screwworm fly, a metallic blue-green blowfly with large orange-red eyes, resting on a green leaf",
+   "alt_es": "Mosca adulta del gusano barrenador del Nuevo Mundo, de color azul verdoso metálico y grandes ojos rojo anaranjados, posada sobre una hoja verde",
+   "width": 1920,
+   "height": 1280,
+   "articulos": [
+    "editorial/en/guides/screwworm-dogs-thanksgiving-travel"
+   ],
+   "review_status": "Foto real con licencia libre para noticia (regla de Carlos 2026-11-19: noticias con foto real, libre o con crédito; nunca fotos propias ni IA).",
+   "created_at": "2026-11-21"
+  },
+  {
+   "image_id": "veterinarian-examining-dog-stethoscope-commons",
+   "web_file": "/images/hero/veterinarian-examining-dog-stethoscope-commons.webp",
+   "master_file": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_veterinarian_examining_a_maltese_dog_with_a_stethoscope._(51687314898).jpg (6016x4016; descargada la miniatura oficial de 1920 px; convertida a WebP calidad 82)",
+   "source_type": "libre_con_credito",
+   "rights_status": "CC BY 2.0. Autor: Nenad Stojkovic. Fuente: Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Close-up_of_a_veterinarian_examining_a_maltese_dog_with_a_stethoscope._(51687314898).jpg). Licencia: https://creativecommons.org/licenses/by/2.0/. Crédito visible en el pie de foto.",
+   "alt_en": "Veterinarian in blue scrubs listening with a stethoscope to a small white long-haired dog lying on an exam table",
+   "alt_es": "Veterinaria con ambo azul auscultando con un estetoscopio a un perro pequeño blanco de pelo largo acostado en la camilla",
+   "width": 1920,
+   "height": 1282,
+   "articulos": [
+    "editorial/en/guides/distemper-outbreak-oklahoma-city-shelter"
+   ],
+   "review_status": "Foto real con licencia libre para noticia (regla de Carlos 2026-11-19: noticias con foto real, libre o con crédito; nunca fotos propias ni IA).",
+   "created_at": "2026-11-21"
+  },
+  {
    "image_id": "pied-french-bulldog-on-leash-commons",
    "web_file": "/images/hero/pied-french-bulldog-on-leash-commons.webp",
    "master_file": "https://commons.wikimedia.org/wiki/File:Franz%C3%B6sische_Bulldogge.jpg (2048x1360; descargada la miniatura oficial de 1920 px; convertida a WebP calidad 82)",
