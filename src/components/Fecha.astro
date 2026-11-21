@@ -1,0 +1,10 @@
+---
+// Directive 6, points 8-11: a single highlighted date under the H1.
+import { isoDate, dateLabel } from '../data/site.js';
+const { published, modified, lang = 'en' } = Astro.props;
+const es = lang === 'es';
+const pub = isoDate(published);
+const mod = modified && modified.slice(0, 10) > published.slice(0, 10) ? isoDate(modified) : null;
+---
+<p class="dateline">{es ? 'Publicado: ' : 'Published: '}<time datetime={pub}>{dateLabel(pub, lang)}</time>{mod && <>{' · '}{es ? 'Actualizado: ' : 'Updated: '}<time datetime={mod}>{dateLabel(mod, lang)}</time></>}</p>
+<style>.dateline{font-size:14px;color:#586879;margin:-6px 0 18px}</style>
