@@ -8,7 +8,7 @@ Cuando se comparte cualquier página de bulldogfrances.com (WhatsApp, Facebook, 
    - EN: `public/images/social/og-default-en.jpg`
    - ES: `public/images/social/og-default-es.jpg`
    - Portada bilingüe `/`: `public/og-default.jpg`
-2. Al terminar el build, `scripts/social-images.mjs` (integración de Astro, registrada en `astro.config.mjs`):
+2. Al terminar el build, `scripts/social-images.mjs` (paso posterior al build, dentro de `npm run build`):
    - crea una copia JPEG de 1200×630 (menos de 300 KB, lo que WhatsApp exige) de cada imagen en `/images/share/`;
    - las fotos verticales o cuadradas se muestran enteras sobre un fondo desenfocado de la misma foto (para no cortar la cara del perro); las anchas se recortan desde el centro;
    - reescribe `og:image`, `og:image:secure_url`, `og:image:type`, `og:image:width`, `og:image:height`, `og:image:alt`, `twitter:image` y `twitter:image:alt` (con `twitter:card=summary_large_image`);

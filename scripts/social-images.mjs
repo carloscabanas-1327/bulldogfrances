@@ -1,4 +1,4 @@
-// Astro integration: share previews (WhatsApp, Facebook, X, LinkedIn, Telegram...).
+// Post-build step (`npm run build` = astro build + this): share previews (WhatsApp, Facebook, X, LinkedIn, Telegram...).
 //
 // Permanent rule (Carlos, 2026-11-20): every page, when shared, must show the
 // article's own image; only a page with no image of its own uses the general one.
@@ -13,7 +13,7 @@
 // /go/ belongs to the ANUNCIANTES system and is never read or written.
 import { readdir, readFile, writeFile, mkdir, stat } from 'node:fs/promises';
 import { join, relative, sep } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import sharp from 'sharp';
 import { SITE } from '../src/data/site.js';
 
@@ -121,4 +121,12 @@ export default function socialImages() {
       },
     },
   };
+}
+
+// Run directly after `astro build` (see package.json "build"); kept as a separate step
+// so astro.config.mjs does not change.
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+  const dir = pathToFileURL(join(process.cwd(), process.argv[2] || 'dist') + sep);
+  const logger = { info: m => console.log('[share-images] ' + m), warn: m => console.warn('[share-images] ' + m) };
+  socialImages().hooks['astro:build:done']({ dir, logger }).catch(e => { console.error(e.message); process.exit(1); });
 }
