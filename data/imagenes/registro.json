@@ -1834,6 +1834,22 @@
    ],
    "review_status": "Artículo no noticioso (regla de imágenes 2026-11-13: propias o IA). Una vez por idioma, sin repetir.",
    "created_at": "2026-11-20"
+  },
+  {
+   "image_id": "screwworm-fly-cochliomyia-hominivorax-commons",
+   "web_file": "/images/hero/screwworm-fly-cochliomyia-hominivorax-commons.webp",
+   "master_file": "https://commons.wikimedia.org/wiki/File:Screwworm_-_Cochliomyia_hominivorax,_Key_Deer_National_Refuge,_Big_Pine_Key,_Florida_(24909739517).jpg (5184x3456; descargada la miniatura oficial de 1920 px; convertida a WebP calidad 82)",
+   "source_type": "libre_con_credito",
+   "rights_status": "CC BY 2.0. Autor: Judy Gallagher. Fuente: Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Screwworm_-_Cochliomyia_hominivorax,_Key_Deer_National_Refuge,_Big_Pine_Key,_Florida_(24909739517).jpg). Licencia: https://creativecommons.org/licenses/by/2.0/. Crédito visible en el pie de foto.",
+   "alt_en": "Adult New World screwworm fly, a metallic blue-green blowfly with large orange-red eyes, resting on a green leaf",
+   "alt_es": "Mosca adulta del gusano barrenador del Nuevo Mundo, de color azul verdoso metálico y grandes ojos rojo anaranjados, posada sobre una hoja verde",
+   "width": 1920,
+   "height": 1280,
+   "articulos": [
+    "editorial/en/guides/screwworm-dogs-thanksgiving-travel"
+   ],
+   "review_status": "Foto real con licencia libre para noticia (regla de Carlos 2026-11-19: noticias con foto real, libre o con crédito; nunca fotos propias ni IA).",
+   "created_at": "2026-11-21"
   }
  ]
 }

@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-20 — secciones Historia y Dónde comprar (EN+ES): F018, F019, F089, F090, F091, F093, F094 reverificadas y con nuevos usos.",
- "total_fuentes": 272,
+ "ultima_auditoria": "2026-11-20 — secciones Historia y Dónde comprar (EN+ES): F018, F019, F089, F090, F091, F093, F094 reverificadas y con nuevos usos. · 2026-11-19 — noticia gusano barrenador y viajes de Acción de Gracias (EN): F273–F277 nuevas.",
+ "total_fuentes": 277,
  "fuentes": [
   {
    "id": "F001",
@@ -18039,6 +18039,232 @@
     "supported": 1
    },
    "observaciones_editoriales": "Página orientada a personas.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F273",
+   "autor_u_organismo": "USDA Animal and Plant Health Inspection Service",
+   "autores": null,
+   "organizacion": "USDA Animal and Plant Health Inspection Service",
+   "titulo_exacto": "USDA Confirms New World Screwworm in Arizona",
+   "tipo_fuente": "comunicado_oficial",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "USDA Animal and Plant Health Inspection Service",
+   "fecha_publicacion": "2026-10-28",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://content.govdelivery.com/accounts/USDAAPHIS/bulletins/430d50c",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/screwworm-dogs-thanksgiving-travel/ARTICLE.html",
+     "numero_referencia": 1,
+     "afirmaciones": [
+      "First NWS detection in Arizona, in a dog in Cochise County (28 Oct 2026).",
+      "20-km infested zone with animal movement controls.",
+      "Inspect animals daily for lesions around body openings: ears, nose, genital area, umbilicus.",
+      "Suspected infestation: contact a veterinarian, state animal health official or USDA immediately.",
+      "Dashboard updated daily at 6:00 p.m. ET (screwworm.gov, Current Status)."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-19",
+   "verificado_via": "https://content.govdelivery.com/accounts/USDAAPHIS/bulletins/430d50c",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 5
+   },
+   "observaciones_editoriales": "Boletín GovDelivery de APHIS. No trae consejos de viaje ni cómo se infectó el perro.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F274",
+   "autor_u_organismo": "USDA Animal and Plant Health Inspection Service",
+   "autores": null,
+   "organizacion": "USDA Animal and Plant Health Inspection Service",
+   "titulo_exacto": "Confirmed Detections of New World Screwworm",
+   "tipo_fuente": "pagina_institucional",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "USDA Animal and Plant Health Inspection Service",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": "2026-11-16",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.aphis.usda.gov/animals/animal-health/livestock-and-poultry-disease/stop-screwworm/current-status/confirmed",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/screwworm-dogs-thanksgiving-travel/ARTICLE.html",
+     "numero_referencia": 2,
+     "afirmaciones": [
+      "Public dashboard of confirmed cases by county, state, animal type/species, confirmation date and status."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-19",
+   "verificado_via": "https://www.aphis.usda.gov/animals/animal-health/livestock-and-poultry-disease/stop-screwworm/current-status/confirmed",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 1
+   },
+   "observaciones_editoriales": "El tablero Tableau no se renderiza con acceso automático: no se citan cifras nacionales (la ficha traía 58/34/56, no verificadas).",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F275",
+   "autor_u_organismo": "U.S. Food and Drug Administration",
+   "autores": null,
+   "organizacion": "U.S. Food and Drug Administration",
+   "titulo_exacto": "FDA Issues Emergency Use Authorization for Drug to Treat New World Screwworm Infestations in Dogs and Puppies",
+   "tipo_fuente": "comunicado_oficial",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "U.S. Food and Drug Administration",
+   "fecha_publicacion": "2026-11-03",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.fda.gov/animal-veterinary/cvm-updates/fda-issues-emergency-use-authorization-drug-treat-new-world-screwworm-infestations-dogs-and-puppies",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/screwworm-dogs-thanksgiving-travel/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "EUA for Bravecto (fluralaner) chewable tablets to treat NWS myiasis in dogs and puppies (3 Nov 2026).",
+      "Most U.S. dogs at low risk; cases in a limited region.",
+      "Monitor dogs that live in, travel to or return from infested areas.",
+      "Signs: visible maggots or foul odors in wounds or body openings (eyes, ears, nose, mouth).",
+      "Prescription only; isoxazolines associated with tremors, loss of coordination, seizures."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-19",
+   "verificado_via": "https://www.fda.gov/animal-veterinary/cvm-updates/fda-issues-emergency-use-authorization-drug-treat-new-world-screwworm-infestations-dogs-and-puppies",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 5
+   },
+   "observaciones_editoriales": "Uso de emergencia para tratamiento, no prevención. No se dan dosis.",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F276",
+   "autor_u_organismo": "U.S. Food and Drug Administration",
+   "autores": null,
+   "organizacion": "U.S. Food and Drug Administration",
+   "titulo_exacto": "FDA Issues Emergency Use Authorizations for Drugs to Treat New World Screwworm in Dogs and Cats",
+   "tipo_fuente": "comunicado_oficial",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "U.S. Food and Drug Administration",
+   "fecha_publicacion": "2026-02-18",
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.fda.gov/animal-veterinary/cvm-updates/fda-issues-emergency-use-authorizations-drugs-treat-new-world-screwworm-dogs-and-cats",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": false,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/screwworm-dogs-thanksgiving-travel/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "EUA for NexGard (afoxolaner) chewable tablets to treat NWS in dogs (18 Feb 2026)."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-19",
+   "verificado_via": "https://www.fda.gov/animal-veterinary/cvm-updates/fda-issues-emergency-use-authorizations-drugs-treat-new-world-screwworm-dogs-and-cats",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 1
+   },
+   "observaciones_editoriales": "También NexGard COMBO para gatos (no citado).",
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": []
+  },
+  {
+   "id": "F277",
+   "autor_u_organismo": "Texas Animal Health Commission",
+   "autores": null,
+   "organizacion": "Texas Animal Health Commission",
+   "titulo_exacto": "New World Screwworms",
+   "tipo_fuente": "pagina_institucional",
+   "es_fuente_primaria": true,
+   "revista": null,
+   "sitio": "Texas Animal Health Commission",
+   "fecha_publicacion": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "url_canonica": "https://www.tahc.texas.gov/emergency/nws.html",
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "contenido_dinamico": true,
+   "seccion_relevante": null,
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/screwworm-dogs-thanksgiving-travel/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "Infested zones with movement restrictions in parts of several Texas counties.",
+      "Animals in a zone may not leave without prior TAHC authorization; moves need an inspection.",
+      "27 Texas counties and 81 premises with at least one confirmed detection (read 19 Nov 2026).",
+      "Latest Executive Director Order dated 11/18."
+     ]
+    }
+   ],
+   "fecha_verificacion": "2026-11-19",
+   "verificado_via": "https://www.tahc.texas.gov/emergency/nws.html",
+   "estado_enlace": "ok",
+   "resultado_verificacion_afirmaciones": {
+    "supported": 4
+   },
+   "observaciones_editoriales": "Página dinámica sin fecha de actualización visible; cifras leídas el 2026-11-19.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
   }
