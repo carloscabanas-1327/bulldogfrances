@@ -1785,6 +1785,22 @@
    ],
    "review_status": "Carlos 2026-11-18: no usar sus fotos en noticias; reemplaza la foto propia pied-puppy-odd-eyes (retirada).",
    "created_at": "2026-11-18"
+  },
+  {
+   "image_id": "veterinarian-examining-dog-stethoscope-commons",
+   "web_file": "/images/hero/veterinarian-examining-dog-stethoscope-commons.webp",
+   "master_file": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_veterinarian_examining_a_maltese_dog_with_a_stethoscope._(51687314898).jpg (6016x4016; descargada la miniatura oficial de 1920 px; convertida a WebP calidad 82)",
+   "source_type": "libre_con_credito",
+   "rights_status": "CC BY 2.0. Autor: Nenad Stojkovic. Fuente: Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Close-up_of_a_veterinarian_examining_a_maltese_dog_with_a_stethoscope._(51687314898).jpg). Licencia: https://creativecommons.org/licenses/by/2.0/. Crédito visible en el pie de foto.",
+   "alt_en": "Veterinarian in blue scrubs listening with a stethoscope to a small white long-haired dog lying on an exam table",
+   "alt_es": "Veterinaria con ambo azul auscultando con un estetoscopio a un perro pequeño blanco de pelo largo acostado en la camilla",
+   "width": 1920,
+   "height": 1282,
+   "articulos": [
+    "editorial/en/guides/distemper-outbreak-oklahoma-city-shelter"
+   ],
+   "review_status": "Foto real con licencia libre para noticia (regla de Carlos 2026-11-19: noticias con foto real, libre o con crédito; nunca fotos propias ni IA).",
+   "created_at": "2026-11-21"
   }
  ]
 }
