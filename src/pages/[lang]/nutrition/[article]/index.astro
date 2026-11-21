@@ -1,6 +1,8 @@
 ---
 import Seo from '../../../../components/Seo.astro';
 import Fecha from '../../../../components/Fecha.astro';
+// Directive 11: the old in-body review/disclaimer line is replaced by <Avisos>.
+const OLD_REVIEW=/<p>\s*<small>\s*(?:Last reviewed|Última revisión)[\s\S]*?<\/small>\s*<\/p>/g;
 import Avisos from '../../../../components/Avisos.astro';
 import {homeUrl,SITE,LAUNCH_DATE,isoDate} from '../../../../data/site.js';
 import {readFileSync,existsSync} from 'node:fs';
@@ -17,7 +19,7 @@ const meta=existsSync(join(dir,'meta.json'))?JSON.parse(readFileSync(join(dir,'m
 const m=meta?.[lang];
 const title=m?.title||(en?a.en:a.es);
 const description=m?.description||sections[0][1];
-const bodyHtml=existsSync(file)?readFileSync(file,'utf8').replace(/<!--[\s\S]*?-->/g,'').replace(/<article\b[^>]*>/i,'').replace(/<\/article>/i,'').replace(/^\s*<p>[\s\S]*?<\/p>/,''):null;
+const bodyHtml=existsSync(file)?readFileSync(file,'utf8').replace(OLD_REVIEW,'').replace(/<!--[\s\S]*?-->/g,'').replace(/<article\b[^>]*>/i,'').replace(/<\/article>/i,'').replace(/^\s*<p>[\s\S]*?<\/p>/,''):null;
 const reviewed=meta?.lastReviewed?new Date(meta.lastReviewed+'T12:00:00Z').toLocaleDateString(en?'en-US':'es',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}):null;
 const path='/'+lang+'/nutrition/'+a.slug+'/';
 const published=meta?.datePublished||LAUNCH_DATE;

@@ -49,6 +49,7 @@ async function crops(src) {
 
 const errors = [];
 let pages = 0, articles = 0, heroes = 0;
+const lastmod = new Map(); // canonical URL -> dateModified (sitemap lastmod = dateModified, D6 point 11)
 await mkdir(join(dist, OUT), { recursive: true });
 for await (const file of htmlFiles(dist)) {
   const page = '/' + relative(dist, file).split(sep).join('/');
@@ -70,6 +71,7 @@ for await (const file of htmlFiles(dist)) {
     const graph = data['@graph'] || [data];
     for (const n of graph) {
       if (isWebPage(n) && n.primaryImageOfPage) n.primaryImageOfPage = { '@type': 'ImageObject', url: og, width: 1200, height: 630 };
+      if (isArticle(n) && n.url && (n.dateModified || n.datePublished)) lastmod.set(n.url, n.dateModified || n.datePublished);
       if (isArticle(n)) {
         const main = [].concat(n.image || [])[0];
         const src = typeof main === 'string' ? main : main?.url;
@@ -85,7 +87,8 @@ for await (const file of htmlFiles(dist)) {
   const h1 = html.search(/<\/h1>/i);
   if (h1 !== -1) {
     const rest = html.slice(h1);
-    const img = rest.match(/<img\b[^>]*>/i);
+    // first real photo: skip SVG icons/flags and images narrower than 300px
+    const img = [...rest.matchAll(/<img\b[^>]*>/gi)].find(m => !/\.svg["?#]/i.test(m[0]) && !(+((m[0].match(/\swidth="(\d+)"/) || [])[1] || 999) < 300));
     const h2 = rest.search(/<h2[\s>]/i);
     if (img && (h2 === -1 || img.index < h2)) {
       let tag = img[0].replace(/\s+loading="lazy"/i, '').replace(/\s+fetchpriority="[^"]*"/i, '');
@@ -101,5 +104,14 @@ for await (const file of htmlFiles(dist)) {
 
   await writeFile(file, html);
 }
+// sitemap.xml: <lastmod> = the article's dateModified
+try {
+  const sm = join(dist, 'sitemap.xml');
+  let xml = await readFile(sm, 'utf8');
+  let n = 0;
+  xml = xml.replace(/<url><loc>([^<]+)<\/loc>/g, (m, loc) => { const d = lastmod.get(loc); if (!d) return m; n++; return `${m}<lastmod>${d}</lastmod>`; });
+  await writeFile(sm, xml);
+  console.log(`[directiva6] sitemap: lastmod on ${n} article URLs`);
+} catch (e) { errors.push('sitemap.xml: ' + e.message); }
 if (errors.length) { console.error(`[directiva6] failed (${errors.length}):\n  ` + errors.join('\n  ')); process.exit(1); }
 console.log(`[directiva6] OK: ${pages} pages, ${articles} articles with 16:9/4:3/1:1 images (${made.size} images, ${made.size * 3} crops), ${heroes} main images with fetchpriority=high`);

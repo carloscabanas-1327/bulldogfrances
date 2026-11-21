@@ -6,11 +6,11 @@
 const { lang = 'en', category = '', slug = '', reviewed = '', notices } = Astro.props;
 const es = lang === 'es';
 const HEALTH_CATS = ['health', 'nutrition', 'puppies', 'genetics', 'daily-care', 'breed-characteristics'];
-const SAFETY = /toxic|toxi|poison|venen|treats|premios|choco|heatstroke|heat-stroke|golpe-de-calor|calor|swim|nadar|choking|atragant|summer|verano|aggress|agresiv|bite|muerd|screwworm|barrenador|stairs|escaler|distemper|moquillo/;
-const LEGAL = /travel|viaj|airline|aerol|flight|vuelo|paperwork|papeles|import|buy|compr|breeder|criador|price|precio|cost|prohib|(^|-)laws?(-|$)|(^|-)ley(es)?(-|$)|registr|screwworm|barrenador/;
+const SAFETY = /toxic|toxi|poison|venen|treats|premios|choco|heatstroke|heat-stroke|heat-safety|golpe-de-calor|calor|swim|nadar|choking|atragant|summer|verano|aggress|agresiv|bite|muerd|screwworm|barrenador|stairs|escaler|distemper|moquillo/;
+const LEGAL = /travel|viaj|airline|aerol|flight|flying|vuelo|volar|paperwork|papeles|import|buy|compr|breeder|criador|price|precio|cost|prohib|(^|-)laws?(-|$)|(^|-)ley(es)?(-|$)|registr|screwworm|barrenador/;
 const kinds = new Set(notices || [
   ...(HEALTH_CATS.includes(category) ? ['health'] : []),
-  ...(category === 'training' || SAFETY.test(slug) ? ['safety'] : []),
+  ...(SAFETY.test(slug) ? ['safety'] : []),
   ...(LEGAL.test(slug) ? ['legal'] : []),
 ]);
 const review = reviewed
@@ -18,15 +18,17 @@ const review = reviewed
   : '';
 const T = es ? {
   health: ['Aviso veterinario.', `Esta guía es información general y no reemplaza la consulta, el diagnóstico ni el tratamiento de un veterinario. Incluye referencias documentales, pero la comprobación integral de fuentes y la revisión veterinaria profesional siguen pendientes.${review} Ante cualquier señal de urgencia, consulta enseguida a un veterinario.`],
+  human: ['Aviso de salud.', 'Esta guía es información general sobre alergias y no reemplaza la consulta con un médico o un alergólogo. Si alguien en casa tiene alergia o asma, consulta con su médico antes de sumar un perro a la familia. Ante dificultad para respirar, busca atención médica de urgencia.'],
   safety: ['Aviso de seguridad.', 'Algunas situaciones de esta guía pueden ser peligrosas para el perro o para las personas. Si sospechas una intoxicación, un golpe de calor, una lesión, una mordedura u otra urgencia, comunícate de inmediato con tu veterinario o con un servicio de urgencias veterinarias. No apliques tratamientos caseros sin indicación profesional.'],
   legal: ['Aviso legal y normativo.', 'Las normas sobre viajes, importación, cría, compra y tenencia de perros cambian según el país, la provincia o el estado y la ciudad, y se actualizan con el tiempo. Confirma los requisitos vigentes con la autoridad que corresponda (y, para viajar en avión, con la aerolínea) antes de decidir.'],
 } : {
   health: ['Veterinary notice.', `This guide is general educational information and is not a substitute for advice, diagnosis or treatment from a veterinarian. It includes documentary references, but full source verification and professional veterinary review are still pending.${review} If your dog shows signs of an emergency, contact a veterinarian right away.`],
+  human: ['Health notice.', 'This guide is general information about allergies and is not a substitute for advice from a physician or an allergist. If someone at home has allergies or asthma, talk to their doctor before bringing a dog home. If someone has trouble breathing, seek emergency medical care.'],
   safety: ['Safety notice.', 'Some situations described in this guide can be dangerous for dogs or people. If you suspect poisoning, heatstroke, an injury, a bite or another emergency, contact your veterinarian or an emergency veterinary service immediately. Do not try home treatments unless a veterinary professional tells you to.'],
   legal: ['Legal and regulatory notice.', 'Rules on travel, importing, breeding, buying and owning dogs vary by country, state and city, and change over time. Check the current requirements with the relevant authority (and, for flights, with the airline) before making decisions.'],
 };
-const list = ['health', 'safety', 'legal'].filter(k => kinds.has(k));
-const NAMES = es ? { health: 'veterinaria', safety: 'de seguridad', legal: 'legal' } : { health: 'Veterinary', safety: 'safety', legal: 'legal' };
+const list = ['health', 'human', 'safety', 'legal'].filter(k => kinds.has(k));
+const NAMES = es ? { health: 'veterinaria', human: 'de salud', safety: 'de seguridad', legal: 'legal' } : { health: 'Veterinary', human: 'Health', safety: 'safety', legal: 'legal' };
 const names = list.map(k => NAMES[k]);
 const joined = names.length > 1 ? names.slice(0, -1).join(', ') + (es ? ' y ' : ' and ') + names[names.length - 1] : names[0] || '';
 const summary = es ? 'Información ' + joined : (joined.charAt(0).toUpperCase() + joined.slice(1)) + ' information';

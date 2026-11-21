@@ -2,13 +2,15 @@
 // Spanish-edition guide page. Content: editorial/es/guias/<slug>/.
 import Seo from '../../../components/Seo.astro';
 import Fecha from '../../../components/Fecha.astro';
+// Directive 11: the old in-body review/disclaimer line is replaced by <Avisos>.
+const OLD_REVIEW=/<p>\s*<small>\s*(?:Last reviewed|Última revisión)[\s\S]*?<\/small>\s*<\/p>/g;
 import Avisos from '../../../components/Avisos.astro';
 import {SITE,DEFAULT_OG_IMAGE,LAUNCH_DATE,isoDate} from '../../../data/site.js';
 import {esGuides,esGuideUrl,esGuideHtml,esCategoryLabels} from '../../../data/spanishGuides.js';
 import {nutritionArticles} from '../../../data/frenchBulldogGuides.js';
 export function getStaticPaths(){return esGuides.map(g=>({params:{category:g.category,slug:g.slug},props:{guide:g}}))}
 const {guide}=Astro.props;
-const html=esGuideHtml(guide).replace(/<!--[\s\S]*?-->/g,'').replace(/<article\b[^>]*>/i,'').replace(/<\/article>/i,'');
+const html=esGuideHtml(guide).replace(OLD_REVIEW,'').replace(/<!--[\s\S]*?-->/g,'').replace(/<article\b[^>]*>/i,'').replace(/<\/article>/i,'');
 const path=esGuideUrl(guide);
 const catLabel=esCategoryLabels[guide.category];
 const catPath='/es/'+guide.category+'/';

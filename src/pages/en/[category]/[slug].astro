@@ -3,6 +3,8 @@ import {readFileSync} from 'node:fs';
 import {join} from 'node:path';
 import Seo from '../../../components/Seo.astro';
 import Fecha from '../../../components/Fecha.astro';
+// Directive 11: the old in-body review/disclaimer line is replaced by <Avisos>.
+const OLD_REVIEW=/<p>\s*<small>\s*(?:Last reviewed|Última revisión)[\s\S]*?<\/small>\s*<\/p>/g;
 import Avisos from '../../../components/Avisos.astro';
 import {SITE,DEFAULT_OG_IMAGE,LAUNCH_DATE,isoDate} from '../../../data/site.js';
 import {guides,categories,guideTitle,guideUrl,guideSummary,guideHtmlPath,guideMeta} from '../../../data/frenchBulldogGuides.js';
@@ -26,7 +28,7 @@ const title=article.title;
 const category=categories.find(c=>c.slug===article.category);
 const titleOf=slug=>(all.find(a=>a.slug===slug)||{}).title||slug;
 const urlOf=slug=>(all.find(a=>a.slug===slug)||{}).url;
-const cleanHtml=html.replace(/<!--[\s\S]*?-->/g,'').replace(/<article\b[^>]*>/i,'').replace(/<\/article>/i,'').replace(/<li[^>]*data-mpf-related-slug="([^"]+)"[^>]*>[\s\S]*?<\/li>/g,(_,slug)=>{const u=urlOf(slug);return u?'<li><a href="'+u+'">'+titleOf(slug)+'</a></li>':''});
+const cleanHtml=html.replace(OLD_REVIEW,'').replace(/<!--[\s\S]*?-->/g,'').replace(/<article\b[^>]*>/i,'').replace(/<\/article>/i,'').replace(/<li[^>]*data-mpf-related-slug="([^"]+)"[^>]*>[\s\S]*?<\/li>/g,(_,slug)=>{const u=urlOf(slug);return u?'<li><a href="'+u+'">'+titleOf(slug)+'</a></li>':''});
 const meta=article.meta;
 const relatedSlugs=meta.related||[];
 const related=[...all.filter(a=>relatedSlugs.includes(a.slug)),...all.filter(a=>a.category===article.category&&a.slug!==article.slug&&!relatedSlugs.includes(a.slug))].slice(0,5);
