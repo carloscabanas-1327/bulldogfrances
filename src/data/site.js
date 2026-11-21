@@ -16,3 +16,9 @@ export const DEFAULT_OG_ALT = {
 // First public, indexable date of every current article (launch, 2026-11-03).
 // Used as schema.org datePublished; a new article should set its own meta.datePublished.
 export const LAUNCH_DATE = '2026-11-03';
+// Directive 6 (dates): one visible "Published" date (+ "Updated" only after a real
+// content change), identical to schema.org datePublished/dateModified, ISO 8601 with
+// the site's time zone (Argentina, UTC-3).
+export const isoDate = d => (!d ? null : d.includes('T') ? d : d + 'T00:00:00-03:00');
+export const dateLabel = (d, lang) => new Date(d.slice(0, 10) + 'T12:00:00Z')
+  .toLocaleDateString(lang === 'es' ? 'es' : 'en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });

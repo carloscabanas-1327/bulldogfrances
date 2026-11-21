@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/social-images.mjs dist",
+    "build": "astro build && node scripts/social-images.mjs dist && node scripts/directiva6.mjs dist",
     "preview": "astro preview"
   },
   "dependencies": {

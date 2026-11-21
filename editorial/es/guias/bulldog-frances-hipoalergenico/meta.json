@@ -1,7 +1,7 @@
 {
   "title": "¿El bulldog francés es hipoalergénico? Lo que dice la ciencia",
   "seoTitle": "¿Bulldog francés hipoalergénico?",
-  "description": "¿El bulldog francés es hipoalergénico? No existe una raza libre de alérgenos. Qué hacer antes de adoptar si hay alergias o asma en casa.",
+  "description": "¿El bulldog francés es hipoalergénico? No existe una raza libre de alérgenos. Qué hacer antes de adoptar o comprar si hay alergias o asma en casa.",
   "category": "breed-characteristics",
   "primaryKeyword": "bulldog francés hipoalergénico",
   "secondaryKeywords": [
@@ -43,5 +43,8 @@
       "a": "Muchas personas lo consiguen con medidas como mantener al perro fuera del dormitorio, usar filtros HEPA y retirar alfombras, junto con el tratamiento que indique su alergólogo. Depende de la gravedad de la alergia, sobre todo si hay asma."
     }
   ],
-  "image": "/images/photos/black-puppy-blue-collar.webp"
+  "image": "/images/photos/black-puppy-blue-collar.webp",
+  "notices": [
+    "human"
+  ]
 }
