@@ -2,8 +2,8 @@
 // Root page: the only bilingual page (language gateway, hreflang x-default).
 // English home: /en/ (src/pages/en/index.astro). Spanish home: /es/ (src/pages/es/index.astro).
 import Seo from '../components/Seo.astro';
-const title = 'BulldogFrances.com | French Bulldog · Bulldog Francés';
-const description = 'French Bulldog information in English and Spanish. Información sobre el bulldog francés en inglés y español.';
+const title = 'Bulldog Francés · French Bulldog: guías de salud y cuidados | BulldogFrances.com';
+const description = 'Guías del bulldog francés en español: salud, cachorros, colores y cuidados. French Bulldog guides in English: health, puppies, training and care.';
 ---
 <!doctype html>
 <html lang="en">
@@ -11,7 +11,7 @@ const description = 'French Bulldog information in English and Spanish. Informac
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="theme-color" content="#ffffff" />
-<title>BulldogFrances.com | French Bulldog · Bulldog Francés</title>
+<title>{title}</title>
 <Seo title={title} description={description} lang="en" path="/" image="/og-default.jpg" imageAlt="French Bulldog / Bulldog Francés: English and Español editions of BulldogFrances.com" alternates={{ en: '/en/', es: '/es/' }} xDefault="/" />
 <style>
 :root{font-family:Arial,Helvetica,sans-serif;color:#1c2b38;background:#fff;color-scheme:light}
