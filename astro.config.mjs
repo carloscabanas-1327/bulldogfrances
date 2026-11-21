@@ -1,2 +1,3 @@
 import { defineConfig } from 'astro/config';
-export default defineConfig({ site: 'https://www.bulldogfrances.com', output: 'static', trailingSlash: 'always' });
+import socialImages from './scripts/social-images.mjs';
+export default defineConfig({ site: 'https://www.bulldogfrances.com', output: 'static', trailingSlash: 'always', integrations: [socialImages()] });
