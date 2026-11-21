@@ -157,7 +157,7 @@
    ],
    "review_status": "aprobada por Carlos (solo propias + IA)",
    "created_at": "2026-11-03",
-   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la imagen (generada con IA) es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "comic-coche-calor-ai",
