@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-20 — secciones Historia y Dónde comprar (EN+ES): F018, F019, F089, F090, F091, F093, F094 reverificadas y con nuevos usos. · 2026-11-19 — noticia gusano barrenador y viajes de Acción de Gracias (EN): F273–F277 nuevas.",
- "total_fuentes": 277,
+ "ultima_auditoria": "2026-11-20 — secciones Historia y Dónde comprar (EN+ES): F018, F019, F089, F090, F091, F093, F094 reverificadas y con nuevos usos. · 2026-11-19 — noticia gusano barrenador y viajes de Acción de Gracias (EN): F273–F277 nuevas. · 2026-11-20 — noticia brote de moquillo en el refugio de Oklahoma City (EN): F278–F280 nuevas (F273–F277 reservadas por el PR de la noticia del 2026-11-19).",
+ "total_fuentes": 280,
  "fuentes": [
   {
    "id": "F001",
@@ -18267,6 +18267,151 @@
    "observaciones_editoriales": "Página dinámica sin fecha de actualización visible; cifras leídas el 2026-11-19.",
    "copia_archivada": null,
    "ids_auditoria_2026_11_03": []
+  },
+  {
+   "autores": "Jonathan Greco",
+   "revista": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "seccion_relevante": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-20",
+   "id": "F278",
+   "autor_u_organismo": "Greco J",
+   "organizacion": "KOCO 5 News (Hearst Television)",
+   "sitio": "KOCO 5 News",
+   "titulo_exacto": "OKC Animal Welfare suspends dog adoptions and intakes due to highly contagious virus",
+   "tipo_fuente": "nota_periodistica",
+   "es_fuente_primaria": false,
+   "fecha_publicacion": "2026-11-19",
+   "contenido_dinamico": true,
+   "url_canonica": "https://www.koco.com/article/okc-animal-welfare-suspends-dog-adoptions-intakes-canine-distemper/74479806",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/distemper-outbreak-oklahoma-city-shelter/ARTICLE.html",
+     "numero_referencia": 1,
+     "afirmaciones": [
+      "5 shelter dogs positive for canine distemper, 3 euthanized due to symptoms",
+      "dog adoptions and intakes suspended at least two weeks, resume when virus no longer present in shelter population",
+      "only dogs posing immediate public threat or needing emergency care accepted",
+      "about 200 dogs housed",
+      "cats and other animals still adoptable; shelter says domestic cats not susceptible",
+      "adopters of past three weeks: watch respiratory illness, fever, lethargy, appetite loss, nasal discharge, diarrhea, neurologic signs (head tilt, circling, abnormal eye movement), seizures",
+      "Sandoval quotes: best defense; low-cost vaccination clinics; fully vaccinated, ID tag, properly contained",
+      "distemper attacks respiratory, GI and nervous systems"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 8
+   },
+   "observaciones_editoriales": "Cita el comunicado del refugio OKC Animal Welfare. Ficha news-mypetsfamily reparto/bulldog-en/2026-11-20-okc-shelter-distemper-outbreak.md (F2 de la ficha).",
+   "verificado_via": "https://www.koco.com/article/okc-animal-welfare-suspends-dog-adoptions-intakes-canine-distemper/74479806"
+  },
+  {
+   "autores": "Kimberly Querry-Thompson",
+   "revista": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "seccion_relevante": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-20",
+   "id": "F279",
+   "autor_u_organismo": "Querry-Thompson K",
+   "organizacion": "KOKH Fox 25 (Sinclair)",
+   "sitio": "OKCFox / KOKH Fox 25",
+   "titulo_exacto": "OKC Animal Welfare suspends dog adoptions, intakes due to canine distemper outbreak",
+   "tipo_fuente": "nota_periodistica",
+   "es_fuente_primaria": false,
+   "fecha_publicacion": "2026-11-19",
+   "contenido_dinamico": true,
+   "url_canonica": "https://okcfox.com/news/local/okc-animal-welfare-suspends-dog-adoptions-intakes-due-to-canine-distemper-outbreak",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/distemper-outbreak-oklahoma-city-shelter/ARTICLE.html",
+     "numero_referencia": 2,
+     "afirmaciones": [
+      "5 positive, 3 euthanized; routine intakes and adoptions suspended at least two weeks",
+      "exposed or symptomatic dogs isolated; shelter cleaned and disinfected",
+      "lost pets can still be reclaimed",
+      "Sandoval best-defense quote",
+      "signs list for recent adopters"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 5
+   },
+   "observaciones_editoriales": "Deriva del mismo comunicado del refugio que F278 (no es corroboración independiente). F3 de la ficha.",
+   "verificado_via": "https://okcfox.com/news/local/okc-animal-welfare-suspends-dog-adoptions-intakes-due-to-canine-distemper-outbreak"
+  },
+  {
+   "autores": "Kate E. Creevy, Jeremy B. Evans",
+   "revista": null,
+   "fecha_actualizacion": "2026-06",
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "urls_anteriores": [],
+   "idioma_original": "en",
+   "acceso": "abierto",
+   "seccion_relevante": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-20",
+   "id": "F280",
+   "autor_u_organismo": "Creevy KE, Evans JB",
+   "organizacion": "Merck & Co. (Merck Veterinary Manual); autores de Texas A&M University",
+   "sitio": "Merck Veterinary Manual",
+   "titulo_exacto": "Canine Distemper",
+   "tipo_fuente": "manual_veterinario",
+   "es_fuente_primaria": false,
+   "fecha_publicacion": "2022-11",
+   "contenido_dinamico": false,
+   "url_canonica": "https://www.merckvetmanual.com/generalized-conditions/canine-distemper/canine-distemper",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/distemper-outbreak-oklahoma-city-shelter/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "transmitted mainly via aerosol droplet secretions; some dogs shed virus for months",
+      "domestic dogs are the reservoir species",
+      "vaccination available and generally effective; widespread vaccination essential",
+      "virus relatively unstable outside host; sensitive to most disinfectants used in kennels",
+      "transient fever 3-6 days after infection may go unnoticed; then nasal/ocular discharge, lethargy, anorexia; neurologic signs may be delayed weeks or months",
+      "large Felidae listed among susceptible species"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 6
+   },
+   "observaciones_editoriales": "Versión profesional. La etiqueta canonical de la página apunta a /infectious-diseases/canine-distemper/canine-distemper. No da esquemas de vacunación en el artículo (regla de la ficha).",
+   "verificado_via": "https://www.merckvetmanual.com/generalized-conditions/canine-distemper/canine-distemper"
   }
  ]
 }
