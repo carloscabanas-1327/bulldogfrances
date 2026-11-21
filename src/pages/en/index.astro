@@ -30,7 +30,8 @@ const byTopic = categories.map(c => ({
   ].sort((a, b) => a.title.localeCompare(b.title, 'en')),
 }));
 const counts = Object.fromEntries(byTopic.map(c => [c.slug, c.items.length]));
-const comingSoon = [
+const sectionCount = slug => enGuides.filter(g => g.category === slug || (slug === 'news-around-the-world' && g.news === true)).length;
+const extraSections = [
   { slug: 'history', label: 'History & Origins' },
   { slug: 'news-around-the-world', label: 'News Around the World' },
   { slug: 'store', label: 'Where to Buy' },
@@ -149,7 +150,7 @@ footer.site a{text-underline-offset:3px}
     <h2 id="topics">Browse by topic</h2>
     <nav class="topics" aria-label="Topics">
       {categories.map(c => <a class="topic" href={'/en/' + c.slug + '/'}>{c.label}<span>{counts[c.slug]} {counts[c.slug] === 1 ? 'guide' : 'guides'}</span></a>)}
-      {comingSoon.map(c => <a class="topic soon" href={'/en/' + c.slug + '/'}>{c.label}<span>Coming soon</span></a>)}
+      {extraSections.filter(c => sectionCount(c.slug) > 0).map(c => <a class="topic" href={'/en/' + c.slug + '/'}>{c.label}<span>{sectionCount(c.slug)} {sectionCount(c.slug) === 1 ? 'guide' : 'guides'}</span></a>)}
     </nav>
   </section>
 

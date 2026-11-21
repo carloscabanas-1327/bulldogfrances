@@ -1,7 +1,7 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-19 — noticia gusano barrenador y viajes de Acción de Gracias (EN): F273–F277 nuevas.",
+ "ultima_auditoria": "2026-11-20 — secciones Historia y Dónde comprar (EN+ES): F018, F019, F089, F090, F091, F093, F094 reverificadas y con nuevos usos. · 2026-11-19 — noticia gusano barrenador y viajes de Acción de Gracias (EN): F273–F277 nuevas.",
  "total_fuentes": 277,
  "fuentes": [
   {
@@ -1160,9 +1160,30 @@
      "afirmaciones": [
       "The French Bulldog has been the most popular breed in the American Kennel Club's rankings four years in a row, from 2022 through 2025."
      ]
+    },
+    {
+     "articulo": "editorial/en/guides/french-bulldog-history/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "French Bulldog No. 1 in 2022-2025 (fourth year in a row); No. 2 in 2020-2021; No. 4 in 2017-2019"
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/historia-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "n.º 1 de 2022 a 2025; 2.º en 2020-2021; 4.º en 2017-2019"
+     ]
+    },
+    {
+     "articulo": "editorial/en/guides/where-to-buy-a-french-bulldog/ARTICLE.html",
+     "numero_referencia": 5,
+     "afirmaciones": [
+      "most registered breed in the US"
+     ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-20",
    "verificado_via": "https://www.akc.org/most-popular-breeds/",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
@@ -1418,9 +1439,34 @@
      "afirmaciones": [
       "El estándar del AKC fija un peso máximo de 28 libras (unos 12,7 kg), pero muchos bulldogs sanos pesan menos."
      ]
+    },
+    {
+     "articulo": "editorial/en/guides/french-bulldog-history/ARTICLE.html",
+     "numero_referencia": 2,
+     "afirmaciones": [
+      "AKC standard approved 2018-04-10, effective 2018-06-05",
+      "bat ear: broad at base, elongated, round top; other than bat ears is a disqualification",
+      "merle and blue are disqualifications (2018)"
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/historia-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 2,
+     "afirmaciones": [
+      "estándar AKC aprobado 2018, vigente 5 jun 2018",
+      "orejas de murciélago; otra forma descalifica",
+      "merle y azul descalifican"
+     ]
+    },
+    {
+     "articulo": "editorial/en/guides/where-to-buy-a-french-bulldog/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "merle and blue are disqualifications"
+     ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-20",
    "verificado_via": "https://images.akc.org/pdf/breeds/standards/FrenchBulldog.pdf",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
@@ -5998,9 +6044,27 @@
       "Kneecap problems (patellar luxation), which the breed club already screens for",
       "Ask for the standard health tests (hips, eyes, patellas, heart) and a breathing grade for both parents."
      ]
+    },
+    {
+     "articulo": "editorial/en/guides/where-to-buy-a-french-bulldog/ARTICLE.html",
+     "numero_referencia": 2,
+     "afirmaciones": [
+      "FBDCA participates in CHIC; permanent ID by microchip or tattoo",
+      "required: OFA hips or PennHIP; CAER eye exam by DACVO, annual recertification recommended; patella; basic or advanced cardiac",
+      "recommended: HSF4 juvenile cataracts, cystinuria, RFGS breathing, others"
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/donde-comprar-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 2,
+     "afirmaciones": [
+      "CHIC con identificación permanente",
+      "caderas, ojos CAER, rótulas, corazón",
+      "recomendadas: HSF4, cistinuria, respiración"
+     ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-20",
    "verificado_via": "https://frenchbulldogclub.org/health/testingregistries/",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
@@ -6075,9 +6139,26 @@
       "fue criado como perro de compañía y \"no lleva bien quedarse solo durante largos periodos\".",
       "el club de la raza insiste en que es un perro de interior por su mala tolerancia al calor."
      ]
+    },
+    {
+     "articulo": "editorial/en/guides/where-to-buy-a-french-bulldog/ARTICLE.html",
+     "numero_referencia": 1,
+     "afirmaciones": [
+      "buying a well-bred French Bulldog can be expensive; do your homework first",
+      "go to dog shows; talk to breeders; Breeder Referral lists with Code of Ethics",
+      "28 lb maximum; 10-12 years; not tolerant of heat; do not do well alone for extended periods"
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/donde-comprar-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 1,
+     "afirmaciones": [
+      "compra cara; informarse primero; exposiciones; lista de criadores con código de ética",
+      "máximo 28 lb; 10-12 años; tolera mal el calor; no lleva bien estar solo mucho tiempo"
+     ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-20",
    "verificado_via": "https://frenchbulldogclub.org/wp-content/uploads/2018/12/right-for-you-Logo-PR.pdf",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
@@ -6150,9 +6231,41 @@
       "Rescue groups argue merle entered the breed through crossbreeding.",
       "The French Bulldog Rescue Network states that the purebred gene pool did not carry merle and that merle Frenchies were produced by introducing another breed, usually a Chihuahua."
      ]
+    },
+    {
+     "articulo": "editorial/en/guides/french-bulldog-history/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "some breeders sell non-standard colors as rare or designer at inflated prices"
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/historia-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "colores fuera del estándar vendidos como raros o de diseño a precios inflados"
+     ]
+    },
+    {
+     "articulo": "editorial/en/guides/where-to-buy-a-french-bulldog/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "fad colors: blue, chocolate, lilac, merle, sable; marketed as rare/designer at inflated prices",
+      "color dilution alopecia in dilute dogs; double merle deafness and eye problems (citing UC Davis)",
+      "volunteer-run nonprofit rescue; surrendered fad-color dogs"
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/donde-comprar-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "colores de moda vendidos como raros a precios inflados",
+      "alopecia por dilución; doble merle sordera y problemas oculares",
+      "rescate sin fines de lucro de voluntarios"
+     ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-20",
    "verificado_via": "https://frenchbulldogrescue.org/health-safty/fad-colors/",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
@@ -6286,9 +6399,29 @@
      "afirmaciones": [
       "El estándar de la FCI exige una trufa negra y considera descalificante cualquier otro color."
      ]
+    },
+    {
+     "articulo": "editorial/es/guias/historia-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 1,
+     "afirmaciones": [
+      "origen Francia; grupo 9, perro de compañía",
+      "molosos del Epiro y del Imperio romano; bulldog de Gran Bretaña, alanos, dogos franceses",
+      "cruzas en barrios humildes de París en la década de 1880; carniceros, cocheros; alta sociedad y artistas",
+      "primer club París 1880; registro 1885; exposición 1887; estándar 1898 y reconocimiento de la Société Centrale Canine",
+      "modificaciones 1931, 1932, 1948; reformulaciones 1986, 1994, 2012 (comité del Club du Bouledogue Français)",
+      "publicación del estándar vigente 10.08.2023",
+      "orejas erguidas"
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/donde-comprar-bulldog-frances/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "colores FCI: leonado, atigrado o no, con o sin manchas blancas; no menciona azul, lila ni merle"
+     ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-20",
    "verificado_via": "https://www.fci.be/Nomenclature/Standards/101g09-es.pdf",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
@@ -6506,9 +6639,22 @@
      "afirmaciones": [
       "El propio estándar de la FCI considera falta descalificante las narinas completamente cerradas y la dificultad respiratoria."
      ]
+    },
+    {
+     "articulo": "editorial/en/guides/french-bulldog-history/ARTICLE.html",
+     "numero_referencia": 1,
+     "afirmaciones": [
+      "France as country of origin; Group 9",
+      "descends from Epirus/Roman molossers; related to Bulldog of Great Britain, medieval Alaunts, French mastiffs",
+      "modern breed from crossings by breeders in popular quarters of Paris in the 1880s; dog of market porters, butchers, coachmen; won over high society and artists",
+      "first club Paris 1880; first registration 1885; first show 1887; first standard 1898 and French Kennel Club recognition",
+      "standard modified 1931, 1932, 1948; reformulated 1986, 1994, 2012",
+      "official valid standard published 10.08.2023",
+      "erect ears"
+     ]
     }
    ],
-   "fecha_verificacion": "2026-11-03",
+   "fecha_verificacion": "2026-11-20",
    "verificado_via": "https://www.fci.be/Nomenclature/Standards/101g09-en.pdf",
    "estado_enlace": "ok",
    "resultado_verificacion_afirmaciones": {
