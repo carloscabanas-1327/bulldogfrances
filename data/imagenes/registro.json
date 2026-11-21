@@ -9,14 +9,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "French Bulldog puppy with a mottled merle coat and a blue collar, lying on a cream satin cloth",
    "alt_es": "Cachorro de bulldog francés con pelaje merle jaspeado y collar azul, echado sobre una tela satinada color crema",
-   "width": 768,
-   "height": 1024,
+   "width": 1600,
+   "height": 2133,
    "articulos": [
     "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/merle-french-bulldog-health-risks",
     "editorial/es/guias/bulldog-frances-merle"
    ],
    "review_status": "aprobada por Carlos (solo propias + IA)",
-   "created_at": "2026-11-03"
+   "created_at": "2026-11-03",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "fawn-and-black-puppies",
@@ -26,14 +27,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "Two French Bulldog puppies, one fawn and one black brindle, resting side by side on a satin cloth",
    "alt_es": "Dos cachorros de bulldog francés, uno leonado y otro atigrado oscuro, descansando juntos sobre una tela satinada",
-   "width": 768,
-   "height": 821,
+   "width": 1600,
+   "height": 1710,
    "articulos": [
     "editorial/en/guides/french-bulldog-puppy-care",
     "editorial/es/guias/cuidados-cachorro-bulldog-frances"
    ],
    "review_status": "aprobada por Carlos (solo propias + IA)",
-   "created_at": "2026-11-03"
+   "created_at": "2026-11-03",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "puppies-together",
@@ -43,14 +45,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "Fawn and black brindle French Bulldog puppies lying close together and looking at the camera",
    "alt_es": "Cachorros de bulldog francés leonado y atigrado oscuro echados muy juntos, mirando a la cámara",
-   "width": 930,
-   "height": 652,
+   "width": 1600,
+   "height": 1122,
    "articulos": [
     "editorial/en/guides/puppy-socialization",
     "editorial/es/guias/socializacion-del-cachorro"
    ],
    "review_status": "aprobada por Carlos (solo propias + IA)",
-   "created_at": "2026-11-03"
+   "created_at": "2026-11-03",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "brindle-puppy-sitting",
@@ -60,14 +63,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "Black brindle French Bulldog puppy sitting upright on a cream satin cloth",
    "alt_es": "Cachorro de bulldog francés atigrado oscuro sentado sobre una tela satinada color crema",
-   "width": 768,
-   "height": 1024,
+   "width": 1600,
+   "height": 2133,
    "articulos": [
     "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-puppy-health-checklist",
     "editorial/es/guias/revision-salud-cachorro-bulldog-frances"
    ],
    "review_status": "aprobada por Carlos (solo propias + IA)",
-   "created_at": "2026-11-03"
+   "created_at": "2026-11-03",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "pied-puppy-sweater",
@@ -145,14 +149,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "AI-generated illustration of a fawn French Bulldog sitting on a lawn while three children play nearby",
    "alt_es": "Ilustración generada con IA de un bulldog francés leonado sentado en el césped mientras tres niños juegan cerca",
-   "width": 1024,
-   "height": 1024,
+   "width": 1600,
+   "height": 1600,
    "articulos": [
     "editorial/en/guides/french-bulldog-temperament",
     "editorial/es/guias/caracter-bulldog-frances"
    ],
    "review_status": "aprobada por Carlos (solo propias + IA)",
-   "created_at": "2026-11-03"
+   "created_at": "2026-11-03",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la imagen (generada con IA) es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "comic-coche-calor-ai",
@@ -178,14 +183,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "Blue and white pied French Bulldog puppy resting its head on a brown plush toy",
    "alt_es": "Cachorro de bulldog francés pied, azul y blanco, apoyando la cabeza en un peluche marrón",
-   "width": 768,
-   "height": 1024,
+   "width": 1600,
+   "height": 2133,
    "articulos": [
     "editorial/en/guides/french-bulldog-shedding",
     "editorial/es/guias/bulldog-frances-muda-de-pelo"
    ],
    "review_status": "aprobada por Carlos (\"sube las fotos que haya\", 2026-11-03)",
-   "created_at": "2026-11-04"
+   "created_at": "2026-11-04",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "blue-puppy-sitting",
@@ -195,14 +201,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "Blue-grey French Bulldog puppy with a turquoise collar sitting on a brown plush toy",
    "alt_es": "Cachorro de bulldog francés azul grisáceo con collar turquesa, sentado sobre un peluche marrón",
-   "width": 768,
-   "height": 1024,
+   "width": 1600,
+   "height": 2133,
    "articulos": [
     "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/blue-french-bulldog-hair-loss",
     "editorial/es/guias/bulldog-frances-azul-caida-de-pelo"
    ],
    "review_status": "aprobada por Carlos (\"sube las fotos que haya\", 2026-11-03)",
-   "created_at": "2026-11-04"
+   "created_at": "2026-11-04",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "puppy-in-hands",
@@ -212,14 +219,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "Black and white French Bulldog puppy held in a person's hands against a dark red background",
    "alt_es": "Cachorro de bulldog francés blanco y negro sostenido en las manos de una persona, con fondo rojo oscuro",
-   "width": 1147,
-   "height": 768,
+   "width": 1600,
+   "height": 1071,
    "articulos": [
     "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-crying-whining",
     "editorial/es/guias/bulldog-frances-llora"
    ],
    "review_status": "aprobada por Carlos (\"sube las fotos que haya\", 2026-11-03)",
-   "created_at": "2026-11-04"
+   "created_at": "2026-11-04",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "white-puppy-eye-patch",
@@ -229,14 +237,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "White French Bulldog puppy with a dark patch around one eye, lying on a brown plush toy",
    "alt_es": "Cachorro de bulldog francés blanco con una mancha oscura alrededor de un ojo, echado sobre un peluche marrón",
-   "width": 768,
-   "height": 1024,
+   "width": 1600,
+   "height": 2133,
    "articulos": [
     "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-puppy-paperwork",
     "editorial/es/guias/papeles-cachorro-bulldog-frances"
    ],
    "review_status": "aprobada por Carlos (\"sube las fotos que haya\", 2026-11-03)",
-   "created_at": "2026-11-04"
+   "created_at": "2026-11-04",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "white-puppy-blue-collar",
@@ -246,14 +255,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "White French Bulldog puppy with a grey eye patch and a blue collar, resting on a brown plush toy",
    "alt_es": "Cachorro de bulldog francés blanco con una mancha gris en un ojo y collar azul, descansando sobre un peluche marrón",
-   "width": 768,
-   "height": 1024,
+   "width": 1600,
+   "height": 2133,
    "articulos": [
     "editorial/en/guides/how-often-to-bathe-a-french-bulldog",
     "editorial/es/guias/cada-cuanto-banar-bulldog-frances"
    ],
    "review_status": "aprobada por Carlos (\"sube las fotos que haya\", 2026-11-03)",
-   "created_at": "2026-11-04"
+   "created_at": "2026-11-04",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "black-puppy-lying",
@@ -263,14 +273,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "Black French Bulldog puppy lying on a brown plush toy and looking at the camera",
    "alt_es": "Cachorro de bulldog francés negro echado sobre un peluche marrón, mirando a la cámara",
-   "width": 768,
-   "height": 1024,
+   "width": 1600,
+   "height": 2133,
    "articulos": [
     "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-aggression-behavior",
     "editorial/es/guias/bulldog-frances-agresivo"
    ],
    "review_status": "aprobada por Carlos (\"sube las fotos que haya\", 2026-11-03)",
-   "created_at": "2026-11-04"
+   "created_at": "2026-11-04",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "black-puppy-blue-collar",
@@ -280,14 +291,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "Black French Bulldog puppy with a white chest and a blue collar sitting on a large brown teddy bear",
    "alt_es": "Cachorro de bulldog francés negro con pecho blanco y collar azul, sentado sobre un gran oso de peluche marrón",
-   "width": 768,
-   "height": 1024,
+   "width": 1600,
+   "height": 2133,
    "articulos": [
     "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-human-allergies",
     "editorial/es/guias/bulldog-frances-hipoalergenico"
    ],
    "review_status": "aprobada por Carlos (\"sube las fotos que haya\", 2026-11-03)",
-   "created_at": "2026-11-04"
+   "created_at": "2026-11-04",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "black-puppy-teddy",
@@ -297,14 +309,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "Black French Bulldog puppy with a white chest sitting between brown teddy bears",
    "alt_es": "Cachorro de bulldog francés negro con pecho blanco, sentado entre osos de peluche marrones",
-   "width": 913,
-   "height": 1024,
+   "width": 1600,
+   "height": 1795,
    "articulos": [
     "editorial/en/guides/french-bulldog-farts",
     "editorial/es/guias/bulldog-frances-gases"
    ],
    "review_status": "aprobada por Carlos (\"sube las fotos que haya\", 2026-11-03)",
-   "created_at": "2026-11-04"
+   "created_at": "2026-11-04",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "white-puppy-black-ears",
@@ -314,14 +327,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "White French Bulldog puppy with black ears and a black patch over one eye, standing on brown plush",
    "alt_es": "Cachorro de bulldog francés blanco con orejas negras y una mancha negra en un ojo, de pie sobre un peluche marrón",
-   "width": 983,
-   "height": 1024,
+   "width": 1600,
+   "height": 1667,
    "articulos": [
     "editorial/importados-mypetsfamily/french-bulldog-owner-questions-20261028/french-bulldog-dry-nose",
     "editorial/es/guias/bulldog-frances-nariz-seca"
    ],
    "review_status": "aprobada por Carlos (\"sube las fotos que haya\", 2026-11-03)",
-   "created_at": "2026-11-04"
+   "created_at": "2026-11-04",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "merle-puppy-pink-collar",
@@ -331,14 +345,15 @@
    "rights_status": "propiedad de Carlos (confirmado 2026-11-03)",
    "alt_en": "White French Bulldog puppy with grey merle patches and a pink collar lying on brown plush",
    "alt_es": "Cachorro de bulldog francés blanco con manchas merle grises y collar rosa, echado sobre un peluche marrón",
-   "width": 920,
-   "height": 1024,
+   "width": 1600,
+   "height": 1781,
    "articulos": [
     "editorial/en/guides/how-often-should-a-dog-poop",
     "editorial/es/guias/cuantas-veces-hace-caca-un-perro"
    ],
    "review_status": "aprobada por Carlos (\"sube las fotos que haya\", 2026-11-03)",
-   "created_at": "2026-11-04"
+   "created_at": "2026-11-04",
+   "upscale": "Real-ESRGAN x4plus (2026-11-21): el original no supera los 1147 px; la foto es la misma, agrandada a 1600 px de ancho"
   },
   {
    "image_id": "french-bulldog-lifespan-uk-2024-chart",
@@ -1785,6 +1800,104 @@
    ],
    "review_status": "Carlos 2026-11-18: no usar sus fotos en noticias; reemplaza la foto propia pied-puppy-odd-eyes (retirada).",
    "created_at": "2026-11-18"
+  },
+  {
+   "image_id": "french-bulldog-paris-history-illustration",
+   "web_file": "/images/hero/french-bulldog-paris-history-illustration.webp",
+   "master_file": "scripts/illustrations/french-bulldog-paris-history.html (SVG drawn by Claude, rendered with Playwright to 2400x1350 WebP)",
+   "source_type": "generada_con_ia",
+   "rights_status": "Original del sitio, creada con IA (Claude); sin material de terceros.",
+   "alt_en": "Illustration of a fawn French Bulldog with bat ears sitting on a Paris street at dusk, with old Parisian rooftops and a street lamp behind it",
+   "alt_es": "Ilustración de un bulldog francés leonado con orejas de murciélago sentado en una calle de París al atardecer, con tejados parisinos y un farol detrás",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/french-bulldog-history",
+    "editorial/es/guias/historia-bulldog-frances"
+   ],
+   "review_status": "Artículo no noticioso (regla de imágenes 2026-11-13: propias o IA). Una vez por idioma, sin repetir.",
+   "created_at": "2026-11-20"
+  },
+  {
+   "image_id": "french-bulldog-puppy-checklist-illustration",
+   "web_file": "/images/hero/french-bulldog-puppy-checklist-illustration.webp",
+   "master_file": "scripts/illustrations/french-bulldog-puppy-checklist.html (SVG drawn by Claude, rendered with Playwright to 2400x1350 WebP)",
+   "source_type": "generada_con_ia",
+   "rights_status": "Original del sitio, creada con IA (Claude); sin material de terceros.",
+   "alt_en": "Illustration of a black-and-white pied French Bulldog puppy sitting beside a clipboard with a checklist and a green check mark",
+   "alt_es": "Ilustración de un cachorro de bulldog francés blanco y negro sentado junto a un portapapeles con una lista y una marca verde",
+   "width": 2400,
+   "height": 1350,
+   "articulos": [
+    "editorial/en/guides/where-to-buy-a-french-bulldog",
+    "editorial/es/guias/donde-comprar-bulldog-frances"
+   ],
+   "review_status": "Artículo no noticioso (regla de imágenes 2026-11-13: propias o IA). Una vez por idioma, sin repetir.",
+   "created_at": "2026-11-20"
+  },
+  {
+   "image_id": "screwworm-fly-cochliomyia-hominivorax-commons",
+   "web_file": "/images/hero/screwworm-fly-cochliomyia-hominivorax-commons.webp",
+   "master_file": "https://commons.wikimedia.org/wiki/File:Screwworm_-_Cochliomyia_hominivorax,_Key_Deer_National_Refuge,_Big_Pine_Key,_Florida_(24909739517).jpg (5184x3456; descargada la miniatura oficial de 1920 px; convertida a WebP calidad 82)",
+   "source_type": "libre_con_credito",
+   "rights_status": "CC BY 2.0. Autor: Judy Gallagher. Fuente: Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Screwworm_-_Cochliomyia_hominivorax,_Key_Deer_National_Refuge,_Big_Pine_Key,_Florida_(24909739517).jpg). Licencia: https://creativecommons.org/licenses/by/2.0/. Crédito visible en el pie de foto.",
+   "alt_en": "Adult New World screwworm fly, a metallic blue-green blowfly with large orange-red eyes, resting on a green leaf",
+   "alt_es": "Mosca adulta del gusano barrenador del Nuevo Mundo, de color azul verdoso metálico y grandes ojos rojo anaranjados, posada sobre una hoja verde",
+   "width": 1920,
+   "height": 1280,
+   "articulos": [
+    "editorial/en/guides/screwworm-dogs-thanksgiving-travel"
+   ],
+   "review_status": "Foto real con licencia libre para noticia (regla de Carlos 2026-11-19: noticias con foto real, libre o con crédito; nunca fotos propias ni IA).",
+   "created_at": "2026-11-21"
+  },
+  {
+   "image_id": "veterinarian-examining-dog-stethoscope-commons",
+   "web_file": "/images/hero/veterinarian-examining-dog-stethoscope-commons.webp",
+   "master_file": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_veterinarian_examining_a_maltese_dog_with_a_stethoscope._(51687314898).jpg (6016x4016; descargada la miniatura oficial de 1920 px; convertida a WebP calidad 82)",
+   "source_type": "libre_con_credito",
+   "rights_status": "CC BY 2.0. Autor: Nenad Stojkovic. Fuente: Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Close-up_of_a_veterinarian_examining_a_maltese_dog_with_a_stethoscope._(51687314898).jpg). Licencia: https://creativecommons.org/licenses/by/2.0/. Crédito visible en el pie de foto.",
+   "alt_en": "Veterinarian in blue scrubs listening with a stethoscope to a small white long-haired dog lying on an exam table",
+   "alt_es": "Veterinaria con ambo azul auscultando con un estetoscopio a un perro pequeño blanco de pelo largo acostado en la camilla",
+   "width": 1920,
+   "height": 1282,
+   "articulos": [
+    "editorial/en/guides/distemper-outbreak-oklahoma-city-shelter"
+   ],
+   "review_status": "Foto real con licencia libre para noticia (regla de Carlos 2026-11-19: noticias con foto real, libre o con crédito; nunca fotos propias ni IA).",
+   "created_at": "2026-11-21"
+  },
+  {
+   "image_id": "pied-french-bulldog-on-leash-commons",
+   "web_file": "/images/hero/pied-french-bulldog-on-leash-commons.webp",
+   "master_file": "https://commons.wikimedia.org/wiki/File:Franz%C3%B6sische_Bulldogge.jpg (2048x1360; descargada la miniatura oficial de 1920 px; convertida a WebP calidad 82)",
+   "source_type": "libre_con_credito",
+   "rights_status": "Dominio público (liberada por el autor). Autor: Ronschke. Fuente: Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Franz%C3%B6sische_Bulldogge.jpg). Crédito visible en el pie de foto.",
+   "alt_en": "Black-and-white pied French Bulldog in a harness and leash standing on a sidewalk next to a person in jeans",
+   "alt_es": "Bulldog francés blanco y negro con arnés y correa, parado en la vereda junto a una persona de jeans",
+   "width": 1920,
+   "height": 1275,
+   "articulos": [
+    "editorial/en/guides/nj-french-bulldog-shooting-guilty-plea"
+   ],
+   "review_status": "Foto real con licencia libre para noticia (regla de Carlos 2026-11-19: noticias con foto real, libre o con crédito; nunca fotos propias ni IA).",
+   "created_at": "2026-11-21"
+  },
+  {
+   "image_id": "honeycomb-capped-honey-commons",
+   "web_file": "/images/hero/honeycomb-capped-honey-commons.webp",
+   "master_file": "https://commons.wikimedia.org/wiki/File:Honey_comb_with_capped_honey.jpg (3264x2448; descargada la miniatura oficial de 1920 px; convertida a WebP calidad 82)",
+   "source_type": "libre_con_credito",
+   "rights_status": "CC BY 4.0. Autor: Einebillion. Fuente: Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Honey_comb_with_capped_honey.jpg). Licencia: https://creativecommons.org/licenses/by/4.0/. Crédito visible en el pie de foto.",
+   "alt_en": "Beehive honeycomb with hexagonal cells full of honey, some open and some capped with wax",
+   "alt_es": "Panal de abejas con celdas hexagonales llenas de miel, algunas abiertas y otras selladas con cera",
+   "width": 1920,
+   "height": 1440,
+   "articulos": [
+    "editorial/es/guias/miel-pioderma-perros-estudio"
+   ],
+   "review_status": "Foto real con licencia libre para noticia (regla de Carlos 2026-11-19: noticias con foto real, libre o con crédito; nunca fotos propias ni IA).",
+   "created_at": "2026-11-21"
   }
  ]
 }

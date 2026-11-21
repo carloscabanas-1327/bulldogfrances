@@ -10,7 +10,8 @@ const root = join(process.cwd(), ES_GUIDES_DIR);
 
 export const esCategoryLabels = {
   health:'Salud', nutrition:'Alimentación', training:'Educación y conducta', puppies:'Cachorros',
-  'breed-characteristics':'Características de la raza', genetics:'Genética y reproducción', 'daily-care':'Cuidados cotidianos'
+  'breed-characteristics':'Características de la raza', genetics:'Genética y reproducción', 'daily-care':'Cuidados cotidianos',
+  history:'Historia y orígenes', 'news-around-the-world':'Noticias del mundo', store:'Dónde comprar'
 };
 
 export const esGuides = existsSync(root)

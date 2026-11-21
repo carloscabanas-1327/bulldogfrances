@@ -1,0 +1,43 @@
+{
+  "title": "Historia del bulldog francés: de los mercados de París a la raza más popular",
+  "seoTitle": "Historia y origen del bulldog francés",
+  "description": "Historia del bulldog francés según su estándar oficial: el París de 1880, el primer club, el estándar de 1898, las orejas de murciélago y su fama actual.",
+  "category": "history",
+  "primaryKeyword": "historia del bulldog francés",
+  "secondaryKeywords": [
+    "origen del bulldog francés",
+    "de dónde viene el bulldog francés",
+    "bulldog francés origen",
+    "cuándo nació la raza bulldog francés"
+  ],
+  "keywordEn": "french bulldog history",
+  "lastReviewed": "2026-11-20",
+  "datePublished": "2026-11-20",
+  "status": "REVISED_DRAFT_SOURCED",
+  "enUrl": "/en/history/french-bulldog-history/",
+  "faq": [
+    {
+      "q": "¿De dónde es originario el bulldog francés?",
+      "a": "De Francia. El estándar de la FCI indica ese país de origen y explica que la raza actual surgió de cruzas hechas en los barrios humildes de París en la década de 1880."
+    },
+    {
+      "q": "¿Cuándo se reconoció la raza?",
+      "a": "Según la FCI, el primer club se fundó en París en 1880 y la Société Centrale Canine reconoció la raza en 1898, año del primer estándar."
+    },
+    {
+      "q": "¿El bulldog francés es pariente del bulldog inglés?",
+      "a": "Sí: el estándar de la FCI lo emparienta con el bulldog de Gran Bretaña, con los alanos medievales y con los dogos franceses."
+    },
+    {
+      "q": "¿Es la raza más popular de Estados Unidos?",
+      "a": "Sí. El American Kennel Club la ubicó primera en 2022, 2023, 2024 y 2025."
+    }
+  ],
+  "seoAuditKeywordEvidence": "frase editorial; volumen KP no comprobado",
+  "seoAuditNote": "2026-11-20: escrita para llenar la sección Historia (Carlos: nunca vacío ni próximamente); FCI, AKC, FBRN; sin revisión veterinaria.",
+  "image": "/images/hero/french-bulldog-paris-history-illustration.webp",
+  "imageAlt": "Ilustración de un bulldog francés leonado con orejas de murciélago sentado en una calle de París al atardecer, con tejados parisinos y un farol detrás",
+  "imageWidth": 2400,
+  "imageHeight": 1350,
+  "imageType": "image/webp"
+}

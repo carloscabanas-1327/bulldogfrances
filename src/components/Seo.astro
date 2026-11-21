@@ -2,25 +2,44 @@
 // Shared metadata for Cloudflare-rendered Astro pages.
 // hreflang is emitted only for real localized counterparts, and x-default only
 // when a specific neutral fallback is provided (the bilingual language gateway).
-import { SITE, INDEXABLE, DEFAULT_OG_IMAGE } from '../data/site.js';
-const { title, description, lang = 'en', path, alternates = {}, image = DEFAULT_OG_IMAGE, imageAlt, imageWidth, imageHeight, imageType, type = 'website', noindex = false, jsonld, xDefault } = Astro.props;
+import { SITE, INDEXABLE, DEFAULT_OG_IMAGE_BY_LANG, DEFAULT_OG_ALT } from '../data/site.js';
+const { title, description, lang = 'en', path, alternates = {}, image: pageImage, imageAlt: pageImageAlt, imageWidth, imageHeight, imageType, type = 'website', noindex = false, jsonld, xDefault } = Astro.props;
 const canonical = SITE + path;
-const robots = INDEXABLE && !noindex ? 'index,follow,max-image-preview:large' : 'noindex,nofollow';
+// Directive 6, point 5: full preview permissions on every indexable page.
+const robots = INDEXABLE && !noindex ? 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' : 'noindex,nofollow';
 const validPair = alternates.en && alternates.es &&
   (path === alternates.en || path === alternates.es || path === xDefault);
 const alts = validPair
   ? [{ code: 'en-US', url: alternates.en }, { code: 'es', url: alternates.es }]
   : [];
+// Share preview: always the page's own image; the general image only when it has none.
+// scripts/social-images.mjs later turns every og:image into a 1200x630 JPEG and fails
+// the build if a page has none (see docs/IMAGEN-AL-COMPARTIR.md).
+const image = pageImage || DEFAULT_OG_IMAGE_BY_LANG[lang === 'es' ? 'es' : 'en'];
+const imageAlt = pageImageAlt || (pageImage ? title : DEFAULT_OG_ALT[lang === 'es' ? 'es' : 'en']);
 const imageUrl = image.startsWith('http') ? image : SITE + image;
-const safeJson = jsonld ? JSON.stringify(jsonld).replace(/</g, '\\u003c') : null;
+// Directive 6, points 4 and 13: every page declares a WebPage whose primaryImageOfPage
+// is its share image (scripts/social-images.mjs later swaps in the 1200px crops), and the
+// WebSite node carries name + alternateName. The root gateway gets its own WebSite node.
+const graph = jsonld ? (jsonld['@graph'] ? [...jsonld['@graph']] : [Object.fromEntries(Object.entries(jsonld).filter(([k]) => k !== '@context'))]) : [];
+for (const n of graph) if (n['@type'] === 'WebSite' && !n.alternateName) n.alternateName = 'bulldogfrances.com';
+if (path === '/' && !graph.some(n => n['@type'] === 'WebSite')) graph.push({ '@type': 'WebSite', '@id': SITE + '/#website', name: 'BulldogFrances.com', alternateName: 'bulldogfrances.com', url: SITE + '/' });
+const isWebPage = n => /^(WebPage|CollectionPage|AboutPage|ContactPage|SearchResultsPage|FAQPage)$/.test([].concat(n['@type'])[0] || '');
+const pageNode = graph.find(n => isWebPage(n) && (!n['@id'] || n['@id'] === canonical || n['@id'] === canonical + '#webpage'));
+if (pageNode) pageNode.primaryImageOfPage ||= { '@type': 'ImageObject', url: imageUrl };
+else graph.push({ '@type': 'WebPage', '@id': canonical, url: canonical, name: title, ...(description ? { description } : {}), inLanguage: lang === 'es' ? 'es' : 'en-US', primaryImageOfPage: { '@type': 'ImageObject', url: imageUrl } });
+const safeJson = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c');
 ---
 <meta name="robots" content={robots} />
+<meta name="google-adsense-account" content="ca-pub-2894588092621140">
 <link rel="canonical" href={canonical} />
 {description && <meta name="description" content={description} />}
 {alts.map(alt => <link rel="alternate" hreflang={alt.code} href={SITE + alt.url} />)}
 {alts.length === 2 && xDefault && <link rel="alternate" hreflang="x-default" href={SITE + xDefault} />}
 <link rel="icon" href="/favicon.ico" sizes="16x16" />
+<link rel="icon" type="image/png" href="/icon-192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta property="fb:app_id" content="3523662211152554" />
 <meta property="og:site_name" content="BulldogFrances.com" />
 <meta property="og:type" content={type} />
 <meta property="og:title" content={title} />
@@ -37,4 +56,4 @@ const safeJson = jsonld ? JSON.stringify(jsonld).replace(/</g, '\\u003c') : null
 {description && <meta name="twitter:description" content={description} />}
 <meta name="twitter:image" content={imageUrl} />
 {imageAlt && <meta name="twitter:image:alt" content={imageAlt} />}
-{safeJson && <script type="application/ld+json" set:html={safeJson} />}
+<script type="application/ld+json" set:html={safeJson} />

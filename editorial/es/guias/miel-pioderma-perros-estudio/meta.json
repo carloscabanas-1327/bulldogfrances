@@ -1,0 +1,53 @@
+{
+  "title": "Miel contra la pioderma en perros: qué encontró un estudio chileno y por qué no usarla en casa",
+  "seoTitle": "Miel y pioderma en perros: estudio chileno",
+  "description": "Un hidrogel de miel chilena frenó en laboratorio a la bacteria de la pioderma canina. Qué significa para los pliegues del bulldog francés y por qué no usar miel en casa.",
+  "category": "health",
+  "primaryKeyword": "pioderma en perros",
+  "secondaryKeywords": [
+    "miel para infecciones de piel en perros",
+    "Staphylococcus pseudintermedius",
+    "hidrogel de miel perros",
+    "dermatitis de pliegues bulldog francés",
+    "pioderma canina tratamiento"
+  ],
+  "keywordEn": "pyoderma in dogs",
+  "lastReviewed": "2026-11-21",
+  "datePublished": "2026-11-21",
+  "status": "REVISED_DRAFT_SOURCED",
+  "news": true,
+  "related": [
+    "bulldog-frances-bolsillo-de-la-cola",
+    "cada-cuanto-banar-bulldog-frances",
+    "bulldog-frances-hipoalergenico"
+  ],
+  "faq": [
+    {
+      "q": "¿La miel cura la pioderma en perros?",
+      "a": "No hay pruebas de eso. El estudio chileno de 2026 probó un hidrogel de miel solo en el laboratorio, con bacterias aisladas de perros, y los propios investigadores dicen que los resultados no permiten recomendarlo como tratamiento."
+    },
+    {
+      "q": "¿Puedo poner miel en los pliegues de mi bulldog francés?",
+      "a": "No. El gel del estudio es una fórmula de laboratorio, no miel común, y la PDSA aconseja no limpiar la piel del perro con nada que no haya indicado el veterinario."
+    },
+    {
+      "q": "¿Qué es Staphylococcus pseudintermedius?",
+      "a": "Es la principal bacteria asociada a la pioderma canina, una infección de la piel del perro que suele tratarse con antibióticos."
+    },
+    {
+      "q": "¿El hidrogel de miel funcionó mejor que los antibióticos?",
+      "a": "No. Funcionó mejor que la miel sola (halo de inhibición promedio de 16,19 mm frente a 10,98 mm), pero la amoxicilina con ácido clavulánico y el cefadroxilo fueron más potentes."
+    },
+    {
+      "q": "¿El bulldog francés tiene más riesgo de dermatitis de los pliegues?",
+      "a": "La PDSA lo incluye entre las razas propensas, junto al bulldog inglés y el pug. Mal olor, enrojecimiento, secreción o dolor en un pliegue son motivos para consultar al veterinario."
+    }
+  ],
+  "seoAuditKeywordEvidence": "frase editorial; volumen de Google Ads KP no verificado",
+  "seoAuditNote": "2026-11-21: guía basada en noticia, ficha reparto/bulldog-es/2026-11-21-hidrogel-miel-pioderma-perros.md; redactada desde UOH, Reporte Agrícola, Cooperativa Ciencia, Frontiers in Pharmacology y PDSA; sin revisión veterinaria profesional.",
+  "image": "/images/hero/honeycomb-capped-honey-commons.webp",
+  "imageAlt": "Panal de abejas con celdas hexagonales llenas de miel, algunas abiertas y otras selladas con cera",
+  "imageWidth": 1920,
+  "imageHeight": 1440,
+  "imageType": "image/webp"
+}
