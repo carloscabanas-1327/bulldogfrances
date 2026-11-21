@@ -2,8 +2,8 @@
 // Shared metadata for Cloudflare-rendered Astro pages.
 // hreflang is emitted only for real localized counterparts, and x-default only
 // when a specific neutral fallback is provided (the bilingual language gateway).
-import { SITE, INDEXABLE, DEFAULT_OG_IMAGE } from '../data/site.js';
-const { title, description, lang = 'en', path, alternates = {}, image = DEFAULT_OG_IMAGE, imageAlt, imageWidth, imageHeight, imageType, type = 'website', noindex = false, jsonld, xDefault } = Astro.props;
+import { SITE, INDEXABLE, DEFAULT_OG_IMAGE_BY_LANG, DEFAULT_OG_ALT } from '../data/site.js';
+const { title, description, lang = 'en', path, alternates = {}, image: pageImage, imageAlt: pageImageAlt, imageWidth, imageHeight, imageType, type = 'website', noindex = false, jsonld, xDefault } = Astro.props;
 const canonical = SITE + path;
 const robots = INDEXABLE && !noindex ? 'index,follow,max-image-preview:large' : 'noindex,nofollow';
 const validPair = alternates.en && alternates.es &&
@@ -11,6 +11,11 @@ const validPair = alternates.en && alternates.es &&
 const alts = validPair
   ? [{ code: 'en-US', url: alternates.en }, { code: 'es', url: alternates.es }]
   : [];
+// Share preview: always the page's own image; the general image only when it has none.
+// scripts/social-images.mjs later turns every og:image into a 1200x630 JPEG and fails
+// the build if a page has none (see docs/IMAGEN-AL-COMPARTIR.md).
+const image = pageImage || DEFAULT_OG_IMAGE_BY_LANG[lang === 'es' ? 'es' : 'en'];
+const imageAlt = pageImageAlt || (pageImage ? title : DEFAULT_OG_ALT[lang === 'es' ? 'es' : 'en']);
 const imageUrl = image.startsWith('http') ? image : SITE + image;
 const safeJson = jsonld ? JSON.stringify(jsonld).replace(/</g, '\\u003c') : null;
 ---
