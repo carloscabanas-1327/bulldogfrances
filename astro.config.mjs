@@ -1,2 +1,2 @@
 import { defineConfig } from 'astro/config';
-export default defineConfig({ site: 'https://www.bulldogfrances.com', output: 'static', trailingSlash: 'always' });
+export default defineConfig({ site: 'https://bulldogfrances.com', output: 'static', trailingSlash: 'always' });

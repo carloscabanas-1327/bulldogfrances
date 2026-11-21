@@ -6,7 +6,7 @@ import path from 'node:path';
 
 const ROOT=process.cwd();
 const DIST=path.join(ROOT,'dist');
-const SITE='https://www.bulldogfrances.com';
+const SITE='https://bulldogfrances.com';
 const problems=[], warnings=[], routes=new Set(), pairings=[];
 const note=(arr,code,detail)=>arr.push({code,detail});
 const read=p=>fs.readFileSync(path.join(ROOT,p),'utf8');
