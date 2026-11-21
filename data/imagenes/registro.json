@@ -1787,20 +1787,20 @@
    "created_at": "2026-11-18"
   },
   {
-   "image_id": "french-bulldog-road-trip-illustration",
-   "web_file": "/images/hero/french-bulldog-road-trip-illustration.webp",
-   "master_file": "scripts/illustrations/french-bulldog-road-trip.html (SVG drawn by Claude, rendered with Playwright to 2400x1350 WebP)",
-   "source_type": "generada_con_ia",
-   "rights_status": "Original del sitio, creada con IA (Claude); sin material de terceros.",
-   "alt_en": "Illustration of a fawn French Bulldog with bat ears looking out of a car window on a desert road at sunset, with a suitcase on the back seat",
-   "alt_es": "Ilustración de un bulldog francés leonado con orejas de murciélago asomado a la ventanilla de un auto en una ruta del desierto al atardecer, con una valija en el asiento trasero",
-   "width": 2400,
-   "height": 1350,
+   "image_id": "screwworm-fly-cochliomyia-hominivorax-commons",
+   "web_file": "/images/hero/screwworm-fly-cochliomyia-hominivorax-commons.webp",
+   "master_file": "https://commons.wikimedia.org/wiki/File:Screwworm_-_Cochliomyia_hominivorax,_Key_Deer_National_Refuge,_Big_Pine_Key,_Florida_(24909739517).jpg (5184x3456; descargada la miniatura oficial de 1920 px; convertida a WebP calidad 82)",
+   "source_type": "libre_con_credito",
+   "rights_status": "CC BY 2.0. Autor: Judy Gallagher. Fuente: Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Screwworm_-_Cochliomyia_hominivorax,_Key_Deer_National_Refuge,_Big_Pine_Key,_Florida_(24909739517).jpg). Licencia: https://creativecommons.org/licenses/by/2.0/. Crédito visible en el pie de foto.",
+   "alt_en": "Adult New World screwworm fly, a metallic blue-green blowfly with large orange-red eyes, resting on a green leaf",
+   "alt_es": "Mosca adulta del gusano barrenador del Nuevo Mundo, de color azul verdoso metálico y grandes ojos rojo anaranjados, posada sobre una hoja verde",
+   "width": 1920,
+   "height": 1280,
    "articulos": [
     "editorial/en/guides/screwworm-dogs-thanksgiving-travel"
    ],
-   "review_status": "Noticia (ficha reparto/bulldog-en/2026-11-19-screwworm-dogs-holiday-travel.md): regla de Carlos 2026-11-18, solo imágenes IA en noticias; imagen nueva, no usada antes en /en/.",
-   "created_at": "2026-11-19"
+   "review_status": "Foto real con licencia libre para noticia (regla de Carlos 2026-11-19: noticias con foto real, libre o con crédito; nunca fotos propias ni IA).",
+   "created_at": "2026-11-21"
   }
  ]
 }
