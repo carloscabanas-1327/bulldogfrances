@@ -20,6 +20,7 @@ const imageUrl = image.startsWith('http') ? image : SITE + image;
 const safeJson = jsonld ? JSON.stringify(jsonld).replace(/</g, '\\u003c') : null;
 ---
 <meta name="robots" content={robots} />
+<meta name="google-adsense-account" content="ca-pub-2894588092621140">
 <link rel="canonical" href={canonical} />
 {description && <meta name="description" content={description} />}
 {alts.map(alt => <link rel="alternate" hreflang={alt.code} href={SITE + alt.url} />)}
