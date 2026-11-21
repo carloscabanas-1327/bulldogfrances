@@ -1785,6 +1785,22 @@
    ],
    "review_status": "Carlos 2026-11-18: no usar sus fotos en noticias; reemplaza la foto propia pied-puppy-odd-eyes (retirada).",
    "created_at": "2026-11-18"
+  },
+  {
+   "image_id": "honeycomb-capped-honey-commons",
+   "web_file": "/images/hero/honeycomb-capped-honey-commons.webp",
+   "master_file": "https://commons.wikimedia.org/wiki/File:Honey_comb_with_capped_honey.jpg (3264x2448; descargada la miniatura oficial de 1920 px; convertida a WebP calidad 82)",
+   "source_type": "libre_con_credito",
+   "rights_status": "CC BY 4.0. Autor: Einebillion. Fuente: Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Honey_comb_with_capped_honey.jpg). Licencia: https://creativecommons.org/licenses/by/4.0/. Crédito visible en el pie de foto.",
+   "alt_en": "Beehive honeycomb with hexagonal cells full of honey, some open and some capped with wax",
+   "alt_es": "Panal de abejas con celdas hexagonales llenas de miel, algunas abiertas y otras selladas con cera",
+   "width": 1920,
+   "height": 1440,
+   "articulos": [
+    "editorial/es/guias/miel-pioderma-perros-estudio"
+   ],
+   "review_status": "Foto real con licencia libre para noticia (regla de Carlos 2026-11-19: noticias con foto real, libre o con crédito; nunca fotos propias ni IA).",
+   "created_at": "2026-11-21"
   }
  ]
 }
