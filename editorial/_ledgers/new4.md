@@ -14,3 +14,4 @@ Source card (central editor, read-only repo): news-mypetsfamily `reparto/bulldog
 - New Mexico: no primary source for cases there; not mentioned as a case location.
 - El Paso dogs, "142 cases", health-certificate requirements, higher risk for flat-faced breeds, human cases: not stated.
 - No doses; Bravecto/NexGard presented as treatment only.
+- 2026-11-21 update before publishing: F277 re-read in the browser on 21 Nov 2026: 29 counties, 90 premises, latest orders dated 21 Nov 2026 (e.g. regs/pdf/2026-11-21_NWS_EDO_Webb.pdf). Article figures and citation date updated.
