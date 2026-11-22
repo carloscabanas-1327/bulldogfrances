@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-20 — secciones Historia y Dónde comprar (EN+ES): F018, F019, F089, F090, F091, F093, F094 reverificadas y con nuevos usos. · 2026-11-19 — noticia gusano barrenador y viajes de Acción de Gracias (EN): F273–F277 nuevas. · 2026-11-20 — noticia brote de moquillo en el refugio de Oklahoma City (EN): F278–F280 nuevas (F273–F277 reservadas por el PR de la noticia del 2026-11-19). · 2026-11-21 — noticia bulldog francés baleado en Nueva Jersey (EN): F281–F282 nuevas (F273–F280 reservadas por los PR de noticias del 19 y 20/11). · 2026-11-21 — noticia hidrogel de miel y pioderma (ES): F283–F286 nuevas, F157 reutilizada (F273–F282 reservadas por los PR de noticias del 19 al 21/11).",
- "total_fuentes": 286,
+ "ultima_auditoria": "2026-11-22 — noticia subte con perro en Buenos Aires (ES): F287–F289 nuevas, F019 reutilizada. · 2026-11-20 — secciones Historia y Dónde comprar (EN+ES): F018, F019, F089, F090, F091, F093, F094 reverificadas y con nuevos usos. · 2026-11-19 — noticia gusano barrenador y viajes de Acción de Gracias (EN): F273–F277 nuevas. · 2026-11-20 — noticia brote de moquillo en el refugio de Oklahoma City (EN): F278–F280 nuevas (F273–F277 reservadas por el PR de la noticia del 2026-11-19). · 2026-11-21 — noticia bulldog francés baleado en Nueva Jersey (EN): F281–F282 nuevas (F273–F280 reservadas por los PR de noticias del 19 y 20/11). · 2026-11-21 — noticia hidrogel de miel y pioderma (ES): F283–F286 nuevas, F157 reutilizada (F273–F282 reservadas por los PR de noticias del 19 al 21/11).",
+ "total_fuentes": 289,
  "fuentes": [
   {
    "id": "F001",
@@ -1463,6 +1463,13 @@
      "numero_referencia": 4,
      "afirmaciones": [
       "merle and blue are disqualifications"
+     ]
+    },
+    {
+     "articulo": "editorial/es/guias/subte-con-perro-buenos-aires/ARTICLE.html",
+     "numero_referencia": 4,
+     "afirmaciones": [
+      "peso no debe superar 28 libras"
      ]
     }
    ],
@@ -18710,6 +18717,146 @@
     "supported": 8
    },
    "observaciones_editoriales": "Leídos resumen y metadatos; cuerpo truncado."
+  },
+  {
+   "revista": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "urls_anteriores": [],
+   "acceso": "abierto",
+   "seccion_relevante": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-22",
+   "autores": "El Destape",
+   "idioma_original": "es",
+   "tipo_fuente": "nota_periodistica",
+   "es_fuente_primaria": false,
+   "contenido_dinamico": true,
+   "id": "F287",
+   "autor_u_organismo": "El Destape",
+   "organizacion": "El Destape",
+   "sitio": "El Destape",
+   "titulo_exacto": "Tensión en el subte: detuvieron a una chica por viajar con su perro",
+   "fecha_publicacion": "2026-11-21",
+   "url_canonica": "https://www.eldestapeweb.com/sociedad/tension-subte-detuvieron-chica-viajar-perro-20261121164322",
+   "usos": [
+    {
+     "articulo": "editorial/es/guias/subte-con-perro-buenos-aires/ARTICLE.html",
+     "numero_referencia": 1,
+     "afirmaciones": [
+      "detenida por la Policía de la Ciudad en estación Castro Barros",
+      "imputación atentado y resistencia a la autoridad; Unidad de Flagrancia Oeste",
+      "parte policial: insultó y escupió a un oficial; Ministerio: respondió a agresión",
+      "orden judicial: libertad a las 14 del sábado",
+      "perros y gatos solo sábados desde 13, domingos y feriados, en dispositivo cerrado y ventilado (canil o transportadora)"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 5
+   },
+   "observaciones_editoriales": "Ficha news-mypetsfamily reparto/bulldog-es/2026-11-22-subte-perro-detenida-linea-a.md (F2 de la ficha). Clarín (F1) bloqueado: no usado.",
+   "verificado_via": "https://www.eldestapeweb.com/sociedad/tension-subte-detuvieron-chica-viajar-perro-20261121164322"
+  },
+  {
+   "revista": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "urls_anteriores": [],
+   "acceso": "abierto",
+   "seccion_relevante": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-22",
+   "autores": "elDiarioAR",
+   "idioma_original": "es",
+   "tipo_fuente": "nota_periodistica",
+   "es_fuente_primaria": false,
+   "contenido_dinamico": true,
+   "id": "F288",
+   "autor_u_organismo": "elDiarioAR",
+   "organizacion": "elDiarioAR",
+   "sitio": "elDiarioAR",
+   "titulo_exacto": "Detuvieron a una joven en el subte por viajar con su perra y cuestionan el procedimiento policial",
+   "fecha_publicacion": "2026-11-21",
+   "url_canonica": "https://www.eldiarioar.com/sociedad/detuvieron-joven-subte-viajar-perra-cuestionan-procedimiento-policial_1_13683202.html",
+   "usos": [
+    {
+     "articulo": "editorial/es/guias/subte-con-perro-buenos-aires/ARTICLE.html",
+     "numero_referencia": 2,
+     "afirmaciones": [
+      "viernes por la tarde, línea A, estación Castro Barros",
+      "acusada de atentado y resistencia a la autoridad",
+      "parte policial: se negó a descender",
+      "CeProDH cuestionó el procedimiento y reclamó su liberación; videos de pasajeros",
+      "Ley 5.687 y reglamentación: sábados desde las 13, domingos y feriados",
+      "cada pasajero adulto puede llevar un animal"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 6
+   },
+   "observaciones_editoriales": "Ficha news-mypetsfamily (F3). Sin firma visible.",
+   "verificado_via": "https://www.eldiarioar.com/sociedad/detuvieron-joven-subte-viajar-perra-cuestionan-procedimiento-policial_1_13683202.html"
+  },
+  {
+   "revista": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "urls_anteriores": [],
+   "acceso": "abierto",
+   "seccion_relevante": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-22",
+   "autores": "Ciudad Autónoma de Buenos Aires",
+   "idioma_original": "es",
+   "tipo_fuente": "norma_legal",
+   "es_fuente_primaria": true,
+   "contenido_dinamico": false,
+   "id": "F289",
+   "autor_u_organismo": "Ciudad Autónoma de Buenos Aires",
+   "organizacion": "Gobierno de la Ciudad de Buenos Aires",
+   "sitio": "Boletín Oficial de la Ciudad de Buenos Aires",
+   "titulo_exacto": "Decreto 31/2017 — Aprueba reglamentación Ley 5687 - Traslado de perros y gatos domésticos",
+   "fecha_publicacion": "2017-01-23",
+   "url_canonica": "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/346757",
+   "usos": [
+    {
+     "articulo": "editorial/es/guias/subte-con-perro-buenos-aires/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "Ley 5.687 autorizó traslado en dispositivo cerrado y ventilado, sin costo adicional (considerandos)",
+      "reglamentación aprobada como Anexo I; SBASE dicta normas operativas",
+      "sanción 16/01/2017, publicación 23/01/2017"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Ficha news-mypetsfamily (F4). El Anexo I (días, horarios) no se reproduce en la página: los horarios se citan de F287/F288.",
+   "verificado_via": "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/346757"
   }
  ]
 }
