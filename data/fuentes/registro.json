@@ -1,8 +1,8 @@
 {
  "descripcion": "Registro documental interno de fuentes de BulldogFrances.com, según la Orden Maestra de fuentes, citas, hipervínculos y trazabilidad documental v1.0 (directivas/), sección 9. Uso interno: no se publica en el sitio.",
  "estilo_de_referencias": "Vancouver (NLM), con nombre completo de la revista y el título de la fuente como texto del enlace. Páginas web: [Internet], editor, fecha, [actualizado; citado AAAA mmm d].",
- "ultima_auditoria": "2026-11-20 — secciones Historia y Dónde comprar (EN+ES): F018, F019, F089, F090, F091, F093, F094 reverificadas y con nuevos usos. · 2026-11-19 — noticia gusano barrenador y viajes de Acción de Gracias (EN): F273–F277 nuevas. · 2026-11-20 — noticia brote de moquillo en el refugio de Oklahoma City (EN): F278–F280 nuevas (F273–F277 reservadas por el PR de la noticia del 2026-11-19). · 2026-11-21 — noticia bulldog francés baleado en Nueva Jersey (EN): F281–F282 nuevas (F273–F280 reservadas por los PR de noticias del 19 y 20/11). · 2026-11-21 — noticia hidrogel de miel y pioderma (ES): F283–F286 nuevas, F157 reutilizada (F273–F282 reservadas por los PR de noticias del 19 al 21/11).",
- "total_fuentes": 286,
+ "ultima_auditoria": "2026-11-22 — noticia National Dog Show (EN): F290–F292 nuevas (F287–F289 reservadas por el PR de la noticia ES del 2026-11-22). · 2026-11-20 — secciones Historia y Dónde comprar (EN+ES): F018, F019, F089, F090, F091, F093, F094 reverificadas y con nuevos usos. · 2026-11-19 — noticia gusano barrenador y viajes de Acción de Gracias (EN): F273–F277 nuevas. · 2026-11-20 — noticia brote de moquillo en el refugio de Oklahoma City (EN): F278–F280 nuevas (F273–F277 reservadas por el PR de la noticia del 2026-11-19). · 2026-11-21 — noticia bulldog francés baleado en Nueva Jersey (EN): F281–F282 nuevas (F273–F280 reservadas por los PR de noticias del 19 y 20/11). · 2026-11-21 — noticia hidrogel de miel y pioderma (ES): F283–F286 nuevas, F157 reutilizada (F273–F282 reservadas por los PR de noticias del 19 al 21/11).",
+ "total_fuentes": 289,
  "fuentes": [
   {
    "id": "F001",
@@ -18710,6 +18710,142 @@
     "supported": 8
    },
    "observaciones_editoriales": "Leídos resumen y metadatos; cuerpo truncado."
+  },
+  {
+   "revista": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "urls_anteriores": [],
+   "acceso": "abierto",
+   "seccion_relevante": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-22",
+   "idioma_original": "en",
+   "autores": "Lee J",
+   "tipo_fuente": "nota_periodistica",
+   "es_fuente_primaria": false,
+   "contenido_dinamico": true,
+   "id": "F290",
+   "autor_u_organismo": "Lee J",
+   "organizacion": "FOX 29 Philadelphia (FOX Television Stations)",
+   "sitio": "FOX 29 Philadelphia",
+   "titulo_exacto": "National Dog Show draws record entries and over 2,100 dogs to Oaks for 25th anniversary",
+   "fecha_publicacion": "2026-11-15",
+   "url_canonica": "https://www.fox29.com/news/national-dog-show-draws-record-entries-over-2100-dogs-oaks-25th-anniversary",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/national-dog-show-2026-french-bulldog/ARTICLE.html",
+     "numero_referencia": 1,
+     "afirmaciones": [
+      "25th year at Greater Philadelphia Expo Center, Oaks, Pa.",
+      "hosted by the Kennel Club of Philadelphia",
+      "more than 2,100 competing dogs, over 200 breeds",
+      "highest entries since 2017 (chairman Frank DePaulo)",
+      "2025 Best in Show: Belgian sheepdog Soleil (photo caption)"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 5
+   },
+   "observaciones_editoriales": "Ficha news-mypetsfamily reparto/bulldog-en/2026-11-22-national-dog-show-three-new-breeds.md (F2). The Morning Call (F1) blocked: not used. F287-F289 reserved by the ES news PR of 2026-11-22.",
+   "verificado_via": "https://www.fox29.com/news/national-dog-show-draws-record-entries-over-2100-dogs-oaks-25th-anniversary"
+  },
+  {
+   "revista": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "urls_anteriores": [],
+   "acceso": "abierto",
+   "seccion_relevante": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-22",
+   "idioma_original": "en",
+   "autores": "Reeder J",
+   "tipo_fuente": "nota_periodistica",
+   "es_fuente_primaria": false,
+   "contenido_dinamico": true,
+   "id": "F291",
+   "autor_u_organismo": "Reeder J",
+   "organizacion": "Forbes",
+   "sitio": "Yahoo Entertainment",
+   "titulo_exacto": "National Dog Show Turns 25 With 3 New Breeds On Thanksgiving",
+   "fecha_publicacion": "2026-11-13",
+   "url_canonica": "https://www.yahoo.com/entertainment/articles/national-dog-show-turns-25-193046626.html",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/national-dog-show-2026-french-bulldog/ARTICLE.html",
+     "numero_referencia": 2,
+     "afirmaciones": [
+      "airs Thu Nov 26 on NBC and Peacock after the Macy's parade, 12-2 p.m. all U.S. time zones",
+      "co-hosts David Frei and John O'Hurley; Mary Carillo features reporter",
+      "new breeds: Teddy Roosevelt terrier (Terrier), Russian tsvetnaya bolonka (Toy), Basset fauve de Bretagne (Hound)"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 3
+   },
+   "observaciones_editoriales": "Syndicated copy of https://www.forbes.com/sites/jenreeder/2026/11/13/national-dog-show-turns-25-on-thanksgiving/ (canonical). Ficha F3.",
+   "verificado_via": "https://www.yahoo.com/entertainment/articles/national-dog-show-turns-25-193046626.html"
+  },
+  {
+   "revista": null,
+   "fecha_actualizacion": null,
+   "copyright": null,
+   "volumen": null,
+   "numero": null,
+   "paginas": null,
+   "doi": null,
+   "pmid": null,
+   "urls_anteriores": [],
+   "acceso": "abierto",
+   "seccion_relevante": null,
+   "copia_archivada": null,
+   "ids_auditoria_2026_11_03": [],
+   "estado_enlace": "ok",
+   "fecha_verificacion": "2026-11-22",
+   "idioma_original": "en",
+   "autores": "American Kennel Club",
+   "tipo_fuente": "pagina_institucional",
+   "es_fuente_primaria": true,
+   "contenido_dinamico": true,
+   "id": "F292",
+   "autor_u_organismo": "American Kennel Club",
+   "organizacion": "American Kennel Club",
+   "sitio": "akc.org",
+   "titulo_exacto": "Non-Sporting Group",
+   "fecha_publicacion": "",
+   "url_canonica": "https://www.akc.org/dog-breeds/non-sporting/",
+   "usos": [
+    {
+     "articulo": "editorial/en/guides/national-dog-show-2026-french-bulldog/ARTICLE.html",
+     "numero_referencia": 3,
+     "afirmaciones": [
+      "French Bulldog listed in the Non-Sporting Group",
+      "group described as diverse breeds with varying sizes, coats, personalities and appearance; names 'the compact French Bulldog'"
+     ]
+    }
+   ],
+   "resultado_verificacion_afirmaciones": {
+    "supported": 2
+   },
+   "observaciones_editoriales": "Read at /dog-breeds/groups/non-sporting/ (canonical /dog-breeds/non-sporting/). The breed page F015 did not show the group.",
+   "verificado_via": "https://www.akc.org/dog-breeds/groups/non-sporting/"
   }
  ]
 }
