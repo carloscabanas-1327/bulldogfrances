@@ -6,8 +6,8 @@ import { SITE, INDEXABLE, DEFAULT_OG_IMAGE_BY_LANG, DEFAULT_OG_ALT } from '../da
 const { title, description, lang = 'en', path, alternates = {}, image: pageImage, imageAlt: pageImageAlt, imageWidth, imageHeight, imageType, type = 'website', noindex = false, jsonld, xDefault } = Astro.props;
 const canonical = SITE + path;
 // Google AdSense Auto ads: load once from the common <head> on public pages.
-// Exclude legal and institutional pages in either language (Directive: no ads there).
-const noAdsense = /^\/(?:en|es)\/(?:about|contact|privacy|terms|affiliate-disclosure|editorial-policy)\/?$/.test(path);
+// Exclude edition homepages, legal and institutional pages in either language.
+const noAdsense = /^\/(?:en|es)\/(?:about|contact|privacy|terms|affiliate-disclosure|editorial-policy)?\/?$/.test(path);
 // Directive 6, point 5: full preview permissions on every indexable page.
 const robots = INDEXABLE && !noindex ? 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' : 'noindex,nofollow';
 const validPair = alternates.en && alternates.es &&
