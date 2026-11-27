@@ -30,6 +30,11 @@ const extraSections = [
   { slug: 'news-around-the-world', label: 'Noticias del mundo' },
   { slug: 'store', label: 'Dónde comprar' },
 ];
+// Las guías de historia y de dónde comprar también van en la lista completa, para que esta portada enlace todos los artículos en español.
+const allGroups = [...byTopic, ...['history', 'store'].map(slug => ({
+  slug, label: extraSections.find(c => c.slug === slug).label,
+  items: esGuides.filter(g => g.category === slug).map(g => ({ url: esGuideUrl(g), title: g.title })).sort((a, b) => a.title.localeCompare(b.title, 'es')),
+}))];
 const title = 'BulldogFrances.com | Guías de salud, cuidados y educación del bulldog francés';
 const description = 'Guías independientes sobre el bulldog francés: respiración, calor, cachorros, alimentación, genética y cuidados diarios, con fuentes verificables.';
 const jsonld = {
@@ -160,7 +165,7 @@ footer.site a{text-underline-offset:3px}
   <section class="block" aria-labelledby="all-guides">
     <h2 id="all-guides">Todas las guías en español</h2>
     <div class="index">
-      {byTopic.filter(c => c.items.length).map(c => <section><h3><a href={'/es/' + c.slug + '/'}>{c.label}</a></h3><ul>{c.items.map(i => <li><a href={i.url}>{i.title}</a></li>)}</ul></section>)}
+      {allGroups.filter(c => c.items.length).map(c => <section><h3><a href={'/es/' + c.slug + '/'}>{c.label}</a></h3><ul>{c.items.map(i => <li><a href={i.url}>{i.title}</a></li>)}</ul></section>)}
     </div>
   </section>
 </main>

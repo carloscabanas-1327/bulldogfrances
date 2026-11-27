@@ -20,9 +20,11 @@ const modified=guide.lastEdited||reviewed;
 const published=guide.datePublished||LAUNCH_DATE;
 const hasUpdate=modified&&modified.slice(0,10)>published.slice(0,10);
 const reviewedLabel=reviewed?new Date(reviewed+'T12:00:00Z').toLocaleDateString('es',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}):'';
+// Explicit "related" guides first (as in the English template), then the rest of the same section.
+const relatedSlugs=guide.related||[];
 const related=[
-  ...esGuides.filter(g=>g.category===guide.category&&g.slug!==guide.slug),
-  ...esGuides.filter(g=>g.category!==guide.category&&(guide.related||[]).includes(g.slug))
+  ...relatedSlugs.map(s=>esGuides.find(g=>g.slug===s)).filter(g=>g&&g.slug!==guide.slug),
+  ...esGuides.filter(g=>g.category===guide.category&&g.slug!==guide.slug&&!relatedSlugs.includes(g.slug))
 ].slice(0,5);
 const nutritionRelated=guide.category==='nutrition'?nutritionArticles.map(a=>({url:'/es/nutrition/'+a.slug+'/',title:a.es})):[];
 const articleJsonld = {
