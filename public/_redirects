@@ -128,13 +128,33 @@
 /2021/12/rex-whistler-eltham-kent.html /es/history/ 301
 /2026/10/dog-dna-test-accuracy-health-breed-identification.html /en/genetics/french-bulldog-breeder-health-tests/ 301
 
-# Pre-Blogger static site (root .html pages, Search Console 404 report 2026-11-26).
+# Pre-Blogger static site (902 .html pages in the Wayback Machine, 28 reported as 404 by Search Console 2026-11-26).
 # Only pages with a real equivalent get a 301; the rest (celebracion, encuesta, girls, artales/*, ...) stay 404 on purpose.
 # Pages matches the path only, so ?m=1 is covered too; www and http are normalised by Cloudflare first.
 /brachy2.html /en/health/french-bulldog-noisy-breathing/ 301
 /squantumeng.html /en/history/french-bulldog-history/ 301
 /squantum.html /es/history/historia-bulldog-frances/ 301
 /loseby.html /en/history/french-bulldog-history/ 301
+/squantumkennel.html /en/history/french-bulldog-history/ 301
+/earlyears.html /en/history/french-bulldog-history/ 301
+/earlyears2.html /en/history/french-bulldog-history/ 301
+/rexmuraleng.html /en/history/ 301
+/rexmural.html /es/history/ 301
+/mural.html /es/history/ 301
+/brachy.html /en/health/french-bulldog-noisy-breathing/ 301
+/braqui.html /es/health/bulldog-frances-ronca-respira-mal/ 301
+/braqui2.html /es/health/bulldog-frances-ronca-respira-mal/ 301
+/crespiratorio.html /es/health/bulldog-frances-ronca-respira-mal/ 301
+/crespiratorio1.html /es/health/bulldog-frances-ronca-respira-mal/ 301
+/crespiratorio2.html /es/health/bulldog-frances-ronca-respira-mal/ 301
+/crespiratorio3.html /es/health/bulldog-frances-ronca-respira-mal/ 301
+/crespiratorio4.html /es/health/bulldog-frances-ronca-respira-mal/ 301
+/discdisease.html /es/health/bulldog-frances-hernia-discal/ 301
+/discdiseasenglish.html /en/health/french-bulldog-back-pain-weak-legs/ 301
+/heatstress.html /en/daily-care/french-bulldog-heat-safety/ 301
+/golpecalor.html /es/daily-care/bulldog-frances-calor-golpe-de-calor/ 301
+/caracter.html /es/breed-characteristics/caracter-bulldog-frances/ 301
+/character.html /en/breed-characteristics/french-bulldog-temperament/ 301
 
 # Any other Blogger post, label, page or feed -> Spanish home
 /:year/:month/:slug.html /es/ 301
